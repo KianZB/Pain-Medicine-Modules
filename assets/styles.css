@@ -1,0 +1,19 @@
+/* Simple McMaster-ish maroon accent */
+
+.navbar {
+  border-bottom: 3px solid #7A003C;
+}
+
+h1, h2 {
+  color: #7A003C;
+}
+
+.btn-primary {
+  background-color: #7A003C;
+  border-color: #7A003C;
+}
+
+.btn-primary:hover {
+  background-color: #5e002f;
+  border-color: #5e002f;
+}

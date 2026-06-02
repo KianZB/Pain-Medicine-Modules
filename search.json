@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "modules.html",
+    "href": "modules.html",
+    "title": "Modules",
+    "section": "",
+    "text": "Chronic Back Pain 1"
+  },
+  {
+    "objectID": "modules.html#back-pain",
+    "href": "modules.html#back-pain",
+    "title": "Modules",
+    "section": "",
+    "text": "Chronic Back Pain 1"
+  },
+  {
+    "objectID": "modules.html#future-modules",
+    "href": "modules.html#future-modules",
+    "title": "Modules",
+    "section": "Future Modules",
+    "text": "Future Modules\n\nSpasticity\nEMG/NCS\nNeuropathic pain\nPain pharmacology"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is a prototype for a bottom-up, case-based approach to pain medicine education."
+  },
+  {
+    "objectID": "about.html#possible-future-additions",
+    "href": "about.html#possible-future-additions",
+    "title": "About",
+    "section": "Possible future additions",
+    "text": "Possible future additions\n\nInteractive Twine cases\nQuick reference guides\nFeedback form\nFaculty contributors\nOptional AI-style FAQ/chat feature"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pain Medicine Learning Modules",
+    "section": "",
+    "text": "This is a test website for interactive, case-based pain medicine learning."
+  },
+  {
+    "objectID": "index.html#current-goal",
+    "href": "index.html#current-goal",
+    "title": "Pain Medicine Learning Modules",
+    "section": "Current goal",
+    "text": "Current goal\nBuild a simple website that can host Twine-based clinical cases for students."
+  },
+  {
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "Pain Medicine Learning Modules",
+    "section": "Start here",
+    "text": "Start here\nGo to the Modules page to launch the sample case."
+  }
+]
