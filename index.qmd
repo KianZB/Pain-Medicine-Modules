@@ -1,0 +1,13 @@
+---
+title: "Pain Medicine Learning Modules"
+---
+
+This is a test website for interactive, case-based pain medicine learning.
+
+## Current goal
+
+Build a simple website that can host Twine-based clinical cases for students.
+
+## Start here
+
+Go to the [Modules](modules.qmd) page to launch the sample case.

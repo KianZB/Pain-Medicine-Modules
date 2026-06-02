@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - cases/*.html
+
+website:
+  title: "Pain Medicine Learning Modules"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: modules.qmd
+        text: Modules
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    page-layout: full
