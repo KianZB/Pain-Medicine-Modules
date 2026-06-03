@@ -1,0 +1,146 @@
+﻿---
+title: "Back Pain: Physical Exam"
+---
+
+The physical exam should screen function, look for structural clues, assess neurologic status, and use special tests when they fit the clinical picture.
+
+## General functional screen: 3S
+
+Use **3S** as a quick screen of function.
+
+### Sit-to-stand
+
+Observe whether the patient can rise from a chair comfortably and without assistance.
+
+### Stance
+
+Observe whether the patient can fully straighten once standing, maintain balance, and show normal spinal alignment.
+
+Also look for symmetry of the shoulders, hips, and knees.
+
+### Stride
+
+Observe gait.
+
+Look for:
+
+- Normal gait pattern
+- Normal stride length
+- Ability to turn safely and efficiently
+
+## Inspection and palpation
+
+Inspection and palpation should be focused on the area of pain, but the exam should also consider nearby joints because hip, knee, or ankle problems can contribute to perceived back pain.
+
+### Inspection: SEADS
+
+Look for:
+
+- Swelling
+- Erythema
+- Atrophy
+- Deformities
+- Skin changes
+
+### Palpation: TESTCA
+
+Assess for:
+
+- Tenderness
+- Effusion
+- Swelling
+- Temperature
+- Crepitus
+- Atrophy
+
+## Neurologic exam
+
+A neurologic screen is important when radiculopathy or neurologic compromise is possible.
+
+Assess:
+
+- Sensation
+- Power
+- Reflexes
+
+### Sensation: dermatomes
+
+Common lower-limb dermatomes:
+
+- L3: medial knee
+- L4: medial malleolus
+- L5: dorsum of the foot
+- S1: lateral foot
+- S2: posterior thigh
+
+### Power: myotomes
+
+Common lower-limb myotomes:
+
+- L2: hip flexion
+- L3: knee extension
+- L4: ankle dorsiflexion
+- L5: great toe extension
+- S1: ankle plantarflexion
+- S2: knee flexion
+
+### Reflexes
+
+Key reflexes:
+
+- L3-L4: patellar reflex
+- S1-S2: Achilles reflex
+
+## Spinal deformity tests
+
+### Adam's forward bend test
+
+Ask the patient to stand with their feet together and bend forward at the hips. Assess spinal symmetry from behind.
+
+Asymmetry of the spine or shoulders may suggest scoliosis.
+
+### Modified Schober's test
+
+Mark a horizontal line at the level of the PSIS, then mark 10 cm above and 5 cm below that line. Ask the patient to bend forward and measure the increase in distance.
+
+An increase of less than 5 cm suggests restricted lumbar flexion, which may be seen in inflammatory conditions such as ankylosing spondylitis.
+
+## Lumbar radiculopathy tests
+
+### Straight leg raise
+
+With the patient supine, raise the symptomatic leg to 30-70 degrees.
+
+A positive test reproduces radiating pain down the leg into the foot. Hamstring tightness alone is not a positive test.
+
+### Lasegue sign
+
+After a positive straight leg raise, lower the leg until symptoms improve, then dorsiflex the ankle to re-tension the sciatic nerve.
+
+Reproduction of the same radiating pain supports nerve root irritation.
+
+### Crossed straight leg raise
+
+Raise the asymptomatic leg.
+
+Reproduction of pain in the symptomatic leg is more specific for disc herniation.
+
+## Sacroiliac joint tests
+
+### FABER
+
+Place the leg into a figure-four position while the patient is supine. Apply downward force to the knee while stabilizing the opposite hip.
+
+Pain in the back or buttock supports SI joint involvement. Groin pain suggests hip joint pathology rather than SI joint pathology.
+
+### Gaenslen's test
+
+With the patient supine, hang one leg off the side of the table and bring the other leg toward the chest. Apply gentle downward force to the hanging leg to stress the SI joint.
+
+Pain in the back or buttock supports SI joint involvement.
+
+<br>
+
+[← Previous: History](back-pain-history.qmd){.btn .btn-outline-primary}
+
+[Next: Investigations →](back-pain-investigations.qmd){.btn .btn-primary}

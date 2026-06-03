@@ -1,0 +1,75 @@
+﻿---
+title: "Back Pain: Clinical Patterns"
+---
+
+Low back pain can be broadly organized into **non-specific mechanical pain**, **specific mechanical pain**, and **non-mechanical pain**.
+
+## Non-specific mechanical low back pain
+
+This is the most common category. The pain is influenced by movement, loading, or posture, but there is no clear structural pain generator that can be confidently identified.
+
+Typical features may include:
+
+- Back-dominant pain
+- Symptoms that vary with activity, position, or load
+- No major neurologic deficits
+- No red flag features
+
+## Specific mechanical low back pain
+
+Specific mechanical pain follows a more recognizable clinical pattern and may suggest a more specific pain generator.
+
+### Discogenic pain
+
+Discogenic pain arises from degeneration or irritation of the intervertebral discs.
+
+Typical pattern:
+
+- Back-dominant pain
+- Worse with flexion or prolonged sitting
+- Minimal or no neurologic symptoms
+
+### Facet-mediated pain
+
+Facet-mediated pain arises from irritation or loading of the facet joints.
+
+Typical pattern:
+
+- Localized back pain
+- Worse with extension or rotation
+- Often relieved by flexion
+- May radiate toward the buttocks
+
+### Radiculopathy
+
+Radiculopathy occurs when a nerve root is irritated or compressed as it exits the spine.
+
+Typical pattern:
+
+- Leg-dominant pain
+- Shooting, burning, electric, or radiating pain
+- May follow a dermatomal pattern
+- May be associated with sensory change, weakness, or reflex changes
+
+### Spinal stenosis
+
+Spinal stenosis occurs when narrowing of the spinal canal or foramina compresses neural structures.
+
+Typical pattern:
+
+- Bilateral leg pain, heaviness, or fatigue
+- Worse with walking or standing
+- Improved with sitting or lumbar flexion
+- May describe relief when leaning forward, such as on a shopping cart
+
+## Non-mechanical pain
+
+Non-mechanical pain is less reliably affected by movement or posture and may be more constant. This category includes referred pain from non-spinal structures and serious spinal pathology.
+
+Consider non-mechanical causes when the history includes red flags for infection, fracture, tumor, inflammatory disease, or major neurologic compromise.
+
+<br>
+
+[← Previous: Anatomy](back-pain-anatomy.qmd){.btn .btn-outline-primary}
+
+[Next: History →](back-pain-history.qmd){.btn .btn-primary}

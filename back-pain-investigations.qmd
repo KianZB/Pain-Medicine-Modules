@@ -1,0 +1,84 @@
+﻿---
+title: "Back Pain: Investigations"
+---
+
+Most low back pain does not need immediate imaging.
+
+## Key principle
+
+Routine imaging is not recommended for low back pain when there are no red flags.
+
+Initial management is usually conservative, with reassessment after a trial of treatment.
+
+## When to investigate urgently
+
+Urgent referral and possible urgent MRI should be considered when there are red flags, such as:
+
+- Major or progressive neurologic deficits
+- Saddle anesthesia
+- Bladder or bowel dysfunction
+- Suspected infection
+- Suspected malignancy
+- Suspected fracture
+- Concerning inflammatory features
+
+## When imaging can be considered
+
+Imaging can be considered when symptoms persist despite an appropriate trial of conservative management, especially if the result would change management.
+
+## Imaging options
+
+### X-ray
+
+X-ray can be useful as an initial screen for:
+
+- Scoliosis
+- Spondylolisthesis
+- Compression fracture, especially with osteoporosis or fragility risk
+
+Limitations:
+
+- Poor soft tissue visualization
+- Often does not change management in uncomplicated low back pain
+
+### MRI
+
+MRI provides strong soft tissue visualization and is often the preferred imaging modality when imaging is needed.
+
+MRI is especially useful for:
+
+- Radiculopathy
+- Spinal stenosis
+- Fracture assessment
+- Spondylolisthesis assessment
+- Red flag evaluation
+
+Limitations:
+
+- Cost
+- Wait times
+- Accessibility
+- Contraindications such as certain metal foreign bodies or implants
+
+### CT
+
+CT is useful for bony anatomy and can be considered when MRI is contraindicated or difficult to access.
+
+Limitations:
+
+- Less soft tissue detail than MRI
+- Radiation exposure
+
+## Non-imaging investigations
+
+### EMG/NCS
+
+EMG and nerve conduction studies can be considered when neurologic symptoms are persistent or progressive.
+
+They can help distinguish radiculopathy from other causes of neurologic symptoms, such as peripheral neuropathy.
+
+<br>
+
+[← Previous: Physical Exam](back-pain-physical-exam.qmd){.btn .btn-outline-primary}
+
+[Next: Management →](back-pain-management.qmd){.btn .btn-primary}

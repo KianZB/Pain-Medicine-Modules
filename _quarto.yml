@@ -10,8 +10,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: modules.qmd
-        text: Modules
+
+      - text: Modules
+        menu:
+          - text: All Modules
+            href: modules.qmd
+          - text: Back Pain
+            href: back-pain.qmd
+
       - href: about.qmd
         text: About
 
@@ -19,5 +25,6 @@ format:
   html:
     theme: cosmo
     css: assets/styles.css
-    toc: true
+    toc: false
     page-layout: full
+

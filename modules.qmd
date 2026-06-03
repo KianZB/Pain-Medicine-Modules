@@ -1,14 +1,14 @@
----
+﻿---
 title: "Modules"
 ---
 
-## Back Pain
+## Module Areas
 
-[Chronic Back Pain 1](cases/chronic-back-pain-1.html){.btn .btn-primary}
+[Back Pain](back-pain.qmd){.btn .btn-primary}
 
-## Future Modules
+## Future Module Areas
 
+- Neck pain
+- Electrodiagnostics
 - Spasticity
-- EMG/NCS
 - Neuropathic pain
-- Pain pharmacology

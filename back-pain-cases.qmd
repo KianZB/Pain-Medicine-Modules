@@ -1,0 +1,14 @@
+﻿---
+title: "Back Pain: Cases"
+---
+
+## Interactive Cases
+
+[Chronic Back Pain 1](cases/chronic-back-pain-1.html){.btn .btn-primary}
+
+<br>
+<br>
+
+[← Previous: Management](back-pain-management.qmd){.btn .btn-outline-primary}
+
+[Back to Back Pain](back-pain.qmd){.btn .btn-outline-primary}

@@ -1,0 +1,11 @@
+﻿---
+title: "Back Pain: Anatomy"
+---
+
+Content to be added.
+
+<br>
+
+[← Previous: Introduction](back-pain-introduction.qmd){.btn .btn-outline-primary}
+
+[Next: Clinical Patterns →](back-pain-patterns.qmd){.btn .btn-primary}

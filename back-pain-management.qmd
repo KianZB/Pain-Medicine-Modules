@@ -1,0 +1,96 @@
+﻿---
+title: "Back Pain: Management"
+---
+
+Management depends on red flags, symptom severity, functional limitation, psychosocial risk, and response to conservative care.
+
+## First decision: are there red flags?
+
+If red flags are present, management should shift toward urgent or emergent referral and appropriate investigations.
+
+If red flags are absent, most patients can start with conservative management.
+
+## Risk stratification
+
+Patients can be risk-stratified using clinical judgment or an objective tool such as the STarT Back Tool.
+
+A simple approach is to think in terms of low, medium, and high risk.
+
+## Low-risk patients
+
+Low-risk patients can usually start with self-management.
+
+Core options include:
+
+- Education and reassurance
+- Exercise therapy
+- Superficial heat therapy
+- Oral NSAIDs as needed
+- Follow-up as needed
+
+## Medium-risk patients
+
+Medium-risk patients may need more support.
+
+Management can include the low-risk strategies plus:
+
+- Physiotherapy referral
+- Consideration of a short-term trial of scheduled oral NSAIDs rather than only as-needed use
+- Reassessment in 4-6 weeks
+
+## High-risk patients
+
+High-risk patients often need a more engaged, multidisciplinary approach, especially when pain is chronic, disabling, or strongly influenced by psychological and social factors.
+
+Management may include:
+
+- CBT or psychologically informed care to address negative psychological features
+- Multidisciplinary pain program referral for debilitating chronic low back pain
+- Closer follow-up and function-focused goal setting
+
+## Adjunctive options with possible benefit in selected cases
+
+Some treatments may be useful in specific situations.
+
+Examples include:
+
+- Duloxetine for chronic low back pain, especially with mood symptoms
+- Muscle relaxants short-term for acute back pain
+- Chiropractic manipulation for acute lumbar back pain
+- Epidural steroid injection for short-term relief of radicular pain
+- Radiofrequency ablation for refractory facet or SI joint pain
+
+## Adjunctive options with conflicting evidence
+
+Some treatments have mixed or limited evidence.
+
+Examples include:
+
+- Acupuncture, which may have a small effect in chronic nonspecific back pain
+- Oral cannabinoids, mainly considered in chronic refractory neuropathic pain
+
+## Options generally not preferred
+
+Some options are ineffective, have insufficient evidence, or have harms that often outweigh benefits.
+
+Examples include:
+
+- Acetaminophen
+- Benzodiazepines
+- Capsaicin
+- Gabapentinoids for nonspecific low back pain
+- Opioids
+- Oral corticosteroids
+- TENS/PENS
+
+## Reassessment
+
+If symptoms meaningfully improve, continue conservative management and follow up as needed.
+
+If symptoms remain function-limiting after conservative care, consider adjunctive interventions, further investigations, or referral depending on the clinical pattern.
+
+<br>
+
+[← Previous: Investigations](back-pain-investigations.qmd){.btn .btn-outline-primary}
+
+[Next: Cases →](back-pain-cases.qmd){.btn .btn-primary}

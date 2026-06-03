@@ -1,0 +1,152 @@
+﻿---
+title: "Back Pain: History"
+---
+
+A focused back pain history should describe the current pain, screen for serious causes, and identify psychosocial or functional factors that may affect recovery.
+
+## Characterize the pain: OPQRST
+
+Use **OPQRST** to describe the current pain episode.
+
+### Onset
+
+Ask when the pain began and whether it started suddenly or gradually.
+
+### Palliation and provocation
+
+Ask what helps or worsens the pain.
+
+Useful questions:
+
+- Have you tried any medications or treatments that helped?
+- Are there positions or movements that make the pain better or worse?
+
+### Quality
+
+Ask the patient to describe the pain in their own words.
+
+Nociceptive pain is often described as:
+
+- Sore
+- Dull
+- Aching
+- Throbbing
+- Cramping
+- Tight or stiff
+
+Neuropathic pain is often described as:
+
+- Sharp
+- Stabbing
+- Shock-like
+- Burning
+- Tingling
+
+### Region and radiation
+
+Ask the patient to point to where the pain is worst and whether it travels anywhere else.
+
+This helps distinguish back-dominant pain from leg-dominant pain.
+
+### Severity
+
+Ask the patient to rate the pain, but remember that the number alone is not enough. Also ask how pain affects function, sleep, work, and activity.
+
+### Timing
+
+Ask how the pain has changed over time and whether the patient has had similar pain before.
+
+## Screen for red flags: NIFTI
+
+Use **NIFTI** to screen for features of serious underlying spinal pathology.
+
+### Neurologic
+
+Ask about:
+
+- Leg weakness
+- Sensory deficits
+- Saddle anesthesia
+- Bladder or bowel dysfunction
+
+### Infection
+
+Ask about:
+
+- Fever
+- IV drug use
+- Immunosuppression
+
+### Fracture
+
+Ask about:
+
+- Trauma
+- Osteoporosis
+- Fragility risk
+
+### Tumor
+
+Ask about:
+
+- Prior or current cancer
+- Unintentional weight loss
+- Fatigue
+- Nocturnal pain
+
+### Inflammatory
+
+Ask about features suggestive of inflammatory back pain:
+
+- Chronic low back pain for more than 3 months
+- Age of onset under 45 years
+- Morning stiffness longer than 30 minutes
+- Improvement with exercise
+- Disproportionate night pain
+
+## Screen for yellow flags: WORSE
+
+Yellow flags are psychosocial or behavioral features that increase the risk of persistent pain and disability.
+
+Use **WORSE** as a quick screen.
+
+### Worse
+
+Ask whether the patient worries the pain will become worse over time.
+
+### Overwhelmed
+
+Ask whether the patient feels overwhelmed or stressed by the pain.
+
+### Restrict
+
+Ask whether the patient avoids or restricts activities out of fear of worsening the pain.
+
+### Serious
+
+Ask whether the patient believes something serious is causing the pain.
+
+### Employment
+
+Ask whether the pain is affecting work, school, or usual responsibilities.
+
+## Function matters
+
+A good back pain history is not only about diagnosis. It should also clarify what the patient is struggling to do.
+
+Ask about:
+
+- Walking tolerance
+- Sitting tolerance
+- Standing tolerance
+- Sleep
+- Work or school demands
+- Exercise and recreation
+- Home responsibilities
+- Goals for return to activity
+
+<br>
+
+[← Previous: Clinical Patterns](back-pain-patterns.qmd){.btn .btn-outline-primary}
+
+[Next: Physical Exam →](back-pain-physical-exam.qmd){.btn .btn-primary}
