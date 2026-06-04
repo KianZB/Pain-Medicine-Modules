@@ -2,7 +2,127 @@
 title: "Back Pain: Anatomy"
 ---
 
-Content to be added.
+Back pain is easier to approach when you think in terms of **structures that can generate pain** and **structures that can be compressed or irritated**.
+
+The goal of this section is not to memorize every ligament, muscle, and bony landmark. The goal is to understand the main anatomic structures that help explain common back pain patterns.
+
+## The lumbar spine
+
+The lumbar spine is made up of five vertebrae, labeled **L1 to L5**. These vertebrae support much of the body’s weight and allow flexion, extension, rotation, and side-bending.
+
+Each vertebra has a **vertebral body** in the front and a **posterior arch** in the back. Together, these structures help form the spinal canal, where the spinal cord and nerve roots travel.
+
+In the lumbar spine, the spinal cord has usually ended by around the L1-L2 level. Below this, the canal contains the **cauda equina**, a bundle of nerve roots that continues downward before exiting through the foramina.
+
+## Intervertebral discs
+
+The intervertebral discs sit between vertebral bodies and help absorb load.
+
+Each disc has two major parts:
+
+- The **annulus fibrosus**, which is the tougher outer ring
+- The **nucleus pulposus**, which is the softer inner center
+
+Disc-related pain can occur when the disc itself becomes irritated, degenerative, or structurally disrupted. Disc material can also herniate and irritate a nearby nerve root, producing radicular pain.
+
+A simple clinical pattern to remember:
+
+::: {.callout-note}
+## Disc pattern
+
+Disc-related pain is often worse with **flexion**, **bending forward**, or **prolonged sitting**.
+:::
+
+## Facet joints
+
+Facet joints are paired joints at the back of the spine. They help guide and limit spinal movement, especially extension and rotation.
+
+Facet-mediated pain is usually more **back-dominant** than leg-dominant. It can sometimes refer into the buttock or thigh, but it usually does not follow a clear dermatomal pattern.
+
+A simple clinical pattern to remember:
+
+::: {.callout-note}
+## Facet pattern
+
+Facet-mediated pain is often worse with **extension** and **rotation**, and may feel better with **flexion**.
+:::
+
+## Nerve roots
+
+Lumbar nerve roots exit the spine through openings called **neural foramina**, which are small side openings formed between neighboring vertebrae.
+
+![This image shows a transverse section of the spine. The neural foramen is outlined in green on the right. On the left, the dorsal root and ventral root are shown passing through the neural foramina and joining to form the spinal nerve. Narrowing of the neural foramen can irritate or compress the exiting nerve root and contribute to radicular symptoms.](images/back-pain/cervical-model-roots.png){fig-align="center" width="60%"}
+
+When a nerve root is compressed or irritated, the patient may develop **radiculopathy**. This can cause pain, numbness, tingling, weakness, or reflex changes in a nerve-root distribution.
+
+Common lumbar patterns include:
+
+- **L3:** medial knee sensation, knee extension
+- **L4:** medial malleolus sensation, ankle dorsiflexion, patellar reflex
+- **L5:** dorsum of foot sensation, great toe extension
+- **S1:** lateral foot sensation, ankle plantarflexion, Achilles reflex
+
+Radicular pain is usually more **leg-dominant** and may feel sharp, shooting, burning, or electric.
+
+## Sacroiliac joint
+
+The **sacroiliac joint**, or SI joint, connects the sacrum to the ilium of the pelvis. It transfers load between the spine and the lower limbs.
+
+SI joint pain is often felt around the **posterior pelvis**, buttock, or PSIS region. It can mimic other causes of low back pain, which is why the diagnosis usually depends on the overall clinical pattern rather than a single test.
+
+A simple clinical pattern to remember:
+
+::: {.callout-note}
+## SI joint pattern
+
+SI joint pain is often felt near the **posterior pelvis or buttock** and may worsen with **transitional movements**, **single-leg loading**, or prolonged positions.
+:::
+
+## Spinal canal and foramina
+
+The **spinal canal** contains the spinal cord in the upper spine and the cauda equina in the lumbar region.
+
+The **neural foramina** are side openings where nerve roots exit.
+
+Narrowing of these spaces is called **stenosis**.
+
+- **Central canal stenosis** can compress multiple nerve roots.
+- **Foraminal stenosis** can compress a specific exiting nerve root.
+
+Lumbar spinal stenosis often presents with leg symptoms that worsen with standing or walking and improve with sitting or forward flexion.
+
+::: {.callout-note}
+## Stenosis pattern
+
+Lumbar spinal stenosis often causes leg heaviness, pain, or fatigue with walking or standing, relieved by sitting or bending forward.
+:::
+
+## Muscles and ligaments
+
+The lumbar spine is supported by muscles, fascia, and ligaments.
+
+Important support structures include:
+
+- Paraspinal muscles
+- Multifidus
+- Quadratus lumborum
+- Abdominal wall muscles
+- Thoracolumbar fascia
+- Iliolumbar and sacroiliac ligaments
+
+These structures are important because many patients have back pain that is influenced by movement, load, conditioning, posture, and activity tolerance, even when there is no single identifiable structural lesion.
+
+## Key takeaway
+
+A practical back pain assessment does not require identifying one perfect pain generator in every patient.
+
+Instead, anatomy helps you ask better clinical questions:
+
+- Is this back-dominant or leg-dominant?
+- Is there a neurologic pattern?
+- Does the pain behave mechanically?
+- Does the pattern suggest disc, facet, SI joint, stenosis, or nonspecific mechanical pain?
+- Are there red flags suggesting something more serious?
 
 <br>
 

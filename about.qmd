@@ -2,12 +2,10 @@
 title: "About"
 ---
 
-This site is a prototype for a bottom-up, case-based approach to pain medicine education.
+This is a test website for pain medicine learning modules and interactive cases. 
 
 ## Possible future additions
 
-- Interactive Twine cases
-- Quick reference guides
+- Downloadable guides
 - Feedback form
-- Faculty contributors
-- Optional AI-style FAQ/chat feature
+- Possible AI-style FAQ/chat feature

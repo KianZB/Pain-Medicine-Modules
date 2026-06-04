@@ -2,10 +2,48 @@
 title: "Back Pain: Introduction"
 ---
 
-Content to be added.
+Welcome to this module on **Back Pain**.
+
+## Why this module matters
+
+Back pain is one of the most common complaints you will hear from patients throughout your career. Part of this is because back pain is broad and multifactorial, and is thus encountered in a variety of different specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physical medicine and rehabilitation. 
+
+The purpose of this module is to help you build foundational knowledge and develop a practical framework for approaching back pain in a clinical setting. 
+
+At a high level, this framework should help you answer four core clinical questions whenever you see a patient with back pain:
+
+::: {.callout-note}
+## Core clinical questions
+
+1. Is there anything acutely dangerous that requires urgent intervention?
+2. What specific type of back pain best explains the patient's symptoms?
+3. How is the pain affecting the patient’s day-to-day functioning and quality of life?  
+4. What is the most appropriate next step in management?
+:::
+
+## What you will learn
+
+By the end of this module, you should be more comfortable with:
+
+- Describing key spine anatomy and common pain generators
+- Organizing back pain into common clinical patterns
+- Taking a focused back pain history
+- Screening for red flags and yellow flags
+- Performing a practical physical exam
+- Knowing when investigations are and are not useful
+- Choosing an initial management plan
+- Applying the framework to interactive cases
+
+## How to use this module
+
+You can move through the module using the Previous and Next buttons at the bottom of each page. 
+
+You can also use the Table of Contents on the left to jump between sections.
+
+You can also use the search feature in the top right corner of the page to find a specific topic or section of the module. 
 
 <br>
 
-[← Back to Back Pain](back-pain.qmd){.btn .btn-outline-primary}
+[← All Modules](modules.qmd){.btn .btn-outline-primary}
 
 [Next: Anatomy →](back-pain-anatomy.qmd){.btn .btn-primary}

@@ -1,4 +1,4 @@
-project:
+﻿project:
   type: website
   output-dir: _site
   resources:
@@ -16,7 +16,7 @@ website:
           - text: All Modules
             href: modules.qmd
           - text: Back Pain
-            href: back-pain.qmd
+            href: back-pain-introduction.qmd
 
       - href: about.qmd
         text: About
@@ -27,4 +27,4 @@ format:
     css: assets/styles.css
     toc: false
     page-layout: full
-
+    include-after-body: assets/back-pain-nav.html

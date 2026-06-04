@@ -6,8 +6,8 @@ This is a test website for interactive, case-based pain medicine learning.
 
 ## Current goal
 
-Build a simple website that can host Twine-based clinical cases for students.
+Build a simple website for pain medicine modules and cases for medical students and residents. 
 
 ## Start here
 
-Go to the [Modules](modules.qmd) page to launch the sample case.
+Go to the [Modules](modules.qmd) page to launch the sample module. 
