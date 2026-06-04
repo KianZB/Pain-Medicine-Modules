@@ -4,35 +4,364 @@
     "href": "modules.html",
     "title": "Modules",
     "section": "",
-    "text": "Chronic Back Pain 1"
+    "text": "Back Pain"
   },
   {
-    "objectID": "modules.html#back-pain",
-    "href": "modules.html#back-pain",
+    "objectID": "modules.html#module-areas",
+    "href": "modules.html#module-areas",
     "title": "Modules",
     "section": "",
-    "text": "Chronic Back Pain 1"
+    "text": "Back Pain"
   },
   {
-    "objectID": "modules.html#future-modules",
-    "href": "modules.html#future-modules",
+    "objectID": "modules.html#future-module-areas",
+    "href": "modules.html#future-module-areas",
     "title": "Modules",
-    "section": "Future Modules",
-    "text": "Future Modules\n\nSpasticity\nEMG/NCS\nNeuropathic pain\nPain pharmacology"
+    "section": "Future Module Areas",
+    "text": "Future Module Areas\n\nNeck pain\nElectrodiagnostics\nSpasticity\nNeuropathic pain"
+  },
+  {
+    "objectID": "back-pain-physical-exam.html",
+    "href": "back-pain-physical-exam.html",
+    "title": "Back Pain: Physical Exam",
+    "section": "",
+    "text": "The physical exam should screen function, look for structural clues, assess neurologic status, and use special tests when they fit the clinical picture."
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#general-functional-screen-3s",
+    "href": "back-pain-physical-exam.html#general-functional-screen-3s",
+    "title": "Back Pain: Physical Exam",
+    "section": "General functional screen: 3S",
+    "text": "General functional screen: 3S\nUse 3S as a quick screen of function.\n\nSit-to-stand\nObserve whether the patient can rise from a chair comfortably and without assistance.\n\n\nStance\nObserve whether the patient can fully straighten once standing, maintain balance, and show normal spinal alignment.\nAlso look for symmetry of the shoulders, hips, and knees.\n\n\nStride\nObserve gait.\nLook for:\n\nNormal gait pattern\nNormal stride length\nAbility to turn safely and efficiently"
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#inspection-and-palpation",
+    "href": "back-pain-physical-exam.html#inspection-and-palpation",
+    "title": "Back Pain: Physical Exam",
+    "section": "Inspection and palpation",
+    "text": "Inspection and palpation\nInspection and palpation should be focused on the area of pain, but the exam should also consider nearby joints because hip, knee, or ankle problems can contribute to perceived back pain.\n\nInspection: SEADS\nLook for:\n\nSwelling\nErythema\nAtrophy\nDeformities\nSkin changes\n\n\n\nPalpation: TESTCA\nAssess for:\n\nTenderness\nEffusion\nSwelling\nTemperature\nCrepitus\nAtrophy"
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#neurologic-exam",
+    "href": "back-pain-physical-exam.html#neurologic-exam",
+    "title": "Back Pain: Physical Exam",
+    "section": "Neurologic exam",
+    "text": "Neurologic exam\nA neurologic screen is important when radiculopathy or neurologic compromise is possible.\nAssess:\n\nSensation\nPower\nReflexes\n\n\nSensation: dermatomes\nCommon lower-limb dermatomes:\n\nL3: medial knee\nL4: medial malleolus\nL5: dorsum of the foot\nS1: lateral foot\nS2: posterior thigh\n\n\n\nPower: myotomes\nCommon lower-limb myotomes:\n\nL2: hip flexion\nL3: knee extension\nL4: ankle dorsiflexion\nL5: great toe extension\nS1: ankle plantarflexion\nS2: knee flexion\n\n\n\nReflexes\nKey reflexes:\n\nL3-L4: patellar reflex\nS1-S2: Achilles reflex"
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#spinal-deformity-tests",
+    "href": "back-pain-physical-exam.html#spinal-deformity-tests",
+    "title": "Back Pain: Physical Exam",
+    "section": "Spinal deformity tests",
+    "text": "Spinal deformity tests\n\nAdam’s forward bend test\nAsk the patient to stand with their feet together and bend forward at the hips. Assess spinal symmetry from behind.\nAsymmetry of the spine or shoulders may suggest scoliosis.\n\n\nModified Schober’s test\nMark a horizontal line at the level of the PSIS, then mark 10 cm above and 5 cm below that line. Ask the patient to bend forward and measure the increase in distance.\nAn increase of less than 5 cm suggests restricted lumbar flexion, which may be seen in inflammatory conditions such as ankylosing spondylitis."
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#lumbar-radiculopathy-tests",
+    "href": "back-pain-physical-exam.html#lumbar-radiculopathy-tests",
+    "title": "Back Pain: Physical Exam",
+    "section": "Lumbar radiculopathy tests",
+    "text": "Lumbar radiculopathy tests\n\nStraight leg raise\nWith the patient supine, raise the symptomatic leg to 30-70 degrees.\nA positive test reproduces radiating pain down the leg into the foot. Hamstring tightness alone is not a positive test.\n\n\nLasegue sign\nAfter a positive straight leg raise, lower the leg until symptoms improve, then dorsiflex the ankle to re-tension the sciatic nerve.\nReproduction of the same radiating pain supports nerve root irritation.\n\n\nCrossed straight leg raise\nRaise the asymptomatic leg.\nReproduction of pain in the symptomatic leg is more specific for disc herniation."
+  },
+  {
+    "objectID": "back-pain-physical-exam.html#sacroiliac-joint-tests",
+    "href": "back-pain-physical-exam.html#sacroiliac-joint-tests",
+    "title": "Back Pain: Physical Exam",
+    "section": "Sacroiliac joint tests",
+    "text": "Sacroiliac joint tests\n\nFABER\nPlace the leg into a figure-four position while the patient is supine. Apply downward force to the knee while stabilizing the opposite hip.\nPain in the back or buttock supports SI joint involvement. Groin pain suggests hip joint pathology rather than SI joint pathology.\n\n\nGaenslen’s test\nWith the patient supine, hang one leg off the side of the table and bring the other leg toward the chest. Apply gentle downward force to the hanging leg to stress the SI joint.\nPain in the back or buttock supports SI joint involvement.\n\n← Previous: History\nNext: Investigations →"
+  },
+  {
+    "objectID": "back-pain-management.html",
+    "href": "back-pain-management.html",
+    "title": "Back Pain: Management",
+    "section": "",
+    "text": "Management depends on red flags, symptom severity, functional limitation, psychosocial risk, and response to conservative care."
+  },
+  {
+    "objectID": "back-pain-management.html#first-decision-are-there-red-flags",
+    "href": "back-pain-management.html#first-decision-are-there-red-flags",
+    "title": "Back Pain: Management",
+    "section": "First decision: are there red flags?",
+    "text": "First decision: are there red flags?\nIf red flags are present, management should shift toward urgent or emergent referral and appropriate investigations.\nIf red flags are absent, most patients can start with conservative management."
+  },
+  {
+    "objectID": "back-pain-management.html#risk-stratification",
+    "href": "back-pain-management.html#risk-stratification",
+    "title": "Back Pain: Management",
+    "section": "Risk stratification",
+    "text": "Risk stratification\nPatients can be risk-stratified using clinical judgment or an objective tool such as the STarT Back Tool.\nA simple approach is to think in terms of low, medium, and high risk."
+  },
+  {
+    "objectID": "back-pain-management.html#low-risk-patients",
+    "href": "back-pain-management.html#low-risk-patients",
+    "title": "Back Pain: Management",
+    "section": "Low-risk patients",
+    "text": "Low-risk patients\nLow-risk patients can usually start with self-management.\nCore options include:\n\nEducation and reassurance\nExercise therapy\nSuperficial heat therapy\nOral NSAIDs as needed\nFollow-up as needed"
+  },
+  {
+    "objectID": "back-pain-management.html#medium-risk-patients",
+    "href": "back-pain-management.html#medium-risk-patients",
+    "title": "Back Pain: Management",
+    "section": "Medium-risk patients",
+    "text": "Medium-risk patients\nMedium-risk patients may need more support.\nManagement can include the low-risk strategies plus:\n\nPhysiotherapy referral\nConsideration of a short-term trial of scheduled oral NSAIDs rather than only as-needed use\nReassessment in 4-6 weeks"
+  },
+  {
+    "objectID": "back-pain-management.html#high-risk-patients",
+    "href": "back-pain-management.html#high-risk-patients",
+    "title": "Back Pain: Management",
+    "section": "High-risk patients",
+    "text": "High-risk patients\nHigh-risk patients often need a more engaged, multidisciplinary approach, especially when pain is chronic, disabling, or strongly influenced by psychological and social factors.\nManagement may include:\n\nCBT or psychologically informed care to address negative psychological features\nMultidisciplinary pain program referral for debilitating chronic low back pain\nCloser follow-up and function-focused goal setting"
+  },
+  {
+    "objectID": "back-pain-management.html#adjunctive-options-with-possible-benefit-in-selected-cases",
+    "href": "back-pain-management.html#adjunctive-options-with-possible-benefit-in-selected-cases",
+    "title": "Back Pain: Management",
+    "section": "Adjunctive options with possible benefit in selected cases",
+    "text": "Adjunctive options with possible benefit in selected cases\nSome treatments may be useful in specific situations.\nExamples include:\n\nDuloxetine for chronic low back pain, especially with mood symptoms\nMuscle relaxants short-term for acute back pain\nChiropractic manipulation for acute lumbar back pain\nEpidural steroid injection for short-term relief of radicular pain\nRadiofrequency ablation for refractory facet or SI joint pain"
+  },
+  {
+    "objectID": "back-pain-management.html#adjunctive-options-with-conflicting-evidence",
+    "href": "back-pain-management.html#adjunctive-options-with-conflicting-evidence",
+    "title": "Back Pain: Management",
+    "section": "Adjunctive options with conflicting evidence",
+    "text": "Adjunctive options with conflicting evidence\nSome treatments have mixed or limited evidence.\nExamples include:\n\nAcupuncture, which may have a small effect in chronic nonspecific back pain\nOral cannabinoids, mainly considered in chronic refractory neuropathic pain"
+  },
+  {
+    "objectID": "back-pain-management.html#options-generally-not-preferred",
+    "href": "back-pain-management.html#options-generally-not-preferred",
+    "title": "Back Pain: Management",
+    "section": "Options generally not preferred",
+    "text": "Options generally not preferred\nSome options are ineffective, have insufficient evidence, or have harms that often outweigh benefits.\nExamples include:\n\nAcetaminophen\nBenzodiazepines\nCapsaicin\nGabapentinoids for nonspecific low back pain\nOpioids\nOral corticosteroids\nTENS/PENS"
+  },
+  {
+    "objectID": "back-pain-management.html#reassessment",
+    "href": "back-pain-management.html#reassessment",
+    "title": "Back Pain: Management",
+    "section": "Reassessment",
+    "text": "Reassessment\nIf symptoms meaningfully improve, continue conservative management and follow up as needed.\nIf symptoms remain function-limiting after conservative care, consider adjunctive interventions, further investigations, or referral depending on the clinical pattern.\n\n← Previous: Investigations\nNext: Cases →"
+  },
+  {
+    "objectID": "back-pain-introduction.html",
+    "href": "back-pain-introduction.html",
+    "title": "Back Pain: Introduction",
+    "section": "",
+    "text": "Welcome to this module on Back Pain."
+  },
+  {
+    "objectID": "back-pain-introduction.html#why-this-module-matters",
+    "href": "back-pain-introduction.html#why-this-module-matters",
+    "title": "Back Pain: Introduction",
+    "section": "Why this module matters",
+    "text": "Why this module matters\nBack pain is one of the most common complaints you will hear from patients throughout your career. Part of this is because back pain is broad and multifactorial, and is thus encountered in a variety of different specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physical medicine and rehabilitation.\nThe purpose of this module is to help you build foundational knowledge and develop a practical framework for approaching back pain in a clinical setting.\nAt a high level, this framework should help you answer four core clinical questions whenever you see a patient with back pain:\n\n\n\n\n\n\nNoteCore clinical questions\n\n\n\n\nIs there anything acutely dangerous that requires urgent intervention?\nWhat specific type of back pain best explains the patient’s symptoms?\nHow is the pain affecting the patient’s day-to-day functioning and quality of life?\n\nWhat is the most appropriate next step in management?"
+  },
+  {
+    "objectID": "back-pain-introduction.html#what-you-will-learn",
+    "href": "back-pain-introduction.html#what-you-will-learn",
+    "title": "Back Pain: Introduction",
+    "section": "What you will learn",
+    "text": "What you will learn\nBy the end of this module, you should be more comfortable with:\n\nDescribing key spine anatomy and common pain generators\nOrganizing back pain into common clinical patterns\nTaking a focused back pain history\nScreening for red flags and yellow flags\nPerforming a practical physical exam\nKnowing when investigations are and are not useful\nChoosing an initial management plan\nApplying the framework to interactive cases"
+  },
+  {
+    "objectID": "back-pain-introduction.html#how-to-use-this-module",
+    "href": "back-pain-introduction.html#how-to-use-this-module",
+    "title": "Back Pain: Introduction",
+    "section": "How to use this module",
+    "text": "How to use this module\nYou can move through the module using the Previous and Next buttons at the bottom of each page.\nYou can also use the Table of Contents on the left to jump between sections.\nYou can also use the search feature in the top right corner of the page to find a specific topic or section of the module.\n\n← All Modules\nNext: Anatomy →"
+  },
+  {
+    "objectID": "back-pain-cases.html",
+    "href": "back-pain-cases.html",
+    "title": "Back Pain: Cases",
+    "section": "",
+    "text": "Chronic Back Pain 1\n \n← Previous: Management\nBack to Back Pain"
+  },
+  {
+    "objectID": "back-pain-cases.html#interactive-cases",
+    "href": "back-pain-cases.html#interactive-cases",
+    "title": "Back Pain: Cases",
+    "section": "",
+    "text": "Chronic Back Pain 1\n \n← Previous: Management\nBack to Back Pain"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This site is a prototype for a bottom-up, case-based approach to pain medicine education."
+    "text": "This is a test website for pain medicine learning modules and interactive cases."
   },
   {
     "objectID": "about.html#possible-future-additions",
     "href": "about.html#possible-future-additions",
     "title": "About",
     "section": "Possible future additions",
-    "text": "Possible future additions\n\nInteractive Twine cases\nQuick reference guides\nFeedback form\nFaculty contributors\nOptional AI-style FAQ/chat feature"
+    "text": "Possible future additions\n\nDownloadable guides\nFeedback form\nPossible AI-style FAQ/chat feature"
+  },
+  {
+    "objectID": "back-pain-anatomy.html",
+    "href": "back-pain-anatomy.html",
+    "title": "Back Pain: Anatomy",
+    "section": "",
+    "text": "Back pain is easier to approach when you think in terms of structures that can generate pain and structures that can be compressed or irritated.\nThe goal of this section is not to memorize every ligament, muscle, and bony landmark. The goal is to understand the main anatomic structures that help explain common back pain patterns."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#the-lumbar-spine",
+    "href": "back-pain-anatomy.html#the-lumbar-spine",
+    "title": "Back Pain: Anatomy",
+    "section": "The lumbar spine",
+    "text": "The lumbar spine\nThe lumbar spine is made up of five vertebrae, labeled L1 to L5. These vertebrae support much of the body’s weight and allow flexion, extension, rotation, and side-bending.\nEach vertebra has a vertebral body in the front and a posterior arch in the back. Together, these structures help form the spinal canal, where the spinal cord and nerve roots travel.\nIn the lumbar spine, the spinal cord has usually ended by around the L1-L2 level. Below this, the canal contains the cauda equina, a bundle of nerve roots that continues downward before exiting through the foramina."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#intervertebral-discs",
+    "href": "back-pain-anatomy.html#intervertebral-discs",
+    "title": "Back Pain: Anatomy",
+    "section": "Intervertebral discs",
+    "text": "Intervertebral discs\nThe intervertebral discs sit between vertebral bodies and help absorb load.\nEach disc has two major parts:\n\nThe annulus fibrosus, which is the tougher outer ring\nThe nucleus pulposus, which is the softer inner center\n\nDisc-related pain can occur when the disc itself becomes irritated, degenerative, or structurally disrupted. Disc material can also herniate and irritate a nearby nerve root, producing radicular pain.\nA simple clinical pattern to remember:\n\n\n\n\n\n\nNoteDisc pattern\n\n\n\nDisc-related pain is often worse with flexion, bending forward, or prolonged sitting."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#facet-joints",
+    "href": "back-pain-anatomy.html#facet-joints",
+    "title": "Back Pain: Anatomy",
+    "section": "Facet joints",
+    "text": "Facet joints\nFacet joints are paired joints at the back of the spine. They help guide and limit spinal movement, especially extension and rotation.\nFacet-mediated pain is usually more back-dominant than leg-dominant. It can sometimes refer into the buttock or thigh, but it usually does not follow a clear dermatomal pattern.\nA simple clinical pattern to remember:\n\n\n\n\n\n\nNoteFacet pattern\n\n\n\nFacet-mediated pain is often worse with extension and rotation, and may feel better with flexion."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#nerve-roots",
+    "href": "back-pain-anatomy.html#nerve-roots",
+    "title": "Back Pain: Anatomy",
+    "section": "Nerve roots",
+    "text": "Nerve roots\nLumbar nerve roots exit the spine through openings called neural foramina, which are small side openings formed between neighboring vertebrae.\n\n\n\nThis image shows a transverse section of the spine. The neural foramen is outlined in green on the right. On the left, the dorsal root and ventral root are shown passing through the neural foramina and joining to form the spinal nerve. Narrowing of the neural foramen can irritate or compress the exiting nerve root and contribute to radicular symptoms.\n\n\nWhen a nerve root is compressed or irritated, the patient may develop radiculopathy. This can cause pain, numbness, tingling, weakness, or reflex changes in a nerve-root distribution.\nCommon lumbar patterns include:\n\nL3: medial knee sensation, knee extension\nL4: medial malleolus sensation, ankle dorsiflexion, patellar reflex\nL5: dorsum of foot sensation, great toe extension\nS1: lateral foot sensation, ankle plantarflexion, Achilles reflex\n\nRadicular pain is usually more leg-dominant and may feel sharp, shooting, burning, or electric."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#sacroiliac-joint",
+    "href": "back-pain-anatomy.html#sacroiliac-joint",
+    "title": "Back Pain: Anatomy",
+    "section": "Sacroiliac joint",
+    "text": "Sacroiliac joint\nThe sacroiliac joint, or SI joint, connects the sacrum to the ilium of the pelvis. It transfers load between the spine and the lower limbs.\nSI joint pain is often felt around the posterior pelvis, buttock, or PSIS region. It can mimic other causes of low back pain, which is why the diagnosis usually depends on the overall clinical pattern rather than a single test.\nA simple clinical pattern to remember:\n\n\n\n\n\n\nNoteSI joint pattern\n\n\n\nSI joint pain is often felt near the posterior pelvis or buttock and may worsen with transitional movements, single-leg loading, or prolonged positions."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#spinal-canal-and-foramina",
+    "href": "back-pain-anatomy.html#spinal-canal-and-foramina",
+    "title": "Back Pain: Anatomy",
+    "section": "Spinal canal and foramina",
+    "text": "Spinal canal and foramina\nThe spinal canal contains the spinal cord in the upper spine and the cauda equina in the lumbar region.\nThe neural foramina are side openings where nerve roots exit.\nNarrowing of these spaces is called stenosis.\n\nCentral canal stenosis can compress multiple nerve roots.\nForaminal stenosis can compress a specific exiting nerve root.\n\nLumbar spinal stenosis often presents with leg symptoms that worsen with standing or walking and improve with sitting or forward flexion.\n\n\n\n\n\n\nNoteStenosis pattern\n\n\n\nLumbar spinal stenosis often causes leg heaviness, pain, or fatigue with walking or standing, relieved by sitting or bending forward."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#muscles-and-ligaments",
+    "href": "back-pain-anatomy.html#muscles-and-ligaments",
+    "title": "Back Pain: Anatomy",
+    "section": "Muscles and ligaments",
+    "text": "Muscles and ligaments\nThe lumbar spine is supported by muscles, fascia, and ligaments.\nImportant support structures include:\n\nParaspinal muscles\nMultifidus\nQuadratus lumborum\nAbdominal wall muscles\nThoracolumbar fascia\nIliolumbar and sacroiliac ligaments\n\nThese structures are important because many patients have back pain that is influenced by movement, load, conditioning, posture, and activity tolerance, even when there is no single identifiable structural lesion."
+  },
+  {
+    "objectID": "back-pain-anatomy.html#key-takeaway",
+    "href": "back-pain-anatomy.html#key-takeaway",
+    "title": "Back Pain: Anatomy",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nA practical back pain assessment does not require identifying one perfect pain generator in every patient.\nInstead, anatomy helps you ask better clinical questions:\n\nIs this back-dominant or leg-dominant?\nIs there a neurologic pattern?\nDoes the pain behave mechanically?\nDoes the pattern suggest disc, facet, SI joint, stenosis, or nonspecific mechanical pain?\nAre there red flags suggesting something more serious?\n\n\n← Previous: Introduction\nNext: Clinical Patterns →"
+  },
+  {
+    "objectID": "back-pain-history.html",
+    "href": "back-pain-history.html",
+    "title": "Back Pain: History",
+    "section": "",
+    "text": "A focused back pain history should describe the current pain, screen for serious causes, and identify psychosocial or functional factors that may affect recovery."
+  },
+  {
+    "objectID": "back-pain-history.html#characterize-the-pain-opqrst",
+    "href": "back-pain-history.html#characterize-the-pain-opqrst",
+    "title": "Back Pain: History",
+    "section": "Characterize the pain: OPQRST",
+    "text": "Characterize the pain: OPQRST\nUse OPQRST to describe the current pain episode.\n\nOnset\nAsk when the pain began and whether it started suddenly or gradually.\n\n\nPalliation and provocation\nAsk what helps or worsens the pain.\nUseful questions:\n\nHave you tried any medications or treatments that helped?\nAre there positions or movements that make the pain better or worse?\n\n\n\nQuality\nAsk the patient to describe the pain in their own words.\nNociceptive pain is often described as:\n\nSore\nDull\nAching\nThrobbing\nCramping\nTight or stiff\n\nNeuropathic pain is often described as:\n\nSharp\nStabbing\nShock-like\nBurning\nTingling\n\n\n\nRegion and radiation\nAsk the patient to point to where the pain is worst and whether it travels anywhere else.\nThis helps distinguish back-dominant pain from leg-dominant pain.\n\n\nSeverity\nAsk the patient to rate the pain, but remember that the number alone is not enough. Also ask how pain affects function, sleep, work, and activity.\n\n\nTiming\nAsk how the pain has changed over time and whether the patient has had similar pain before."
+  },
+  {
+    "objectID": "back-pain-history.html#screen-for-red-flags-nifti",
+    "href": "back-pain-history.html#screen-for-red-flags-nifti",
+    "title": "Back Pain: History",
+    "section": "Screen for red flags: NIFTI",
+    "text": "Screen for red flags: NIFTI\nUse NIFTI to screen for features of serious underlying spinal pathology.\n\nNeurologic\nAsk about:\n\nLeg weakness\nSensory deficits\nSaddle anesthesia\nBladder or bowel dysfunction\n\n\n\nInfection\nAsk about:\n\nFever\nIV drug use\nImmunosuppression\n\n\n\nFracture\nAsk about:\n\nTrauma\nOsteoporosis\nFragility risk\n\n\n\nTumor\nAsk about:\n\nPrior or current cancer\nUnintentional weight loss\nFatigue\nNocturnal pain\n\n\n\nInflammatory\nAsk about features suggestive of inflammatory back pain:\n\nChronic low back pain for more than 3 months\nAge of onset under 45 years\nMorning stiffness longer than 30 minutes\nImprovement with exercise\nDisproportionate night pain"
+  },
+  {
+    "objectID": "back-pain-history.html#screen-for-yellow-flags-worse",
+    "href": "back-pain-history.html#screen-for-yellow-flags-worse",
+    "title": "Back Pain: History",
+    "section": "Screen for yellow flags: WORSE",
+    "text": "Screen for yellow flags: WORSE\nYellow flags are psychosocial or behavioral features that increase the risk of persistent pain and disability.\nUse WORSE as a quick screen.\n\nWorse\nAsk whether the patient worries the pain will become worse over time.\n\n\nOverwhelmed\nAsk whether the patient feels overwhelmed or stressed by the pain.\n\n\nRestrict\nAsk whether the patient avoids or restricts activities out of fear of worsening the pain.\n\n\nSerious\nAsk whether the patient believes something serious is causing the pain.\n\n\nEmployment\nAsk whether the pain is affecting work, school, or usual responsibilities."
+  },
+  {
+    "objectID": "back-pain-history.html#function-matters",
+    "href": "back-pain-history.html#function-matters",
+    "title": "Back Pain: History",
+    "section": "Function matters",
+    "text": "Function matters\nA good back pain history is not only about diagnosis. It should also clarify what the patient is struggling to do.\nAsk about:\n\nWalking tolerance\nSitting tolerance\nStanding tolerance\nSleep\nWork or school demands\nExercise and recreation\nHome responsibilities\nGoals for return to activity\n\n\n← Previous: Clinical Patterns\nNext: Physical Exam →"
+  },
+  {
+    "objectID": "back-pain-investigations.html",
+    "href": "back-pain-investigations.html",
+    "title": "Back Pain: Investigations",
+    "section": "",
+    "text": "Most low back pain does not need immediate imaging."
+  },
+  {
+    "objectID": "back-pain-investigations.html#key-principle",
+    "href": "back-pain-investigations.html#key-principle",
+    "title": "Back Pain: Investigations",
+    "section": "Key principle",
+    "text": "Key principle\nRoutine imaging is not recommended for low back pain when there are no red flags.\nInitial management is usually conservative, with reassessment after a trial of treatment."
+  },
+  {
+    "objectID": "back-pain-investigations.html#when-to-investigate-urgently",
+    "href": "back-pain-investigations.html#when-to-investigate-urgently",
+    "title": "Back Pain: Investigations",
+    "section": "When to investigate urgently",
+    "text": "When to investigate urgently\nUrgent referral and possible urgent MRI should be considered when there are red flags, such as:\n\nMajor or progressive neurologic deficits\nSaddle anesthesia\nBladder or bowel dysfunction\nSuspected infection\nSuspected malignancy\nSuspected fracture\nConcerning inflammatory features"
+  },
+  {
+    "objectID": "back-pain-investigations.html#when-imaging-can-be-considered",
+    "href": "back-pain-investigations.html#when-imaging-can-be-considered",
+    "title": "Back Pain: Investigations",
+    "section": "When imaging can be considered",
+    "text": "When imaging can be considered\nImaging can be considered when symptoms persist despite an appropriate trial of conservative management, especially if the result would change management."
+  },
+  {
+    "objectID": "back-pain-investigations.html#imaging-options",
+    "href": "back-pain-investigations.html#imaging-options",
+    "title": "Back Pain: Investigations",
+    "section": "Imaging options",
+    "text": "Imaging options\n\nX-ray\nX-ray can be useful as an initial screen for:\n\nScoliosis\nSpondylolisthesis\nCompression fracture, especially with osteoporosis or fragility risk\n\nLimitations:\n\nPoor soft tissue visualization\nOften does not change management in uncomplicated low back pain\n\n\n\nMRI\nMRI provides strong soft tissue visualization and is often the preferred imaging modality when imaging is needed.\nMRI is especially useful for:\n\nRadiculopathy\nSpinal stenosis\nFracture assessment\nSpondylolisthesis assessment\nRed flag evaluation\n\nLimitations:\n\nCost\nWait times\nAccessibility\nContraindications such as certain metal foreign bodies or implants\n\n\n\nCT\nCT is useful for bony anatomy and can be considered when MRI is contraindicated or difficult to access.\nLimitations:\n\nLess soft tissue detail than MRI\nRadiation exposure"
+  },
+  {
+    "objectID": "back-pain-investigations.html#non-imaging-investigations",
+    "href": "back-pain-investigations.html#non-imaging-investigations",
+    "title": "Back Pain: Investigations",
+    "section": "Non-imaging investigations",
+    "text": "Non-imaging investigations\n\nEMG/NCS\nEMG and nerve conduction studies can be considered when neurologic symptoms are persistent or progressive.\nThey can help distinguish radiculopathy from other causes of neurologic symptoms, such as peripheral neuropathy.\n\n← Previous: Physical Exam\nNext: Management →"
+  },
+  {
+    "objectID": "back-pain-patterns.html",
+    "href": "back-pain-patterns.html",
+    "title": "Back Pain: Clinical Patterns",
+    "section": "",
+    "text": "Low back pain can be broadly organized into non-specific mechanical pain, specific mechanical pain, and non-mechanical pain."
+  },
+  {
+    "objectID": "back-pain-patterns.html#non-specific-mechanical-low-back-pain",
+    "href": "back-pain-patterns.html#non-specific-mechanical-low-back-pain",
+    "title": "Back Pain: Clinical Patterns",
+    "section": "Non-specific mechanical low back pain",
+    "text": "Non-specific mechanical low back pain\nThis is the most common category. The pain is influenced by movement, loading, or posture, but there is no clear structural pain generator that can be confidently identified.\nTypical features may include:\n\nBack-dominant pain\nSymptoms that vary with activity, position, or load\nNo major neurologic deficits\nNo red flag features"
+  },
+  {
+    "objectID": "back-pain-patterns.html#specific-mechanical-low-back-pain",
+    "href": "back-pain-patterns.html#specific-mechanical-low-back-pain",
+    "title": "Back Pain: Clinical Patterns",
+    "section": "Specific mechanical low back pain",
+    "text": "Specific mechanical low back pain\nSpecific mechanical pain follows a more recognizable clinical pattern and may suggest a more specific pain generator.\n\nDiscogenic pain\nDiscogenic pain arises from degeneration or irritation of the intervertebral discs.\nTypical pattern:\n\nBack-dominant pain\nWorse with flexion or prolonged sitting\nMinimal or no neurologic symptoms\n\n\n\nFacet-mediated pain\nFacet-mediated pain arises from irritation or loading of the facet joints.\nTypical pattern:\n\nLocalized back pain\nWorse with extension or rotation\nOften relieved by flexion\nMay radiate toward the buttocks\n\n\n\nRadiculopathy\nRadiculopathy occurs when a nerve root is irritated or compressed as it exits the spine.\nTypical pattern:\n\nLeg-dominant pain\nShooting, burning, electric, or radiating pain\nMay follow a dermatomal pattern\nMay be associated with sensory change, weakness, or reflex changes\n\n\n\nSpinal stenosis\nSpinal stenosis occurs when narrowing of the spinal canal or foramina compresses neural structures.\nTypical pattern:\n\nBilateral leg pain, heaviness, or fatigue\nWorse with walking or standing\nImproved with sitting or lumbar flexion\nMay describe relief when leaning forward, such as on a shopping cart"
+  },
+  {
+    "objectID": "back-pain-patterns.html#non-mechanical-pain",
+    "href": "back-pain-patterns.html#non-mechanical-pain",
+    "title": "Back Pain: Clinical Patterns",
+    "section": "Non-mechanical pain",
+    "text": "Non-mechanical pain\nNon-mechanical pain is less reliably affected by movement or posture and may be more constant. This category includes referred pain from non-spinal structures and serious spinal pathology.\nConsider non-mechanical causes when the history includes red flags for infection, fracture, tumor, inflammatory disease, or major neurologic compromise.\n\n← Previous: Anatomy\nNext: History →"
   },
   {
     "objectID": "index.html",
@@ -46,13 +375,13 @@
     "href": "index.html#current-goal",
     "title": "Pain Medicine Learning Modules",
     "section": "Current goal",
-    "text": "Current goal\nBuild a simple website that can host Twine-based clinical cases for students."
+    "text": "Current goal\nBuild a simple website for pain medicine modules and cases for medical students and residents."
   },
   {
     "objectID": "index.html#start-here",
     "href": "index.html#start-here",
     "title": "Pain Medicine Learning Modules",
     "section": "Start here",
-    "text": "Start here\nGo to the Modules page to launch the sample case."
+    "text": "Start here\nGo to the Modules page to launch the sample module."
   }
 ]

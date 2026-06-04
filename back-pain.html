@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Pain Medicine Learning Modules</title>
+<title>back-pain – Pain Medicine Learning Modules</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -106,13 +106,13 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">All Modules</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./back-pain-introduction.html">
+    <a class="dropdown-item" href="./back-pain.html">
  <span class="dropdown-text">Back Pain</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Back Pain</h1>
 </div>
 
 
@@ -149,54 +149,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a test website for pain medicine learning modules and interactive cases.</p>
-<section id="possible-future-additions" class="level2">
-<h2 class="anchored" data-anchor-id="possible-future-additions">Possible future additions</h2>
-<ul>
-<li>Downloadable guides</li>
-<li>Feedback form</li>
-<li>Possible AI-style FAQ/chat feature</li>
-</ul>
+<section id="back-pain-module" class="level2">
+<h2 class="anchored" data-anchor-id="back-pain-module">Back Pain Module</h2>
+<p><a href="./back-pain-introduction.html" class="btn btn-primary">Introduction</a></p>
+<p><a href="./back-pain-anatomy.html" class="btn btn-primary">Anatomy</a></p>
+<p><a href="./back-pain-patterns.html" class="btn btn-primary">Clinical Patterns</a></p>
+<p><a href="./back-pain-history.html" class="btn btn-primary">History</a></p>
+<p><a href="./back-pain-physical-exam.html" class="btn btn-primary">Physical Exam</a></p>
+<p><a href="./back-pain-investigations.html" class="btn btn-primary">Investigations</a></p>
+<p><a href="./back-pain-management.html" class="btn btn-primary">Management</a></p>
+<p><a href="./back-pain-cases.html" class="btn btn-primary">Cases</a></p>
 
 
 </section>
 
 </main> <!-- /main -->
 ﻿<style>
-/* Back Pain module integrated left sidebar */
-
-body.bp-page #quarto-content {
-  padding-left: 285px;
-}
-
-body.bp-page main.content,
-body.bp-page #quarto-document-content {
-  max-width: 950px !important;
-  margin-right: auto !important;
-}
+/* Back Pain module left-side navigation */
 
 #bp-section-nav {
   position: fixed;
-  top: 64px;
-  left: 0;
-  bottom: 0;
-  width: 255px;
-  z-index: 900;
-  background:
-    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
-    linear-gradient(to bottom, #fbfafb, #f4f1f3);
-  background-size: 26px 26px, auto;
-  border-right: 1px solid rgba(122, 0, 60, 0.22);
-  padding: 28px 22px;
-  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  top: 96px;
+  left: 170px;
+  width: 180px;
+  z-index: 1000;
+  background: ##f7f7f7;
+  border: 1px solid rgba(122, 0, 60, 0.22);
+  border-left: 5px solid #7A003C;
+  border-radius: 12px;
+  padding: 16px 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   font-size: 0.93rem;
-  overflow-y: auto;
 }
 
 #bp-section-nav h3 {
   color: #7A003C;
-  font-size: 1.02rem;
-  margin: 0 0 18px 0;
+  font-size: 1rem;
+  margin: 0 0 12px 0;
   font-weight: 800;
 }
 
@@ -205,9 +194,9 @@ body.bp-page #quarto-document-content {
   color: #7A003C;
   text-decoration: none;
   font-weight: 500;
-  padding: 8px 10px;
+  padding: 7px 9px;
   border-radius: 7px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 #bp-section-nav a:hover {
@@ -220,12 +209,8 @@ body.bp-page #quarto-document-content {
   font-weight: 700;
 }
 
-/* Hide sidebar and restore normal spacing on smaller screens */
-@media (max-width: 1150px) {
-  body.bp-page #quarto-content {
-    padding-left: 0;
-  }
-
+/* Hide on smaller screens so it does not overlap content */
+@media (max-width: 1250px) {
   #bp-section-nav {
     display: none;
   }
@@ -235,6 +220,7 @@ body.bp-page #quarto-document-content {
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const pages = [
+    { title: "Overview", href: "back-pain.html" },
     { title: "Introduction", href: "back-pain-introduction.html" },
     { title: "Anatomy", href: "back-pain-anatomy.html" },
     { title: "Clinical Patterns", href: "back-pain-patterns.html" },
@@ -246,11 +232,9 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
   const isBackPainPage = pages.some(page => page.href === currentPage);
-
   if (!isBackPainPage) return;
-
-  document.body.classList.add("bp-page");
 
   const nav = document.createElement("aside");
   nav.id = "bp-section-nav";
@@ -339,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/KianZB\.github\.io\/Pain-Medicine-Modules\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

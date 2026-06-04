@@ -96,10 +96,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./modules.html"> 
-<span class="menu-text">Modules</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-modules" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Modules</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-modules">    
+        <li>
+    <a class="dropdown-item" href="./modules.html">
+ <span class="dropdown-text">All Modules</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./back-pain-introduction.html">
+ <span class="dropdown-text">Back Pain</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -115,18 +126,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#current-goal" id="toc-current-goal" class="nav-link active" data-scroll-target="#current-goal">Current goal</a></li>
-  <li><a href="#start-here" id="toc-start-here" class="nav-link" data-scroll-target="#start-here">Start here</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -135,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -150,16 +152,120 @@ ul.task-list li input[type="checkbox"] {
 <p>This is a test website for interactive, case-based pain medicine learning.</p>
 <section id="current-goal" class="level2">
 <h2 class="anchored" data-anchor-id="current-goal">Current goal</h2>
-<p>Build a simple website that can host Twine-based clinical cases for students.</p>
+<p>Build a simple website for pain medicine modules and cases for medical students and residents.</p>
 </section>
 <section id="start-here" class="level2">
 <h2 class="anchored" data-anchor-id="start-here">Start here</h2>
-<p>Go to the <a href="./modules.html">Modules</a> page to launch the sample case.</p>
+<p>Go to the <a href="./modules.html">Modules</a> page to launch the sample module.</p>
 
 
 </section>
 
 </main> <!-- /main -->
+﻿<style>
+/* Back Pain module integrated left sidebar */
+
+body.bp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.bp-page main.content,
+body.bp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#bp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#bp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#bp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#bp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#bp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Hide sidebar and restore normal spacing on smaller screens */
+@media (max-width: 1150px) {
+  body.bp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #bp-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "back-pain-introduction.html" },
+    { title: "Anatomy", href: "back-pain-anatomy.html" },
+    { title: "Clinical Patterns", href: "back-pain-patterns.html" },
+    { title: "History", href: "back-pain-history.html" },
+    { title: "Physical Exam", href: "back-pain-physical-exam.html" },
+    { title: "Investigations", href: "back-pain-investigations.html" },
+    { title: "Management", href: "back-pain-management.html" },
+    { title: "Cases", href: "back-pain-cases.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isBackPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isBackPainPage) return;
+
+  document.body.classList.add("bp-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "bp-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -233,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/KianZB\.github\.io\/Pain-Medicine-Modules\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
