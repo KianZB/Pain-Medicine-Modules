@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain: Clinical Patterns"
+title: "Back Pain Basics: Clinical Patterns"
 ---
 
 Low back pain can be broadly organized into **non-specific mechanical pain**, **specific mechanical pain**, and **non-mechanical pain**.

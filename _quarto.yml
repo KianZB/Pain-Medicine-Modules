@@ -17,7 +17,7 @@ website:
             href: modules.qmd
           - text: Pain Fundamentals
             href: pain-fundamentals-introduction.qmd
-          - text: Back Pain
+          - text: Back Pain Basics
             href: back-pain-introduction.qmd
           - text: Lumbar Radicular Pain
             href: radicular-pain-introduction.qmd

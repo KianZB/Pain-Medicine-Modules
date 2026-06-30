@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain: Physical Exam"
+title: "Back Pain Basics: Physical Exam"
 ---
 
 The physical exam should screen function, look for structural clues, assess neurologic status, and use special tests when they fit the clinical picture.

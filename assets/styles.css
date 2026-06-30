@@ -1,19 +1,282 @@
-/* Simple McMaster-ish maroon accent */
+/* Core colour theme */
 
-.navbar {
-  border-bottom: 3px solid #7A003C;
+:root {
+  --mac-maroon: #7A003C;
+  --mac-maroon-dark: #5e002f;
+  --soft-bg: #f7f7f7;
+}
+
+/* Page background and headings */
+
+body {
+  background: var(--soft-bg);
+}
+
+/* Core colour theme */
+
+:root {
+  --mac-maroon: #7A003C;
+  --mac-maroon-dark: #5e002f;
+  --soft-bg: #f7f7f7;
+}
+
+/* Page background and headings */
+
+body {
+  background: var(--soft-bg);
+}
+
+/* Core colour theme */
+
+:root {
+  --mac-maroon: #7A003C;
+  --mac-maroon-dark: #5e002f;
+  --soft-bg: #f7f7f7;
+}
+
+/* Page background and headings */
+
+body {
+  background: var(--soft-bg);
 }
 
 h1, h2 {
-  color: #7A003C;
+  color: var(--mac-maroon);
 }
 
+/* Page fade animation */
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main.content {
+  animation: pageFadeIn 0.28s ease-out;
+}
+
+/* Buttons */
+
 .btn-primary {
-  background-color: #7A003C;
-  border-color: #7A003C;
+  background-color: var(--mac-maroon);
+  border-color: var(--mac-maroon);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .btn-primary:hover {
-  background-color: #5e002f;
-  border-color: #5e002f;
+  background-color: var(--mac-maroon-dark);
+  border-color: var(--mac-maroon-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+/* Maroon top navbar */
+
+.navbar {
+  background-color: var(--mac-maroon) !important;
+  border-bottom: 3px solid var(--mac-maroon-dark);
+}
+
+/* Site title */
+
+.navbar-brand,
+.navbar-title {
+  color: #ffffff !important;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.navbar-title {
+  font-size: 1.18rem;
+}
+
+.navbar-brand {
+  padding-right: 24px;
+  margin-right: 20px;
+  border-right: 2px solid rgba(255, 255, 255, 0.45);
+}
+
+/* Navbar links */
+
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-toggle:hover {
+  color: #ffffff !important;
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+
+/* Dropdown menu */
+
+.navbar .dropdown {
+  position: relative;
+}
+
+.navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.navbar .dropdown-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  margin-top: 0 !important;
+  transform: none !important;
+  z-index: 2000;
+  background-color: #ffffff;
+  border-top: 3px solid var(--mac-maroon);
+}
+
+.navbar .dropdown-item {
+  color: var(--mac-maroon) !important;
+  font-weight: 500;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: rgba(122, 0, 60, 0.08);
+  color: var(--mac-maroon) !important;
+}
+
+/* Vertical dividers between top navbar tabs */
+
+.navbar .navbar-nav > .nav-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .navbar-nav > .nav-item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.45);
+  margin: 0 12px;
+}
+
+/* Remove dividers on mobile/collapsed navbar */
+
+@media (max-width: 991px) {
+  .navbar .navbar-nav > .nav-item:not(:last-child)::after {
+    display: none;
+  }
+}
+
+/* Decorative patterned side panels */
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  top: 72px;
+  bottom: 0;
+  width: 145px;
+  pointer-events: none;
+  z-index: 0;
+
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.08) 1.3px, transparent 1.3px),
+    linear-gradient(135deg, rgba(122, 0, 60, 0.08) 0 24%, transparent 24%),
+    linear-gradient(315deg, rgba(122, 0, 60, 0.05) 0 18%, transparent 18%),
+    linear-gradient(to bottom, #f8f6f7, #f1eeee);
+
+  background-size:
+    26px 26px,
+    82px 82px,
+    110px 110px,
+    auto;
+
+  border-left: 1px solid rgba(122, 0, 60, 0.16);
+  border-right: 1px solid rgba(122, 0, 60, 0.16);
+}
+
+body::before {
+  left: 0;
+}
+
+body::after {
+  right: 0;
+}
+
+/* Keep page content above decorative panels */
+
+#quarto-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Keep navbar above everything */
+
+#quarto-header {
+  z-index: 1030;
+}
+
+/* Hide side panels on smaller screens */
+
+@media (max-width: 1050px) {
+  body::before,
+  body::after {
+    display: none;
+  }
+}
+
+/* White Quarto search icon/button */
+
+#quarto-search,
+#quarto-search button,
+#quarto-search .aa-DetachedSearchButton,
+#quarto-search .aa-DetachedSearchButtonIcon,
+#quarto-search svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+#quarto-search .aa-DetachedSearchButton {
+  background: transparent !important;
+  border: none !important;
+}
+
+#quarto-search .aa-DetachedSearchButton:hover {
+  opacity: 0.82;
+}
+
+/* Keep top navbar locked while scrolling */
+
+#quarto-header,
+#quarto-header.headroom,
+#quarto-header.headroom--pinned,
+#quarto-header.headroom--unpinned {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  transform: none !important;
+  transition: none !important;
+  z-index: 2000 !important;
+}
+
+/* Hide heading anchor links on hover */
+
+.anchorjs-link {
+  display: none !important;
+}
+
+/* Center image captions */
+
+figure figcaption,
+.figure-caption,
+.quarto-float-caption {
+  text-align: center;
 }
