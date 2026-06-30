@@ -1,0 +1,84 @@
+﻿---
+title: "Lumbar Radicular Pain: Summary"
+---
+
+## High-yield summary
+
+Radicular pain is **nerve-root-mediated radiating pain**. In the lumbar spine, it usually presents as leg-dominant pain radiating from the low back or buttock into the lower limb.
+
+Radicular pain is related to, but not identical to, radiculopathy:
+
+- **Radicular pain:** radiating nerve-root-mediated pain
+- **Radiculopathy:** objective nerve root dysfunction, such as weakness, sensory loss, or reflex change
+
+## Key anatomy
+
+The most common teaching example is lumbar disc herniation.
+
+At a given disc level, the affected nerve root depends on where the disc material goes:
+
+| Herniation location | Root usually affected |
+|---|---|
+| **Paracentral / lateral recess** | Traversing nerve root |
+| **Foraminal / far lateral** | Exiting nerve root |
+
+At **L4-L5**, a paracentral herniation usually affects the **traversing L5 nerve root**, while a foraminal or far lateral herniation more often affects the **exiting L4 nerve root**.
+
+## Key causes
+
+Common causes include:
+
+- Disc herniation
+- Foraminal stenosis
+- Lateral recess stenosis
+- Degenerative spondylolisthesis
+- Facet hypertrophy or osteophytes
+- Synovial cyst
+
+Less common serious causes include tumour, infection, trauma, or inflammatory disease.
+
+## Key clinical clues
+
+The most useful clinical clues are:
+
+- Leg-dominant pain
+- Neuropathic quality, such as shooting, burning, electric, or sharp pain
+- Dermatomal or nerve-root pattern
+- Objective neurologic findings
+- Positive neural tension signs
+
+Root-level patterns are helpful, but real patients often have overlapping symptoms.
+
+## Investigations
+
+Most acute radicular pain does not require immediate imaging if there are no red flags or severe neurologic deficits.
+
+MRI is the preferred imaging test when imaging is needed. However, imaging must match the clinical picture because disc bulges and degenerative findings are common in asymptomatic people.
+
+EMG/NCS can help when the diagnosis is unclear, symptoms are chronic, or imaging does not match the clinical picture.
+
+## Management
+
+Initial management is usually conservative unless red flags or progressive neurologic deficits are present.
+
+Management may include:
+
+- Education and reassurance
+- Staying active as tolerated
+- Analgesics or NSAIDs when appropriate
+- Selected neuropathic pain medications
+- Physiotherapy and graded return to function
+- Epidural steroid injection for persistent or severe leg-dominant radicular pain
+- Surgical referral for progressive deficit, cauda equina concern, severe refractory pain, or persistent function-limiting symptoms with matching imaging
+
+## Final takeaway
+
+Radicular pain is usually caused by disc herniation or degenerative narrowing affecting a spinal nerve root. The pattern depends on the nerve root involved and whether the exiting or traversing root is affected.
+
+The clinical priority is to identify red flags, localize the likely nerve root, match symptoms to imaging when needed, and choose management based on severity, duration, neurologic findings, and function.
+
+<br>
+
+[← Previous: Summary](radicular-pain-summary.qmd){.btn .btn-outline-primary}
+
+[Next: More Cases →](radicular-pain-more-cases.qmd){.btn .btn-primary}

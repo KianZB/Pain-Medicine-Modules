@@ -2,12 +2,8 @@
 title: "Pain Medicine Learning Modules"
 ---
 
-This is a test website for interactive, case-based pain medicine learning.
-
-## Current goal
-
-Build a simple website for pain medicine modules and cases for medical students and residents. 
+Welcome to this website for interactive case-based pain medicine learning. 
 
 ## Start here
 
-Go to the [Modules](modules.qmd) page to launch the sample module. 
+Go to the [Modules](modules.qmd) page to launch the sample modules. 

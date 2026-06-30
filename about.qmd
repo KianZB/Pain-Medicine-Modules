@@ -4,8 +4,45 @@ title: "About"
 
 This is a test website for pain medicine learning modules and interactive cases. 
 
+## Callouts
+
+Throughout the modules, callouts are used to highlight different types of learning points.
+
+::: {.callout-tip}
+## Pause and think
+
+A short question to help you check your understanding before reading the answer.
+:::
+
+::: {.callout-note}
+## Key idea
+
+The main takeaway from a section.
+:::
+
+::: {.callout-caution}
+## Clinical relevance
+
+Why the concept matters for patient assessment, imaging, procedures, or management.
+:::
+
+::: {.callout-warning}
+## Word of caution
+
+A common mistake, limitation, or point that should not be overinterpreted.
+:::
+
+::: {.callout-important}
+## Red flag
+
+An urgent clinical feature that should prompt timely assessment or escalation.
+:::
+
 ## Possible future additions
 
-- Downloadable guides
+- Downloadable summary sheets
 - Feedback form
-- Possible AI-style FAQ/chat feature
+- AI-style FAQ section
+- Progress bar for modules
+- Glossary
+- End-of-section knowledge checks

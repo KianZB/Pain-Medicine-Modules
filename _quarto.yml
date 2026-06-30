@@ -15,8 +15,12 @@ website:
         menu:
           - text: All Modules
             href: modules.qmd
+          - text: Pain Fundamentals
+            href: pain-fundamentals-introduction.qmd
           - text: Back Pain
             href: back-pain-introduction.qmd
+          - text: Lumbar Radicular Pain
+            href: radicular-pain-introduction.qmd
 
       - href: about.qmd
         text: About
@@ -27,4 +31,9 @@ format:
     css: assets/styles.css
     toc: false
     page-layout: full
-    include-after-body: assets/back-pain-nav.html
+    include-after-body:
+      - assets/back-pain-nav.html
+      - assets/pain-fundamentals-nav.html
+      - assets/radicular-pain-nav.html
+      - assets/pain-fundamentals-nav.html
+      - assets/radicular-pain-nav.html

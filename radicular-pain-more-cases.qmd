@@ -1,0 +1,155 @@
+﻿---
+title: "Lumbar Radicular Pain: Cases"
+---
+
+This section provides short practice cases to apply the radicular pain framework.
+
+## Case 1: Acute leg-dominant pain
+
+A 42-year-old patient presents with acute low back pain radiating down the posterolateral leg into the lateral foot after lifting a heavy object. The leg pain is more severe than the back pain and is described as sharp and electric. Symptoms worsen with sitting, coughing, and bending forward.
+
+On exam, straight leg raise reproduces the typical leg pain. Ankle reflex is reduced on the affected side, and toe walking is mildly weak.
+
+::: {.callout-tip}
+## Question 1
+
+Is this more consistent with axial low back pain or radicular pain?
+
+<details>
+<summary>Show answer</summary>
+
+This is more consistent with **radicular pain**.
+
+The key clues are leg-dominant pain, radiation into the posterolateral leg and lateral foot, sharp/electric quality, worsening with coughing or bending forward, and reproduction of typical leg pain with straight leg raise.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 2
+
+Which nerve root is most likely involved?
+
+<details>
+<summary>Show answer</summary>
+
+The **S1 nerve root** is most likely involved.
+
+The posterolateral leg and lateral foot distribution, reduced ankle/Achilles reflex, and mild weakness with toe walking all support S1 involvement.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 3
+
+Are there any red flags that require urgent imaging?
+
+<details>
+<summary>Show answer</summary>
+
+Based on the information provided, there are no clear red flags such as cauda equina symptoms, progressive motor weakness, fever, malignancy history, significant trauma, or severe unremitting night pain.
+
+However, the patient should be counselled to seek urgent reassessment if they develop bladder or bowel dysfunction, saddle anesthesia, progressive weakness, or bilateral severe neurologic symptoms.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 4
+
+What would be a reasonable initial management plan?
+
+<details>
+<summary>Show answer</summary>
+
+If there are no red flags or progressive neurologic deficits, initial management is usually conservative.
+
+This may include education, staying active as tolerated, avoiding clearly aggravating activities temporarily, analgesics or NSAIDs if appropriate, physiotherapy with attention to directional preference and function, and monitoring for neurologic worsening.
+
+</details>
+:::
+
+::: {.callout-note}
+## Teaching point
+
+This presentation is most consistent with lumbar radicular pain, likely involving the **S1 nerve root**. The clues are leg-dominant neuropathic pain, posterolateral leg/lateral foot radiation, positive straight leg raise, reduced Achilles reflex, and weakness with toe walking.
+:::
+
+## Case 2: Persistent radicular pain
+
+A 58-year-old patient has six months of right leg-dominant pain radiating from the buttock into the lateral leg and dorsum of the foot. The pain is burning and electric. It has not improved despite medications and physiotherapy. MRI shows right L4-L5 lateral recess stenosis affecting the traversing L5 nerve root.
+
+::: {.callout-tip}
+## Question 1
+
+Does the imaging finding match the clinical pattern?
+
+<details>
+<summary>Show answer</summary>
+
+Yes. The imaging finding matches the clinical pattern.
+
+Right L4-L5 lateral recess stenosis would be expected to affect the **traversing L5 nerve root**, and the patient's pain radiates into an L5-pattern distribution involving the lateral leg and dorsum of the foot.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 2
+
+Which nerve root is most likely affected?
+
+<details>
+<summary>Show answer</summary>
+
+The **L5 nerve root** is most likely affected.
+
+At the L4-L5 disc level, the L5 nerve root is the traversing root. Lateral recess pathology at this level commonly affects the traversing L5 root.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 3
+
+What interventional pain option could be considered?
+
+<details>
+<summary>Show answer</summary>
+
+An **epidural steroid injection** could be considered, especially because the symptoms are persistent, leg-dominant, function-limiting, and match a specific nerve root target on MRI.
+
+A **transforaminal epidural steroid injection** may be useful when there is a clear unilateral radicular pattern involving a specific nerve root.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 4
+
+When would surgical referral be reasonable?
+
+<details>
+<summary>Show answer</summary>
+
+Surgical referral may be reasonable if symptoms remain severe and function-limiting despite appropriate nonoperative management, if progressive neurologic deficits develop, or if there is a surgically treatable lesion that clearly matches the clinical syndrome.
+
+Urgent surgical assessment is required if there are cauda equina symptoms or progressive significant motor weakness.
+
+</details>
+:::
+
+::: {.callout-note}
+## Teaching point
+
+This pattern is consistent with **L5 radicular pain**. The MRI finding also matches because lateral recess stenosis at L4-L5 usually affects the traversing L5 nerve root.
+
+If symptoms remain function-limiting despite conservative management, an epidural steroid injection may be considered. A transforaminal approach may be useful when there is a clear unilateral target nerve root. Surgical referral may be reasonable if symptoms remain severe, progressive neurologic deficits develop, or imaging and symptoms clearly match a surgically treatable lesion.
+:::
+
+<br>
+
+[← Previous: Summary](radicular-pain-summary.qmd){.btn .btn-outline-primary}
+
+[← All Modules](modules.qmd){.btn .btn-primary}

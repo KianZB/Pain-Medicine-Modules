@@ -2,13 +2,42 @@
 title: "Modules"
 ---
 
-## Module Areas
+::: {.grid}
 
-[Back Pain](back-pain-introduction.qmd){.btn .btn-primary}
+::: {.g-col-12 .g-col-md-4}
+## Foundations
 
-## Future Module Areas
+[Pain Fundamentals](pain-fundamentals-introduction.qmd){.btn .btn-primary}
 
-- Neck pain
-- Electrodiagnostics
-- Spasticity
-- Neuropathic pain
+[Back Pain Basics](back-pain-introduction.qmd){.btn .btn-primary}
+
+[Physical Examination](physical-examination-introduction.qmd){.btn .btn-primary} (coming soon)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+## Pain Patterns
+
+[Lumbar Radicular Pain](radicular-pain-introduction.qmd){.btn .btn-primary}
+
+[Discogenic Pain](discogenic-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[Facetogenic Pain](facetogenic-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[Spondylolisthesis](spondylolisthesis-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[Neurogenic Claudication](neurogenic-claudication-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[Sacroiliac Pain](sacroiliac-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+## Special Topics
+
+[Cervical Radicular Pain](cervical-radicular-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[EMG/NCS](emg-ncs-introduction.qmd){.btn .btn-primary} (coming soon)
+
+[Spasticity](spasticity-introduction.qmd){.btn .btn-primary} (coming soon)
+:::
+
+:::
