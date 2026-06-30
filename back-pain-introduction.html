@@ -106,8 +106,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">All Modules</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./pain-fundamentals-introduction.html">
+ <span class="dropdown-text">Pain Fundamentals</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./back-pain-introduction.html">
  <span class="dropdown-text">Back Pain</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./radicular-pain-introduction.html">
+ <span class="dropdown-text">Lumbar Radicular Pain</span></a>
   </li>  
     </ul>
   </li>
@@ -132,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Back Pain: Introduction</h1>
+<h1 class="title">Back Pain Basics: Introduction</h1>
 </div>
 
 
@@ -149,57 +157,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to this module on <strong>Back Pain</strong>.</p>
-<section id="why-this-module-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-module-matters">Why this module matters</h2>
-<p>Back pain is one of the most common complaints you will hear from patients throughout your career. Part of this is because back pain is broad and multifactorial, and is thus encountered in a variety of different specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physical medicine and rehabilitation.</p>
-<p>The purpose of this module is to help you build foundational knowledge and develop a practical framework for approaching back pain in a clinical setting.</p>
-<p>At a high level, this framework should help you answer four core clinical questions whenever you see a patient with back pain:</p>
+<p>Back pain is one of the most common complaints encountered in clinical medicine. It is broad, multifactorial, and relevant across many specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physiatry.</p>
+<p>This module is designed to introduce a practical framework for approaching back pain before moving into more specific clinical pain patterns. The goal is to build the foundational anatomy, clinical reasoning, and management approach needed for the modules that follow.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Core clinical questions
+<span class="screen-reader-only">Note</span>By the end of this module, you should be comfortable with:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ol type="1">
-<li>Is there anything acutely dangerous that requires urgent intervention?</li>
-<li>What specific type of back pain best explains the patient’s symptoms?</li>
-<li>How is the pain affecting the patient’s day-to-day functioning and quality of life?<br>
-</li>
-<li>What is the most appropriate next step in management?</li>
-</ol>
-</div>
-</div>
-</section>
-<section id="what-you-will-learn" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-will-learn">What you will learn</h2>
-<p>By the end of this module, you should be more comfortable with:</p>
-<ul>
-<li>Describing key spine anatomy and common pain generators</li>
-<li>Organizing back pain into common clinical patterns</li>
-<li>Taking a focused back pain history</li>
-<li>Screening for red flags and yellow flags</li>
-<li>Performing a practical physical exam</li>
-<li>Knowing when investigations are and are not useful</li>
-<li>Choosing an initial management plan</li>
-<li>Applying the framework to interactive cases</li>
+<ul class="task-list">
+<li><label><input type="checkbox">Describing key spine anatomy and common pain generators</label></li>
+<li><label><input type="checkbox">Organizing back pain into common clinical patterns</label></li>
+<li><label><input type="checkbox">Taking a focused back pain history</label></li>
+<li><label><input type="checkbox">Screening for red flags and yellow flags</label></li>
+<li><label><input type="checkbox">Understanding the role of physical examination</label></li>
+<li><label><input type="checkbox">Knowing when investigations are and are not useful</label></li>
+<li><label><input type="checkbox">Choosing an initial management approach</label></li>
 </ul>
-</section>
-<section id="how-to-use-this-module" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-module">How to use this module</h2>
-<p>You can move through the module using the Previous and Next buttons at the bottom of each page.</p>
-<p>You can also use the Table of Contents on the left to jump between sections.</p>
-<p>You can also use the search feature in the top right corner of the page to find a specific topic or section of the module.</p>
+</div>
+</div>
 <p><br></p>
 <p><a href="./modules.html" class="btn btn-outline-primary">← All Modules</a></p>
 <p><a href="./back-pain-anatomy.html" class="btn btn-primary">Next: Anatomy →</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 ﻿<style>
@@ -294,6 +279,418 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nav = document.createElement("aside");
   nav.id = "bp-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+﻿<style>
+/* Pain Fundamentals module integrated left sidebar */
+
+body.pf-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.pf-page main.content,
+body.pf-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#pf-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#pf-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#pf-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#pf-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#pf-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.pf-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #pf-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "pain-fundamentals-introduction.html" },
+    { title: "Terminology", href: "pain-fundamentals-terminology.html" },
+    { title: "Pain Classification", href: "pain-fundamentals-classification.html" },
+    { title: "Pain Pathways", href: "pain-fundamentals-pathways.html" },
+    { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
+    { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
+    { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isPainFundamentalsPage = pages.some(page => page.href === currentPage);
+
+  if (!isPainFundamentalsPage) return;
+
+  document.body.classList.add("pf-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "pf-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+
+﻿<style>
+/* Radicular Pain module integrated left sidebar */
+
+body.rp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.rp-page main.content,
+body.rp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#rp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#rp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#rp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#rp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#rp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.rp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #rp-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "radicular-pain-introduction.html" },
+    { title: "Relevant Anatomy", href: "radicular-pain-relevant-anatomy.html" },
+    { title: "Clinical Presentation", href: "radicular-pain-clinical-presentation.html" },
+    { title: "Investigations", href: "radicular-pain-investigations.html" },
+    { title: "Management", href: "radicular-pain-management.html" },
+    { title: "Summary", href: "radicular-pain-summary.html" },
+    { title: "More Cases", href: "radicular-pain-more-cases.html" },
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isRadicularPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isRadicularPainPage) return;
+
+  document.body.classList.add("rp-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "rp-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+﻿<style>
+/* Pain Fundamentals module integrated left sidebar */
+
+body.pf-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.pf-page main.content,
+body.pf-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#pf-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#pf-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#pf-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#pf-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#pf-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.pf-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #pf-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "pain-fundamentals-introduction.html" },
+    { title: "Terminology", href: "pain-fundamentals-terminology.html" },
+    { title: "Pain Classification", href: "pain-fundamentals-classification.html" },
+    { title: "Pain Pathways", href: "pain-fundamentals-pathways.html" },
+    { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
+    { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
+    { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isPainFundamentalsPage = pages.some(page => page.href === currentPage);
+
+  if (!isPainFundamentalsPage) return;
+
+  document.body.classList.add("pf-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "pf-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+
+﻿<style>
+/* Radicular Pain module integrated left sidebar */
+
+body.rp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.rp-page main.content,
+body.rp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#rp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#rp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#rp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#rp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#rp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.rp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #rp-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "radicular-pain-introduction.html" },
+    { title: "Relevant Anatomy", href: "radicular-pain-relevant-anatomy.html" },
+    { title: "Clinical Presentation", href: "radicular-pain-clinical-presentation.html" },
+    { title: "Investigations", href: "radicular-pain-investigations.html" },
+    { title: "Management", href: "radicular-pain-management.html" },
+    { title: "Summary", href: "radicular-pain-summary.html" },
+    { title: "More Cases", href: "radicular-pain-more-cases.html" },
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isRadicularPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isRadicularPainPage) return;
+
+  document.body.classList.add("rp-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "rp-section-nav";
 
   let html = "<h3>Table of Contents</h3>";
 

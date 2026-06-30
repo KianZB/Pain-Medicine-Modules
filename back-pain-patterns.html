@@ -106,8 +106,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">All Modules</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./pain-fundamentals-introduction.html">
+ <span class="dropdown-text">Pain Fundamentals</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./back-pain-introduction.html">
  <span class="dropdown-text">Back Pain</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./radicular-pain-introduction.html">
+ <span class="dropdown-text">Lumbar Radicular Pain</span></a>
   </li>  
     </ul>
   </li>
@@ -312,6 +320,418 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const nav = document.createElement("aside");
   nav.id = "bp-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+﻿<style>
+/* Pain Fundamentals module integrated left sidebar */
+
+body.pf-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.pf-page main.content,
+body.pf-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#pf-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#pf-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#pf-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#pf-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#pf-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.pf-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #pf-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "pain-fundamentals-introduction.html" },
+    { title: "Terminology", href: "pain-fundamentals-terminology.html" },
+    { title: "Pain Classification", href: "pain-fundamentals-classification.html" },
+    { title: "Pain Pathways", href: "pain-fundamentals-pathways.html" },
+    { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
+    { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
+    { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isPainFundamentalsPage = pages.some(page => page.href === currentPage);
+
+  if (!isPainFundamentalsPage) return;
+
+  document.body.classList.add("pf-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "pf-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+
+﻿<style>
+/* Radicular Pain module integrated left sidebar */
+
+body.rp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.rp-page main.content,
+body.rp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#rp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#rp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#rp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#rp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#rp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.rp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #rp-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "radicular-pain-introduction.html" },
+    { title: "Relevant Anatomy", href: "radicular-pain-relevant-anatomy.html" },
+    { title: "Clinical Presentation", href: "radicular-pain-clinical-presentation.html" },
+    { title: "Investigations", href: "radicular-pain-investigations.html" },
+    { title: "Management", href: "radicular-pain-management.html" },
+    { title: "Summary", href: "radicular-pain-summary.html" },
+    { title: "More Cases", href: "radicular-pain-more-cases.html" },
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isRadicularPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isRadicularPainPage) return;
+
+  document.body.classList.add("rp-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "rp-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+﻿<style>
+/* Pain Fundamentals module integrated left sidebar */
+
+body.pf-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.pf-page main.content,
+body.pf-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#pf-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#pf-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#pf-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#pf-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#pf-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.pf-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #pf-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "pain-fundamentals-introduction.html" },
+    { title: "Terminology", href: "pain-fundamentals-terminology.html" },
+    { title: "Pain Classification", href: "pain-fundamentals-classification.html" },
+    { title: "Pain Pathways", href: "pain-fundamentals-pathways.html" },
+    { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
+    { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
+    { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isPainFundamentalsPage = pages.some(page => page.href === currentPage);
+
+  if (!isPainFundamentalsPage) return;
+
+  document.body.classList.add("pf-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "pf-section-nav";
+
+  let html = "<h3>Table of Contents</h3>";
+
+  pages.forEach(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  });
+
+  nav.innerHTML = html;
+  document.body.appendChild(nav);
+});
+</script>
+
+﻿<style>
+/* Radicular Pain module integrated left sidebar */
+
+body.rp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.rp-page main.content,
+body.rp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#rp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background:
+    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
+    linear-gradient(to bottom, #fbfafb, #f4f1f3);
+  background-size: 26px 26px, auto;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#rp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#rp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#rp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#rp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media (max-width: 1150px) {
+  body.rp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #rp-section-nav {
+    display: none;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "radicular-pain-introduction.html" },
+    { title: "Relevant Anatomy", href: "radicular-pain-relevant-anatomy.html" },
+    { title: "Clinical Presentation", href: "radicular-pain-clinical-presentation.html" },
+    { title: "Investigations", href: "radicular-pain-investigations.html" },
+    { title: "Management", href: "radicular-pain-management.html" },
+    { title: "Summary", href: "radicular-pain-summary.html" },
+    { title: "More Cases", href: "radicular-pain-more-cases.html" },
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isRadicularPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isRadicularPainPage) return;
+
+  document.body.classList.add("rp-page");
+
+  const nav = document.createElement("aside");
+  nav.id = "rp-section-nav";
 
   let html = "<h3>Table of Contents</h3>";
 
