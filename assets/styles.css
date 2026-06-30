@@ -12,6 +12,34 @@ body {
   background: var(--soft-bg);
 }
 
+/* Core colour theme */
+
+:root {
+  --mac-maroon: #7A003C;
+  --mac-maroon-dark: #5e002f;
+  --soft-bg: #f7f7f7;
+}
+
+/* Page background and headings */
+
+body {
+  background: var(--soft-bg);
+}
+
+/* Core colour theme */
+
+:root {
+  --mac-maroon: #7A003C;
+  --mac-maroon-dark: #5e002f;
+  --soft-bg: #f7f7f7;
+}
+
+/* Page background and headings */
+
+body {
+  background: var(--soft-bg);
+}
+
 h1, h2 {
   color: var(--mac-maroon);
 }
