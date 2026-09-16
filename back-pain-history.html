@@ -117,11 +117,23 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./radicular-pain-introduction.html">
  <span class="dropdown-text">Lumbar Radicular Pain</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./discogenic-pain-introduction.html">
+ <span class="dropdown-text">Discogenic Pain</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./spondylolisthesis-introduction.html">
+ <span class="dropdown-text">Spondylolisthesis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./spasticity-introduction.html">
+ <span class="dropdown-text">Spasticity</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Help</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -140,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Back Pain Basics: History</h1>
+<h1 class="title"><span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">History</span></h1>
 </div>
 
 
@@ -240,8 +252,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Fragility risk</li>
 </ul>
 </section>
-<section id="tumor" class="level3">
-<h3 class="anchored" data-anchor-id="tumor">Tumor</h3>
+<section id="tumour" class="level3">
+<h3 class="anchored" data-anchor-id="tumour">Tumour</h3>
 <p>Ask about:</p>
 <ul>
 <li>Prior or current cancer</li>
@@ -252,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="inflammatory" class="level3">
 <h3 class="anchored" data-anchor-id="inflammatory">Inflammatory</h3>
-<p>Ask about features suggestive of inflammatory back pain:</p>
+<p>Ask about features suggestive of axial spondyloarthritis:</p>
 <ul>
 <li>Chronic low back pain for more than 3 months</li>
 <li>Age of onset under 45 years</li>
@@ -302,8 +314,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Goals for return to activity</li>
 </ul>
 <p><br></p>
+<div class="bp-pagination">
 <p><a href="./back-pain-patterns.html" class="btn btn-outline-primary">← Previous: Clinical Patterns</a></p>
+<p><a href="./modules.html" class="btn btn-outline-secondary">All Modules</a></p>
 <p><a href="./back-pain-physical-exam.html" class="btn btn-primary">Next: Physical Exam →</a></p>
+</div>
 
 
 </section>
@@ -367,6 +382,27 @@ body.bp-page #quarto-document-content {
   font-weight: 700;
 }
 
+.bp-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.bp-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#bp-mobile-nav {
+  display: none;
+}
+
 /* Hide sidebar and restore normal spacing on smaller screens */
 @media (max-width: 1150px) {
   body.bp-page #quarto-content {
@@ -375,6 +411,43 @@ body.bp-page #quarto-document-content {
 
   #bp-section-nav {
     display: none;
+  }
+
+  #bp-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #bp-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #bp-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #bp-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #bp-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .bp-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -389,7 +462,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Physical Exam", href: "back-pain-physical-exam.html" },
     { title: "Investigations", href: "back-pain-investigations.html" },
     { title: "Management", href: "back-pain-management.html" },
-    { title: "Cases", href: "back-pain-cases.html" }
+    { title: "Cases", href: "back-pain-cases.html" },
+    { title: "References", href: "back-pain-references.html" }
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -399,10 +473,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("bp-page");
 
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
   const nav = document.createElement("aside");
   nav.id = "bp-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="bp-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -411,6 +488,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "bp-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="bp-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>
 ﻿<style>
@@ -471,6 +554,27 @@ body.pf-page #quarto-document-content {
   font-weight: 700;
 }
 
+.pf-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.pf-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#pf-mobile-nav {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   body.pf-page #quarto-content {
     padding-left: 0;
@@ -478,6 +582,43 @@ body.pf-page #quarto-document-content {
 
   #pf-section-nav {
     display: none;
+  }
+
+  #pf-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #pf-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #pf-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #pf-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #pf-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .pf-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -492,7 +633,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
     { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
     { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
-    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" },
+    { title: "References", href: "pain-fundamentals-references.html" }
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -502,10 +644,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("pf-page");
 
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
   const nav = document.createElement("aside");
   nav.id = "pf-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="pf-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -514,6 +659,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "pf-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="pf-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>
 
@@ -575,6 +726,27 @@ body.rp-page #quarto-document-content {
   font-weight: 700;
 }
 
+.rp-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.rp-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#rp-mobile-nav {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   body.rp-page #quarto-content {
     padding-left: 0;
@@ -582,6 +754,43 @@ body.rp-page #quarto-document-content {
 
   #rp-section-nav {
     display: none;
+  }
+
+  #rp-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #rp-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #rp-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #rp-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #rp-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .rp-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -596,6 +805,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Management", href: "radicular-pain-management.html" },
     { title: "Summary", href: "radicular-pain-summary.html" },
     { title: "More Cases", href: "radicular-pain-more-cases.html" },
+    { title: "References", href: "radicular-pain-references.html" },
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -605,216 +815,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("rp-page");
 
-  const nav = document.createElement("aside");
-  nav.id = "rp-section-nav";
-
-  let html = "<h3>Table of Contents</h3>";
-
-  pages.forEach(page => {
-    const activeClass = page.href === currentPage ? "active" : "";
-    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
-  });
-
-  nav.innerHTML = html;
-  document.body.appendChild(nav);
-});
-</script>
-﻿<style>
-/* Pain Fundamentals module integrated left sidebar */
-
-body.pf-page #quarto-content {
-  padding-left: 285px;
-}
-
-body.pf-page main.content,
-body.pf-page #quarto-document-content {
-  max-width: 950px !important;
-  margin-right: auto !important;
-}
-
-#pf-section-nav {
-  position: fixed;
-  top: 64px;
-  left: 0;
-  bottom: 0;
-  width: 255px;
-  z-index: 900;
-  background:
-    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
-    linear-gradient(to bottom, #fbfafb, #f4f1f3);
-  background-size: 26px 26px, auto;
-  border-right: 1px solid rgba(122, 0, 60, 0.22);
-  padding: 28px 22px;
-  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
-  font-size: 0.93rem;
-  overflow-y: auto;
-}
-
-#pf-section-nav h3 {
-  color: #7A003C;
-  font-size: 1.02rem;
-  margin: 0 0 18px 0;
-  font-weight: 800;
-}
-
-#pf-section-nav a {
-  display: block;
-  color: #7A003C;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 8px 10px;
-  border-radius: 7px;
-  margin-bottom: 6px;
-}
-
-#pf-section-nav a:hover {
-  background: rgba(122, 0, 60, 0.07);
-}
-
-#pf-section-nav a.active {
-  background: #7A003C;
-  color: #ffffff;
-  font-weight: 700;
-}
-
-@media (max-width: 1150px) {
-  body.pf-page #quarto-content {
-    padding-left: 0;
-  }
-
-  #pf-section-nav {
-    display: none;
-  }
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const pages = [
-    { title: "Introduction", href: "pain-fundamentals-introduction.html" },
-    { title: "Terminology", href: "pain-fundamentals-terminology.html" },
-    { title: "Pain Classification", href: "pain-fundamentals-classification.html" },
-    { title: "Pain Pathways", href: "pain-fundamentals-pathways.html" },
-    { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
-    { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
-    { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
-    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
-  ];
-
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
-  const isPainFundamentalsPage = pages.some(page => page.href === currentPage);
-
-  if (!isPainFundamentalsPage) return;
-
-  document.body.classList.add("pf-page");
-
-  const nav = document.createElement("aside");
-  nav.id = "pf-section-nav";
-
-  let html = "<h3>Table of Contents</h3>";
-
-  pages.forEach(page => {
-    const activeClass = page.href === currentPage ? "active" : "";
-    html += `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
-  });
-
-  nav.innerHTML = html;
-  document.body.appendChild(nav);
-});
-</script>
-
-﻿<style>
-/* Radicular Pain module integrated left sidebar */
-
-body.rp-page #quarto-content {
-  padding-left: 285px;
-}
-
-body.rp-page main.content,
-body.rp-page #quarto-document-content {
-  max-width: 950px !important;
-  margin-right: auto !important;
-}
-
-#rp-section-nav {
-  position: fixed;
-  top: 64px;
-  left: 0;
-  bottom: 0;
-  width: 255px;
-  z-index: 900;
-  background:
-    radial-gradient(circle, rgba(122, 0, 60, 0.055) 1.2px, transparent 1.2px),
-    linear-gradient(to bottom, #fbfafb, #f4f1f3);
-  background-size: 26px 26px, auto;
-  border-right: 1px solid rgba(122, 0, 60, 0.22);
-  padding: 28px 22px;
-  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
-  font-size: 0.93rem;
-  overflow-y: auto;
-}
-
-#rp-section-nav h3 {
-  color: #7A003C;
-  font-size: 1.02rem;
-  margin: 0 0 18px 0;
-  font-weight: 800;
-}
-
-#rp-section-nav a {
-  display: block;
-  color: #7A003C;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 8px 10px;
-  border-radius: 7px;
-  margin-bottom: 6px;
-}
-
-#rp-section-nav a:hover {
-  background: rgba(122, 0, 60, 0.07);
-}
-
-#rp-section-nav a.active {
-  background: #7A003C;
-  color: #ffffff;
-  font-weight: 700;
-}
-
-@media (max-width: 1150px) {
-  body.rp-page #quarto-content {
-    padding-left: 0;
-  }
-
-  #rp-section-nav {
-    display: none;
-  }
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const pages = [
-    { title: "Introduction", href: "radicular-pain-introduction.html" },
-    { title: "Relevant Anatomy", href: "radicular-pain-relevant-anatomy.html" },
-    { title: "Clinical Presentation", href: "radicular-pain-clinical-presentation.html" },
-    { title: "Investigations", href: "radicular-pain-investigations.html" },
-    { title: "Management", href: "radicular-pain-management.html" },
-    { title: "Summary", href: "radicular-pain-summary.html" },
-    { title: "More Cases", href: "radicular-pain-more-cases.html" },
-  ];
-
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
-  const isRadicularPainPage = pages.some(page => page.href === currentPage);
-
-  if (!isRadicularPainPage) return;
-
-  document.body.classList.add("rp-page");
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
 
   const nav = document.createElement("aside");
   nav.id = "rp-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="rp-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -823,8 +830,982 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "rp-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="rp-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>
+<style>
+
+body.dp-page #quarto-content {
+
+  padding-left: 285px;
+
+}
+
+
+
+body.dp-page main.content,
+
+body.dp-page #quarto-document-content {
+
+  max-width: 950px !important;
+
+  margin-right: auto !important;
+
+}
+
+
+
+#dp-section-nav {
+
+  position: fixed;
+
+  top: 64px;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 255px;
+
+  z-index: 900;
+
+  background: #fbfafb;
+
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+
+  padding: 28px 22px;
+
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+
+  font-size: 0.93rem;
+
+  overflow-y: auto;
+
+}
+
+
+
+#dp-section-nav h3 {
+
+  color: #7A003C;
+
+  font-size: 1.02rem;
+
+  margin: 0 0 18px 0;
+
+  font-weight: 800;
+
+}
+
+
+
+#dp-section-nav a {
+
+  display: block;
+
+  color: #7A003C;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  padding: 8px 10px;
+
+  border-radius: 7px;
+
+  margin-bottom: 6px;
+
+}
+
+
+
+#dp-section-nav a:hover {
+
+  background: rgba(122, 0, 60, 0.07);
+
+}
+
+
+
+#dp-section-nav a.active {
+
+  background: #7A003C;
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+}
+
+
+
+.dp-location {
+
+  display: block;
+
+  margin: -8px 0 16px;
+
+  color: #6a5b63;
+
+  font-size: 0.82rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+.dp-pagination {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  margin-top: 1.5rem;
+
+}
+
+
+
+#dp-mobile-nav {
+
+  display: none;
+
+}
+
+
+
+@media (max-width: 1150px) {
+
+  body.dp-page #quarto-content {
+
+    padding-left: 0;
+
+  }
+
+
+
+  #dp-section-nav {
+
+    display: none;
+
+  }
+
+
+
+  #dp-mobile-nav {
+
+    display: block;
+
+    margin: 0 0 1.5rem;
+
+    border: 1px solid rgba(122, 0, 60, 0.22);
+
+    border-radius: 8px;
+
+    background: #fbfafb;
+
+  }
+
+
+
+  #dp-mobile-nav summary {
+
+    cursor: pointer;
+
+    padding: 12px 14px;
+
+    color: #7A003C;
+
+    font-weight: 700;
+
+  }
+
+
+
+  #dp-mobile-nav nav {
+
+    padding: 0 8px 10px;
+
+  }
+
+
+
+  #dp-mobile-nav a {
+
+    display: block;
+
+    padding: 8px 10px;
+
+    border-radius: 6px;
+
+    color: #7A003C;
+
+    text-decoration: none;
+
+  }
+
+
+
+  #dp-mobile-nav a.active {
+
+    background: #7A003C;
+
+    color: #ffffff;
+
+    font-weight: 700;
+
+  }
+
+
+
+  .dp-pagination {
+
+    justify-content: center;
+
+  }
+
+}
+
+</style>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const pages = [
+
+    { title: "Introduction", href: "discogenic-pain-introduction.html" },
+
+    { title: "Relevant Anatomy", href: "discogenic-pain-relevant-anatomy.html" },
+
+    { title: "Pathophysiology", href: "discogenic-pain-pathophysiology.html" },
+
+    { title: "Clinical Presentation", href: "discogenic-pain-clinical-presentation.html" },
+
+    { title: "Investigations", href: "discogenic-pain-investigations.html" },
+
+    { title: "Management", href: "discogenic-pain-management.html" },
+
+    { title: "Case Example", href: "discogenic-pain-case-example.html" },
+
+    { title: "References", href: "discogenic-pain-references.html" }
+
+  ];
+
+
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  const isDiscogenicPainPage = pages.some(page => page.href === currentPage);
+
+
+
+  if (!isDiscogenicPainPage) return;
+
+
+
+  document.body.classList.add("dp-page");
+
+
+
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
+  const links = pages.map(page => {
+
+    const activeClass = page.href === currentPage ? "active" : "";
+
+    return `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+
+  }).join("");
+
+
+
+  const nav = document.createElement("aside");
+
+  nav.id = "dp-section-nav";
+
+  nav.innerHTML = `<h3>Table of Contents</h3><span class="dp-location">${locationText}</span>${links}`;
+
+  document.body.appendChild(nav);
+
+
+
+  const mobileNav = document.createElement("details");
+
+  mobileNav.id = "dp-mobile-nav";
+
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${links}</nav>`;
+
+  const documentContent = document.querySelector("#quarto-document-content");
+
+  if (documentContent) documentContent.prepend(mobileNav);
+
+});
+
+</script>
+<style>
+
+body.sl-page #quarto-content {
+
+  padding-left: 285px;
+
+}
+
+
+
+body.sl-page main.content,
+
+body.sl-page #quarto-document-content {
+
+  max-width: 950px !important;
+
+  margin-right: auto !important;
+
+}
+
+
+
+#sl-section-nav {
+
+  position: fixed;
+
+  top: 64px;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 255px;
+
+  z-index: 900;
+
+  background: #fbfafb;
+
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+
+  padding: 28px 22px;
+
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+
+  font-size: 0.93rem;
+
+  overflow-y: auto;
+
+}
+
+
+
+#sl-section-nav h3 {
+
+  color: #7A003C;
+
+  font-size: 1.02rem;
+
+  margin: 0 0 18px 0;
+
+  font-weight: 800;
+
+}
+
+
+
+#sl-section-nav a {
+
+  display: block;
+
+  color: #7A003C;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  padding: 8px 10px;
+
+  border-radius: 7px;
+
+  margin-bottom: 6px;
+
+}
+
+
+
+#sl-section-nav a:hover {
+
+  background: rgba(122, 0, 60, 0.07);
+
+}
+
+
+
+#sl-section-nav a.active {
+
+  background: #7A003C;
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+}
+
+
+
+.sl-location {
+
+  display: block;
+
+  margin: -8px 0 16px;
+
+  color: #6a5b63;
+
+  font-size: 0.82rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+.sl-pagination {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  margin-top: 1.5rem;
+
+}
+
+
+
+#sl-mobile-nav {
+
+  display: none;
+
+}
+
+
+
+@media (max-width: 1150px) {
+
+  body.sl-page #quarto-content {
+
+    padding-left: 0;
+
+  }
+
+
+
+  #sl-section-nav {
+
+    display: none;
+
+  }
+
+
+
+  #sl-mobile-nav {
+
+    display: block;
+
+    margin: 0 0 1.5rem;
+
+    border: 1px solid rgba(122, 0, 60, 0.22);
+
+    border-radius: 8px;
+
+    background: #fbfafb;
+
+  }
+
+
+
+  #sl-mobile-nav summary {
+
+    cursor: pointer;
+
+    padding: 12px 14px;
+
+    color: #7A003C;
+
+    font-weight: 700;
+
+  }
+
+
+
+  #sl-mobile-nav nav {
+
+    padding: 0 8px 10px;
+
+  }
+
+
+
+  #sl-mobile-nav a {
+
+    display: block;
+
+    padding: 8px 10px;
+
+    border-radius: 6px;
+
+    color: #7A003C;
+
+    text-decoration: none;
+
+  }
+
+
+
+  #sl-mobile-nav a.active {
+
+    background: #7A003C;
+
+    color: #ffffff;
+
+    font-weight: 700;
+
+  }
+
+
+
+  .sl-pagination {
+
+    justify-content: center;
+
+  }
+
+}
+
+</style>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const pages = [
+
+    { title: "Introduction", href: "spondylolisthesis-introduction.html" },
+
+    { title: "Relevant Anatomy", href: "spondylolisthesis-relevant-anatomy.html" },
+
+    { title: "Classification and Etiology", href: "spondylolisthesis-classification-etiology.html" },
+
+    { title: "Pathophysiology and Natural History", href: "spondylolisthesis-pathophysiology.html" },
+
+    { title: "Clinical Presentation", href: "spondylolisthesis-clinical-presentation.html" },
+
+    { title: "Diagnosis", href: "spondylolisthesis-diagnosis.html" },
+
+    { title: "Management", href: "spondylolisthesis-management.html" },
+
+    { title: "Advanced Topics", href: "spondylolisthesis-advanced-topics.html" },
+
+    { title: "Case Example", href: "spondylolisthesis-case-example.html" },
+
+    { title: "References", href: "spondylolisthesis-references.html" }
+
+  ];
+
+
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  const isSpondylolisthesisPage = pages.some(page => page.href === currentPage);
+
+
+
+  if (!isSpondylolisthesisPage) return;
+
+
+
+  document.body.classList.add("sl-page");
+
+
+
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
+  const links = pages.map(page => {
+
+    const activeClass = page.href === currentPage ? "active" : "";
+
+    return `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+
+  }).join("");
+
+
+
+  const nav = document.createElement("aside");
+
+  nav.id = "sl-section-nav";
+
+  nav.innerHTML = `<h3>Table of Contents</h3><span class="sl-location">${locationText}</span>${links}`;
+
+  document.body.appendChild(nav);
+
+
+
+  const mobileNav = document.createElement("details");
+
+  mobileNav.id = "sl-mobile-nav";
+
+  mobileNav.open = true;
+
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${links}</nav>`;
+
+  const documentContent = document.querySelector("#quarto-document-content");
+
+  if (documentContent) documentContent.prepend(mobileNav);
+
+});
+
+</script>
+<style>
+
+body.sp-page #quarto-content {
+
+  padding-left: 285px;
+
+}
+
+
+
+body.sp-page main.content,
+
+body.sp-page #quarto-document-content {
+
+  max-width: 950px !important;
+
+  margin-right: auto !important;
+
+}
+
+
+
+#sp-section-nav {
+
+  position: fixed;
+
+  top: 64px;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 255px;
+
+  z-index: 900;
+
+  background: #fbfafb;
+
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+
+  padding: 28px 22px;
+
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+
+  font-size: 0.93rem;
+
+  overflow-y: auto;
+
+}
+
+
+
+#sp-section-nav h3 {
+
+  color: #7A003C;
+
+  font-size: 1.02rem;
+
+  margin: 0 0 18px 0;
+
+  font-weight: 800;
+
+}
+
+
+
+#sp-section-nav a {
+
+  display: block;
+
+  color: #7A003C;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  padding: 8px 10px;
+
+  border-radius: 7px;
+
+  margin-bottom: 6px;
+
+}
+
+
+
+#sp-section-nav a:hover {
+
+  background: rgba(122, 0, 60, 0.07);
+
+}
+
+
+
+#sp-section-nav a.active {
+
+  background: #7A003C;
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+}
+
+
+
+.sp-location {
+
+  display: block;
+
+  margin: -8px 0 16px;
+
+  color: #6a5b63;
+
+  font-size: 0.82rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+.sp-pagination {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 10px;
+
+  margin-top: 1.5rem;
+
+}
+
+
+
+#sp-mobile-nav {
+
+  display: none;
+
+}
+
+
+
+@media (max-width: 1150px) {
+
+  body.sp-page #quarto-content {
+
+    padding-left: 0;
+
+  }
+
+
+
+  #sp-section-nav {
+
+    display: none;
+
+  }
+
+
+
+  #sp-mobile-nav {
+
+    display: block;
+
+    margin: 0 0 1.5rem;
+
+    border: 1px solid rgba(122, 0, 60, 0.22);
+
+    border-radius: 8px;
+
+    background: #fbfafb;
+
+  }
+
+
+
+  #sp-mobile-nav summary {
+
+    cursor: pointer;
+
+    padding: 12px 14px;
+
+    color: #7A003C;
+
+    font-weight: 700;
+
+  }
+
+
+
+  #sp-mobile-nav nav {
+
+    padding: 0 8px 10px;
+
+  }
+
+
+
+  #sp-mobile-nav a {
+
+    display: block;
+
+    padding: 8px 10px;
+
+    border-radius: 6px;
+
+    color: #7A003C;
+
+    text-decoration: none;
+
+  }
+
+
+
+  #sp-mobile-nav a.active {
+
+    background: #7A003C;
+
+    color: #ffffff;
+
+    font-weight: 700;
+
+  }
+
+
+
+  .sp-pagination {
+
+    justify-content: center;
+
+  }
+
+}
+
+</style>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const pages = [
+
+    { title: "Introduction", href: "spasticity-introduction.html" },
+
+    { title: "Relevant Anatomy", href: "spasticity-relevant-anatomy.html" },
+
+    { title: "Clinical Presentation", href: "spasticity-clinical-presentation.html" },
+
+    { title: "Investigations", href: "spasticity-investigations.html" },
+
+    { title: "Management", href: "spasticity-management.html" },
+
+    { title: "Summary", href: "spasticity-summary.html" },
+
+    { title: "Case Example", href: "spasticity-case-example.html" }
+
+  ];
+
+
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  const isSpasticityPage = pages.some(page => page.href === currentPage);
+
+
+
+  if (!isSpasticityPage) return;
+
+
+
+  document.body.classList.add("sp-page");
+
+
+
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+
+  const locationText = `${currentIndex + 1} of ${pages.length} - ${pages[currentIndex].title}`;
+
+  const links = pages.map(page => {
+
+    const activeClass = page.href === currentPage ? "active" : "";
+
+    return `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+
+  }).join("");
+
+
+
+  const nav = document.createElement("aside");
+
+  nav.id = "sp-section-nav";
+
+  nav.innerHTML = `<h3>Table of Contents</h3><span class="sp-location">${locationText}</span>${links}`;
+
+  document.body.appendChild(nav);
+
+
+
+  const mobileNav = document.createElement("details");
+
+  mobileNav.id = "sp-mobile-nav";
+
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${links}</nav>`;
+
+  const documentContent = document.querySelector("#quarto-document-content");
+
+  if (documentContent) documentContent.prepend(mobileNav);
+
+});
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
