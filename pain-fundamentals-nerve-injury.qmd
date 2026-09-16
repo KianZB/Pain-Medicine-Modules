@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Nerve Injury"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Nerve Injury</span>'
 ---
 
 Nerve injury is important in pain medicine because damage to the somatosensory nervous system can produce **neuropathic pain**.
@@ -17,6 +17,8 @@ The severity of injury influences both recovery potential and the likelihood of 
 
 A peripheral nerve is more than just a bundle of axons. It also has supporting connective tissue layers.
 
+This matters because nerve recovery depends not only on whether the axon is injured, but also on whether the surrounding scaffold remains intact.
+
 | Structure | Simple role |
 |---|---|
 | **Myelin** | Insulates axons and helps signals travel quickly |
@@ -24,8 +26,7 @@ A peripheral nerve is more than just a bundle of axons. It also has supporting c
 | **Endoneurium** | Connective tissue around individual nerve fibers |
 | **Perineurium** | Connective tissue around a fascicle, or bundle of nerve fibers |
 | **Epineurium** | Outer connective tissue layer around the whole nerve |
-
-This matters because nerve recovery depends not only on whether the axon is injured, but also on whether the surrounding scaffold remains intact.
+: {tbl-colwidths="[22,78]"}
 
 ![Peripheral nerve structure showing the axon and surrounding endoneurium, perineurium, and epineurium.](images/pain-fundamentals/nerve-structure.png){fig-align="center" width="55%"}
 
@@ -38,6 +39,7 @@ The Seddon classification is a simple way to categorize peripheral nerve injury.
 | **Neurapraxia** | Conduction block without axonal disruption | Best |
 | **Axonotmesis** | Axon is disrupted, but connective tissue framework is at least partly preserved | Possible through regeneration |
 | **Neurotmesis** | Complete nerve disruption | Worst |
+: {tbl-colwidths="[25,50,25]"}
 
 In practical terms:
 
@@ -49,6 +51,8 @@ In practical terms:
 
 The Sunderland classification gives a more detailed breakdown.
 
+The more connective tissue support is disrupted, the harder it is for regenerating axons to find the correct path back to their target.
+
 | Degree | Main structure injured | Approximate Seddon equivalent |
 |---|---|---|
 | **1st degree** | Myelin injury only | Neurapraxia |
@@ -56,8 +60,7 @@ The Sunderland classification gives a more detailed breakdown.
 | **3rd degree** | Axon and endoneurium injured | Axonotmesis |
 | **4th degree** | Fascicle/perineurium involved | Axonotmesis / severe injury |
 | **5th degree** | Complete nerve transection | Neurotmesis |
-
-The more connective tissue support is disrupted, the harder it is for regenerating axons to find the correct path back to their target.
+: {tbl-colwidths="[20,45,35]"}
 
 ![Simplified comparison of Seddon and Sunderland peripheral nerve injury classifications.](images/pain-fundamentals/nerve-classification.png){fig-align="center" width="65%"}
 
@@ -79,12 +82,6 @@ One clinically important feature of neuropathic pain is that patients can have b
 
 Injured nerves may generate ectopic discharges, become more sensitive to stimulation, or form painful neuroma-like changes after trauma or surgery. These abnormal signals can then be amplified by peripheral or central sensitization.
 
-::: {.callout-note}
-## Key idea
-
-Neuropathic pain does not require normal sensation. A damaged nerve can produce pain, numbness, tingling, or abnormal unpleasant sensations.
-:::
-
 ## Regeneration and recurrent pain
 
 If the connective tissue framework is preserved, axons may regenerate over time.
@@ -93,20 +90,12 @@ This is clinically important because some pain procedures intentionally interrup
 
 This concept helps explain why treatments such as radiofrequency ablation can provide meaningful relief for months, but may not be permanent.
 
-## Bridge to interventional pain
-
-Pain procedures are most useful when there is a specific target that plausibly carries the pain signal.
-
-For example:
-
-- A painful facet joint is supplied by predictable sensory nerves called **medial branch nerves**.
-- If blocking those nerves temporarily relieves pain, this supports the idea that they are carrying clinically relevant pain signals.
-- A longer-lasting procedure, such as radiofrequency ablation, may then be considered.
-
-This approach connects anatomy, diagnosis, and treatment.
-
 <br>
 
+::: {.pf-pagination}
 [← Previous: Pain Modulation](pain-fundamentals-modulation.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Radiofrequency Ablation →](pain-fundamentals-rfa.qmd){.btn .btn-primary}
+:::

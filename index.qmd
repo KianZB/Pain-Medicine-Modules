@@ -2,8 +2,82 @@
 title: "Pain Medicine Learning Modules"
 ---
 
-Welcome to this website for interactive case-based pain medicine learning. 
+Welcome to the Pain Medicine Learning Modules website!
 
-## Start here
+<p>Pain Medicine Learning Modules is an educational website for medical students, residents, and other interested learners who want to explore topics in pain medicine. This project is developed by McMaster medical students with an interest in making pain medicine learning practical and accessible.</p>
+<p>The site has a particular focus on back pain, combining foundational concepts with practical approaches to assessment, investigation, and management. The modules are designed to support clear, clinically relevant learning that can be revisited at a learner's own pace.</p>
 
-Go to the [Modules](modules.qmd) page to launch the sample modules. 
+<div class="home-page-actions">
+<details class="home-panel">
+<summary class="home-panel-summary">Meet the Team</summary>
+<div class="home-panel-content">
+<div class="home-team-grid">
+<div class="home-team-card">
+<h4>Kian Zargham Bakhtiari</h4>
+<p>McMaster University<br>Medical student, Class of 2027</p>
+<p><strong>Founder, Editor, Module Writer</strong></p>
+</div>
+
+<div class="home-team-card">
+<h4>Celine Chak</h4>
+<p>McMaster University<br>Medical student, Class of 2028</p>
+<p><strong>Module Writer</strong></p>
+</div>
+
+<div class="home-team-card">
+<h4>Emily Jiang</h4>
+<p>McMaster University<br>Medical student, Class of 2028</p>
+<p><strong>Module Writer</strong></p>
+</div>
+
+<div class="home-team-card">
+<h4>Tarun Haridasan</h4>
+<p>McMaster University<br>Medical student, Class of 2028</p>
+<p><strong>Module Writer</strong></p>
+</div>
+</div>
+</div>
+</details>
+
+<details class="home-panel">
+<summary class="home-panel-summary">Modules</summary>
+<div class="home-panel-content">
+<p class="home-module-intro">Please select any of the completed modules below to explore further.</p>
+<div class="home-module-grid">
+<div class="home-module-column">
+<h3>Foundations</h3>
+<a class="btn btn-primary" href="pain-fundamentals-introduction.qmd">Pain Fundamentals</a>
+
+<a class="btn btn-primary" href="back-pain-introduction.qmd">Back Pain Basics</a>
+
+<a class="btn btn-primary" href="coming-soon.qmd">Physical Examination</a>
+<span class="coming-soon-label">(coming soon)</span>
+</div>
+
+<div class="home-module-column">
+<h3>Pain Patterns</h3>
+<a class="btn btn-primary" href="radicular-pain-introduction.qmd">Lumbar Radicular Pain</a>
+
+<a class="btn btn-primary" href="discogenic-pain-introduction.qmd">Discogenic Pain</a>
+
+<a class="btn btn-primary" href="spondylolisthesis-introduction.qmd">Spondylolisthesis</a>
+
+<a class="btn btn-primary" href="coming-soon.qmd">Facetogenic Pain</a> (coming soon)
+
+<a class="btn btn-primary" href="coming-soon.qmd">Neurogenic Claudication</a> (coming soon)
+
+<a class="btn btn-primary" href="coming-soon.qmd">Sacroiliac Pain</a> (coming soon)
+</div>
+
+<div class="home-module-column">
+<h3>Special Topics</h3>
+<a class="btn btn-primary" href="spasticity-introduction.qmd">Spasticity</a>
+
+<a class="btn btn-primary" href="coming-soon.qmd">Cervical Radicular Pain</a> (coming soon)
+
+<a class="btn btn-primary" href="coming-soon.qmd">EMG/NCS</a> (coming soon)
+</div>
+</div>
+</div>
+</details>
+</div>

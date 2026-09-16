@@ -1,0 +1,9 @@
+---
+title: "Coming Soon"
+---
+
+## This module is coming soon
+
+We are developing this learning module and will add it to the site in a future update.
+
+[← Back to All Modules](modules.qmd){.btn .btn-primary}

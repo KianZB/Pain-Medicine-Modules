@@ -1,0 +1,77 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">References</span>'
+---
+
+## References
+
+::: {.references}
+
+1. Aoki, Y., Takahashi, H., Nakajima, A., Kubota, G., Watanabe, A., Nakajima, T., Eguchi, Y., Orita, S., Fukuchi, H., Yanagawa, N., Nakagawa, K., & Ohtori, S. (2020). Prevalence of lumbar spondylolysis and spondylolisthesis in patients with degenerative spinal disease. *Scientific Reports, 10*(1), 6739. [https://doi.org/10.1038/s41598-020-63784-0](https://doi.org/10.1038/s41598-020-63784-0)
+
+2. Beutler, W. J., Fredrickson, B. E., Murtland, A., Sweeney, C. A., Grant, W. D., & Baker, D. (2003). The natural history of spondylolysis and spondylolisthesis: 45-year follow-up evaluation. *Spine, 28*(10), 1027–1035; discussion 1035. [https://doi.org/10.1097/01.BRS.0000061992.98108.A0](https://doi.org/10.1097/01.BRS.0000061992.98108.A0)
+
+3. Cavalier, R., Herman, M. J., Cheung, E. V., & Pizzutillo, P. D. (2006). Spondylolysis and spondylolisthesis in children and adolescents: I. Diagnosis, natural history, and nonsurgical management. *The Journal of the American Academy of Orthopaedic Surgeons, 14*(7), 417–424. [https://doi.org/10.5435/00124635-200607000-00004](https://doi.org/10.5435/00124635-200607000-00004)
+
+4. Chan, A. K., Sharma, V., Robinson, L. C., & Mummaneni, P. V. (2019). Summary of guidelines for the treatment of lumbar spondylolisthesis. *Neurosurgery Clinics of North America, 30*(3), 353–364. [https://doi.org/10.1016/j.nec.2019.02.009](https://doi.org/10.1016/j.nec.2019.02.009)
+
+5. Daher, M., Rezk, A., Baroudi, M., Balmaceno-Criss, M., Gregorczyk, J. G., McDermott, J. R., Mcdonald, C. L., Lafage, R., Lafage, V., Daniels, A. H., & Diebo, B. G. (2024). Lumbar spondylolisthesis grading: Current standards and important factors to consider for management. *World Neurosurgery, 190*, 311–317. [https://doi.org/10.1016/j.wneu.2024.07.194](https://doi.org/10.1016/j.wneu.2024.07.194)
+
+6. DeWald, C. J., Vartabedian, J. E., Rodts, M. F., & Hammerberg, K. W. (2005). Evaluation and management of high-grade spondylolisthesis in adults. *Spine, 30*(6 Suppl), S49–S59. [https://doi.org/10.1097/01.brs.0000155573.34179.7e](https://doi.org/10.1097/01.brs.0000155573.34179.7e)
+
+7. Diebo, B. G., Lafage, V., & Schwab, F. (2016). Pelvic incidence: The great biomechanical effort. *Spine, 41*(Suppl 7), S21–S22. [https://doi.org/10.1097/BRS.0000000000001430](https://doi.org/10.1097/BRS.0000000000001430)
+
+8. Earwood, J. S., Doles, N. A., & Russell, R. S. (2025). Acute low back pain: Diagnosis and management. *American Family Physician, 112*(5), 526–536C.
+
+9. Folkerts, T., Schönnagel, L., Hoehl, B., Bürck, L., Preininger, I., Muellner, M., Labbus, K., Khakzad, T., Pumberger, M., & Schömig, F. (2026). Reconsidering flexion-extension imaging: The emerging role of supine MRI and upright radiographs in isthmic lumbar spondylolisthesis. *European Spine Journal: Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society, 35*(5), 2953–2962. [https://doi.org/10.1007/s00586-025-09692-1](https://doi.org/10.1007/s00586-025-09692-1)
+
+10. Hammerberg, K. W. (2005). New concepts on the pathogenesis and classification of spondylolisthesis. *Spine, 30*(6 Suppl), S4–S11. [https://doi.org/10.1097/01.brs.0000155576.62159.1c](https://doi.org/10.1097/01.brs.0000155576.62159.1c)
+
+11. Helenius, I., Virkki, E., Toomela, T., Studer, D., Gehrchen, M., & Ahonen, M. (2025). An Acta Orthopaedica educational article: Treatment of pediatric spondylolysis and spondylolisthesis. *Acta Orthopaedica, 96*, 80–86. [https://doi.org/10.2340/17453674.2024.42450](https://doi.org/10.2340/17453674.2024.42450)
+
+12. Jani, M., Dayon, E., Mehta, N., Aggarwal, K., Fortin, J. D., Zektser, K., Lewis, J., Lawandy, M., Ju, R., Yener, U., Krystal, J. D., Yassari, R., Kaye, A. D., & Wahezi, S. E. (2025). Accuracy of imaging in dynamic spondylolisthesis: Emerging strategies and understanding for pain physicians: A systematic review. *Pain Physician, 28*(2), 97–103.
+
+13. Katz, J. N., Zimmerman, Z. E., Mass, H., & Makhni, M. C. (2022). Diagnosis and management of lumbar spinal stenosis: A review. *JAMA, 327*(17), 1688–1699. [https://doi.org/10.1001/jama.2022.5921](https://doi.org/10.1001/jama.2022.5921)
+
+14. Knezevic, N. N., Candido, K. D., Vlaeyen, J. W. S., Van Zundert, J., & Cohen, S. P. (2021). Low back pain. *The Lancet, 398*(10294), 78–92. [https://doi.org/10.1016/S0140-6736(21)00733-9](https://doi.org/10.1016/S0140-6736(21)00733-9)
+
+15. Lai, Q., Gao, T., Lv, X., Liu, X., Wan, Z., Dai, M., Zhang, B., & Nie, T. (2018). Correlation between the sagittal spinopelvic alignment and degenerative lumbar spondylolisthesis: A retrospective study. *BMC Musculoskeletal Disorders, 19*(1), 151. [https://doi.org/10.1186/s12891-018-2073-z](https://doi.org/10.1186/s12891-018-2073-z)
+
+16. Lak, A. M., Abunimer, A. M., Devi, S., Chawla, S., Aydin, L., Tafel, I., Smith, T. R., Mekary, R. A., & Zaidi, H. A. (2020). Reduction versus in situ fusion for adult high-grade spondylolisthesis: A systematic review and meta-analysis. *World Neurosurgery, 138*, 512–520.e2. [https://doi.org/10.1016/j.wneu.2020.03.030](https://doi.org/10.1016/j.wneu.2020.03.030)
+
+17. Lintner, L. J., Swisher, J., & Sitton, Z. E. (2023). Childhood and adolescent sports-related overuse injuries. *American Family Physician, 108*(6), 544–553.
+
+18. Liu, P., Liu, C., Kang, Y., Luo, Y., Han, Y., Xie, Z., & Zhou, B. (2026). Natural progression patterns of lumbar spondylolysis and low-grade spondylolisthesis in late adolescents: A multicentral, non-interventional, longitudinal cohort study. *Spine*. [https://doi.org/10.1097/BRS.0000000000005798](https://doi.org/10.1097/BRS.0000000000005798)
+
+19. MacDonald, J., Stuart, E., & Rodenberg, R. (2017). Musculoskeletal low back pain in school-aged children: A review. *JAMA Pediatrics, 171*(3), 280–287. [https://doi.org/10.1001/jamapediatrics.2016.3334](https://doi.org/10.1001/jamapediatrics.2016.3334)
+
+20. Maharty, D. C., Hines, S. C., & Brown, R. B. (2024). Chronic low back pain in adults: Evaluation and management. *American Family Physician, 109*(3), 233–244.
+
+21. Matz, P. G., Meagher, R. J., Lamer, T., Tontz, W. L., Annaswamy, T. M., Cassidy, R. C., Cho, C. H., Dougherty, P., Easa, J. E., Enix, D. E., Gunnoe, B. A., Jallo, J., Julien, T. D., Maserati, M. B., Nucci, R. C., O’Toole, J. E., Rosolowski, K., Sembrano, J. N., Villavicencio, A. T., & Witt, J.-P. (2016). Guideline summary review: An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis. *The Spine Journal: Official Journal of the North American Spine Society, 16*(3), 439–448. [https://doi.org/10.1016/j.spinee.2015.11.055](https://doi.org/10.1016/j.spinee.2015.11.055)
+
+22. Mehta, V. A., Amin, A., Omeis, I., Gokaslan, Z. L., & Gottfried, O. N. (2015). Implications of spinopelvic alignment for the spine surgeon. *Neurosurgery, 76*(Suppl 1), S42–S56; discussion S56. [https://doi.org/10.1227/01.neu.0000462077.50830.1a](https://doi.org/10.1227/01.neu.0000462077.50830.1a)
+
+23. Mohile, N. V., Kuczmarski, A. S., Lee, D., Warburton, C., Rakoczy, K., & Butler, A. J. (2022). Spondylolysis and isthmic spondylolisthesis: A guide to diagnosis and management. *Journal of the American Board of Family Medicine, 35*(6), 1204–1216. [https://doi.org/10.3122/jabfm.2022.220130R1](https://doi.org/10.3122/jabfm.2022.220130R1)
+
+24. Polly, D. W., Haselhuhn, J. J., Soriano, P. B. O., Odland, K., & Jones, K. E. (2023). Management of high-grade dysplastic spondylolisthesis. *Neurosurgery Clinics of North America, 34*(4), 567–572. [https://doi.org/10.1016/j.nec.2023.06.003](https://doi.org/10.1016/j.nec.2023.06.003)
+
+25. Reitman, C. A., Cho, C. H., Bono, C. M., Ghogawala, Z., Glaser, J., Kauffman, C., Mazanec, D., O’Brien, D., O’Toole, J., Prather, H., Resnick, D., Schofferman, J., Smith, M. J., Sullivan, W., Tauzell, J., Truumees, E., Wang, J., Watters, W., Wetzel, F. T., & Whitcomb, G. (2021). Management of degenerative spondylolisthesis: Development of appropriate use criteria. *The Spine Journal: Official Journal of the North American Spine Society, 21*(8), 1256–1267. [https://doi.org/10.1016/j.spinee.2021.03.005](https://doi.org/10.1016/j.spinee.2021.03.005)
+
+26. Sima, S., Chen, X., Sheldrick, K., Lu, A., & Diwan, A. D. (2024). Imaging predictors of progression of lumbar spondylolysis to spondylolisthesis: A systematic review. *The Spine Journal, 24*(8), 1431–1442. [https://doi.org/10.1016/j.spinee.2024.03.010](https://doi.org/10.1016/j.spinee.2024.03.010)
+
+27. Taillard, W. F. (1976). Etiology of spondylolisthesis. *Clinical Orthopaedics and Related Research*, (117), 30–39.
+
+28. Wu, H.-H., Brown, K., Flores, M., Cazzulino, A., & Swarup, I. (2022). Diagnosis and management of spondylolysis and spondylolisthesis in children. *JBJS Reviews, 10*(3). [https://doi.org/10.2106/JBJS.RVW.21.00176](https://doi.org/10.2106/JBJS.RVW.21.00176)
+
+29. Yoshihara, H. (2020). Pathomechanisms and predisposing factors for degenerative lumbar spondylolisthesis: A narrative review. *JBJS Reviews, 8*(9), e2000068. [https://doi.org/10.2106/JBJS.RVW.20.00068](https://doi.org/10.2106/JBJS.RVW.20.00068)
+
+30. Zhang, Z., Tantai, M., Ma, H., Yu, S., Chen, B., & Lu, Z. (2025). Analysis of risk factors for lumbar spondylolisthesis: A logistic regression study. *World Neurosurgery, 197*, 123931. [https://doi.org/10.1016/j.wneu.2025.123931](https://doi.org/10.1016/j.wneu.2025.123931)
+
+:::
+
+<br>
+
+::: {.sl-pagination}
+[← Previous: Case Example](spondylolisthesis-case-example.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+:::

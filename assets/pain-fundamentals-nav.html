@@ -56,6 +56,27 @@ body.pf-page #quarto-document-content {
   font-weight: 700;
 }
 
+.pf-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.pf-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#pf-mobile-nav {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   body.pf-page #quarto-content {
     padding-left: 0;
@@ -63,6 +84,43 @@ body.pf-page #quarto-document-content {
 
   #pf-section-nav {
     display: none;
+  }
+
+  #pf-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #pf-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #pf-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #pf-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #pf-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .pf-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -77,7 +135,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Sensitization", href: "pain-fundamentals-sensitization.html" },
     { title: "Pain Modulation", href: "pain-fundamentals-modulation.html" },
     { title: "Nerve Injury", href: "pain-fundamentals-nerve-injury.html" },
-    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" }
+    { title: "Radiofrequency Ablation", href: "pain-fundamentals-rfa.html" },
+    { title: "References", href: "pain-fundamentals-references.html" }
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -87,10 +146,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("pf-page");
 
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
   const nav = document.createElement("aside");
   nav.id = "pf-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="pf-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -99,5 +161,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "pf-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="pf-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>

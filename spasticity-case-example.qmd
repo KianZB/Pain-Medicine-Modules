@@ -1,0 +1,80 @@
+---
+title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Case Example</span>'
+---
+
+## Clinical Scenario
+
+A 62-year-old man comes to the rehabilitation clinic four months after a left-sided ischemic stroke. He has right-sided weakness. Over the past few weeks, his right arm has become tight and curls up against his chest. He cannot open his right hand easily, and his wife has trouble cleaning his palm. He drags his right foot when he walks and has painful grabbing in the arm at night.
+
+Past medical history includes high blood pressure, type 2 diabetes, and atrial fibrillation treated with anticoagulation.
+
+### Examination
+
+- Right arm held with the elbow, wrist, and fingers bent and the forearm turned down.
+- When the elbow is straightened quickly, resistance increases and a catch is felt part-way through. Slow movement is easier.
+- Strength is weaker on the right, more so in the hand.
+- Reflexes are brisk on the right, with a few beats of ankle clonus and an upgoing right toe.
+- The joints can still be moved through a full range at rest, with no fixed stiffness yet.
+
+::: {.callout-tip}
+## Question 1
+
+What is the best term for this increased tone, and which examination findings support it?
+
+<details>
+<summary>Show answer</summary>
+
+The patient has spasticity. This is demonstrated by the velocity-dependent catch when the arm is passively moved quickly during the physical examination.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 2
+
+What findings show this is part of the upper motor neuron syndrome?
+
+<details>
+<summary>Show answer</summary>
+
+Weakness, brisk reflexes, clonus, a flexed arm posture, and an upgoing right toe are all signs of upper motor neuron syndrome.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 3
+
+How do you distinguish spasticity from rigidity, dystonia, and a fixed contracture at the bedside? Which features does this patient have?
+
+<details>
+<summary>Show answer</summary>
+
+- **Spasticity:** Resistance is worse with fast stretch and shows a catch.
+- **Rigidity:** Resistance is similar at any speed, producing lead-pipe or cogwheel rigidity.
+- **Dystonia:** Sustained posturing or contraction occurs even at rest.
+- **Fixed contracture:** The joint cannot be moved through its full range at any speed.
+
+The patient clearly has spasticity, as demonstrated by the velocity-dependent catch. His persistent flexed arm posture may also represent spastic dystonia, but the catch itself is a feature of spasticity.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 4
+
+What would be the treatment plan for this patient?
+
+<details>
+<summary>Show answer</summary>
+
+Physical rehabilitation would be the main treatment approach. Depending on the distribution and severity of symptoms, pharmacological agents and focal botulinum toxin treatment may also be considered. Intrathecal baclofen is an option for severe generalized spasticity that is inadequately controlled with, or limited by adverse effects from, oral therapy. Surgery, such as tendon lengthening, is reserved for severe cases that do not improve with more conservative treatments.
+
+</details>
+:::
+
+::: {.sp-pagination}
+[← Summary](spasticity-summary.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-primary}
+:::

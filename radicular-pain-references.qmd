@@ -1,0 +1,47 @@
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">References</span>'
+---
+
+::: {.references}
+
+1. Amin, R. M., Andrade, N. S., & Neuman, B. J. (2017). Lumbar disc herniation. *Current Reviews in Musculoskeletal Medicine, 10*(4), 507–516. <https://doi.org/10.1007/s12178-017-9441-4>
+
+2. Armon, C., Narayanaswami, P., Potrebic, S., Gronseth, G., Bačkonja, M. M., Cai, V. L., Dorman, J., Gilligan, C., Heller, S. A., Silsbee, H. M., & Smith, D. B. (2025). Epidural steroids for cervical and lumbar radicular pain and spinal stenosis systematic review summary: Report of the AAN Guidelines Subcommittee. *Neurology, 104*(5), e213361. <https://doi.org/10.1212/WNL.0000000000213361>
+
+3. Berry, J. A., Elia, C., Saini, H. S., & Miulli, D. E. (2019). A review of lumbar radiculopathy, diagnosis, and treatment. *Cureus, 11*(10), e5934. <https://doi.org/10.7759/cureus.5934>
+
+4. Brinjikji, W., Luetmer, P. H., Comstock, B., Bresnahan, B. W., Chen, L. E., Deyo, R. A., Halabi, S., Turner, J. A., Avins, A. L., James, K., Wald, J. T., Kallmes, D. F., & Jarvik, J. G. (2015). Systematic literature review of imaging features of spinal degeneration in asymptomatic populations. *American Journal of Neuroradiology, 36*(4), 811–816. <https://doi.org/10.3174/ajnr.A4173>
+
+5. Fardon, D. F., Williams, A. L., Dohring, E. J., Murtagh, F. R., Rothman, S. L. G., & Sze, G. K. (2014). Lumbar disc nomenclature: Version 2.0: Recommendations of the combined task forces of the North American Spine Society, the American Society of Spine Radiology and the American Society of Neuroradiology. *The Spine Journal, 14*(11), 2525–2545. <https://doi.org/10.1016/j.spinee.2014.04.022>
+
+6. Hasoon, J., Hung, J., Atallah, G., Kaye, A. D., & Robinson, C. L. (2026). Lumbar epidural steroid injection approaches: A practical overview for trainees. *Orthopedic Reviews, 18*, 163307. <https://doi.org/10.52965/001c.163307>
+
+7. Hutchins, T. A., Peckham, M., Shah, L. M., Parsons, M. S., Agarwal, V., Boulter, D. J., Burns, J., Cassidy, R. C., Davis, M. A., Holly, L. T., Hunt, C. H., Khan, M. A., Moritani, T., Ortiz, A. O., O’Toole, J. E., Powers, W. J., Promes, S. B., Reitman, C., Shah, V. N., . . . Corey, A. S. (2021). ACR Appropriateness Criteria® low back pain: 2021 update. *Journal of the American College of Radiology, 18*(11S), S361–S379. <https://doi.org/10.1016/j.jacr.2021.08.002>
+
+8. Khorami, A. K., Oliveira, C. B., Maher, C. G., Bindels, P. J. E., Machado, G. C., Pinto, R. Z., Koes, B. W., & Chiarotto, A. (2021). Recommendations for diagnosis and treatment of lumbosacral radicular pain: A systematic review of clinical practice guidelines. *Journal of Clinical Medicine, 10*(11), 2482. <https://doi.org/10.3390/jcm10112482>
+
+9. Lefkowitz, T. R. (2023). Electrodiagnosis of radiculopathies (cervical, thoracic, and lumbar). *PM&R KnowledgeNow*. American Academy of Physical Medicine and Rehabilitation. <https://now.aapmr.org/electrodiagnosis-of-radiculopathies-cervical-thoracic-and-lumbar/>
+
+10. Murphy, C. A., & Forte, J. A. (2026). Lumbar radiculopathy. *PM&R KnowledgeNow*. American Academy of Physical Medicine and Rehabilitation. <https://now.aapmr.org/lumbar-radiculopathy/>
+
+11. Orthobullets. (2026). *Lumbar disc herniation*. <https://www.orthobullets.com/spine/2035/lumbar-disc-herniation>
+
+12. Soar, H., Comer, C., Wilby, M. J., & Baranidharan, G. (2022). Lumbar radicular pain. *BJA Education, 22*(9), 343–349. <https://doi.org/10.1016/j.bjae.2022.05.003>
+
+13. Wang, Y., Dai, G., Jiang, L., & Liao, S. (2020). The incidence of regression after the non-surgical treatment of symptomatic lumbar disc herniation: A systematic review and meta-analysis. *BMC Musculoskeletal Disorders, 21*, 530. <https://doi.org/10.1186/s12891-020-03548-z>
+
+14. Waxenbaum, J. A., Reddy, V., & Futterman, B. (2026). Anatomy, back, intervertebral discs. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK470583/>
+
+15. Weinstein, J. N., Tosteson, T. D., Lurie, J. D., Tosteson, A. N. A., Hanscom, B., Skinner, J. S., Abdu, W. A., Hilibrand, A. S., Boden, S. D., & Deyo, R. A. (2006). Surgical vs nonoperative treatment for lumbar disk herniation: The Spine Patient Outcomes Research Trial (SPORT): A randomized trial. *JAMA, 296*(20), 2441–2450. <https://doi.org/10.1001/jama.296.20.2441>
+
+16. Yang, S., Kim, W., Kong, H. H., Do, K. H., & Choi, K. H. (2020). Epidural steroid injection versus conservative treatment for patients with lumbosacral radicular pain: A meta-analysis of randomized controlled trials. *Medicine, 99*(30), e21283. <https://doi.org/10.1097/MD.0000000000021283>
+
+:::
+
+<br>
+
+::: {.rp-pagination}
+[← Previous: More Cases](radicular-pain-more-cases.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-primary}
+:::

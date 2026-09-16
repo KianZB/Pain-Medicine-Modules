@@ -1,0 +1,25 @@
+---
+title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Introduction</span>'
+---
+
+Spasticity is a velocity-dependent increase in muscle tone due to an exaggerated stretch reflex and is a component of the upper motor neuron syndrome.
+
+This is a valuable topic to cover and is commonly seen in patients with neuromuscular conditions, particularly upper motor neuron lesions. Common etiologies include multiple sclerosis, stroke, spinal cord injury, and cerebral palsy. It is encountered by a wide range of specialties, including neurology, general internal medicine, family medicine, physical medicine, emergency medicine, and more.
+
+::: {.callout-note}
+## By the end of this module, you should be comfortable with:
+
+- [ ] Knowing the most common causes of spasticity
+- [ ] Explaining the normal mechanisms of reflexes and motor pathways, then the pathophysiology behind spasticity
+- [ ] Identifying the key clinical tests and signs of spasticity, recognizing red flags, and understanding what they mean
+- [ ] Knowing the diagnostic algorithm and steps for further investigation, while building an appropriate differential
+- [ ] Proposing initial treatments and long-term management strategies for spasticity
+:::
+
+**Module writer:** Emily Jiang
+
+::: {.sp-pagination}
+[← All Modules](modules.qmd){.btn .btn-outline-primary}
+
+[Next: Relevant Anatomy →](spasticity-relevant-anatomy.qmd){.btn .btn-primary}
+:::

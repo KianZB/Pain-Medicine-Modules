@@ -1,0 +1,161 @@
+<style>
+body.dp-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.dp-page main.content,
+body.dp-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#dp-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background: #fbfafb;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#dp-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#dp-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#dp-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#dp-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.dp-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.dp-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#dp-mobile-nav {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  body.dp-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #dp-section-nav {
+    display: none;
+  }
+
+  #dp-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #dp-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #dp-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #dp-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #dp-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .dp-pagination {
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "discogenic-pain-introduction.html" },
+    { title: "Relevant Anatomy", href: "discogenic-pain-relevant-anatomy.html" },
+    { title: "Pathophysiology", href: "discogenic-pain-pathophysiology.html" },
+    { title: "Clinical Presentation", href: "discogenic-pain-clinical-presentation.html" },
+    { title: "Investigations", href: "discogenic-pain-investigations.html" },
+    { title: "Management", href: "discogenic-pain-management.html" },
+    { title: "Case Example", href: "discogenic-pain-case-example.html" },
+    { title: "References", href: "discogenic-pain-references.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isDiscogenicPainPage = pages.some(page => page.href === currentPage);
+
+  if (!isDiscogenicPainPage) return;
+
+  document.body.classList.add("dp-page");
+
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+  const links = pages.map(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    return `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  }).join("");
+
+  const nav = document.createElement("aside");
+  nav.id = "dp-section-nav";
+  nav.innerHTML = `<h3>Table of Contents</h3><span class="dp-location">${locationText}</span>${links}`;
+  document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "dp-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${links}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
+});
+</script>

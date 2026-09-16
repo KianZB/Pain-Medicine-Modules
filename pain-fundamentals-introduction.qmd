@@ -1,10 +1,12 @@
 ﻿---
-title: "Pain Fundamentals: Introduction"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Introduction</span>'
 ---
 
 Pain is one of the most important concepts in clinical medicine. It is common, personal, and often multifactorial. Understanding pain requires more than simply identifying tissue damage because pain is shaped by the peripheral nervous system, the central nervous system, as well as the broader biological, psychological, and social context of the patient.
 
 This module is designed to be the first that students will complete in this series of pain-related modules. The goal is to introduce the core language and physiology needed to understand pain presentations in a structured way, before delving into clinical cases.
+
+**Estimated time:** 50–65 minutes
 
 ::: {.callout-note}
 ## By the end of this module, you should be comfortable with:
@@ -19,8 +21,12 @@ This module is designed to be the first that students will complete in this seri
 - [ ] Understanding the basic rationale behind radiofrequency ablation
 :::
 
+**Module writer:** Kian Zargham Bakhtiari
+
 <br>
 
+::: {.pf-pagination}
 [← All Modules](modules.qmd){.btn .btn-outline-primary}
 
 [Next: Terminology →](pain-fundamentals-terminology.qmd){.btn .btn-primary}
+:::

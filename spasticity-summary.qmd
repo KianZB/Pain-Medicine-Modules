@@ -1,0 +1,48 @@
+---
+title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Summary</span>'
+---
+
+## Big Picture
+
+Spasticity is a velocity-dependent increase in muscle tone due to an exaggerated stretch reflex and is a component of the upper motor neuron syndrome.
+
+Underlying pathological features include:
+
+- Impaired voluntary motor control
+- Involuntary muscle overactivity
+- Tissue remodeling
+
+## Key Signs
+
+- Velocity-dependent resistance to passive movement
+- Catch and release or clasp-knife phenomenon
+- Hyperreflexia
+- Abnormal posturing
+- Clonus
+- Spastic co-contraction or spastic dystonia
+
+## Key Causes
+
+- Stroke
+- Multiple sclerosis
+- Cerebral palsy
+- Traumatic brain injury
+- Spinal cord injury
+- Amyotrophic lateral sclerosis
+
+## Investigation
+
+Spasticity is primarily a clinical diagnosis. Further investigations are guided by the suspected underlying cause.
+
+## Management
+
+- Pharmacological treatment, including baclofen, intrathecal baclofen, tizanidine, dantrolene, and diazepam
+- Physiotherapy and rehabilitation
+- Focal or multifocal treatment with botulinum toxin when appropriate
+- Functional electrical stimulation in selected patients
+
+::: {.sp-pagination}
+[← Management](spasticity-management.qmd){.btn .btn-outline-primary}
+
+[Next: Case Example →](spasticity-case-example.qmd){.btn .btn-primary}
+:::

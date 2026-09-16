@@ -1,10 +1,12 @@
 ﻿---
-title: "Back Pain Basics: Introduction"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Introduction</span>'
 ---
 
 Back pain is one of the most common complaints encountered in clinical medicine. It is broad, multifactorial, and relevant across many specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physiatry.
 
 This module is designed to introduce a practical framework for approaching back pain before moving into more specific clinical pain patterns. The goal is to build the foundational anatomy, clinical reasoning, and management approach needed for the modules that follow.
+
+**Estimated time:** 45–60 minutes
 
 ::: {.callout-note}
 ## By the end of this module, you should be comfortable with:
@@ -18,8 +20,12 @@ This module is designed to introduce a practical framework for approaching back 
 - [ ] Choosing an initial management approach
 :::
 
+**Module writer:** Kian Zargham Bakhtiari
+
 <br>
 
+::: {.bp-pagination}
 [← All Modules](modules.qmd){.btn .btn-outline-primary}
 
 [Next: Anatomy →](back-pain-anatomy.qmd){.btn .btn-primary}
+:::

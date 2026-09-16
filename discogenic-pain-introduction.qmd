@@ -1,0 +1,27 @@
+---
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Introduction</span>'
+---
+
+Discogenic pain is chronic axial low back pain arising from the intervertebral disc itself, in the absence of disc herniation, nerve root compression, or deformity. It develops when degeneration and inflammation of the disc trigger ingrowth of nerves and blood vessels into the normally avascular, poorly innervated inner disc, sensitizing pain fibers within the annulus.
+
+Among the identifiable causes of chronic low back pain, the disc is one of the most frequently implicated. Yet degenerative disc findings appear on imaging in a large share of pain-free individuals, so the presence of a degenerated disc does not confirm it is the pain source. A firm grasp of discogenic pain, its underlying causes, and how it is distinguished from incidental degeneration is therefore essential to diagnosing it confidently and treating it effectively.
+
+::: {.callout-note}
+## By the end of this module, you should be able to:
+
+- [ ] Define discogenic pain and use key terminology correctly, including internal disc disruption, annular fissure, nucleus pulposus, annulus fibrosus, high-intensity zone, and Modic changes
+- [ ] Describe the normal structure, innervation, and biomechanics of the intervertebral disc
+- [ ] Explain the pathophysiology linking disc degeneration to pain, including inflammation, neoinnervation, and sensitization, and why degeneration alone does not equal pain
+- [ ] Recognize the typical clinical presentation and distinguish discogenic pain from radicular and facet-mediated pain
+- [ ] Outline the tiered management of discogenic pain, from conservative care through interventional and surgical options
+:::
+
+**Module writer:** Celine Chak
+
+<br>
+
+::: {.dp-pagination}
+[← All Modules](modules.qmd){.btn .btn-outline-primary}
+
+[Next: Relevant Anatomy →](discogenic-pain-relevant-anatomy.qmd){.btn .btn-primary}
+:::

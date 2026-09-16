@@ -1,0 +1,72 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Classification and Etiology</span>'
+---
+
+## Spondylolysis versus spondylolisthesis
+
+**Spondylolysis** refers to a defect or elongation of the pars interarticularis, occurring on one or both sides of the vertebral arch and most often at L5. **Spondylolisthesis**, by contrast, denotes actual displacement of a vertebra relative to the one directly below it, usually in the forward direction.
+
+The two lie on a spectrum linked by the bilateral pars lesion. When both sides of the arch are defective, the posterior bony “hook” that normally restrains forward movement is lost, allowing the vertebra to translate anteriorly and converting isolated spondylolysis into isthmic spondylolisthesis.
+
+::: {.callout-note}
+## Key idea
+
+Spondylolysis is a pars defect; spondylolisthesis is actual vertebral slip. A bilateral pars lesion allows lysis to progress to isthmic listhesis, often silently during the adolescent growth spurt.
+:::
+
+## Etiologic classification: Wiltse-Newman
+
+The Wiltse-Newman classification sorts spondylolisthesis by its underlying cause.
+
+### Dysplastic
+
+Dysplastic, or developmental, slips arise from malformation of the lumbosacral junction, typically with deficient posterior elements at L5–S1. They characteristically occur at L5–S1, are associated with spina bifida occulta, and carry a disproportionately high risk of progressing to high-grade slippage. This tendency may reflect a growth deficiency of the upper sacrum and is strongly linked to elevated pelvic incidence and other abnormal spinopelvic parameters.
+
+### Isthmic
+
+Isthmic slips result from a pars interarticularis lesion and are subclassified as lytic, elongated-but-intact pars, or acute pars fracture. The lytic form is most common: a stress fracture from repetitive loading, often occurring in the setting of genetic predisposition. MRI can detect marrow edema before a discrete fracture line appears.
+
+Isthmic disease predominates in the lower lumbar spine and is the form most often seen in young athletes engaged in repetitive hyperextension and rotation.
+
+### Degenerative
+
+Degenerative spondylolisthesis develops from age-related deterioration of the intervertebral disc and facet joints, without a pars defect. Progressive disc-height loss and facet incompetence permit the vertebra to slip forward, most commonly at L4–L5.
+
+It is a disease of older adults, is more frequent in women, and is a leading contributor to lumbar spinal stenosis.
+
+### Traumatic
+
+Traumatic slips follow acute injury to the posterior bony restraints, typically multiple fractures of the neural arch or, much less commonly, an isolated bilateral fracture of the pars interarticularis. This category is distinct from the fatigue-type pars lesion of isthmic disease because it results from a single high-energy event.
+
+### Pathologic
+
+Pathologic spondylolisthesis occurs when bone or joint architecture is weakened by an underlying disease process, most often infection or a benign or malignant tumor that destroys the elements maintaining vertebral alignment. Generalized or localized bone disease can likewise compromise the posterior bony restraint, permitting slippage.
+
+### Iatrogenic
+
+Iatrogenic spondylolisthesis develops as a consequence of medical or surgical intervention, such as destabilizing bone or facet structures during decompression or other spinal procedures.
+
+## Meyerding grading system
+
+Severity is quantified by the Meyerding classification, introduced in 1932, using a standing, neutral lateral lumbar radiograph. The superior endplate of the vertebra below is divided into quarters, and the grade reflects how far the vertebra above has translated.
+
+| Grade | Degree of slip | Clinical description |
+|---|---:|---|
+| **I** | 0–25% | Low-grade slip |
+| **II** | 25–50% | Low-grade slip |
+| **III** | 50–75% | High-grade slip |
+| **IV** | 75–100% | High-grade slip |
+| **V** | >100% | Spondyloptosis |
+: {tbl-colwidths="[18,27,55]"}
+
+Grades I–II are considered low-grade, while grades III–V are high-grade. This distinction carries prognostic and surgical significance.
+
+<br>
+
+::: {.sl-pagination}
+[← Previous: Relevant Anatomy](spondylolisthesis-relevant-anatomy.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: Pathophysiology →](spondylolisthesis-pathophysiology.qmd){.btn .btn-primary}
+:::

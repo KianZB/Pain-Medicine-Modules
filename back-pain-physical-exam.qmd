@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain Basics: Physical Exam"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Physical Exam</span>'
 ---
 
 The physical exam should screen function, look for structural clues, assess neurologic status, and use special tests when they fit the clinical picture.
@@ -30,7 +30,7 @@ Look for:
 
 ## Inspection and palpation
 
-Inspection and palpation should be focused on the area of pain, but the exam should also consider nearby joints because hip, knee, or ankle problems can contribute to perceived back pain.
+Inspection and palpation should be focused on the area of pain and guided by the suspected clinical pattern. Consider nearby joints when they may contribute to perceived back pain.
 
 ### Inspection: SEADS
 
@@ -42,15 +42,13 @@ Look for:
 - Deformities
 - Skin changes
 
-### Palpation: TESTCA
+### Palpation
 
 Assess for:
 
 - Tenderness
-- Effusion
 - Swelling
 - Temperature
-- Crepitus
 - Atrophy
 
 ## Neurologic exam
@@ -91,56 +89,32 @@ Key reflexes:
 - L3-L4: patellar reflex
 - S1-S2: Achilles reflex
 
-## Spinal deformity tests
+## Special tests
 
-### Adam's forward bend test
+The following are a few useful special tests for common back pain generators; they are not an exhaustive list. More complete test descriptions and interpretation are provided in the individual modules.
 
-Ask the patient to stand with their feet together and bend forward at the hips. Assess spinal symmetry from behind.
+**Spinal deformity:**
 
-Asymmetry of the spine or shoulders may suggest scoliosis.
+- **Adam's forward bend test:** Assesses spinal symmetry while the patient bends forward at the hips; asymmetry of the spine or shoulders may suggest scoliosis.
+- **Modified Schober's test:** Measures lumbar flexion and may identify restriction seen in inflammatory conditions such as axial spondyloarthritis.
 
-### Modified Schober's test
+**Radicular pain:**
 
-Mark a horizontal line at the level of the PSIS, then mark 10 cm above and 5 cm below that line. Ask the patient to bend forward and measure the increase in distance.
+- **Straight leg raise:** Reproduces radiating leg pain when the symptomatic leg is raised while the patient is supine; hamstring tightness alone is not a positive test.
+- **Lasègue sign:** Re-tensions the sciatic nerve with ankle dorsiflexion after a positive straight leg raise.
+- **Crossed straight leg raise:** Reproduction of symptoms in the affected leg is more specific for disc herniation.
 
-An increase of less than 5 cm suggests restricted lumbar flexion, which may be seen in inflammatory conditions such as ankylosing spondylitis.
+**Sacroiliac joint pain:**
 
-## Lumbar radiculopathy tests
-
-### Straight leg raise
-
-With the patient supine, raise the symptomatic leg to 30-70 degrees.
-
-A positive test reproduces radiating pain down the leg into the foot. Hamstring tightness alone is not a positive test.
-
-### Lasegue sign
-
-After a positive straight leg raise, lower the leg until symptoms improve, then dorsiflex the ankle to re-tension the sciatic nerve.
-
-Reproduction of the same radiating pain supports nerve root irritation.
-
-### Crossed straight leg raise
-
-Raise the asymptomatic leg.
-
-Reproduction of pain in the symptomatic leg is more specific for disc herniation.
-
-## Sacroiliac joint tests
-
-### FABER
-
-Place the leg into a figure-four position while the patient is supine. Apply downward force to the knee while stabilizing the opposite hip.
-
-Pain in the back or buttock supports SI joint involvement. Groin pain suggests hip joint pathology rather than SI joint pathology.
-
-### Gaenslen's test
-
-With the patient supine, hang one leg off the side of the table and bring the other leg toward the chest. Apply gentle downward force to the hanging leg to stress the SI joint.
-
-Pain in the back or buttock supports SI joint involvement.
+- **FABER:** Stresses the SI joint with the hip in a figure-four position; posterior pelvic or buttock pain supports SI joint involvement, whereas groin pain suggests hip pathology.
+- **Gaenslen's test:** Stresses the SI joint by extending one hip while flexing the other, and may reproduce posterior pelvic or buttock pain.
 
 <br>
 
+::: {.bp-pagination}
 [← Previous: History](back-pain-history.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Investigations →](back-pain-investigations.qmd){.btn .btn-primary}
+:::

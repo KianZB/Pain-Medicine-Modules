@@ -1,5 +1,5 @@
 ﻿---
-title: "Lumbar Radicular Pain: Investigations"
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Investigations</span>'
 ---
 
 Most acute radicular pain does not require immediate imaging. In fact, many cases improve with just conservative management alone. However, there are specific instances where further investigation can or should be considered, depending on the severity of symptoms. 
@@ -93,13 +93,9 @@ It may be useful to:
 - Distinguish radiculopathy from peripheral neuropathy or plexopathy
 - Clarify the affected root level when the clinical picture is unclear
 
-![EMG/NCS testing of the lower limb, showing the surface electrodes and needle electrode used for electromyography.](images/radicular-pain/emg-ncs.png){fig-align="center" width="55%"}
-
-::: {.callout-note}
-## Key idea
-
 EMG/NCS is mainly a test of nerve function. It is more useful for confirming **radiculopathy** than for confirming radicular pain alone. It is also less useful very early in the course because denervation changes may take time to appear.
-:::
+
+![EMG/NCS testing of the lower limb, showing the surface electrodes and needle electrode used for electromyography.](images/radicular-pain/emg-ncs.png){fig-align="center" width="55%"}
 
 ## Investigation and escalation framework
 
@@ -116,6 +112,10 @@ A simplified practical approach is:
 
 <br>
 
+::: {.rp-pagination}
 [← Previous: Clinical Presentation](radicular-pain-clinical-presentation.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Management →](radicular-pain-management.qmd){.btn .btn-primary}
+:::

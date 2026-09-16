@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Sensitization"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Sensitization</span>'
 ---
 
 **Sensitization** refers to increased responsiveness of the pain system. In simple terms, the nervous system becomes easier to activate and may produce a stronger, more widespread, or more persistent pain response than expected.
@@ -40,12 +40,6 @@ Clinical features can include:
 
 Persistent pain can also disrupt sleep, mood, activity, and function. These factors can then feed back into the pain system and further increase pain sensitivity, creating a cycle that becomes harder to reverse over time.
 
-::: {.callout-note}
-## Key idea
-
-Central sensitization does not mean the pain is imaginary. It means the nervous system has become more responsive and is amplifying pain signaling.
-:::
-
 ## Case example
 
 Consider a patient who initially has focal medial knee pain after a local knee injury.
@@ -65,6 +59,7 @@ This example illustrates how pain can progress from a more localized nociceptive
 | **Typical pattern** | Tenderness and increased pain at the injury site | Pain spread, allodynia, disproportionate or persistent pain |
 | **Hyperalgesia pattern** | Primary hyperalgesia, meaning increased pain sensitivity at the site of injury | Secondary hyperalgesia, meaning increased pain sensitivity outside the original injury site |
 | **Example** | Sunburned skin feels very painful to light pressure | Pain sensitivity spreads beyond the injured area or persists after tissue healing |
+: {tbl-colwidths="[20,40,40]"}
 
 ![Peripheral sensitization occurs at the level of nociceptors, while central sensitization reflects amplification within the spinal cord and brain.](images/pain-fundamentals/central-and-peripheral-pain-sensitization.png){fig-align="center" width="45%"}
 
@@ -91,6 +86,10 @@ This can reduce persistent nociceptive input and may lower the risk of pain beco
 
 <br>
 
+::: {.pf-pagination}
 [← Previous: Pain Pathways](pain-fundamentals-pathways.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Pain Modulation →](pain-fundamentals-modulation.qmd){.btn .btn-primary}
+:::

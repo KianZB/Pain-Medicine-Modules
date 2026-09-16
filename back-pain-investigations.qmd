@@ -1,14 +1,16 @@
 ﻿---
-title: "Back Pain Basics: Investigations"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Investigations</span>'
 ---
 
 Most low back pain does not need immediate imaging.
 
 ## Key principle
 
-Routine imaging is not recommended for low back pain when there are no red flags.
+Order imaging only when the result is likely to change management.
 
-Initial management is usually conservative, with reassessment after a trial of treatment.
+Routine imaging is not recommended for uncomplicated low back pain without red flags. Initial management is usually conservative, with reassessment after a trial of treatment.
+
+Degenerative disc and joint changes are common on imaging, including in people without back pain. Imaging findings should therefore be interpreted in the context of the patient's clinical pattern rather than assumed to be the pain generator.
 
 ## When to investigate urgently
 
@@ -24,7 +26,7 @@ Urgent referral and possible urgent MRI should be considered when there are red 
 
 ## When imaging can be considered
 
-Imaging can be considered when symptoms persist despite an appropriate trial of conservative management, especially if the result would change management.
+Imaging can be considered when symptoms persist despite an appropriate trial of conservative management and the result would change management.
 
 ## Imaging options
 
@@ -79,6 +81,10 @@ They can help distinguish radiculopathy from other causes of neurologic symptoms
 
 <br>
 
+::: {.bp-pagination}
 [← Previous: Physical Exam](back-pain-physical-exam.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Management →](back-pain-management.qmd){.btn .btn-primary}
+:::

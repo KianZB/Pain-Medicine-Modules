@@ -1,0 +1,68 @@
+---
+title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Management</span>'
+---
+
+Initial management of spasticity involves identifying the etiology. Management planning should include in-depth discussion of patient goals, support systems, and medical comorbidities.
+
+## Pharmacological Management
+
+### Baclofen
+
+Baclofen is usually a first-line treatment for spasticity. It works as a pre- and postsynaptic GABA-B receptor agonist, restricting calcium influx and reducing excitatory signaling.
+
+Oral baclofen is well absorbed from the gastrointestinal tract but has relatively limited penetration into the CNS. Adverse effects include weakness, fatigue, and sedation, and it should be used cautiously in older adults and in patients with renal impairment.
+
+### Intrathecal Baclofen
+
+Intrathecal baclofen can be considered for severe generalized spasticity that does not respond adequately to, or is limited by adverse effects from, oral therapy.
+
+### Tizanidine
+
+Tizanidine is an alpha-2 agonist that acts through presynaptic inhibition of motor neurons. It has a short half-life and therefore must be administered frequently to be effective. Adverse effects include sedation, hypotension, muscle weakness, and hallucinations.
+
+### Dantrolene
+
+Dantrolene acts peripherally by inhibiting calcium release from the sarcoplasmic reticulum in muscle. There have been reports of liver failure, including a few fatal cases, so it is not considered a first-line medication. Dantrolene does not selectively act on affected muscles and can cause generalized weakness.
+
+### Diazepam
+
+Diazepam is a benzodiazepine that acts postsynaptically on GABA-A receptors and depresses CNS activity. It strongly induces sedation, which can make it useful at night. It tends to act on flexor responses and may be better suited to spinal spasticity than cerebral spasticity, although higher doses can suppress both. Adverse effects include dependence and tolerance.
+
+## Physiotherapy and Rehabilitation
+
+Therapy should focus on impairments and function rather than solely on reducing spasticity. Interventions should strike a balance between movement and positioning.
+
+Treatment options include:
+
+- Standing frames
+- Treadmill training, including body-weight-supported training when needed
+- Tilt tables
+- Active exercises
+- Passive movements
+- Twenty-four-hour positioning management
+- Splinting and orthotics
+- Dynamic stretching, including trunk twists, lunges, and leg swings
+
+Patient education on stretching and maintaining range of motion is important. Family members and caregivers should also be educated about positioning the patient in bed, a chair, or a wheelchair; checking for new wounds; avoiding noxious stimuli; and recognizing signs of discomfort or pain.
+
+Home exercises that may help maintain range of motion include calf stretches, wall push-ups, standing and ambulation, unloaded cycling, and water-based exercises.
+
+## Interventional Management
+
+### Botulinum Toxin Injections
+
+Botulinum toxin acts at the neuromuscular junction by blocking presynaptic acetylcholine release. The light chain enters the cell cytoplasm and cleaves SNAP-25, preventing vesicle fusion with the membrane and exocytosis of acetylcholine, resulting in chemical denervation.
+
+Botulinum toxin is primarily used for focal or multifocal spasticity. The affected muscles may be identified using EMG, ultrasound, or electrical stimulation.
+
+Contraindications to botulinum toxin injection include hypersensitivity and infection at the injection site. Special caution should be taken in patients with known neuromuscular disorders.
+
+### Functional Electrical Stimulation
+
+Functional electrical stimulation may help increase plasticity in spinal cord circuitry.
+
+::: {.sp-pagination}
+[← Investigations](spasticity-investigations.qmd){.btn .btn-outline-primary}
+
+[Next: Summary →](spasticity-summary.qmd){.btn .btn-primary}
+:::

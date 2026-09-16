@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Radiofrequency Ablation"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Radiofrequency Ablation</span>'
 ---
 
 Radiofrequency ablation is an interventional pain procedure that uses controlled thermal injury to reduce pain transmission from a specific target nerve.
@@ -52,12 +52,6 @@ Because the broader nerve framework may remain, the nerve can regenerate over ti
 
 The expected duration of benefit varies by patient, target, technique, and whether the original pain generator remains active.
 
-::: {.callout-note}
-## Core idea
-
-RFA reduces pain by interrupting signaling from a specific target nerve. It does not cure every contributor to pain.
-:::
-
 ## What RFA does not do
 
 RFA is not a treatment for every pain condition.
@@ -80,6 +74,7 @@ This is why patient selection and diagnostic blocks are important.
 | **Pulsed RF** | Intermittent current is used, generally less destructive |
 | **Cooled RF** | Cooling near the electrode allows heat to spread farther |
 | **Cryoablation** | Extreme cold is used instead of heat |
+: {tbl-colwidths="[25,75]"}
 
 The details differ by technique, but the shared idea is that energy is applied near a target nerve to alter pain transmission.
 
@@ -100,7 +95,7 @@ Potential issues include:
 Depending on the target and anatomic region, inappropriate lesioning could also affect nearby motor or sensory structures. This is why image guidance, correct target selection, and an understanding of local anatomy are essential.
 
 ::: {.callout-warning}
-## Practical teaching point
+## Word of caution
 
 RFA can be helpful, but it works by producing controlled nerve injury. Patients should understand both the expected benefit and the possible sensory side effects.
 :::
@@ -130,6 +125,10 @@ If temporarily numbing that nerve meaningfully reduces the patient’s typical p
 
 <br>
 
+::: {.pf-pagination}
 [← Previous: Nerve Injury](pain-fundamentals-nerve-injury.qmd){.btn .btn-outline-primary}
 
-[← All Modules](modules.qmd){.btn .btn-primary}
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: References →](pain-fundamentals-references.qmd){.btn .btn-primary}
+:::

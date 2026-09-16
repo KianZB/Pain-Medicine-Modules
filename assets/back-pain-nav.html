@@ -56,6 +56,27 @@ body.bp-page #quarto-document-content {
   font-weight: 700;
 }
 
+.bp-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.bp-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#bp-mobile-nav {
+  display: none;
+}
+
 /* Hide sidebar and restore normal spacing on smaller screens */
 @media (max-width: 1150px) {
   body.bp-page #quarto-content {
@@ -64,6 +85,43 @@ body.bp-page #quarto-document-content {
 
   #bp-section-nav {
     display: none;
+  }
+
+  #bp-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #bp-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #bp-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #bp-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #bp-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .bp-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -78,7 +136,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Physical Exam", href: "back-pain-physical-exam.html" },
     { title: "Investigations", href: "back-pain-investigations.html" },
     { title: "Management", href: "back-pain-management.html" },
-    { title: "Cases", href: "back-pain-cases.html" }
+    { title: "Cases", href: "back-pain-cases.html" },
+    { title: "References", href: "back-pain-references.html" }
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -88,10 +147,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("bp-page");
 
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
   const nav = document.createElement("aside");
   nav.id = "bp-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="bp-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -100,5 +162,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "bp-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="bp-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>

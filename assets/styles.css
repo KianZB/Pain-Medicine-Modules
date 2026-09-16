@@ -12,36 +12,132 @@ body {
   background: var(--soft-bg);
 }
 
-/* Core colour theme */
-
-:root {
-  --mac-maroon: #7A003C;
-  --mac-maroon-dark: #5e002f;
-  --soft-bg: #f7f7f7;
-}
-
-/* Page background and headings */
-
-body {
-  background: var(--soft-bg);
-}
-
-/* Core colour theme */
-
-:root {
-  --mac-maroon: #7A003C;
-  --mac-maroon-dark: #5e002f;
-  --soft-bg: #f7f7f7;
-}
-
-/* Page background and headings */
-
-body {
-  background: var(--soft-bg);
-}
-
 h1, h2 {
   color: var(--mac-maroon);
+}
+
+/* Module subsection titles */
+
+.radicular-pain-module-title,
+.radicular-pain-subsection-title,
+.back-pain-module-title,
+.back-pain-subsection-title,
+.discogenic-pain-module-title,
+.discogenic-pain-subsection-title,
+.spondylolisthesis-module-title,
+.spondylolisthesis-subsection-title,
+.spasticity-module-title,
+.spasticity-subsection-title,
+.pain-fundamentals-module-title,
+.pain-fundamentals-subsection-title {
+  display: block;
+}
+
+.radicular-pain-module-title,
+.back-pain-module-title,
+.discogenic-pain-module-title,
+.spondylolisthesis-module-title,
+.spasticity-module-title,
+.pain-fundamentals-module-title {
+  text-align: center;
+}
+
+.radicular-pain-subsection-title,
+.back-pain-subsection-title,
+.discogenic-pain-subsection-title,
+.spondylolisthesis-subsection-title,
+.spasticity-subsection-title,
+.pain-fundamentals-subsection-title {
+  text-align: center;
+}
+
+/* Radicular Pain anatomy tables */
+
+.nerve-root-table table,
+.herniation-zones-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.nerve-root-table th:nth-child(1),
+.nerve-root-table td:nth-child(1) {
+  width: 20%;
+}
+
+.nerve-root-table th:nth-child(2),
+.nerve-root-table td:nth-child(2) {
+  width: 18%;
+}
+
+.nerve-root-table th:nth-child(3),
+.nerve-root-table td:nth-child(3) {
+  width: 62%;
+}
+
+.herniation-zones-table th:nth-child(1),
+.herniation-zones-table td:nth-child(1) {
+  width: 11%;
+}
+
+.herniation-zones-table th:nth-child(2),
+.herniation-zones-table td:nth-child(2) {
+  width: 89%;
+}
+
+/* Discogenic Pain anatomy table */
+
+.disc-anatomy-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.disc-anatomy-table th:nth-child(1),
+.disc-anatomy-table td:nth-child(1) {
+  width: 18%;
+}
+
+.disc-anatomy-table th:nth-child(2),
+.disc-anatomy-table td:nth-child(2),
+.disc-anatomy-table th:nth-child(3),
+.disc-anatomy-table td:nth-child(3) {
+  width: 41%;
+}
+
+/* Discogenic Pain clinical presentation table */
+
+.disc-clinical-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.disc-clinical-table th:nth-child(1),
+.disc-clinical-table td:nth-child(1) {
+  width: 20%;
+}
+
+.disc-clinical-table th:nth-child(2),
+.disc-clinical-table td:nth-child(2),
+.disc-clinical-table th:nth-child(3),
+.disc-clinical-table td:nth-child(3) {
+  width: 40%;
+}
+
+/* Spasticity clinical presentation table */
+
+.mas-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.mas-table th:nth-child(1),
+.mas-table td:nth-child(1) {
+  width: 7%;
+  white-space: nowrap;
+}
+
+.mas-table th:nth-child(2),
+.mas-table td:nth-child(2) {
+  width: 93%;
 }
 
 /* Page fade animation */
@@ -59,6 +155,124 @@ h1, h2 {
 
 main.content {
   animation: pageFadeIn 0.28s ease-out;
+}
+
+.home-page-actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home-panel {
+  border: 1px solid rgba(122, 0, 60, 0.18);
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.home-panel-summary {
+  display: block;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: var(--mac-maroon);
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.home-panel-summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-panel-summary:hover {
+  background: var(--mac-maroon-dark);
+}
+
+.home-panel-content {
+  padding: 1.25rem;
+}
+
+.home-module-intro,
+.home-module-note {
+  margin: 0 0 0.75rem 0;
+  color: #4b4b4b;
+}
+
+.home-module-note {
+  margin-bottom: 1rem;
+  font-size: 0.95em;
+}
+
+.home-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-team-card {
+  padding: 1rem;
+  border: 1px solid rgba(122, 0, 60, 0.12);
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.home-team-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--mac-maroon);
+}
+
+.home-team-card p {
+  margin-bottom: 0.5rem;
+}
+
+.home-team-card strong {
+  font-size: 0.9em;
+}
+
+.home-module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.home-module-column {
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgba(122, 0, 60, 0.12);
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.home-module-column h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--mac-maroon);
+}
+
+.home-module-column > a,
+.home-module-column > span {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.75rem;
+}
+
+.home-module-column > .btn {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.75rem;
+}
+
+.coming-soon-label {
+  color: #666666;
+  font-size: 0.9rem;
+  margin-top: 0.05rem;
+  margin-bottom: 0.7rem;
 }
 
 /* Buttons */

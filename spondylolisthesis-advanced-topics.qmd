@@ -1,0 +1,51 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Advanced Topics</span>'
+---
+
+## Pediatric spondylolisthesis
+
+### Overview
+
+Spondylolysis is the most common identifiable cause of adolescent low back pain, with a prevalence of approximately 4–8% that is higher in athletes participating in hyperextension sports. Pediatric slips are usually isthmic, arising from a pars fatigue fracture caused by repetitive loading in a genetically predisposed patient. The rarer dysplastic type, characterized by deficient L5–S1 posterior elements, carries a high risk of high-grade progression.
+
+### Skeletal maturity and progression
+
+Slip progression occurs during growth and largely halts at skeletal maturity, so risk peaks around the adolescent growth spurt. Monitor asymptomatic slips radiographically until growth is complete. Dysplastic slips should be followed with radiographs every 6–9 months.
+
+### Management considerations
+
+Nonoperative care is first-line and includes activity restriction, flexion-based core therapy, and, when appropriate, bracing. About two-thirds of acute pars lesions unite with early rest.
+
+Reserve surgery, including instrumented fusion and occasionally direct pars repair, for symptoms refractory to at least six months of care, high-grade or progressive slips, or neurologic deficit.
+
+::: {.callout-note}
+## Key idea
+
+Pediatric disease is usually isthmic and growth-driven. The classic pattern is extension-provoked back pain, hamstring tightness, and painful mobility without radiculopathy. Dysplastic slips are the exception and require close surveillance for high-grade progression.
+:::
+
+## High-grade spondylolisthesis
+
+### Definition and features
+
+High-grade spondylolisthesis is defined as at least 50% slip, corresponding to Meyerding grades III–V. Grade V, or spondyloptosis, is a slip greater than 100%.
+
+High-grade disease can produce lumbosacral kyphosis and sagittal malalignment. Findings include severe hamstring tightness, trunk shortening, a palpable step-off, and the crouched Phalen-Dickson gait. L5 radiculopathy, and rarely cauda equina syndrome, is more frequent, and nonoperative treatment is less reliable.
+
+### Management
+
+Symptomatic high-grade slips are treated surgically. Options include:
+
+- **In situ posterior instrumented fusion:** Commonly extending from L4 to S1 and often reinforced with iliac or transsacral fixation; this remains the long-standing standard.
+- **Reduction:** May improve sagittal alignment and lower pseudarthrosis rates without a significant increase in neurologic deficits, but carries a risk of traction injury to the L5 root.
+- **Spondyloptosis procedures:** Posterior spinal shortening or partial L5 spondylectomy, such as the Gaines procedure, may be used to correct severe lumbosacral kyphosis.
+
+<br>
+
+::: {.sl-pagination}
+[← Previous: Management](spondylolisthesis-management.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: Case Example →](spondylolisthesis-case-example.qmd){.btn .btn-primary}
+:::

@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Pain Modulation"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Pain Modulation</span>'
 ---
 
 Pain is not a simple one-way signal from the body to the brain. Nociceptive signals can be amplified or inhibited at multiple levels of the nervous system.
@@ -16,6 +16,7 @@ It is helpful to separate two related concepts:
 |---|---|
 | **Ascending transmission** | Nociceptive information travels from the body toward the spinal cord and brain |
 | **Descending modulation** | The brain and brainstem influence how strongly nociceptive signals are transmitted in the spinal cord |
+: {tbl-colwidths="[25,75]"}
 
 Ascending pathways help send information upward. Descending pathways help regulate how much of that signal is amplified, inhibited, or allowed to continue.
 
@@ -92,6 +93,10 @@ Clinically, this matters because effective pain care often includes more than tr
 
 <br>
 
+::: {.pf-pagination}
 [← Previous: Sensitization](pain-fundamentals-sensitization.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Nerve Injury →](pain-fundamentals-nerve-injury.qmd){.btn .btn-primary}
+:::

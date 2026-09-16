@@ -1,0 +1,35 @@
+---
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">References</span>'
+---
+
+::: {.references}
+
+1. George, S. Z., Fritz, J. M., Silfies, S. P., Schneider, M. J., Beneciuk, J. M., Lentz, T. A., Gilliam, J. R., Hendren, S., & Norman, K. S. (2021). Interventions for the management of acute and chronic low back pain: Revision 2021. *Journal of Orthopaedic & Sports Physical Therapy, 51*(11), CPG1–CPG60. <https://doi.org/10.2519/jospt.2021.0304>
+
+2. Hartvigsen, J., Hancock, M. J., Kongsted, A., Louw, Q., Ferreira, M. L., Genevay, S., Hoy, D., Karppinen, J., Pransky, G., Sieper, J., Smeets, R. J., & Underwood, M. (2018). What low back pain is and why we need to pay attention. *The Lancet, 391*(10137), 2356–2367. <https://doi.org/10.1016/S0140-6736(18)30480-X>
+
+3. Hill, J. C., Whitehurst, D. G. T., Lewis, M., Bryan, S., Dunn, K. M., Foster, N. E., Konstantinou, K., Main, C. J., Mason, E., Somerville, S., Sowden, G., Vohora, K., & Hay, E. M. (2011). Comparison of stratified primary care management for low back pain with current best practice (STarT Back): A randomised controlled trial. *The Lancet, 378*(9802), 1560–1571. <https://doi.org/10.1016/S0140-6736(11)60937-9>
+
+4. Hutchins, T. A., Peckham, M., Shah, L. M., Parsons, M. S., Agarwal, V., Boulter, D. J., Burns, J., Cassidy, R. C., Davis, M. A., Holly, L. T., Hunt, C. H., Khan, M. A., Moritani, T., Ortiz, A. O., O’Toole, J. E., Powers, W. J., Promes, S. B., Reitman, C., Shah, V. N., . . . Corey, A. S. (2021). ACR Appropriateness Criteria® low back pain: 2021 update. *Journal of the American College of Radiology, 18*(11S), S361–S379. <https://doi.org/10.1016/j.jacr.2021.08.002>
+
+5. Laslett, M. (2008). Evidence-based diagnosis and treatment of the painful sacroiliac joint. *Journal of Manual & Manipulative Therapy, 16*(3), 142–152. <https://doi.org/10.1179/jmt.2008.16.3.142>
+
+6. Munakomi, S., & Cruz, R. (2024). Lumbar spinal stenosis. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK531493/>
+
+7. National Institute for Health and Care Excellence. (2020). *Low back pain and sciatica in over 16s: Assessment and management* (NICE Guideline NG59). <https://www.nice.org.uk/guidance/ng59>
+
+8. Sassack, B., & Carrier, J. D. (2023). Anatomy, back, lumbar spine. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK557616/>
+
+9. Sieper, J., van der Heijde, D., Landewé, R., Brandt, J., Burgos-Vargas, R., Collantes-Estevez, E., Dijkmans, B., Dougados, M., Khan, M. A., Leirisalo-Repo, M., van der Linden, S., Maksymowych, W. P., Mielants, H., Olivieri, I., & Rudwaleit, M. (2009). New criteria for inflammatory back pain in patients with chronic back pain: A real patient exercise by experts from the Assessment of SpondyloArthritis international Society (ASAS). *Annals of the Rheumatic Diseases, 68*(6), 784–788. <https://doi.org/10.1136/ard.2008.101501>
+
+10. U.S. Department of Veterans Affairs & U.S. Department of Defense. (2022). *VA/DoD clinical practice guideline for the diagnosis and treatment of low back pain*. <https://www.healthquality.va.gov/guidelines/Pain/lbp/VADODLBPCPGFinal508.pdf>
+
+:::
+
+<br>
+
+::: {.bp-pagination}
+[← Previous: Cases](back-pain-cases.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+:::

@@ -1,0 +1,82 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Pathophysiology and Natural History</span>'
+---
+
+## Mechanism of slip development
+
+Forward slip occurs when the posterior bony restraint against anterior shear at the lumbosacral junction fails, allowing one vertebra to translate on the one below. The mechanism differs by type.
+
+### Isthmic spondylolisthesis
+
+A pars interarticularis defect, usually a fatigue fracture in genetically weak bone, removes the posterior restraint. A steep sacral slope and higher body weight increase shear across the sacral endplate.
+
+### Degenerative spondylolisthesis
+
+Age-related degeneration of the disc and facet joints produces segmental instability that permits displacement over time. Degenerative change is theorized to progress through three stages: dysfunction, instability, and eventual restabilization through autofusion.
+
+Predisposing anatomic features include horizontalization, or sagittal orientation, of the lamina and facets and high pelvic incidence, both of which increase shear across the segment.
+
+::: {.callout-tip}
+## Pause and think
+
+Why does isthmic spondylolisthesis usually occur at L5–S1, whereas degenerative spondylolisthesis usually occurs at L4–L5?
+
+<details>
+<summary>Show answer</summary>
+
+The transition from the mobile lumbar spine to the fixed sacrum generates high shear at L5, predisposing it to pars fracture. Degenerative slip depends on disc and facet failure; L4–L5 is the most mobile segment, and its sagittal facets resist translation poorly once they degenerate.
+
+</details>
+:::
+
+## Risk factors
+
+Risk factors differ between the isthmic and degenerative forms.
+
+### Isthmic and pediatric disease
+
+- Repetitive hyperextension-rotation sports, including gymnastics, weightlifting, football, and diving
+- Male sex
+- Hereditary predisposition
+- Scoliosis
+- Spina bifida occulta
+
+### Degenerative disease
+
+- Older age
+- Higher body mass index
+- Facet osteoarthritis, particularly grade III or higher
+- Long-term physical labor
+- High pelvic incidence
+
+### Progression from lysis to listhesis
+
+- Disc degeneration, the most consistent predictor
+- High pelvic incidence
+
+::: {.callout-tip}
+## Pause and think
+
+An adolescent gymnast has activity-related low back pain that worsens with arching backward, and you notice tight hamstrings. What factors might raise suspicion for spondylolysis or a slip?
+
+<details>
+<summary>Show answer</summary>
+
+Hyperextension and rotation load the pars, making fatigue fracture the leading concern. Extension-worsened pain points to a posterior-element source. Hamstring tightness may reflect a protective response to instability, with limited forward bending and a stiff, short-stride gait.
+
+</details>
+:::
+
+## Slip progression and skeletal maturity
+
+Isthmic slip progression concentrates during the adolescent growth spurt and largely halts at skeletal maturity. After maturity, the deformity is mechanically stable, with approximately 7% further slip reported in a long-term cohort. The dominant long-term problem becomes disc degeneration and low back pain rather than continued translation, and progression slows during each adult decade.
+
+<br>
+
+::: {.sl-pagination}
+[← Previous: Classification and Etiology](spondylolisthesis-classification-etiology.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: Clinical Presentation →](spondylolisthesis-clinical-presentation.qmd){.btn .btn-primary}
+:::

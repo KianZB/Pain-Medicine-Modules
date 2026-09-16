@@ -1,0 +1,164 @@
+<style>
+body.sl-page #quarto-content {
+  padding-left: 285px;
+}
+
+body.sl-page main.content,
+body.sl-page #quarto-document-content {
+  max-width: 950px !important;
+  margin-right: auto !important;
+}
+
+#sl-section-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 900;
+  background: #fbfafb;
+  border-right: 1px solid rgba(122, 0, 60, 0.22);
+  padding: 28px 22px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.05);
+  font-size: 0.93rem;
+  overflow-y: auto;
+}
+
+#sl-section-nav h3 {
+  color: #7A003C;
+  font-size: 1.02rem;
+  margin: 0 0 18px 0;
+  font-weight: 800;
+}
+
+#sl-section-nav a {
+  display: block;
+  color: #7A003C;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 7px;
+  margin-bottom: 6px;
+}
+
+#sl-section-nav a:hover {
+  background: rgba(122, 0, 60, 0.07);
+}
+
+#sl-section-nav a.active {
+  background: #7A003C;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.sl-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.sl-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#sl-mobile-nav {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  body.sl-page #quarto-content {
+    padding-left: 0;
+  }
+
+  #sl-section-nav {
+    display: none;
+  }
+
+  #sl-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #sl-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #sl-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #sl-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #sl-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .sl-pagination {
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = [
+    { title: "Introduction", href: "spondylolisthesis-introduction.html" },
+    { title: "Relevant Anatomy", href: "spondylolisthesis-relevant-anatomy.html" },
+    { title: "Classification and Etiology", href: "spondylolisthesis-classification-etiology.html" },
+    { title: "Pathophysiology and Natural History", href: "spondylolisthesis-pathophysiology.html" },
+    { title: "Clinical Presentation", href: "spondylolisthesis-clinical-presentation.html" },
+    { title: "Diagnosis", href: "spondylolisthesis-diagnosis.html" },
+    { title: "Management", href: "spondylolisthesis-management.html" },
+    { title: "Advanced Topics", href: "spondylolisthesis-advanced-topics.html" },
+    { title: "Case Example", href: "spondylolisthesis-case-example.html" },
+    { title: "References", href: "spondylolisthesis-references.html" }
+  ];
+
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const isSpondylolisthesisPage = pages.some(page => page.href === currentPage);
+
+  if (!isSpondylolisthesisPage) return;
+
+  document.body.classList.add("sl-page");
+
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+  const links = pages.map(page => {
+    const activeClass = page.href === currentPage ? "active" : "";
+    return `<a class="${activeClass}" href="${page.href}">${page.title}</a>`;
+  }).join("");
+
+  const nav = document.createElement("aside");
+  nav.id = "sl-section-nav";
+  nav.innerHTML = `<h3>Table of Contents</h3><span class="sl-location">${locationText}</span>${links}`;
+  document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "sl-mobile-nav";
+  mobileNav.open = true;
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${links}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
+});
+</script>

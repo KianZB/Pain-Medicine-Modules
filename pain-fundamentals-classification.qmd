@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Pain Classification"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Pain Classification</span>'
 ---
 
 Pain can be classified by mechanism. This is useful because different mechanisms may require different treatment strategies.
@@ -36,6 +36,7 @@ Nociceptive pain can be further divided into **somatic** and **visceral** pain.
 |---|---|---|---|
 | **Somatic pain** | Skin, muscle, bone, joints, ligaments, or connective tissue | Often more localized; may be aching, sharp, throbbing, or pressure-like | Ankle sprain, fracture, osteoarthritis |
 | **Visceral pain** | Internal organs | Often deeper, more diffuse, crampy, or poorly localized; may be referred to another region | Biliary colic, bowel obstruction, renal colic |
+: {tbl-colwidths="[18,35,28,19]"}
 
 This distinction is useful because the location of pain does not always identify the exact source. Visceral pain, in particular, can be difficult to localize and may be referred to somatic regions.
 
@@ -72,6 +73,7 @@ Neuropathic pain can be described as **peripheral** or **central** depending on 
 |---|---|---|
 | **Peripheral neuropathic pain** | Peripheral nerve, plexus, or nerve root | Diabetic neuropathy, carpal tunnel syndrome, lumbar radiculopathy |
 | **Central neuropathic pain** | Spinal cord or brain | Spinal cord injury-related pain, post-stroke pain, multiple sclerosis-related pain |
+: {tbl-colwidths="[27,38,35]"}
 
 Peripheral neuropathic pain often follows a peripheral nerve, nerve root, or length-dependent pattern. Central neuropathic pain may be more constant, diffuse, or difficult to localize, depending on the underlying central nervous system lesion.
 
@@ -113,11 +115,16 @@ The goal is not always to force a patient into one category. The goal is to reco
 | **Nociceptive** | Non-neural tissue activates nociceptors | Tissue irritation or injury | Knee osteoarthritis pain |
 | **Neuropathic** | Lesion or disease of the somatosensory system | Nerve or sensory pathway problem | Lumbar radiculopathy |
 | **Nociplastic** | Altered nociception without clear tissue or nerve lesion | Amplified pain processing | Chronic widespread pain |
+: {tbl-colwidths="[18,36,26,20]"}
 
 ![The three major pain mechanisms: nociceptive pain, neuropathic pain, and nociplastic pain. These categories can overlap in the same patient.](images/pain-fundamentals/three-types-of-pain.png){fig-align="center" width="75%"}
 
 <br>
 
+::: {.pf-pagination}
 [← Previous: Terminology](pain-fundamentals-terminology.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Pain Pathways →](pain-fundamentals-pathways.qmd){.btn .btn-primary}
+:::

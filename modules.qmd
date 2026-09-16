@@ -11,7 +11,7 @@ title: "Modules"
 
 [Back Pain Basics](back-pain-introduction.qmd){.btn .btn-primary}
 
-[Physical Examination](physical-examination-introduction.qmd){.btn .btn-primary} (coming soon)
+[Physical Examination](coming-soon.qmd){.btn .btn-primary} (coming soon)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -19,25 +19,26 @@ title: "Modules"
 
 [Lumbar Radicular Pain](radicular-pain-introduction.qmd){.btn .btn-primary}
 
-[Discogenic Pain](discogenic-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+[Discogenic Pain](discogenic-pain-introduction.qmd){.btn .btn-primary}
 
-[Facetogenic Pain](facetogenic-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+[Facetogenic Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
 
-[Spondylolisthesis](spondylolisthesis-introduction.qmd){.btn .btn-primary} (coming soon)
+[Spondylolisthesis](spondylolisthesis-introduction.qmd){.btn .btn-primary}
 
-[Neurogenic Claudication](neurogenic-claudication-introduction.qmd){.btn .btn-primary} (coming soon)
+[Neurogenic Claudication](coming-soon.qmd){.btn .btn-primary} (coming soon)
 
-[Sacroiliac Pain](sacroiliac-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+[Sacroiliac Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ## Special Topics
 
-[Cervical Radicular Pain](cervical-radicular-pain-introduction.qmd){.btn .btn-primary} (coming soon)
+[Spasticity](spasticity-introduction.qmd){.btn .btn-primary}
 
-[EMG/NCS](emg-ncs-introduction.qmd){.btn .btn-primary} (coming soon)
+[Cervical Radicular Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
 
-[Spasticity](spasticity-introduction.qmd){.btn .btn-primary} (coming soon)
+[EMG/NCS](coming-soon.qmd){.btn .btn-primary} (coming soon)
+
 :::
 
 :::

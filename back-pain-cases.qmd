@@ -1,14 +1,20 @@
 ﻿---
-title: "Back Pain Basics: Cases"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Cases</span>'
 ---
 
 ## Interactive Cases
+
+Apply what you have learned in this module to the following cases.
 
 [Chronic Back Pain 1](cases/chronic-back-pain-1.html){.btn .btn-primary}
 
 <br>
 <br>
 
+::: {.bp-pagination}
 [← Previous: Management](back-pain-management.qmd){.btn .btn-outline-primary}
 
-[Back to Back Pain](back-pain.qmd){.btn .btn-outline-primary}
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: References →](back-pain-references.qmd){.btn .btn-primary}
+:::

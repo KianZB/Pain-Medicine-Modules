@@ -1,0 +1,51 @@
+---
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">References</span>'
+---
+
+::: {.references}
+
+1. Bogduk, N. (1983). The innervation of the lumbar spine. *Spine, 8*(3), 286-293. <https://doi.org/10.1097/00007632-198304000-00009>
+
+2. Breemer, M. C., Malessy, M. J. A., & Notenboom, R. G. E. (2022). Origin, branching pattern, foraminal and intraspinal distribution of the human lumbar sinuvertebral nerves. *The Spine Journal: Official Journal of the North American Spine Society, 22*(3), 472-482. <https://doi.org/10.1016/j.spinee.2021.10.021>
+
+3. Brisby, H. (2006). Pathology and possible mechanisms of nervous system response to disc degeneration. *The Journal of Bone and Joint Surgery. American Volume, 88*(Suppl 2), 68-71. <https://doi.org/10.2106/JBJS.E.01282>
+
+4. Cashin, A. G., Chou, R., Weimer, M. B., & McAuley, J. H. (2026). Low back pain: A review. *JAMA, 336*(2), 144. <https://doi.org/10.1001/jama.2026.9631>
+
+5. Chiarotto, A., & Koes, B. W. (2022). Nonspecific low back pain. *New England Journal of Medicine, 386*(18), 1732-1740. <https://doi.org/10.1056/NEJMcp2032396>
+
+6. De Simone, M., Choucha, A., Ciaglia, E., Conti, V., Pecoraro, G., Santurro, A., Puca, A. A., Cascella, M., & Iaconetta, G. (2024). Discogenic low back pain: Anatomic and pathophysiologic characterization, clinical evaluation, biomarkers, AI, and treatment options. *Journal of Clinical Medicine, 13*(19), 5915. <https://doi.org/10.3390/jcm13195915>
+
+7. Han, C. S., Hancock, M. J., Sharma, S., Sharma, S., Harris, I. A., Cohen, S. P., Magnussen, J., Maher, C. G., & Traeger, A. C. (2023). Low back pain of disc, sacroiliac joint, or facet joint origin: A diagnostic accuracy systematic review. *EClinicalMedicine, 59*, 101960. <https://doi.org/10.1016/j.eclinm.2023.101960>
+
+8. Knezevic, N. N., Candido, K. D., Vlaeyen, J. W. S., Van Zundert, J., & Cohen, S. P. (2021). Low back pain. *Lancet, 398*(10294), 78-92. <https://doi.org/10.1016/S0140-6736(21)00733-9>
+
+9. Maharty, D. C., Hines, S. C., & Brown, R. B. (2024). Chronic low back pain in adults: Evaluation and management. *American Family Physician, 109*(3), 233-244.
+
+10. Maus, T. P., & Bartleson, J. D. (2014). Diagnostic and therapeutic spinal interventions: Diskography. *Neurology: Clinical Practice, 4*(4), 353-357. <https://doi.org/10.1212/CPJ.0000000000000045>
+
+11. Oliveira, C. B., Koes, B. W., Pinto, R. Z., Traeger, A. C., Machado, G. C., Lin, C.-W. C., Hayden, J. A., Hartvigsen, J., Jones, C. M. P., Chen, Q., Chiarotto, A., & Maher, C. G. (2026). Towards global clinical practice guidelines for the management of non-specific low back pain in primary care: A review of current guideline recommendations and how they have changed over the last 30 years. *The Lancet Rheumatology, 8*(6), e470-e485. <https://doi.org/10.1016/S2665-9913(26)00077-9>
+
+12. Risbud, M. V., & Shapiro, I. M. (2014). Role of cytokines in intervertebral disc degeneration: Pain and disc content. *Nature Reviews Rheumatology, 10*(1), 44-56. <https://doi.org/10.1038/nrrheum.2013.160>
+
+13. Sayed, D., Grider, J., Strand, N., Hagedorn, J. M., Falowski, S., Lam, C. M., Tieppo Francio, V., Beall, D. P., Tomycz, N. D., Davanzo, J. R., Aiyer, R., Lee, D. W., Kalia, H., Sheen, S., Malinowski, M. N., Verdolin, M., Vodapally, S., Carayannopoulos, A., Jain, S., ... Deer, T. (2022). The American Society of Pain and Neuroscience (ASPN) evidence-based clinical guideline of interventional treatments for low back pain. *Journal of Pain Research, 15*, 3729-3832. <https://doi.org/10.2147/JPR.S386879>
+
+14. Song, Y., Su, Q., Yang, Q., Zhao, R., Yin, G., Qin, W., Iannetti, G. D., Yu, C., & Liang, M. (2021). Feedforward and feedback pathways of nociceptive and tactile processing in human somatosensory system: A study of dynamic causal modeling of fMRI data. *NeuroImage, 234*, 117957. <https://doi.org/10.1016/j.neuroimage.2021.117957>
+
+15. Teraguchi, M., Samartzis, D., Hashizume, H., Yamada, H., Muraki, S., Oka, H., Cheung, J. P. Y., Kagotani, R., Iwahashi, H., Tanaka, S., Kawaguchi, H., Nakamura, K., Akune, T., Cheung, K. M.-C., Yoshimura, N., & Yoshida, M. (2016). Classification of high intensity zones of the lumbar spine and their association with other spinal MRI phenotypes: The Wakayama Spine Study. *PLOS ONE, 11*(9), e0160111. <https://doi.org/10.1371/journal.pone.0160111>
+
+16. Tonosu, J., Inanami, H., Oka, H., Katsuhira, J., Takano, Y., Koga, H., Yuzawa, Y., Shiboi, R., Oshima, Y., Baba, S., Tanaka, S., & Matsudaira, K. (2016). Diagnosing discogenic low back pain associated with degenerative disc disease using a medical interview. *PLOS ONE, 11*(11), e0166031. <https://doi.org/10.1371/journal.pone.0166031>
+
+17. van Os, W. K. M., Alvarez-Jimenez, R., Cohen, S. P., Stojanovic, M. P., Ruiz-Lopez, R., Van Zundert, J., & Kallewaard, J. W. (2025). 14. Discogenic low back pain. *Pain Practice: The Official Journal of World Institute of Pain, 25*(7), e70062. <https://doi.org/10.1111/papr.70062>
+
+18. Zhang, S., Hu, B., Liu, W., Wang, P., Lv, X., Chen, S., & Shao, Z. (2021). The role of structure and function changes of sensory nervous system in intervertebral disc-related low back pain. *Osteoarthritis and Cartilage, 29*(1), 17-27. <https://doi.org/10.1016/j.joca.2020.09.002>
+
+19. Zhao, Q., Cheng, L., Yan, H., Deng, S., Zhao, J., Liu, Z., Tan, X., Zhong, E., Zhuo, W., Jin, D., & Li, Q. (2020). The anatomical study and clinical significance of the sinuvertebral nerves at the lumbar levels. *Spine, 45*(2), E61-E66. <https://doi.org/10.1097/BRS.0000000000003190>
+
+:::
+
+::: {.dp-pagination}
+[← Case Example](discogenic-pain-case-example.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-primary}
+:::

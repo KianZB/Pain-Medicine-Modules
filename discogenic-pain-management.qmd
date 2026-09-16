@@ -1,0 +1,41 @@
+---
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Management</span>'
+---
+
+Discogenic pain is managed along a stepwise ladder, beginning with conservative and pharmacologic care, escalating to interventional procedures for refractory cases, and reserving surgery for a carefully selected minority. Because most axial back pain improves over time and no imaging finding reliably confirms a painful disc, treatment prioritizes function over cure, and invasive options are used only after conservative care fails.
+
+## Conservative Care
+
+- **Education and activity:** Reassure the patient, discourage bed rest, and encourage early return to normal activity with realistic expectations for gradual recovery.
+- **Exercise therapy:** The cornerstone of care; supervised, individualized programs focused on core stabilization, stretching, and general strengthening.
+- **Psychological and multidisciplinary care:** CBT and multidisciplinary biopsychosocial rehabilitation for chronic, disabling pain.
+
+## Pharmacologic Therapy
+
+- NSAIDs for short-term pain relief.
+- Duloxetine for chronic pain, particularly when NSAIDs are inadequate or contraindicated.
+- **Avoid:** Acetaminophen (ineffective for low back pain), benzodiazepines, systemic corticosteroids, and long-term opioids, which carry substantial risk with little sustained benefit.
+
+::: {.callout-note}
+## Key idea
+
+There is no drug that reverses disc degeneration. Pharmacotherapy aims only to reduce pain enough to enable exercise and function.
+:::
+
+## Procedural and Surgical Interventions
+
+::: {.disc-management-table}
+| Intervention | Description | Role |
+|-|-|-|
+| **Basivertebral nerve ablation (BVNA)** | Probe advanced transpedicularly into the vertebral body; radiofrequency ablates the basivertebral nerve | Interrupts endplate pain signals in the vertebrogenic subtype |
+| **Intradiscal biologics (PRP, stem cells)** | Injection of platelet-rich plasma or stem cells into the disc | Emerging therapy that may improve pain and function in selected patients; evidence remains limited |
+| **Epidural steroid injection** | Corticosteroid into the epidural space | Reduces perineural inflammation (radicular, not axial, pain) |
+| **Lumbar fusion** | Removal of symptomatic disc and rigid fixation of adjacent vertebrae | Eliminates motion at the painful segment |
+| **Total disc replacement** | Excision of disc and insertion of a mobile prosthesis | Removes painful disc while preserving segmental motion |
+:::
+
+::: {.dp-pagination}
+[← Investigations](discogenic-pain-investigations.qmd){.btn .btn-outline-primary}
+
+[Next: Case Example →](discogenic-pain-case-example.qmd){.btn .btn-primary}
+:::

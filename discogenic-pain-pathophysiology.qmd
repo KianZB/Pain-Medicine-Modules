@@ -1,0 +1,36 @@
+---
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Pathophysiology</span>'
+---
+
+Discogenic pain reflects a paradox: the disc is normally the largest avascular, nearly aneural structure in the body, yet it can become a potent pain generator. This happens in sequential stages, each building on the last: degeneration disrupts the matrix, annular fissures open pathways for nerves and vessels to grow inward, inflammation takes hold, and the ingrown nerve endings become sensitized.
+
+## 1. Degeneration
+
+With aging, repetitive load, genetic predisposition, and poor nutrition, the disc starts breaking itself down faster than it can rebuild:
+
+- Cells die off and stop making aggrecan (the molecule that holds water), while enzymes (MMPs, ADAMTS) chew up the existing matrix.
+- Uneven load stresses the tough outer ring (annulus), creating cracks called annular fissures, leading to discogenic pain.
+
+This structural failure within the disc is sometimes termed internal disc disruption and can occur without disc herniation or nerve root compression.
+
+## 2. Nerve and Vessel Ingrowth
+
+In a healthy disc, sensory nerves are confined to the outer edge of the annulus. Annular fissures serve as conduits, allowing small blood vessels and nociceptive fibers (C and A-delta) to extend into the deeper, previously insensate regions of the disc. With pain-sensing endings now embedded within the disc, mechanical loads that a normal disc would never register are perceived as pain.
+
+## 3. Inflammation
+
+Once the disc's internal environment is disrupted, resident disc cells and infiltrating macrophages release inflammatory mediators that sustain a self-perpetuating cycle:
+
+- Predominantly IL-1β and TNF-α (along with IL-6), which accelerate matrix breakdown and recruit additional immune cells.
+- These mediators also upregulate NGF, directly linking inflammation to further nerve ingrowth and nerve activation.
+- Accumulating metabolic waste lowers the local pH, and this acidic environment directly irritates the ingrown nerve endings.
+
+## 4. Sensitization
+
+Persistent chemical and mechanical irritation lowers the firing threshold of these new nerve endings, so that even normal movement provokes pain (peripheral sensitization). Over time, the spinal cord and brain amplify the incoming signals (central sensitization), which explains why discogenic pain can become chronic and diffuse even when the structural disc damage is modest.
+
+::: {.dp-pagination}
+[← Relevant Anatomy](discogenic-pain-relevant-anatomy.qmd){.btn .btn-outline-primary}
+
+[Next: Clinical Presentation →](discogenic-pain-clinical-presentation.qmd){.btn .btn-primary}
+:::

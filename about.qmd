@@ -1,47 +1,51 @@
 ---
-title: "About"
+title: "Help"
 ---
 
-This is a test website for pain medicine learning modules and interactive cases. 
+## How the modules work
 
-## Callouts
+Each module combines concise teaching sections, diagrams, clinical reasoning, and knowledge checks. Many modules use case-based learning, guiding learners through realistic patient scenarios and asking them to apply the concepts as they go.
 
-Throughout the modules, callouts are used to highlight different types of learning points.
+The goal is to connect foundational knowledge with clinical decision-making: recognizing important patterns, identifying red flags, interpreting investigations in context, and considering appropriate management options.
 
-::: {.callout-tip}
-## Pause and think
+### Learning callouts
+
+Throughout the modules, callouts highlight different types of learning points.
+
+::: {.callout-tip title="Pause and think"}
 
 A short question to help you check your understanding before reading the answer.
 :::
 
-::: {.callout-note}
-## Key idea
+::: {.callout-note title="Key idea"}
 
 The main takeaway from a section.
 :::
 
-::: {.callout-caution}
-## Clinical relevance
+::: {.callout-caution title="Clinical relevance"}
 
 Why the concept matters for patient assessment, imaging, procedures, or management.
 :::
 
-::: {.callout-warning}
-## Word of caution
+::: {.callout-warning title="Word of caution"}
 
 A common mistake, limitation, or point that should not be overinterpreted.
 :::
 
-::: {.callout-important}
-## Red flag
+::: {.callout-important title="Red flag"}
 
 An urgent clinical feature that should prompt timely assessment or escalation.
 :::
 
-## Possible future additions
+## Feedback
+
+Feedback form coming soon. We welcome suggestions that can help improve the modules, cases, and learning experience.
+
+## Future directions
+
+Possible future additions include:
 
 - Downloadable summary sheets
-- Feedback form
 - AI-style FAQ section
 - Progress bar for modules
 - Glossary

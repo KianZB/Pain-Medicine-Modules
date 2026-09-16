@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain Basics: Management"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Management</span>'
 ---
 
 Management depends on red flags, symptom severity, functional limitation, psychosocial risk, and response to conservative care.
@@ -23,6 +23,7 @@ Low-risk patients can usually start with self-management.
 Core options include:
 
 - Education and reassurance
+- Staying active and returning to usual activities as tolerated
 - Exercise therapy
 - Superficial heat therapy
 - Oral NSAIDs as needed
@@ -91,6 +92,10 @@ If symptoms remain function-limiting after conservative care, consider adjunctiv
 
 <br>
 
+::: {.bp-pagination}
 [← Previous: Investigations](back-pain-investigations.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Cases →](back-pain-cases.qmd){.btn .btn-primary}
+:::

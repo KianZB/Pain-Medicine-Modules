@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain Basics: History"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">History</span>'
 ---
 
 A focused back pain history should describe the current pain, screen for serious causes, and identify psychosocial or functional factors that may affect recovery.
@@ -85,7 +85,7 @@ Ask about:
 - Osteoporosis
 - Fragility risk
 
-### Tumor
+### Tumour
 
 Ask about:
 
@@ -96,7 +96,7 @@ Ask about:
 
 ### Inflammatory
 
-Ask about features suggestive of inflammatory back pain:
+Ask about features suggestive of axial spondyloarthritis:
 
 - Chronic low back pain for more than 3 months
 - Age of onset under 45 years
@@ -147,6 +147,10 @@ Ask about:
 
 <br>
 
+::: {.bp-pagination}
 [← Previous: Clinical Patterns](back-pain-patterns.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Physical Exam →](back-pain-physical-exam.qmd){.btn .btn-primary}
+:::

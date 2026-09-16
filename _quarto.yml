@@ -21,9 +21,15 @@ website:
             href: back-pain-introduction.qmd
           - text: Lumbar Radicular Pain
             href: radicular-pain-introduction.qmd
+          - text: Discogenic Pain
+            href: discogenic-pain-introduction.qmd
+          - text: Spondylolisthesis
+            href: spondylolisthesis-introduction.qmd
+          - text: Spasticity
+            href: spasticity-introduction.qmd
 
       - href: about.qmd
-        text: About
+        text: Help
 
 format:
   html:
@@ -35,5 +41,6 @@ format:
       - assets/back-pain-nav.html
       - assets/pain-fundamentals-nav.html
       - assets/radicular-pain-nav.html
-      - assets/pain-fundamentals-nav.html
-      - assets/radicular-pain-nav.html
+      - assets/discogenic-pain-nav.html
+      - assets/spondylolisthesis-nav.html
+      - assets/spasticity-nav.html

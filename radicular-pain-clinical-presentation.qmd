@@ -1,5 +1,5 @@
 ﻿---
-title: "Lumbar Radicular Pain: Clinical Presentation"
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Clinical Presentation</span>'
 ---
 
 Lumbar radicular pain usually presents with **leg-dominant symptoms**.
@@ -98,23 +98,9 @@ In radicular pain, the pain or sensory symptoms may follow a dermatomal pattern.
 | **L5** | Lateral leg, dorsum of foot, great toe |
 | **S1** | Posterior leg, lateral foot, sole |
 | **S2** | Posterior thigh and upper posterior calf |
+: {tbl-colwidths="[20,80]"}
 
 ![Dermatomes of the lower limbs.](images/radicular-pain/dermatomes.png){fig-align="center" width="45%"}
-
-::: {.callout-note}
-## Key idea
-
-Dermatomes cover broad areas of skin and often overlap. In practice, it is helpful to test a few high-yield sensory points that are more closely associated with specific nerve roots. These areas are demonstrated in the image above with the red dots.
-
-| Nerve root | High-yield sensory test point |
-|---|---|
-| **L2** | Anterior upper thigh |
-| **L3** | Anterior thigh above the knee |
-| **L4** | Medial malleolus of the ankle |
-| **L5** | Dorsum of the great toe |
-| **S1** | Lateral foot |
-| **S2** | Popliteal fossa or posterior thigh |
-:::
 
 ## Myotomes and reflexes
 
@@ -122,17 +108,18 @@ A **myotome** is a group of muscles supplied mainly by one spinal nerve root.
 
 Myotomes help identify whether radicular pain has progressed to **radiculopathy**. Weakness in a myotomal pattern suggests that the affected nerve root is not only irritated, but also functionally impaired.
 
-| Root | Pain/sensory distribution | Motor findings | Reflex |
-|---|---|---|---|
-| **L3** | Anterior thigh | Hip flexion, knee extension | Patellar may be reduced |
-| **L4** | Anterior/medial leg | Knee extension, ankle dorsiflexion | Patellar |
-| **L5** | Lateral leg, dorsum of foot, great toe | Great toe extension, ankle dorsiflexion, hip abduction | No reliable reflex |
-| **S1** | Posterior leg, lateral foot, sole | Plantarflexion, toe walking | Achilles |
+| Root | Motor findings | Reflex |
+|---|---|---|
+| **L3** | Hip flexion, knee extension | Patellar may be reduced |
+| **L4** | Knee extension, ankle dorsiflexion | Patellar |
+| **L5** | Great toe extension, ankle dorsiflexion, hip abduction | No reliable reflex |
+| **S1** | Plantarflexion, toe walking | Achilles |
+: {tbl-colwidths="[20,55,25]"}
 
 ::: {.callout-tip}
 ## Pause and think
 
-The same patient seems to have weakness with great toe extension on exam. Which nerve root would this make you most concerned about?
+The patient from the earlier case now seems to have weakness with great toe extension on exam. Which nerve root would this make you most concerned about?
 
 <details>
 <summary>Show answer</summary>
@@ -146,26 +133,28 @@ Great toe extension is commonly used to assess the L5 nerve root. Weakness here 
 
 Provocative tests can support the diagnosis by increasing tension on irritated nerve roots. A positive result on these tests increases your suspicion for lumbar radicular pain. 
 
-| Test | How it is performed | Suggests |
-|---|---|---|
-| **Straight leg raise** (**Lasègue test**) | With the patient lying supine, passively raise the straightened leg to about 30–70° and assess whether this reproduces radiating leg pain | Lower lumbar radicular irritation, especially L5/S1 |
-| **Bragard test** | After a positive straight leg raise, slightly lower the leg until pain improves, then dorsiflex the ankle to see if radicular pain returns | Neural tension or lower lumbar radicular irritation |
-| **Crossed straight leg raise** | Raise the unaffected leg and assess whether this reproduces radicular pain in the symptomatic leg | Less sensitive but more specific for disc herniation |
-| **Slump test** | With the patient seated, flex the spine and neck, extend the knee, and dorsiflex the ankle to tension the neural system | Neural tension or radicular irritation |
-| **Femoral stretch test** | With the patient prone or side-lying, extend the hip and flex the knee to stretch the femoral nerve | Upper lumbar radicular irritation, especially L2-L4 |
+**Straight leg raise (Lasègue test).** With the patient lying supine, passively raise the straightened leg to about 30–70° and assess whether this reproduces radiating leg pain. A positive result suggests lower lumbar radicular irritation, especially involving L5 or S1.
+
+**Crossed straight leg raise.** Raise the unaffected leg and assess whether this reproduces radicular pain in the symptomatic leg. This test is less sensitive but more specific for disc herniation.
 
 ![Example of how to do the straight leg raise test.](images/radicular-pain/straight-leg-raise.png){fig-align="center" width="45%"}
 
+**Bragard test.** After a positive straight leg raise, slightly lower the leg until pain improves, then dorsiflex the ankle to see if radicular pain returns. This supports neural tension or lower lumbar radicular irritation.
+
 ![Example of how to do the Bragard test.](images/radicular-pain/bragard-test.png){fig-align="center" width="45%"}
 
+**Slump test.** With the patient seated, flex the spine and neck, extend the knee, and dorsiflex the ankle to tension the neural system. A positive result suggests neural tension or radicular irritation.
+
 ![Example of how to do the slump test.](images/radicular-pain/slump-test.png){fig-align="center" width="45%"}
+
+**Femoral stretch test.** With the patient prone or side-lying, extend the hip and flex the knee to stretch the femoral nerve. A positive result suggests upper lumbar radicular irritation, especially involving L2 to L4.
 
 ![Example of how to do the femoral nerve stretch test.](images/radicular-pain/femoral-nerve-stretch.png){fig-align="center" width="45%"}
 
 ::: {.callout-caution}
 ## Word of caution
 
-Be careful not to misinterpret hamstring tightness or other forms of non-radicular discomfort as a positive test. A positive result specifically refers to reproduction of the patient’s typical radiating leg pain, which often is described as a shooting pain that travels down below the knee and into the foot.
+Be careful not to misinterpret hamstring tightness or other forms of non-radicular discomfort as a positive test. Hamstring tightness is often felt as a localized pulling, stretching, or aching sensation in the back of the thigh, without the patient's usual electric or shooting pain traveling below the knee. A positive result specifically refers to reproduction of the patient’s typical radiating leg pain, which often travels into the calf, foot, or toes.
 :::
 
 ::: {.callout-tip}
@@ -183,25 +172,29 @@ A positive straight leg raise is more consistent with lower lumbar radicular pai
 </details>
 :::
 
-## Red flags
+## Red flag features
 
-Red flags should be screened for because not all radiating leg pain is benign.
+Red flag features should be screened for because not all radiating leg pain is benign.
 
-Important red flags include:
+They can be remembered using the **NIFTI** mnemonic:
 
-- New urinary retention or overflow incontinence
-- Saddle anesthesia
-- Bilateral severe neurologic symptoms
-- Progressive motor weakness
-- Fever, immunosuppression, IV drug use, or concern for infection
-- History of malignancy or unexplained weight loss
-- Significant trauma
-- Severe unremitting night pain
+| Category | Features |
+|---|---|
+| **N**eurologic | New urinary retention or overflow incontinence, saddle anesthesia, bilateral severe neurologic symptoms, or progressive motor weakness |
+| **I**nfection | Fever, immunosuppression, IV drug use, or other concern for infection |
+| **F**racture | Significant trauma |
+| **T**umour | History of malignancy, unexplained weight loss, or severe unremitting night pain |
+| **I**nflammation | Onset before age 45 with prolonged morning stiffness, improvement with exercise, or pain that does not improve with rest |
+: {tbl-colwidths="[20,80]"}
 
 ![Diagram of the cauda equina, the bundle of spinal nerve roots that continues downward below the conus medullaris after the spinal cord ends around L1-L2. Compression of these nerves can cause **cauda equina syndrome**, a surgical emergency.](images/radicular-pain/cauda-equina.png){fig-align="center" width="45%"}
 
 <br>
 
+::: {.rp-pagination}
 [← Previous: Relevant Anatomy](radicular-pain-relevant-anatomy.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Investigations →](radicular-pain-investigations.qmd){.btn .btn-primary}
+:::

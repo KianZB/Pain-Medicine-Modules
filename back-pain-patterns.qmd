@@ -1,5 +1,5 @@
 ﻿---
-title: "Back Pain Basics: Clinical Patterns"
+title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Clinical Patterns</span>'
 ---
 
 Low back pain can be broadly organized into **non-specific mechanical pain**, **specific mechanical pain**, and **non-mechanical pain**.
@@ -17,7 +17,29 @@ Typical features may include:
 
 ## Specific mechanical low back pain
 
-Specific mechanical pain follows a more recognizable clinical pattern and may suggest a more specific pain generator.
+Some back pain presentations follow a more recognizable clinical pattern and may suggest a specific pain generator, as discussed briefly in the previous section. Recognizing the dominant pattern helps focus the history, examination, and next steps in management.
+
+### Radicular pain
+
+Radicular pain occurs when a spinal nerve root is irritated, inflamed, or compressed. Objective nerve root dysfunction, such as weakness, sensory loss, or reflex changes, is called radiculopathy.
+
+Typical pattern:
+
+- Leg-dominant pain
+- Shooting, burning, electric, or radiating pain
+- May follow a dermatomal pattern
+- May be associated with sensory change, weakness, or reflex changes
+
+### Spinal stenosis
+
+Spinal stenosis occurs when narrowing of the spinal canal or foramina compresses neural structures.
+
+Typical pattern:
+
+- Bilateral leg pain, heaviness, or fatigue
+- Worse with walking or standing
+- Improved with sitting or lumbar flexion
+- May describe relief when leaning forward, such as on a shopping cart
 
 ### Discogenic pain
 
@@ -40,36 +62,46 @@ Typical pattern:
 - Often relieved by flexion
 - May radiate toward the buttocks
 
-### Radiculopathy
+### Sacroiliac joint pain
 
-Radiculopathy occurs when a nerve root is irritated or compressed as it exits the spine.
-
-Typical pattern:
-
-- Leg-dominant pain
-- Shooting, burning, electric, or radiating pain
-- May follow a dermatomal pattern
-- May be associated with sensory change, weakness, or reflex changes
-
-### Spinal stenosis
-
-Spinal stenosis occurs when narrowing of the spinal canal or foramina compresses neural structures.
+Sacroiliac joint pain arises from the joint between the sacrum and ilium.
 
 Typical pattern:
 
-- Bilateral leg pain, heaviness, or fatigue
-- Worse with walking or standing
-- Improved with sitting or lumbar flexion
-- May describe relief when leaning forward, such as on a shopping cart
+- Pain near the posterior pelvis, buttock, or PSIS region
+- May refer into the thigh without following a clear nerve root pattern
+- Often worse with transitional movements, single-leg loading, or prolonged positions
+
+### Myofascial pain
+
+Myofascial pain arises from muscles and related soft tissues that support the spine.
+
+Typical pattern:
+
+- Regional rather than dermatomal pain
+- Tenderness, tightness, or trigger points
+- Pain with specific movements or after a change in activity
+- Influenced by load, posture, conditioning, and activity tolerance
 
 ## Non-mechanical pain
 
-Non-mechanical pain is less reliably affected by movement or posture and may be more constant. This category includes referred pain from non-spinal structures and serious spinal pathology.
+Non-mechanical pain is less reliably affected by movement or posture and may be more constant. It should prompt consideration of causes beyond a routine mechanical pain generator.
 
-Consider non-mechanical causes when the history includes red flags for infection, fracture, tumor, inflammatory disease, or major neurologic compromise.
+Potential causes include:
+
+- Referred pain from non-spinal structures, such as abdominal, pelvic, or vascular conditions
+- Infection, fracture, or tumour involving the spine
+- Inflammatory spinal disease
+- Major neurologic compromise, including cauda equina syndrome
+
+Red flag features can raise concern for non-mechanical causes of back pain or severe mechanical pathology that requires urgent assessment. These features are discussed in the next section.
 
 <br>
 
+::: {.bp-pagination}
 [← Previous: Anatomy](back-pain-anatomy.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: History →](back-pain-history.qmd){.btn .btn-primary}
+:::

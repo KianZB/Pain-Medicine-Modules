@@ -1,0 +1,88 @@
+---
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Clinical Presentation</span>'
+---
+
+A practical way to approach a patient is to ask three questions in sequence:
+
+1. Does the pain behave mechanically, in a way that fits a disc source?
+2. Are competing sources (facet, sacroiliac joint, nerve root) less likely?
+3. Are there any red flags that demand urgent workup before anything else?
+
+## Timeline
+
+The tempo of symptoms shapes the differential. An acute flare, often triggered by a lift, bend, or twist, tends to occur in younger and middle-aged adults and reflects an annular fissure or early internal disruption. A chronic or relapsing course, with recurrent bouts of axial pain over months to years, is more typical of established degenerative disc disease.
+
+## Symptom Pattern
+
+The hallmark is intolerance of positions and activities that raise intradiscal pressure:
+
+- Prolonged sitting and standing up from a seated position
+- Forward bending and sustained flexion (leaning over a sink, tying shoes)
+- Coughing, sneezing, or straining (Valsalva)
+
+::: {.callout-note}
+## Key idea
+
+The "worse with sitting and flexion, better lying flat" pattern is the most recognizable signature and helps separate discogenic pain from facet-mediated pain, which typically worsens with extension, standing, and walking.
+:::
+
+::: {.callout-tip}
+## Pause and think
+
+A 40-year-old office worker reports midline low back pain that is worse with prolonged sitting and forward bending, and eased by standing and walking. There is no leg pain and the neurologic exam is normal. Why does this pattern point toward a discogenic source rather than facet-mediated pain?
+
+<details>
+<summary>Show answer</summary>
+
+Discogenic pain is classically axial and midline, worsened by flexion-based, disc-loading activities such as sitting and bending forward, since these positions raise intradiscal pressure. Facet-mediated pain, by contrast, tends to produce paraspinal rather than midline tenderness and is typically worse with extension and rotation. The absence of leg pain and a normal neurologic exam also argue against a radicular source.
+
+</details>
+:::
+
+## Physical Exam
+
+Unlike radicular pain, where provocative maneuvers stretch an irritated nerve root, discogenic pain has no equivalent set of nerve-tension tests. The disc is a deep axial structure, so bedside "provocation" instead relies on loading the disc mechanically and observing pain behavior.
+
+::: {.disc-clinical-table}
+| Test | How it is performed | Suggests |
+|-|-|-|
+| **Centralization** | With the patient standing or prone, have them perform repeated end-range lumbar movements (usually extension, e.g. prone press-ups) while tracking where the pain is felt | A discogenic source if referred buttock/thigh pain migrates toward the midline |
+| **Directional preference** | Test repeated movements in several directions to find one that reduces or centralizes pain | A discogenic source; specific but insensitive; rules in rather than out |
+| **Axial loading/sustained flexion** | Load the flexed spine with prolonged sitting, forward bending, or axial compression | Mechanical disc source if concordant midline axial pain is reproduced |
+| **SIJ provocation cluster** | Perform distraction, compression, thigh thrust, sacral thrust, and Gaenslen; >=3 positive is meaningful | Sacroiliac joint as source rather than the disc if >=3 tests reproduce buttock pain |
+| **Facet loading** | With the patient standing, extend and rotate the lumbar spine | Facet-mediated pain if paraspinal pain is reproduced with extension (unlike flexion, which provokes discs) |
+:::
+
+## Red Flags
+
+1. **Cauda equina syndrome:**
+
+	- New urinary retention or overflow incontinence (most reliable sign)
+	- Saddle (perineal) anesthesia
+	- Fecal incontinence or reduced anal sphincter tone
+	- Bilateral or progressive lower-extremity weakness
+
+2. **Infection (spondylodiscitis, epidural abscess):**
+
+	- Fever
+	- Immunosuppression, HIV, or diabetes
+	- IV drug use, indwelling catheter, or recent infection/spinal procedure
+
+3. **Malignancy:**
+
+	- History of cancer (most useful single flag)
+	- Unexplained weight loss
+	- Age >50 years
+	- Pain worse at night or at rest; no improvement after ~4 weeks
+
+4. **Fracture:**
+
+	- Significant trauma (or minor trauma with osteoporosis, chronic steroids, or age >=75)
+	- Long-term corticosteroid use
+	- Older age
+
+::: {.dp-pagination}
+[← Pathophysiology](discogenic-pain-pathophysiology.qmd){.btn .btn-outline-primary}
+
+[Next: Investigations →](discogenic-pain-investigations.qmd){.btn .btn-primary}
+:::

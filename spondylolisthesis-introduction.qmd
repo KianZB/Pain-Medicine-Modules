@@ -1,0 +1,29 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Introduction</span>'
+---
+
+Spondylolisthesis is the forward slippage of one vertebra over the one directly below it, occurring most often at the lower lumbar levels. It is closely related to spondylolysis, a defect of the pars interarticularis; when such a defect is bilateral, the vertebra can slip forward, producing isthmic spondylolisthesis.
+
+It is a common and clinically important cause of low back pain across all ages (reported prevalence approximately 4–6% in childhood and 5–10% in adults). In children and adolescents, it is a leading identifiable cause of back pain, especially in athletes who repeatedly hyperextend the spine; in older adults, the degenerative form contributes to back pain and lumbar spinal stenosis.
+
+::: {.callout-note}
+## By the end of this module, you should be able to:
+
+- [ ] Define spondylolisthesis and use key terminology correctly, including spondylolysis, pars interarticularis, anterolisthesis, retrolisthesis, and spondyloptosis
+- [ ] Classify slips by etiology using the Wiltse-Newman classification and grade severity using Meyerding grades I–V
+- [ ] Explain the mechanisms, natural history, and risk factors distinguishing isthmic from degenerative disease
+- [ ] Recognize the clinical spectrum, from asymptomatic slips to back pain, radicular symptoms, and hamstring tightness
+- [ ] Perform a focused history and examination and build an appropriate differential
+- [ ] Select and interpret imaging and identify red flags warranting urgent referral
+- [ ] Outline nonoperative and operative management, including pediatric and high-grade considerations
+:::
+
+**Module writer:** Celine Chak
+
+<br>
+
+::: {.sl-pagination}
+[← All Modules](modules.qmd){.btn .btn-outline-primary}
+
+[Next: Relevant Anatomy →](spondylolisthesis-relevant-anatomy.qmd){.btn .btn-primary}
+:::

@@ -1,5 +1,5 @@
 ﻿---
-title: "Pain Fundamentals: Terminology"
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Terminology</span>'
 ---
 
 Clinically, we use specific terms to describe pain, sensation, and abnormal responses to stimulation. These terms are useful because patients may describe their symptoms in a variety of different ways, and each of these descriptions can suggest different mechanisms.
@@ -71,6 +71,7 @@ The table below summarizes common terms used to describe abnormal pain responses
 | **Hypoalgesia** | Decreased sensation of pain from a noxious stimulus | A pinprick feels much less painful than expected |
 | **Analgesia** | Absence or reduction of pain in response to a noxious stimulus | A painful procedure feels less painful after local anesthetic |
 | **Hyperpathia** | Abnormally painful response that may be delayed, exaggerated, or explosive | Repeated light pinpricks produce a delayed, intense pain response |
+: {tbl-colwidths="[18,45,37]"}
 
 ## Abnormal sensation responses
 
@@ -83,6 +84,7 @@ In contrast, we use different terms to describe abnormal sensation more broadly,
 | **Paresthesia** | Abnormal sensation that is not necessarily unpleasant, such as tingling or pins and needles | “Pins and needles” sensation after sleeping on your arm |
 | **Dysesthesia** | Similar to paresthesia but often described as unpleasant or painful | Burning or painful tingling without a clear trigger |
 | **Anesthesia** | Complete loss of sensation | A patch of skin feels completely numb |
+: {tbl-colwidths="[18,45,37]"}
 
 ## Key takeaways
 
@@ -96,6 +98,10 @@ Summarized points from this section:
 
 <br>
 
+::: {.pf-pagination}
 [← Previous: Introduction](pain-fundamentals-introduction.qmd){.btn .btn-outline-primary}
 
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
 [Next: Pain Classification →](pain-fundamentals-classification.qmd){.btn .btn-primary}
+:::

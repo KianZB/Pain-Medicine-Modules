@@ -1,0 +1,45 @@
+---
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">References</span>'
+---
+
+::: {.references}
+
+1. Armstrong, S. A., & Herr, M. J. (2023). Physiology, nociception. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK551562/>
+
+2. Chen, J. S., Kandle, P. F., Murray, I. V., Fitzgerald, L. A., & Sehdev, J. S. (2023). Physiology, pain. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK539789/>
+
+3. Choi, E. J., Choi, Y. M., Jang, E. J., Kim, J. Y., Kim, T. K., & Kim, K. H. (2016). Neural ablation and regeneration in pain practice. *Korean Journal of Pain, 29*(1), 3–11. <https://doi.org/10.3344/kjp.2016.29.1.3>
+
+4. Cohen, S. P., Bhaskar, A., Bhatia, A., Buvanendran, A., Deer, T., Garg, S., Hooten, W. M., Hurley, R. W., Kennedy, D. J., McLean, B. C., Moon, J. Y., Narouze, S., Pangarkar, S., Provenzano, D. A., Rauck, R., Sitzman, B. T., Smuck, M., van Zundert, J., Vorenkamp, K., & Wallace, M. (2020). Consensus practice guidelines on interventions for lumbar facet joint pain from a multispecialty, international working group. *Regional Anesthesia and Pain Medicine, 45*(6), 424–467. <https://doi.org/10.1136/rapm-2019-101243>
+
+5. Gangadharan, V., & Kuner, R. (2013). Pain hypersensitivity mechanisms at a glance. *Disease Models & Mechanisms, 6*(4), 889–895. <https://doi.org/10.1242/dmm.011502>
+
+6. International Association for the Study of Pain. (n.d.). *IASP terminology*. <https://www.iasp-pain.org/resources/terminology/>
+
+7. Meints, S. M., & Edwards, R. R. (2018). Evaluating psychosocial contributions to chronic pain outcomes. *Progress in Neuro-Psychopharmacology and Biological Psychiatry, 87*, 168–182. <https://doi.org/10.1016/j.pnpbp.2018.01.017>
+
+8. Morton, D. L., Sandhu, J. S., & Jones, A. K. P. (2016). Brain imaging of pain: State of the art. *Journal of Pain Research, 9*, 613–624. <https://doi.org/10.2147/JPR.S60433>
+
+9. Nadi, M., Dabbas, W., & Das, J. M. (2026). Peripheral nerve injury. In *StatPearls*. StatPearls Publishing. <https://www.ncbi.nlm.nih.gov/books/NBK549848/>
+
+10. Nijs, J., Lahousse, A., Kapreli, E., Bilika, P., Saraçoğlu, İ., Malfliet, A., Coppieters, I., De Baets, L., Leysen, L., Roose, E., Clark, J., Voogt, L., Huysmans, E., & Elma, Ö. (2021). Nociplastic pain criteria or recognition of central sensitization? Pain phenotyping in the past, present and future. *Journal of Clinical Medicine, 10*(15), 3203. <https://doi.org/10.3390/jcm10153203>
+
+11. Ossipov, M. H., Morimura, K., & Porreca, F. (2014). Descending pain modulation and chronification of pain. *Current Opinion in Supportive and Palliative Care, 8*(2), 143–151. <https://doi.org/10.1097/SPC.0000000000000055>
+
+12. Purves, D., Augustine, G. J., Fitzpatrick, D., Katz, L. C., LaMantia, A. S., McNamara, J. O., & Williams, S. M. (2001). Central pain pathways: The spinothalamic tract. In *Neuroscience* (2nd ed.). Sinauer Associates. <https://www.ncbi.nlm.nih.gov/books/NBK10967/>
+
+13. Raja, S. N., Carr, D. B., Cohen, M., Finnerup, N. B., Flor, H., Gibson, S., Keefe, F. J., Mogil, J. S., Ringkamp, M., Sluka, K. A., Song, X. J., Stevens, B., Sullivan, M. D., Tutelman, P. R., Ushida, T., & Vader, K. (2020). The revised International Association for the Study of Pain definition of pain: Concepts, challenges, and compromises. *Pain, 161*(9), 1976–1982. <https://doi.org/10.1097/j.pain.0000000000001939>
+
+14. Walsh, T., Malhotra, R., & Sharma, M. (2022). Radiofrequency techniques for chronic pain. *BJA Education, 22*(12), 474–483. <https://doi.org/10.1016/j.bjae.2022.08.004>
+
+15. Woolf, C. J. (2011). Central sensitization: Implications for the diagnosis and treatment of pain. *Pain, 152*(3 Suppl), S2–S15. <https://doi.org/10.1016/j.pain.2010.09.030>
+
+:::
+
+<br>
+
+::: {.pf-pagination}
+[← Previous: Radiofrequency Ablation](pain-fundamentals-rfa.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+:::

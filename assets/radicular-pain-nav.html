@@ -56,6 +56,27 @@ body.rp-page #quarto-document-content {
   font-weight: 700;
 }
 
+.rp-location {
+  display: block;
+  margin: -8px 0 16px;
+  color: #6a5b63;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.rp-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+#rp-mobile-nav {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   body.rp-page #quarto-content {
     padding-left: 0;
@@ -63,6 +84,43 @@ body.rp-page #quarto-document-content {
 
   #rp-section-nav {
     display: none;
+  }
+
+  #rp-mobile-nav {
+    display: block;
+    margin: 0 0 1.5rem;
+    border: 1px solid rgba(122, 0, 60, 0.22);
+    border-radius: 8px;
+    background: #fbfafb;
+  }
+
+  #rp-mobile-nav summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    color: #7A003C;
+    font-weight: 700;
+  }
+
+  #rp-mobile-nav nav {
+    padding: 0 8px 10px;
+  }
+
+  #rp-mobile-nav a {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #7A003C;
+    text-decoration: none;
+  }
+
+  #rp-mobile-nav a.active {
+    background: #7A003C;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .rp-pagination {
+    justify-content: center;
   }
 }
 </style>
@@ -77,6 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Management", href: "radicular-pain-management.html" },
     { title: "Summary", href: "radicular-pain-summary.html" },
     { title: "More Cases", href: "radicular-pain-more-cases.html" },
+    { title: "References", href: "radicular-pain-references.html" },
   ];
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -86,10 +145,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.classList.add("rp-page");
 
+  const currentIndex = pages.findIndex(page => page.href === currentPage);
+  const locationText = `${currentIndex + 1} of ${pages.length} — ${pages[currentIndex].title}`;
+
   const nav = document.createElement("aside");
   nav.id = "rp-section-nav";
 
-  let html = "<h3>Table of Contents</h3>";
+  let html = `<h3>Table of Contents</h3><span class="rp-location">${locationText}</span>`;
 
   pages.forEach(page => {
     const activeClass = page.href === currentPage ? "active" : "";
@@ -98,5 +160,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   nav.innerHTML = html;
   document.body.appendChild(nav);
+
+  const mobileNav = document.createElement("details");
+  mobileNav.id = "rp-mobile-nav";
+  mobileNav.innerHTML = `<summary>${locationText}</summary><nav>${html.replace(/<h3>[\s\S]*?<\/h3><span class="rp-location">[\s\S]*?<\/span>/, "")}</nav>`;
+  const documentContent = document.querySelector("#quarto-document-content");
+  if (documentContent) documentContent.prepend(mobileNav);
 });
 </script>

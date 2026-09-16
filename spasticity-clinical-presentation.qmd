@@ -1,0 +1,65 @@
+---
+title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Clinical Presentation</span>'
+---
+
+The severity of symptoms of spasticity ranges from mild stiffness or tightening of the muscles to uncontrollable and painful spasms.
+
+## Evaluation
+
+Evaluation should focus on:
+
+- Symptom onset, with special focus on motor weakness, altered sensation, pain, bowel and bladder dysfunction, and sexual function.
+- Potential triggers and the underlying disease. Common triggers include skin disease, ingrown toenails, constipation, withdrawal from or initiation of new drugs, infections, and ill-fitting medical devices.
+- Family history.
+
+New-onset spasticity could arise following a stroke or traumatic brain injury. Progressive or worsening symptoms may occur with disorders such as multiple sclerosis, while cerebral palsy results from a non-progressive brain injury, although its clinical manifestations can change over time.
+
+Patients may complain of difficulty sleeping due to muscle tightness or pain. They may also have trouble completing activities of daily living.
+
+## Physical Examination
+
+A complete neurological examination is indicated for a patient presenting with spasticity.
+
+It is very important to distinguish between spasticity and rigidity. With rigidity, resistance to movement is constant throughout passive motion. Spasticity produces velocity-dependent resistance to passive movement, often with a characteristic catch and release.
+
+### Observation
+
+- **Thumb-in-palm posture:** Characteristic of spasticity. It is due to excessive thumb adduction and finger flexion, producing a fist with the four fingers wrapped tightly around the thumb.
+- Abnormal posturing due to muscle stiffness, particularly involving the shoulder adductors, elbow flexors, wrist and finger flexors, and forearm pronators.
+
+### Reflexes
+
+Hyperreflexia is an expected finding in the affected limb. The muscle contracts much more briskly than normal. A positive Babinski sign may also be present.
+
+### Strength and Tone
+
+The clasp-knife phenomenon is a characteristic finding. The limb has a sudden decrease in resistance as passive movement continues. It feels like opening and closing a pocket knife, hence the name.
+
+Clonus is also a common finding on examination. This presents as alternating contractions and relaxations of agonist and antagonist muscle pairs due to exaggerated stretch reflexes.
+
+Spastic co-contractions occur as abnormal antagonist contractions during voluntary agonist effort.
+
+Spastic dystonia is persistent muscle contraction at rest, resulting in a fixed posture that is relieved by passive stretching.
+
+## Modified Ashworth Scale
+
+The Modified Ashworth Scale is commonly used to grade the severity of spasticity.
+
+::: {.mas-table}
+
+| Grade | Description |
+|-|---------|
+| 0 | No increase in muscle tone |
+| 1 | Slight increase in muscle tone, manifested by a catch and release or minimal resistance at the end of the range of motion when the affected part is moved in flexion or extension |
+| 1+ | Slight increase in muscle tone, manifested by a catch, followed by minimal resistance throughout the remainder of the range of motion, but the affected part is easily moved |
+| 2 | More marked increase in muscle tone through most of the range of motion, but the affected parts are easily moved |
+| 3 | Considerable increase in muscle tone; passive movement is difficult |
+| 4 | Affected part is rigid in flexion or extension |
+
+:::
+
+::: {.sp-pagination}
+[← Relevant Anatomy](spasticity-relevant-anatomy.qmd){.btn .btn-outline-primary}
+
+[Next: Investigations →](spasticity-investigations.qmd){.btn .btn-primary}
+:::

@@ -1,5 +1,5 @@
 ﻿---
-title: "Lumbar Radicular Pain: Summary"
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Summary</span>'
 ---
 
 ## High-yield summary
@@ -11,31 +11,35 @@ Radicular pain is related to, but not identical to, radiculopathy:
 - **Radicular pain:** radiating nerve-root-mediated pain
 - **Radiculopathy:** objective nerve root dysfunction, such as weakness, sensory loss, or reflex change
 
-## Key anatomy
-
-The most common teaching example is lumbar disc herniation.
-
-At a given disc level, the affected nerve root depends on where the disc material goes:
-
-| Herniation location | Root usually affected |
-|---|---|
-| **Paracentral / lateral recess** | Traversing nerve root |
-| **Foraminal / far lateral** | Exiting nerve root |
-
-At **L4-L5**, a paracentral herniation usually affects the **traversing L5 nerve root**, while a foraminal or far lateral herniation more often affects the **exiting L4 nerve root**.
-
 ## Key causes
 
-Common causes include:
+In acute lumbar radicular pain, **disc herniation** is the most common cause, particularly in younger and middle-aged adults. Herniated disc material can compress and chemically inflame a nerve root.
 
-- Disc herniation
-- Foraminal stenosis
-- Lateral recess stenosis
-- Degenerative spondylolisthesis
-- Facet hypertrophy or osteophytes
-- Synovial cyst
+By contrast, chronic cases in older adults are more often caused by degenerative narrowing of the lateral recess or neural foramen due to disc height loss, facet hypertrophy or osteophytes, degenerative spondylolisthesis, or a synovial cyst.
 
-Less common serious causes include tumour, infection, trauma, or inflammatory disease.
+Less common but serious causes include:
+
+- Tumour
+- Infection
+- Fracture or significant trauma
+- Inflammatory disease
+
+## Key anatomy
+
+The most common disc-herniation level is **L4-L5**, followed by **L5-S1**. These lower lumbar levels experience high mechanical load and substantial movement.
+
+The distinction between exiting and traversing nerve roots matters because the direction of a disc herniation helps determine which nerve root is affected. More lateral herniations can involve the neural foramen and affect the exiting nerve root, while more central or paracentral herniations can involve the lateral recess and affect the traversing nerve root.
+
+The table below summarizes the main herniation zones and the nerve roots they are most likely to affect:
+
+::: {.herniation-zones-table}
+| Herniation zone | Description |
+|---|---|
+| **Central** | Disc material herniates toward the middle of the spinal canal and may affect multiple nerve roots if the herniation is large. |
+| **Paracentral** | Disc material herniates just lateral to the midline into the lateral recess and usually affects the traversing nerve root; at L4-L5, this is the L5 nerve root. |
+| **Foraminal** | Disc material extends into the neural foramen and usually affects the exiting nerve root; at L4-L5, this is the L4 nerve root. |
+| **Extraforaminal** | Disc material extends beyond the neural foramen and usually affects the exiting nerve root; at L4-L5, this is the L4 nerve root. |
+:::
 
 ## Key clinical clues
 
@@ -47,7 +51,33 @@ The most useful clinical clues are:
 - Objective neurologic findings
 - Positive neural tension signs
 
-Root-level patterns are helpful, but real patients often have overlapping symptoms.
+The tables below review the most useful sensory, motor, reflex, and neural-tension patterns for localizing a suspected nerve root.
+
+| Nerve root | Broad sensory distribution |
+|---|---|
+| **L2** | Anterior upper thigh |
+| **L3** | Anterior thigh and medial knee |
+| **L4** | Medial leg and medial ankle |
+| **L5** | Lateral leg, dorsum of foot, great toe |
+| **S1** | Posterior leg, lateral foot, sole |
+| **S2** | Posterior thigh and upper posterior calf |
+: {tbl-colwidths="[20,80]"}
+
+| Root | Motor findings | Reflex |
+|---|---|---|
+| **L3** | Hip flexion, knee extension | Patellar may be reduced |
+| **L4** | Knee extension, ankle dorsiflexion | Patellar |
+| **L5** | Great toe extension, ankle dorsiflexion, hip abduction | No reliable reflex |
+| **S1** | Plantarflexion, toe walking | Achilles |
+: {tbl-colwidths="[20,55,25]"}
+
+| Test | How it is performed | Suggests |
+|---|---|---|
+| **Straight leg raise** (**Lasègue test**) | With the patient lying supine, passively raise the straightened leg to about 30–70° and assess whether this reproduces radiating leg pain | Lower lumbar radicular irritation, especially L5/S1 |
+| **Bragard test** | After a positive straight leg raise, slightly lower the leg until pain improves, then dorsiflex the ankle to see if radicular pain returns | Neural tension or lower lumbar radicular irritation |
+| **Crossed straight leg raise** | Raise the unaffected leg and assess whether this reproduces radicular pain in the symptomatic leg | Less sensitive but more specific for disc herniation |
+| **Slump test** | With the patient seated, flex the spine and neck, extend the knee, and dorsiflex the ankle to tension the neural system | Neural tension or radicular irritation |
+| **Femoral stretch test** | With the patient prone or side-lying, extend the hip and flex the knee to stretch the femoral nerve | Upper lumbar radicular irritation, especially L2-L4 |
 
 ## Investigations
 
@@ -61,24 +91,30 @@ EMG/NCS can help when the diagnosis is unclear, symptoms are chronic, or imaging
 
 Initial management is usually conservative unless red flags or progressive neurologic deficits are present.
 
-Management may include:
+**Most patients** improve with conservative management:
 
 - Education and reassurance
 - Staying active as tolerated
 - Analgesics or NSAIDs when appropriate
 - Selected neuropathic pain medications
 - Physiotherapy and graded return to function
-- Epidural steroid injection for persistent or severe leg-dominant radicular pain
-- Surgical referral for progressive deficit, cauda equina concern, severe refractory pain, or persistent function-limiting symptoms with matching imaging
+
+**Some patients** with severe, persistent, or function-limiting leg-dominant symptoms and concordant imaging may benefit from an epidural steroid injection.
+
+**Rare cases** require urgent specialist assessment or surgical referral, particularly when there is progressive neurologic deficit, concern for cauda equina syndrome, severe refractory pain, or persistent function-limiting symptoms with matching imaging.
 
 ## Final takeaway
 
 Radicular pain is usually caused by disc herniation or degenerative narrowing affecting a spinal nerve root. The pattern depends on the nerve root involved and whether the exiting or traversing root is affected.
 
-The clinical priority is to identify red flags, localize the likely nerve root, match symptoms to imaging when needed, and choose management based on severity, duration, neurologic findings, and function.
+The clinical priority is to identify red flags, localize the likely nerve root, and match symptoms to imaging when needed. Choose management based on the **overall picture**, with a particular focus on improving function.
 
 <br>
 
-[← Previous: Summary](radicular-pain-summary.qmd){.btn .btn-outline-primary}
+::: {.rp-pagination}
+[← Previous: Management](radicular-pain-management.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: More Cases →](radicular-pain-more-cases.qmd){.btn .btn-primary}
+:::

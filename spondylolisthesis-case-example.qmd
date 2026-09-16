@@ -1,0 +1,87 @@
+---
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Case Example</span>'
+---
+
+## Clinical scenario
+
+Becky P. is a 52-year-old woman presenting to clinic with a six-month history of gradually worsening lower back pain. She describes a deep ache across the lower back that is aggravated by prolonged standing, walking, and leaning backward, but improved by sitting or bending forward. She works as a nurse and spends most of her days on her feet, but has recently had difficulty keeping up because of aching and heaviness in her legs after walking for more than a few minutes. Stopping and leaning on a heavy object eases these episodes.
+
+::: {.callout-tip}
+## Question 1
+
+What could these episodes of bilateral aching and heaviness indicate?
+
+<details>
+<summary>Show answer</summary>
+
+Bilateral leg heaviness that occurs with walking or standing and eases with forward flexion is a sign of neurogenic claudication. This suggests central or lateral-recess narrowing, a common consequence of a degenerative slip.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 2
+
+What specific history questions could you ask Becky to help characterize the pain and narrow the differential diagnosis?
+
+<details>
+<summary>Show answer</summary>
+
+- **Onset:** Was the onset insidious or sudden? Was there a recent fall or trauma?
+- **Location and radiation:** Where is the pain located? Does it radiate toward the buttock, leg, or thigh?
+- **Neurologic symptoms:** Is there numbness, weakness, foot drop, balance difficulty, or gait disturbance?
+- **Red flags:** Is there saddle anesthesia, urinary retention or incontinence, fecal incontinence, fever, intravenous drug use, a history of cancer, constitutional symptoms, chronic steroid use, or osteoporosis?
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 3
+
+You have ruled out red-flag symptoms such as saddle anesthesia and incontinence. Becky is otherwise healthy and denies fever, trauma, weight loss, or bladder or bowel changes. Which imaging study should you order first, and how should she be positioned?
+
+<details>
+<summary>Show answer</summary>
+
+A standing, upright lateral radiograph of the lumbar spine is the initial test to detect and grade a slip. Upright positioning is important because a slip may reduce and appear normal when the patient is supine. Weight-bearing views reveal the true degree of translation. Anteroposterior and lateral views can also demonstrate the slip and the presence of a pars defect.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 4
+
+A year later, Becky brings in her daughter, Maya, a 14-year-old competitive gymnast. Maya has had low back pain for several months, located in the lower back and noticeably worse with backbends and landings but improved by rest. She denies leg pain, numbness, weakness, or bladder or bowel symptoms. What is the most likely source of Maya's pain, and how does it differ from her mother's?
+
+<details>
+<summary>Show answer</summary>
+
+Maya is a skeletally immature adolescent participating in a sport that demands repetitive lumbar hyperextension and rotation. Her pain is axial, activity-related, and relieved by rest, without radicular or red-flag features. This pattern points to spondylolysis, a stress injury of the pars interarticularis and the most common identifiable cause of low back pain in young athletes. It can progress to isthmic spondylolisthesis during the adolescent growth spurt.
+
+By contrast, Becky's pain reflects age-related disc and facet deterioration producing a degenerative slip and canal narrowing.
+
+</details>
+:::
+
+::: {.callout-tip}
+## Question 5
+
+Becky's radiograph shows anterior slippage of L4 on L5, with the L4 body translated approximately one-third of the way forward over L5. How would you grade the severity of this slip?
+
+<details>
+<summary>Show answer</summary>
+
+Severity is graded using the Meyerding scale from I to V. Translation of approximately one-third, or 25–50%, is a Meyerding grade II slip.
+
+</details>
+:::
+
+<br>
+
+::: {.sl-pagination}
+[← Previous: Advanced Topics](spondylolisthesis-advanced-topics.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
+
+[Next: References →](spondylolisthesis-references.qmd){.btn .btn-primary}
+:::
