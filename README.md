@@ -2,6 +2,14 @@
 
 This is a starter Quarto website.
 
+## Netlify deployment
+
+Netlify uses `netlify.toml` to install Quarto, render the website, and publish
+the generated `_site` directory. The Quarto build plugin runs `quarto render`
+during deployment; no separate build command is needed in the Netlify settings.
+The repository contains Quarto source files, so publishing it directly without
+rendering does not provide the `index.html` homepage.
+
 ## How to use
 
 1. Unzip this folder.
