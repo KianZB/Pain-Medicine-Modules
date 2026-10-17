@@ -12,6 +12,11 @@ Key findings include segmental tenderness, painful or limited extension, hamstri
 
 Standing lateral radiographs are the initial test for detecting and grading a slip. Upright positioning is essential because a slip may reduce when the patient is supine. Anteroposterior and lateral views can demonstrate both spondylolysis and spondylolisthesis.
 
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/10-grade-ii-l4-l5-spondylolisthesis.png" alt="Sagittal radiograph of grade II spondylolisthesis at the L4-L5 level." style="width: 50%;">
+<figcaption>“A sagittal radiograph depicting grade II spondylolisthesis located between the L4-L5.” Source: <a href="https://radiopaedia.org/articles/spondylolisthesis-1">Radiopaedia</a>.</figcaption>
+</figure>
+
 ## Flexion-extension radiographs
 
 Standing flexion-extension views are the traditional standard for detecting dynamic instability, which can influence surgical planning. However, their reliability is debated because they may underestimate instability. Upright radiographs combined with supine MRI, or natural sitting lateral views, may detect unstable cases more effectively.
@@ -38,6 +43,11 @@ Slip severity is graded using the Meyerding classification on a standing lateral
 | **IV** | 75–100% | High-grade |
 | **V** | >100% | Spondyloptosis |
 +: {tbl-colwidths="[18,37,45]"}
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/11-meyerding-grading-diagram.png" alt="Diagram of the Meyerding grading system for spondylolisthesis." style="width: 50%;">
+<figcaption>Source: <a href="https://www.sciencedirect.com/science/article/abs/pii/S174680942030478X">ScienceDirect</a>.</figcaption>
+</figure>
 
 ## Assessment of spinal and spinopelvic alignment
 

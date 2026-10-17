@@ -15,11 +15,21 @@ The spinal cord contains complex neuronal circuits and is also the area of inter
 - **Motor unit:** A motor neuron and all the muscle fibers it innervates.
 - **Spinal cord reflexes.**
 
+<figure class="figure text-center">
+<img src="images/spasticity/01-descending-reflex-control-schematic.png" alt="Schematic of descending pathways modulating stretch-reflex circuitry in the spinal cord." style="width: 50%;">
+<figcaption>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4229996/#sec3">PMC</a>.</figcaption>
+</figure>
+
 ## Reflex Pathways
 
 In healthy individuals, stretch reflexes are mediated by excitatory connections between alpha motor neurons and the Ia afferent fibers from muscle spindles. Passive stretch of the muscle excites muscle spindles, causing Ia fibers to fire and send input to alpha motor neurons through spinal pathways. The alpha motor neurons send an efferent impulse to the muscle, causing it to contract.
 
 Golgi tendon organs sense tension and send signals via Ib afferents. Golgi tendon organ Ib afferents provide inhibitory input in response to muscle tension, helping regulate excessive contraction.
+
+<figure class="figure text-center">
+<img src="images/spasticity/02-stretch-reflex-diagram.jpg" alt="Diagram of the stretch reflex pathway and its neural circuitry." style="width: 50%;">
+<figcaption>Source: <a href="https://doi.org/10.4324/9781315110745">David G. Behm, <em>The Science and Physiology of Flexibility and Stretching</em></a>.</figcaption>
+</figure>
 
 In patients with spasticity, the stretch reflex is exaggerated. Two theoretical causes are:
 
@@ -32,15 +42,29 @@ In patients with spasticity, the stretch reflex is exaggerated. Two theoretical 
 
 The corticospinal tract is important for voluntary motor control and also receives and modulates inputs from other sources. Lesions of the corticospinal tract alone do not usually cause spasticity; involvement of other tracts is generally required.
 
+<figure class="figure text-center">
+<img src="images/spasticity/03-corticospinal-tract.png" alt="Diagram of the corticospinal tract pathway descending from the cerebral cortex to the spinal cord." style="width: 50%;">
+<figcaption>Source: <a href="https://www.researchgate.net/figure/Corticospinal-tract-blue-conveying-motor-signals-from-motor-cortex-to-skeletal-muscles_fig1_237008975">ResearchGate</a>.</figcaption>
+</figure>
+
 ### Reticulospinal Tract
 
 The reticulospinal tract is the pathway most commonly implicated in spasticity. The dorsal reticulospinal pathway is inhibitory to the stretch reflex, while the medial, or pontine, reticulospinal tract is facilitatory. Therefore, when only the dorsal tract is disturbed, the system is pushed toward hyperexcitability.
 
 Direct evidence shows upregulated reticulospinal output in subjects who develop spasticity after spinal cord injury.
 
+<figure class="figure text-center">
+<img src="images/spasticity/04-descending-brainstem-tracts.jpg" alt="Illustration of descending brainstem tracts including the reticulospinal pathway." style="width: 50%;">
+</figure>
+
 ### Vestibulospinal Tract
 
 The vestibulospinal tract facilitates extensor tone and is important in maintaining posture and balance. Its unopposed activity can cause increased tone.
+
+<figure class="figure text-center">
+<img src="images/spasticity/05-vestibulospinal-reticulospinal-tracts.jpg" alt="Diagram of vestibulospinal and reticulospinal tracts descending from the brainstem to the spinal cord." style="width: 50%;">
+<figcaption>Source: <a href="https://www.sciencedirect.com/science/article/pii/B9780407001961500115">ScienceDirect</a>.</figcaption>
+</figure>
 
 ## Muscle Fibers and Extracellular Matrix
 
@@ -50,11 +74,21 @@ The muscle fiber is the basic cellular unit of skeletal muscle. It is multinucle
 
 In spasticity, fiber-level architecture is disrupted.
 
+<figure class="figure text-center">
+<img src="images/spasticity/06-skeletal-muscle-sarcomere-anatomy.jpg" alt="Diagram of skeletal muscle sarcomere anatomy and contractile ultrastructure." style="width: 50%;">
+<figcaption>Source: <a href="https://www.nature.com/articles/s41572-023-00469-8">Nature</a>.</figcaption>
+</figure>
+
 The extracellular matrix contains three connective tissue layers:
 
 - **Endomysium:** The innermost layer of collagen fibers, which anchors onto the sarcolemma and is important for lateral force transmission.
 - **Perimysium:** Surrounds each fascicle and carries blood vessels and nerves. Large collagen fibers are a site of pathological stiffening in contractures.
 - **Epimysium:** The outermost dense collagen sheath around the whole muscle. It helps transmit force from fibers to the skeleton.
+
+<figure class="figure text-center">
+<img src="images/spasticity/07-muscle-connective-tissue-layers.jpg" alt="Illustration of the endomysium, perimysium, and epimysium connective-tissue layers of skeletal muscle." style="width: 50%;">
+<figcaption>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3177172/">Gillies AR, Lieber RL. <em>Structure and Function of the Skeletal Muscle Extracellular Matrix</em></a>.</figcaption>
+</figure>
 
 In spasticity, many changes occur at the extracellular matrix and muscle fiber levels. For example, there may be a reduced number of sarcomeres, or sarcomeres may be held at longer-than-optimal lengths.
 

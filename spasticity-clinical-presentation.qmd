@@ -27,6 +27,11 @@ It is very important to distinguish between spasticity and rigidity. With rigidi
 - **Thumb-in-palm posture:** Characteristic of spasticity. It is due to excessive thumb adduction and finger flexion, producing a fist with the four fingers wrapped tightly around the thumb.
 - Abnormal posturing due to muscle stiffness, particularly involving the shoulder adductors, elbow flexors, wrist and finger flexors, and forearm pronators.
 
+<figure class="figure text-center">
+<img src="images/spasticity/08-spasticity-posture-patterns.png" alt="Pattern of abnormal posture seen in spasticity with thumb-in-palm posture and limb flexor posturing." style="width: 50%;">
+<figcaption>Source: <a href="https://neurorehabilitation.com.au/spasticity-management/">NeuroRehabilitation</a>.</figcaption>
+</figure>
+
 ### Reflexes
 
 Hyperreflexia is an expected finding in the affected limb. The muscle contracts much more briskly than normal. A positive Babinski sign may also be present.
@@ -35,7 +40,16 @@ Hyperreflexia is an expected finding in the affected limb. The muscle contracts 
 
 The clasp-knife phenomenon is a characteristic finding. The limb has a sudden decrease in resistance as passive movement continues. It feels like opening and closing a pocket knife, hence the name.
 
+<figure class="figure text-center">
+<img src="images/spasticity/09-clasp-knife-phenomenon.png" alt="Illustration of the clasp-knife phenomenon showing sudden reduction in resistance during passive movement." style="width: 50%;">
+<figcaption>Source: <a href="https://www.mndassociation.org/sites/default/files/2023-11/6.%20Tone%20management%20in%20MND.pdf">Motor Neurone Disease Association</a>.</figcaption>
+</figure>
+
 Clonus is also a common finding on examination. This presents as alternating contractions and relaxations of agonist and antagonist muscle pairs due to exaggerated stretch reflexes.
+
+<figure class="figure text-center">
+<img src="images/spasticity/10-clonus.png" alt="Illustration of clonus as rhythmic alternating contractions and relaxations following a stretch reflex." style="width: 30%;">
+</figure>
 
 Spastic co-contractions occur as abnormal antagonist contractions during voluntary agonist effort.
 

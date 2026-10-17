@@ -50,8 +50,10 @@ For routine lumbar radicular pain, **MRI without contrast** is usually sufficien
 ![MRI of the lumbar spine, showing a herniated and bulging disc.](images/radicular-pain/mri-herniated-disc.png){fig-align="center" width="45%"}
 
 ![CT of the lumbar spine, useful for more detailed assessment of bony anatomy.](images/radicular-pain/ct-lumbar-spine.png){fig-align="center" width="45%"}
+<figcaption>Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_case_46533_Normal_lumbar_spine_CT">NCCommons / Radiopaedia</a>.</figcaption>
 
 ![X-ray of the lumbar spine, useful for a quick screen of degenerative changes.](images/radicular-pain/xray-lumbar-spine.png){fig-align="center" width="45%"}
+<figcaption>Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_images_for_Spine">NCCommons / Radiopaedia</a>.</figcaption>
 
 ## Matching imaging to the clinical picture
 

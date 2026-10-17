@@ -12,11 +12,21 @@ Each lumbar vertebra has an anterior weight-bearing body and a posterior arch, f
 The immature spine's open growth plates and secondary ossification centers make it more susceptible to injury. This is one reason spondylolysis often begins in childhood or adolescence.
 :::
 
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/01-spine-anatomy.png" alt="Anatomical drawing of the human spine showing vertebral segments and the spinal canal." style="width: 50%;">
+<figcaption>Source: <a href="https://orthoeducation.com/spineeducation/anatomy-of-the-spine/">OrthoEducation</a>.</figcaption>
+</figure>
+
 ## Intervertebral discs
 
 A disc sits between each pair of adjacent vertebral bodies, including L5–S1. It contains a hydrated central nucleus pulposus within a fibrous annulus fibrosus. Together, these structures absorb axial and torsional loads while permitting motion.
 
 With aging, the nucleus dehydrates and the annulus develops fissures. The resulting loss of disc height shifts load posteriorly onto the facet joints.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/02-lumbar-vertebra-anatomy.png" alt="Anatomy of a lumbar vertebra showing the body, pedicles, laminae, transverse processes, and articular processes." style="width: 50%;">
+<figcaption>Source: <a href="https://basicmedicalkey.com/vertebral-column/">Basic Medical Key</a>.</figcaption>
+</figure>
 
 ## Facet joints
 
@@ -39,6 +49,11 @@ A bilateral pars defect removes the bony restraint against forward slip, allowin
 ## Spinal ligaments
 
 The anterior and posterior longitudinal ligaments, ligamentum flavum, and interspinous and supraspinous ligaments stabilize each functional spinal unit. With disc-height loss, the ligamentum flavum and posterior longitudinal ligament buckle and hypertrophy, encroaching on the canal. Interspinous bursitis is a recognized marker of developing degenerative spondylolisthesis.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/03-spinal-ligaments.png" alt="Illustration of the spinal ligaments and their relationship to the vertebral column." style="width: 50%;">
+<figcaption>Source: <a href="https://basicmedicalkey.com/vertebral-column/">Basic Medical Key</a>.</figcaption>
+</figure>
 
 ## Neural elements
 
@@ -72,6 +87,11 @@ Pelvic orientation drives sagittal balance and is measured on standing full-leng
 $$\mathrm{PI} = \mathrm{PT} + \mathrm{SS}$$
 
 Mean asymptomatic values are approximately 55° for PI, 41° for SS, and 13° for PT, with lumbar lordosis tracking these parameters. A high PI raises lumbosacral shear and is associated with both isthmic spondylolysis and the onset or progression of spondylolisthesis. Because abnormal parameters also affect fusion outcomes, they are integral to surgical planning.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/04-spinopelvic-parameters.png" alt="Diagram of spinopelvic parameters including pelvic incidence, pelvic tilt, and sacral slope." style="width: 50%;">
+<figcaption>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12254617/">PMC</a>.</figcaption>
+</figure>
 
 <br>
 

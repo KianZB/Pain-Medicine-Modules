@@ -32,6 +32,7 @@ Once the signal has been transduced, it travels from the peripheral tissue to th
 Notably, the cell bodies of these neurons are located in a structure called the **dorsal root ganglion**, which sits just outside the spinal cord. This structure is clinically important because it is a key sensory relay point and is therefore often a target of treatments aimed at modulating neuropathic or radicular pain.
 
 ![Peripheral nociceptive signals travel through first-order neurons whose cell bodies are located in the dorsal root ganglion.](images/pain-fundamentals/first-order-neuron.png){fig-align="center" width="35%"}
+<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
 
 First-order sensory neurons can have different types of nerve fibers that each differ in what they carry, how large they are, whether they are myelinated, and how quickly they conduct signals. In general, fibers that are myelinated and larger in diameter conduct signals significantly faster than fibers that are unmyelinated and smaller in diameter.
 
@@ -81,6 +82,7 @@ After crossing, these signals ascend toward the brain through the **anterolatera
 More specifically, pain and temperature signals mainly ascend through the **lateral spinothalamic tract**. This tract is the major pathway that carries pain and temperature information from the body to the brain. There is also an **anterior spinothalamic tract**, but this is classically associated with crude touch and pressure rather than pain and temperature.
 
 ![Pain and temperature signals cross in the spinal cord and then ascend on the opposite side through the lateral spinothalamic tract, which is part of the broader anterolateral system.](images/pain-fundamentals/spinothalamic-tract.png){fig-align="center" width="35%"}
+<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
 
 ## Step 5: Thalamus and cortical processing
 
@@ -98,6 +100,7 @@ Important cortical regions include:
 - **Prefrontal cortex:** attention, meaning, expectation, and context
 
 ![Pain perception involves thalamic relay to multiple cortical regions responsible for sensation, salience, emotion, and context.](images/pain-fundamentals/cortical-pain-processing.png){fig-align="center" width="35%"}
+<figcaption>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12533558/">PMC</a>.</figcaption>
 
 ::: {.callout-note}
 ## Key idea
@@ -116,6 +119,7 @@ Noxious stimulus → nociceptor activation → transduction → first-order neur
 :::
 
 ![Simplified pain and temperature pathway.](images/pain-fundamentals/pain-temperature-pathway-labeled.png){fig-align="center" width="40%"}
+<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
 
 <br>
 

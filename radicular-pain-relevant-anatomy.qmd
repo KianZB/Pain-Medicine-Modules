@@ -38,6 +38,7 @@ Each intervertebral disc has two major components:
 The interface between the disc and the adjacent vertebral body is called the **cartilaginous endplate**. The endplate is important because adult discs have very limited direct blood supply; instead, nutrients and waste products mainly move by diffusion across the endplate. This limited vascularity helps explain why discs have limited healing potential after injury.
 
 ![Intervertebral disc between adjacent vertebrae, showing the nucleus pulposus and annulus fibrosus.](images/radicular-pain/disc-anatomy.png){fig-align="center" width="50%"}
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:716_Intervertebral_Disk.jpg">Wikimedia Commons</a>.</figcaption>
 
 ## Disc loading and degeneration
 
@@ -124,6 +125,7 @@ For example, at **L4-L5**, the **L4 nerve root** is the exiting nerve root becau
 :::
 
 ![Example of exiting and traversing nerve roots including L3, L4, and L5 levels.](images/radicular-pain/nerve-roots.png){fig-align="center" width="35%"}
+<figcaption>Source: <a href="https://elibrary.tsri.or.th/fullP/RDG5610009/RDG5610009_full.pdf">TSRI eLibrary</a>.</figcaption>
 
 ## Herniation zones
 

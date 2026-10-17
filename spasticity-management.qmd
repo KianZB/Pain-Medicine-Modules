@@ -43,6 +43,11 @@ Treatment options include:
 - Splinting and orthotics
 - Dynamic stretching, including trunk twists, lunges, and leg swings
 
+<figure class="figure text-center">
+<img src="images/spasticity/15-upper-limb-stretch-exercise.jpg" alt="Example of an upper-limb mobility and stretching exercise used in rehabilitation." style="width: 50%;">
+<figcaption>Example of an upper limb mobility and stretch exercise. Source: <a href="https://www.manchesterphysio.co.uk/treatments/physiotherapy.php">Manchester Physiotherapy</a>.</figcaption>
+</figure>
+
 Patient education on stretching and maintaining range of motion is important. Family members and caregivers should also be educated about positioning the patient in bed, a chair, or a wheelchair; checking for new wounds; avoiding noxious stimuli; and recognizing signs of discomfort or pain.
 
 Home exercises that may help maintain range of motion include calf stretches, wall push-ups, standing and ambulation, unloaded cycling, and water-based exercises.
@@ -60,6 +65,11 @@ Contraindications to botulinum toxin injection include hypersensitivity and infe
 ### Functional Electrical Stimulation
 
 Functional electrical stimulation may help increase plasticity in spinal cord circuitry.
+
+<figure class="figure text-center">
+<img src="images/spasticity/16-functional-electrical-stimulation.png" alt="Diagram of functional electrical stimulation applied to muscle to improve neuromuscular activation and plasticity." style="width: 50%;">
+<figcaption>Source: <a href="https://www.cesalud.com/blog/109-electroestimulacion-tens-o-ems.html">CESalud</a>.</figcaption>
+</figure>
 
 ::: {.sp-pagination}
 [← Investigations](spasticity-investigations.qmd){.btn .btn-outline-primary}

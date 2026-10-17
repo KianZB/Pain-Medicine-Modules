@@ -71,6 +71,18 @@ Common lower-limb dermatomes:
 - S1: lateral foot
 - S2: posterior thigh
 
+::: {.dermatome-figures}
+<figure class="figure text-center">
+<img src="images/back-pain/02-dermatomes-anterior.png" alt="Anterior view showing lower-limb dermatomes and cutaneous nerve territories.">
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Dermatomes_and_cutaneous_nerves_-_anterior.png">Wikimedia Commons</a>.</figcaption>
+</figure>
+
+<figure class="figure text-center">
+<img src="images/back-pain/03-dermatomes-posterior.png" alt="Posterior view showing lower-limb dermatomes and cutaneous nerve territories.">
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Dermatomes_and_cutaneous_nerves_-_posterior.png">Wikimedia Commons</a>.</figcaption>
+</figure>
+:::
+
 ### Power: myotomes
 
 Common lower-limb myotomes:
@@ -104,10 +116,20 @@ The following are a few useful special tests for common back pain generators; th
 - **Lasègue sign:** Re-tensions the sciatic nerve with ankle dorsiflexion after a positive straight leg raise.
 - **Crossed straight leg raise:** Reproduction of symptoms in the affected leg is more specific for disc herniation.
 
+<figure class="figure text-center">
+<img src="images/back-pain/04-straight-leg-raise.png" alt="Straight leg raise test, also called the Lasègue test." style="width: 35%;">
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Straight-leg-test.gif">Wikimedia Commons</a>.</figcaption>
+</figure>
+
 **Sacroiliac joint pain:**
 
 - **FABER:** Stresses the SI joint with the hip in a figure-four position; posterior pelvic or buttock pain supports SI joint involvement, whereas groin pain suggests hip pathology.
 - **Gaenslen's test:** Stresses the SI joint by extending one hip while flexing the other, and may reproduce posterior pelvic or buttock pain.
+
+<figure class="figure text-center">
+<img src="images/back-pain/05-gaenslen-test.png" alt="Gaenslen's test for sacroiliac joint pain." style="width: 35%;">
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Gaenslen%27s_test.jpg">Wikimedia Commons</a>.</figcaption>
+</figure>
 
 <br>
 

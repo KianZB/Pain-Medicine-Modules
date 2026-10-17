@@ -56,6 +56,7 @@ Physiotherapy should be guided by symptom response. A movement that helps one pa
 :::
 
 ![Example of a McKenzie lumbar exercise, showing the progression from lying prone to full back extension.](images/radicular-pain/mckenzie-exercises.png){fig-align="center" width="35%"}
+<figcaption>Source: <a href="https://www.scribd.com/document/662971405/Treat-Yout-Own-Back-by-Robin-McKenzie">Robin McKenzie, <em>Treat Your Own Back</em></a>.</figcaption>
 
 ## Epidural steroid injections
 
@@ -78,6 +79,7 @@ This is often the most targeted epidural approach when the patient has clear uni
 Under fluoroscopy, the target is commonly identified using an oblique view of the neural foramen. The classic target region is near the inferior aspect of the pedicle ("6 o'clock position") within the so-called **safe triangle**.
 
 ![Triangle of safety used to conceptualize the target region for lumbar transforaminal epidural access.](images/radicular-pain/triangle-of-safety.png){fig-align="center" width="75%"}
+<figcaption>Source: <a href="https://onlinelibrary.wiley.com/doi/10.1111/papr.13317">Wiley</a>.</figcaption>
 
 ### Interlaminar epidural steroid injection
 
@@ -92,6 +94,7 @@ Compared with a transforaminal injection, the medication is usually delivered mo
 A **caudal epidural steroid injection** accesses the epidural space through the sacral hiatus. This approach can provide broader spread through the lower lumbar and sacral epidural space. It may be useful when multilevel symptoms are present, when post-surgical anatomy makes other approaches more difficult, or when a less targeted but broader epidural approach is preferred.
 
 ![Caudal epidural steroid injection, shown here under ultrasound guidance](images/radicular-pain/caudal-epidural.png){fig-align="center" width="60%"}
+<figcaption>Source: <a href="https://link.springer.com/book/10.1007/978-1-4419-1681-5">Springer</a>.</figcaption>
 
 ::: {.callout-note}
 ## Key idea

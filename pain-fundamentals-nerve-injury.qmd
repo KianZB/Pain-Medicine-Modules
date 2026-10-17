@@ -29,6 +29,7 @@ This matters because nerve recovery depends not only on whether the axon is inju
 : {tbl-colwidths="[22,78]"}
 
 ![Peripheral nerve structure showing the axon and surrounding endoneurium, perineurium, and epineurium.](images/pain-fundamentals/nerve-structure.png){fig-align="center" width="55%"}
+<figcaption>Source: <a href="https://www.yumpu.com/en/document/view/65854999/gerard-j-tortora-bryan-h-derrickson-principles-of-anatomy-amp-physiology-2014-wiley-libgenlc/483">Tortora &amp; Derrickson, <em>Principles of Anatomy &amp; Physiology</em></a>.</figcaption>
 
 ## Seddon classification
 

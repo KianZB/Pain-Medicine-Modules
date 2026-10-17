@@ -49,6 +49,11 @@ Reduction improves deformity correction and may lower pseudarthrosis rates but o
 
 Direct pars repair is a motion-preserving option in young patients with isolated spondylolysis or a very low-grade slip, particularly when the disc and facet joints remain healthy.
 
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/12-l5-s1-decompression-fusion-diagrams.png" alt="Diagrams showing decompression and spinal fusion for an L5/S1 spondylolisthesis in oblique, lateral, and anteroposterior views." style="width: 50%;">
+<figcaption>“A series of diagrams illustrating decompression and spinal fusion of a L5/S1 spondylolisthesis from oblique, lateral, and anteroposterior views.” Source: <a href="https://musculoskeletalkey.com/decompression-and-spinal-fusion-in-low-grade-spondylolisthesis/">Musculoskeletal Key</a>.</figcaption>
+</figure>
+
 <br>
 
 ::: {.sl-pagination}

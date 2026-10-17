@@ -36,6 +36,11 @@ Hamstring tightness is a hallmark finding, especially in adolescents with higher
 
 Lumbosacral kyphosis and pelvic retroversion can produce a flattened lumbar contour, palpable step-off, shortened trunk, and, in severe L5–S1 slips, a crouched Phalen-Dickson gait. Degenerative stenosis instead tends to produce a forward-flexed posture and wide-based gait.
 
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/08-phalen-dickson-crouched-gait.png" alt="Crouched gait example showing excessive hip flexion, knee flexion, and ankle dorsiflexion in Phalen-Dickson gait." style="width: 50%;">
+<figcaption>“Images of a ‘crouched’ gait (Phalen-Dickson sign), featuring excessive hip flexion, knee flexion, and ankle dorsiflexion.” Source: <a href="https://pinnacleorthocentre.com/crouch-gait-in-cerebral-palsy/">Pinnacle Orthocentre</a>.</figcaption>
+</figure>
+
 ## Physical examination
 
 The examination emphasizes:
@@ -62,6 +67,11 @@ Cauda equina syndrome, spinal epidural abscess, and spinal malignancy can mimic 
 :::
 
 A structured diagnostic algorithm helps separate the majority of patients with nonspecific pain from the minority with serious or specific pathology.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/09-low-back-pain-diagnostic-algorithm.png" alt="Diagnostic algorithm for evaluating low back pain and separating nonspecific pain from specific or serious pathology." style="width: 50%;">
+<figcaption>Source: Cashin AG, Chou R, Weimer MB, McAuley JH. Low Back Pain: A Review. <em>JAMA</em>. 2026;336(2):144–158. <a href="https://doi.org/10.1001/jama.2026.9631">JAMA</a>.</figcaption>
+</figure>
 
 <br>
 

@@ -8,6 +8,11 @@ title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><sp
 
 The two lie on a spectrum linked by the bilateral pars lesion. When both sides of the arch are defective, the posterior bony “hook” that normally restrains forward movement is lost, allowing the vertebra to translate anteriorly and converting isolated spondylolysis into isthmic spondylolisthesis.
 
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/05-spondylolysis-vs-spondylolisthesis.png" alt="Illustration comparing spondylolysis and spondylolisthesis with a bilateral pars defect leading to anterior translation." style="width: 50%;">
+<figcaption>Source: <a href="https://www.orthoinfo.org/diseases--conditions/spondylolysis-and-spondylolisthesis/">OrthoInfo / AAOS</a>.</figcaption>
+</figure>
+
 ::: {.callout-note}
 ## Key idea
 
@@ -17,6 +22,11 @@ Spondylolysis is a pars defect; spondylolisthesis is actual vertebral slip. A bi
 ## Etiologic classification: Wiltse-Newman
 
 The Wiltse-Newman classification sorts spondylolisthesis by its underlying cause.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/06-wiltse-newman-classification.png" alt="Classification diagram showing the Wiltse-Newman etiologic categories of spondylolisthesis." style="width: 50%;">
+<figcaption>Source: <a href="https://www.orthobullets.com/spine/2058/pediatric-spondylolysis-and-spondylolisthesis">Orthobullets</a>.</figcaption>
+</figure>
 
 ### Dysplastic
 
@@ -49,6 +59,11 @@ Iatrogenic spondylolisthesis develops as a consequence of medical or surgical in
 ## Meyerding grading system
 
 Severity is quantified by the Meyerding classification, introduced in 1932, using a standing, neutral lateral lumbar radiograph. The superior endplate of the vertebra below is divided into quarters, and the grade reflects how far the vertebra above has translated.
+
+<figure class="figure text-center">
+<img src="images/spondylolisthesis/07-meyerding-stages.png" alt="Illustration of Meyerding staging of spondylolisthesis grade progression by quarter divisions of the vertebral endplate." style="width: 50%;">
+<figcaption>Source: <a href="https://www.jabfm.org/content/35/6/1204/tab-figures-data">Journal of the American Board of Family Medicine</a>.</figcaption>
+</figure>
 
 | Grade | Degree of slip | Clinical description |
 |---|---:|---|

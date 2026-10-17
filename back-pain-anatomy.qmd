@@ -32,6 +32,11 @@ The spine is divided into five major regions:
 | **Coccyx** | Small terminal fused vertebrae | Minimal movement | Can be involved in coccydynia after direct trauma or prolonged pressure |
 : {tbl-colwidths="[18,32,22,28]"}
 
+<figure class="figure text-center">
+<img src="images/back-pain/01-spinal-regions.png" alt="The spinal column divided into its cervical, thoracic, lumbar, sacral, and coccygeal regions." style="width: 25%;">
+<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Gray_111_-_Vertebral_column-coloured.png">Wikimedia Commons</a>.</figcaption>
+</figure>
+
 ## The spinal cord
 
 The **spinal cord** is part of the central nervous system and runs through the **spinal canal**, which is formed by the vertebral bodies anteriorly and the vertebral arches posteriorly.
