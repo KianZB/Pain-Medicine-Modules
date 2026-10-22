@@ -1,0 +1,3274 @@
+{
+  "version": "1.0 draft for medical/editorial review",
+  "rules": {
+    "diagnostic_guess_budget": 2,
+    "differential_limit": 3
+  },
+  "cases": [
+    {
+      "id": "leg-pain-walking",
+      "number": 1,
+      "title": "Leg Pain on Walking",
+      "difficulty": "Easy",
+      "initial": "A 54-year-old man reports gradually worsening pain in both legs over the past year. He has begun cutting back on walks and errands.",
+      "intended": "Lumbar spinal stenosis causing neurogenic claudication",
+      "aliases": [
+        "neurogenic claudication",
+        "lumbar spinal stenosis",
+        "lumbar stenosis",
+        "spinal stenosis",
+        "lumbar canal stenosis",
+        "degenerative lumbar spinal stenosis",
+        "spinal stenosis with neurogenic claudication",
+        "neurogenic intermittent claudication",
+        "lumbar spinal stenosis causing neurogenic claudication",
+        "LSS",
+        "lumbar spinal canal stenosis",
+        "lumbar central canal stenosis",
+        "central lumbar spinal stenosis",
+        "degenerative lumbar stenosis",
+        "lumbar spinal stenosis with neurogenic claudication",
+        "neurogenic claudication due to lumbar spinal stenosis",
+        "neurogenic claudication secondary to lumbar spinal stenosis",
+        "lumbar central stenosis",
+        "degenerative lumbar canal stenosis",
+        "degenerative lumbar spinal canal stenosis",
+        "lumbar spine stenosis",
+        "stenosis of the lumbar spine",
+        "stenosis of the lumbar spinal canal",
+        "lumbar spinal canal narrowing",
+        "narrowing of the lumbar spinal canal",
+        "neurogenic intermittent claudication due to lumbar stenosis",
+        "intermittent neurogenic claudication",
+        "pseudoclaudication",
+        "pseudo claudication",
+        "spinal claudication",
+        "intermittent spinal claudication",
+        "lumbar spinal stenosis resulting in neurogenic claudication",
+        "lumbar stenosis with neurogenic claudication",
+        "lumbar stenosis causing neurogenic claudication",
+        "lumbar stenosis resulting in neurogenic claudication",
+        "lumbar canal stenosis with neurogenic claudication",
+        "lumbar canal stenosis causing neurogenic claudication",
+        "lumbar canal stenosis resulting in neurogenic claudication",
+        "degenerative lumbar spinal stenosis with neurogenic claudication",
+        "degenerative lumbar spinal stenosis causing neurogenic claudication",
+        "degenerative lumbar spinal stenosis resulting in neurogenic claudication",
+        "neurogenic claudication from lumbar spinal stenosis",
+        "neurogenic claudication due to lumbar stenosis",
+        "neurogenic claudication secondary to lumbar stenosis",
+        "neurogenic claudication from lumbar stenosis",
+        "neurogenic claudication due to lumbar canal stenosis",
+        "neurogenic claudication secondary to lumbar canal stenosis",
+        "neurogenic claudication from lumbar canal stenosis",
+        "lumbar spinal stenosis (LSS)",
+        "lumbar spinal stenosis (neurogenic claudication)",
+        "neurogenic claudication (lumbar spinal stenosis)",
+        "lumbar spinal stenosis and neurogenic claudication",
+        "lumbar spinal stenosis with neurogenic intermittent claudication",
+        "degenerative spinal stenosis with neurogenic claudication"
+      ],
+      "not_accepted": [
+        "vascular claudication",
+        "peripheral arterial disease",
+        "sciatica",
+        "lumbar radiculopathy",
+        "radicular pain",
+        "radiculopathy",
+        "neuropathy"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "What brings on the pain?",
+          "Walking or standing for several minutes brings on aching and heaviness in his legs."
+        ],
+        [
+          "h02",
+          "History",
+          "What makes it better?",
+          "Sitting usually relieves symptoms within a few minutes. Simply stopping while standing helps much less."
+        ],
+        [
+          "h03",
+          "History",
+          "Does leaning forward help?",
+          "Yes. Leaning over a shopping cart lets him walk much farther."
+        ],
+        [
+          "h04",
+          "History",
+          "Where does the discomfort travel?",
+          "It involves both buttocks and the back of the thighs, sometimes extending into the calves."
+        ],
+        [
+          "h05",
+          "History",
+          "Does walking uphill or downhill differ?",
+          "Downhill walking is more difficult than uphill walking."
+        ],
+        [
+          "h06",
+          "History",
+          "Can he ride a bicycle?",
+          "He tolerates a stationary bicycle much better than upright walking."
+        ],
+        [
+          "h07",
+          "History",
+          "Any vascular risk factors?",
+          "He has hypertension and previously smoked; he has no known peripheral arterial disease."
+        ],
+        [
+          "h08",
+          "History",
+          "Any new bladder, saddle, or progressive weakness symptoms?",
+          "No bowel or bladder changes, saddle sensory changes, or progressive focal weakness."
+        ],
+        [
+          "e01",
+          "Examination",
+          "How are the leg pulses?",
+          "Both feet are warm, and distal pulses are palpable bilaterally."
+        ],
+        [
+          "e02",
+          "Examination",
+          "What is the neurological examination at rest?",
+          "Lower-extremity strength, reflexes, and light-touch sensation are broadly normal at rest."
+        ],
+        [
+          "e03",
+          "Examination",
+          "What does straight leg raise show?",
+          "Straight leg raise does not reproduce his characteristic symptoms."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Does lumbar movement provoke symptoms?",
+          "Extension is restricted and increases discomfort; flexion is better tolerated."
+        ]
+      ],
+      "debrief": "The patient's bilateral leg discomfort is brought on by standing or walking and relieved by sitting or lumbar flexion. His improvement when leaning forward, along with greater difficulty walking downhill than uphill, makes neurogenic claudication particularly likely. This remains a clinical working diagnosis, as lumbar imaging has not yet confirmed stenosis.",
+      "key_points": [
+        "Flexion-related relief and the shopping-cart pattern help distinguish neurogenic from vascular claudication.",
+        "Normal resting neurological findings do not exclude lumbar spinal stenosis.",
+        "Assess vascular risk and red flags rather than relying on one characteristic clue."
+      ],
+      "differential": [
+        "Peripheral arterial disease / vascular claudication",
+        "Bilateral lumbar radicular pain",
+        "Peripheral neuropathy"
+      ],
+      "caution": "A clinical working diagnosis; imaging is considered in context, especially if symptoms are persistent or intervention is contemplated.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6887476/"
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Any previous lumbar MRI or CT?",
+          "He has not had a lumbar MRI or CT."
+        ]
+      ],
+      "display_labels": {
+        "h01": "What triggers the pain?",
+        "h02": "What relieves it?",
+        "h03": "Does leaning forward help?",
+        "h04": "Where does the pain spread?",
+        "h05": "Does slope affect walking?",
+        "h06": "Can he cycle?",
+        "h07": "Any vascular risk factors?",
+        "h08": "Any neurological red flags?",
+        "e01": "How are the leg pulses?",
+        "e02": "Neurological exam findings?",
+        "e03": "Straight leg raise result?",
+        "e04": "Lumbar movement findings?",
+        "i01": "Previous lumbar imaging?"
+      },
+      "reasoning": {
+        "key_groups": [
+          [
+            "h01"
+          ],
+          [
+            "h02",
+            "h03"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Peripheral arterial disease",
+            "distinction": "Exertional leg discomfort and his vascular risk factors make peripheral arterial disease an important alternative. Vascular claudication typically improves with rest even without sitting or bending forward, whereas this patient's symptoms are strongly influenced by posture. Palpable pulses do not exclude arterial disease."
+          },
+          {
+            "name": "Lumbar radicular pain",
+            "distinction": "Radicular pain can radiate into the legs, but it more often follows a recognizable nerve root distribution and may be accompanied by neurological deficits or positive neural tension testing. These findings are not prominent in this presentation."
+          },
+          {
+            "name": "Peripheral neuropathy",
+            "distinction": "Peripheral neuropathy is another possible cause of leg discomfort, particularly when sensory symptoms are present. However, symptoms are generally more persistent and distally distributed rather than consistently provoked by standing and relieved by spinal flexion."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Symptoms provoked by standing or walking",
+            "reviewed": "Neurogenic and vascular claudication can both produce exertional leg symptoms. The relationship with prolonged standing provides an additional clue toward a spinal mechanism.",
+            "unreviewed": "Asking whether standing as well as walking provokes symptoms could help distinguish a spinal mechanism from exertional leg pain alone."
+          },
+          {
+            "id": "h02",
+            "title": "Relief with sitting rather than standing rest",
+            "reviewed": "Relief with sitting is especially informative because it suggests that changing spinal posture matters, rather than simply stopping physical activity.",
+            "unreviewed": "Comparing relief from sitting with relief from simply stopping while standing could help establish whether spinal posture influences the symptoms."
+          },
+          {
+            "id": "h03",
+            "title": "Improvement with lumbar flexion",
+            "reviewed": "The shopping cart sign supports neurogenic claudication because lumbar flexion can increase the available space around neural structures and reduce symptom provocation.",
+            "unreviewed": "Asking whether leaning forward improves walking tolerance could help establish whether lumbar flexion relieves the symptoms."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "h05",
+            "title": "Walking slope",
+            "reviewed": "Greater difficulty walking downhill than uphill adds support for a spinal mechanism because downhill walking tends to involve more lumbar extension."
+          },
+          {
+            "id": "h06",
+            "title": "Cycling tolerance",
+            "reviewed": "Better tolerance of cycling than upright walking adds support for a posture dependent pattern rather than exertion alone."
+          },
+          {
+            "id": "e04",
+            "title": "Lumbar movement",
+            "reviewed": "Discomfort with extension and better tolerance of flexion reinforce the relationship between symptoms and spinal posture."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Complete the assessment",
+            "text": "Clarify the effect on walking tolerance and daily function, complete the neurological and vascular examinations, and screen for new neurological red flags."
+          },
+          {
+            "title": "Investigations",
+            "text": "Consider lumbar MRI when symptoms remain functionally limiting or when imaging would guide further management, particularly before an intervention. If peripheral arterial disease remains a concern, obtain an ankle brachial index."
+          },
+          {
+            "title": "Management",
+            "text": "Discuss individualized conservative management, including physiotherapy, exercise, and strategies to maintain activity. Persistent functional limitations may warrant specialist assessment. New bowel or bladder dysfunction, saddle sensory changes, or progressive neurological weakness require urgent evaluation."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "low": "Well done. You reached the most likely diagnosis even though you felt uncertain. Read through the key findings below, especially relief with sitting and forward flexion, to see why your answer fits and build confidence for similar presentations.",
+            "moderate": "Well done. You identified the most likely diagnosis with moderate confidence. The findings below can help you feel more assured about this impression, particularly the relationship between symptoms and spinal posture.",
+            "high": "Well done. You identified the most likely diagnosis with high confidence. The symptom pattern you explored provides strong support for your answer."
+          },
+          "incorrect": {
+            "low": "It is reasonable to feel uncertain when several diagnoses can cause leg discomfort. Your final diagnosis differs from the most likely explanation here, but the findings below offer a clear way forward. Focus on how sitting and spinal posture help distinguish the alternatives.",
+            "moderate": "Your final diagnosis differs from the most likely explanation here. Use the comparisons below to strengthen your next assessment, especially how standing, sitting, and forward flexion affect symptoms.",
+            "high": "Your final diagnosis differs from the most likely explanation here, despite your high confidence. This is a useful opportunity to revisit which findings favoured your choice and which pointed elsewhere. In this case, relief with sitting and forward flexion favours a neurogenic cause. Compare these features with the alternatives below to guide your next assessment."
+          }
+        },
+        "correct_high_limited": "Well done. You identified the most likely diagnosis with high confidence. The findings below explain why your answer fits this presentation.",
+        "missing_feedback": {
+          "trigger": "For a similar presentation, asking whether standing as well as walking brings on symptoms can help establish the trigger pattern.",
+          "relief": "For a similar presentation, asking how symptoms respond to sitting and lumbar flexion can help distinguish the leading possibilities.",
+          "both": "For a similar presentation, asking about symptom triggers and relief with sitting or lumbar flexion can help establish the key clinical pattern."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "neurogenic claudication",
+              "lumbar spinal stenosis",
+              "lumbar stenosis",
+              "spinal stenosis",
+              "lumbar canal stenosis",
+              "degenerative lumbar spinal stenosis",
+              "spinal stenosis with neurogenic claudication",
+              "neurogenic intermittent claudication",
+              "lumbar spinal stenosis causing neurogenic claudication",
+              "LSS",
+              "lumbar spinal canal stenosis",
+              "lumbar central canal stenosis",
+              "central lumbar spinal stenosis",
+              "degenerative lumbar stenosis",
+              "lumbar spinal stenosis with neurogenic claudication",
+              "neurogenic claudication due to lumbar spinal stenosis",
+              "neurogenic claudication secondary to lumbar spinal stenosis",
+              "lumbar central stenosis",
+              "degenerative lumbar canal stenosis",
+              "degenerative lumbar spinal canal stenosis",
+              "lumbar spine stenosis",
+              "stenosis of the lumbar spine",
+              "stenosis of the lumbar spinal canal",
+              "lumbar spinal canal narrowing",
+              "narrowing of the lumbar spinal canal",
+              "neurogenic intermittent claudication due to lumbar stenosis",
+              "intermittent neurogenic claudication",
+              "pseudoclaudication",
+              "pseudo claudication",
+              "spinal claudication",
+              "intermittent spinal claudication",
+              "lumbar spinal stenosis resulting in neurogenic claudication",
+              "lumbar stenosis with neurogenic claudication",
+              "lumbar stenosis causing neurogenic claudication",
+              "lumbar stenosis resulting in neurogenic claudication",
+              "lumbar canal stenosis with neurogenic claudication",
+              "lumbar canal stenosis causing neurogenic claudication",
+              "lumbar canal stenosis resulting in neurogenic claudication",
+              "degenerative lumbar spinal stenosis with neurogenic claudication",
+              "degenerative lumbar spinal stenosis causing neurogenic claudication",
+              "degenerative lumbar spinal stenosis resulting in neurogenic claudication",
+              "neurogenic claudication from lumbar spinal stenosis",
+              "neurogenic claudication due to lumbar stenosis",
+              "neurogenic claudication secondary to lumbar stenosis",
+              "neurogenic claudication from lumbar stenosis",
+              "neurogenic claudication due to lumbar canal stenosis",
+              "neurogenic claudication secondary to lumbar canal stenosis",
+              "neurogenic claudication from lumbar canal stenosis",
+              "lumbar spinal stenosis (LSS)",
+              "lumbar spinal stenosis (neurogenic claudication)",
+              "neurogenic claudication (lumbar spinal stenosis)",
+              "lumbar spinal stenosis and neurogenic claudication",
+              "lumbar spinal stenosis with neurogenic intermittent claudication",
+              "degenerative spinal stenosis with neurogenic claudication"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "peripheral arterial disease",
+              "peripheral artery disease",
+              "PAD",
+              "lower extremity peripheral arterial disease",
+              "lower extremity peripheral artery disease",
+              "vascular claudication",
+              "arterial claudication",
+              "intermittent vascular claudication",
+              "peripheral arterial disease / vascular claudication",
+              "lumbar radicular pain",
+              "bilateral lumbar radicular pain",
+              "lumbosacral radicular pain",
+              "radicular leg pain",
+              "lumbar nerve root pain",
+              "sciatica",
+              "lumbar radiculopathy",
+              "lumbosacral radiculopathy",
+              "peripheral neuropathy",
+              "peripheral polyneuropathy",
+              "polyneuropathy",
+              "distal symmetric polyneuropathy",
+              "length dependent peripheral neuropathy",
+              "diabetic peripheral neuropathy",
+              "diabetic neuropathy",
+              "radicular pain",
+              "radiculopathy",
+              "bilateral radicular pain",
+              "bilateral radiculopathy",
+              "bilateral lumbar radiculopathy",
+              "lumbar radicular syndrome",
+              "lumbosacral radicular syndrome",
+              "radicular pain / radiculopathy",
+              "lumbar radicular pain / radiculopathy",
+              "lumbar radiculitis",
+              "lumbosacral radiculitis",
+              "nerve root pain",
+              "neuropathy",
+              "distal peripheral neuropathy",
+              "distal polyneuropathy",
+              "distal symmetrical polyneuropathy",
+              "length dependent neuropathy",
+              "length dependent polyneuropathy",
+              "peripheral sensory neuropathy",
+              "distal sensory polyneuropathy",
+              "lower limb peripheral neuropathy",
+              "lower extremity peripheral neuropathy",
+              "lower limb peripheral arterial disease",
+              "lower limb peripheral artery disease",
+              "atherosclerotic peripheral arterial disease",
+              "atherosclerotic peripheral artery disease",
+              "intermittent arterial claudication",
+              "arterial intermittent claudication",
+              "PAD with claudication",
+              "peripheral arterial disease with claudication",
+              "peripheral artery disease with claudication",
+              "peripheral artery disease / vascular claudication",
+              "vascular intermittent claudication"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Lumbar Spinal Stenosis: Diagnosis and Management",
+            "publisher": "American Family Physician, 2024",
+            "url": "https://www.aafp.org/afp/2024/0400/lumbar-spinal-stenosis",
+            "description": "A practical clinical review covering diagnosis, investigations, and management of lumbar spinal stenosis."
+          },
+          {
+            "title": "2024 Guideline for the Management of Lower Extremity Peripheral Artery Disease",
+            "publisher": "American Heart Association",
+            "url": "https://professional.heart.org/en/science-news/2024-guideline-for-the-management-of-lower-extremity-peripheral-artery-disease/top-things-to-know",
+            "description": "A concise guideline summary reviewing the assessment of peripheral arterial disease, including the role of the ankle brachial index."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shooting-pain-down-leg",
+      "number": 2,
+      "title": "Back and Leg Pain",
+      "difficulty": "Easy",
+      "initial": "A 38-year-old woman reports three weeks of lower back and left leg pain. Sitting through her workday has become increasingly uncomfortable.",
+      "intended": "Left L5 lumbar radiculopathy",
+      "debrief": "The combination of radiating leg pain, tingling over the dorsal foot, a positive straight leg raise, and mild great toe extension weakness supports involvement of the left L5 nerve root. A disc herniation is one possible cause, but no imaging has established the underlying structural lesion.",
+      "questions": [
+        [
+          "h01",
+          "History",
+          "Where does the pain travel?",
+          "The pain travels from her lower back through the left buttock and outer calf toward the top of her foot."
+        ],
+        [
+          "h02",
+          "History",
+          "What does the pain feel like?",
+          "She describes a sharp, electric pain with occasional tingling."
+        ],
+        [
+          "h03",
+          "History",
+          "What makes the pain worse?",
+          "Prolonged sitting, bending forward, and coughing can aggravate the radiating pain."
+        ],
+        [
+          "h04",
+          "History",
+          "What provides relief?",
+          "Changing position and brief periods of walking usually help. She is not limited by a predictable walking distance."
+        ],
+        [
+          "h05",
+          "History",
+          "Any numbness or tingling?",
+          "She occasionally notices tingling over the top of her left foot and toward the great toe."
+        ],
+        [
+          "h06",
+          "History",
+          "Any weakness or tripping?",
+          "She occasionally catches her left toe on stairs, but has not fallen. She has not noticed rapidly worsening weakness."
+        ],
+        [
+          "h07",
+          "History",
+          "How did the symptoms begin?",
+          "Symptoms began after a weekend of moving furniture. There was no fall or major injury."
+        ],
+        [
+          "h08",
+          "History",
+          "Any neurological red flags?",
+          "She reports no new bowel or bladder dysfunction, saddle sensory changes, or progressive weakness."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Straight leg raise findings?",
+          "Left straight leg raise reproduces her characteristic radiating pain at approximately 40 degrees. The right side is negative."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Ankle and toe strength?",
+          "Left great toe extension is mildly weak at 4+/5. Ankle dorsiflexion is nearly full, and plantarflexion is preserved."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Sensation and reflexes?",
+          "Light touch is slightly reduced over the left dorsal foot near the great toe. Patellar and Achilles reflexes are symmetric."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Hip movement and gait?",
+          "Hip movement is painless. Heel walking is mildly more difficult on the left, without a pronounced foot drop."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Previous lumbar imaging?",
+          "No prior lumbar MRI or CT is available for this presentation."
+        ]
+      ],
+      "display_labels": {
+        "h01": "Where does the pain travel?",
+        "h02": "What does the pain feel like?",
+        "h03": "What makes the pain worse?",
+        "h04": "What provides relief?",
+        "h05": "Any numbness or tingling?",
+        "h06": "Any weakness or tripping?",
+        "h07": "How did the symptoms begin?",
+        "h08": "Any neurological red flags?",
+        "e01": "Straight leg raise findings?",
+        "e02": "Ankle and toe strength?",
+        "e03": "Sensation and reflexes?",
+        "e04": "Hip movement and gait?",
+        "i01": "Previous lumbar imaging?"
+      },
+      "reasoning": {
+        "alternatives": [
+          {
+            "name": "Common fibular neuropathy",
+            "distinction": "A fibular nerve lesion can cause dorsal foot sensory symptoms and weakness of toe extension or ankle dorsiflexion. However, pain beginning in the lower back, radiating down the leg, and reproduced by straight leg raise favours a nerve root process."
+          },
+          {
+            "name": "Nonspecific mechanical low back pain",
+            "distinction": "Mechanical back pain can be aggravated by movement and prolonged sitting. It is less likely to explain a consistent radiating leg pattern with sensory changes and focal weakness."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Pain distribution",
+            "reviewed": "Radiation from the lower back through the outer leg toward the dorsal foot helps localize symptoms to a lumbar nerve root, particularly L5.",
+            "unreviewed": "Clarifying the complete distribution of pain would help distinguish a lumbar nerve root pattern from a peripheral nerve or local musculoskeletal problem."
+          },
+          {
+            "id": "e01",
+            "title": "Straight leg raise",
+            "reviewed": "Reproduction of her characteristic radiating pain during straight leg raise supports irritation of a lumbosacral nerve root. The test should be interpreted alongside the history and neurological examination.",
+            "unreviewed": "Straight leg raise could help determine whether neural tension reproduces the patient's characteristic radiating symptoms."
+          },
+          {
+            "id": "e02",
+            "title": "Great toe extension weakness",
+            "reviewed": "Mild weakness of great toe extension provides an objective neurological finding compatible with L5 involvement.",
+            "unreviewed": "Testing great toe extension and ankle strength could identify objective weakness and improve anatomical localization."
+          }
+        ],
+        "supporting_findings": [],
+        "next_steps": [
+          {
+            "title": "Assessment and initial care",
+            "text": "Document neurological function, monitor for progression, and discuss maintaining tolerable activity and appropriate conservative treatment, including physiotherapy and symptom management."
+          },
+          {
+            "title": "When to investigate further",
+            "text": "Consider lumbar MRI if symptoms persist despite appropriate management, if an intervention is being considered, or if a significant neurological deficit develops. Progressive motor weakness or new cauda equina symptoms require urgent assessment."
+          }
+        ],
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "L5 radiculopathy",
+              "L5 lumbar radiculopathy",
+              "lumbar L5 radiculopathy",
+              "L5 nerve root irritation",
+              "L5 nerve root syndrome",
+              "lumbar radiculopathy",
+              "lumbosacral radiculopathy",
+              "lumbar radicular pain",
+              "lumbosacral radicular pain",
+              "radicular pain",
+              "radiculopathy",
+              "sciatica",
+              "left L5 radiculopathy",
+              "Left L5 lumbar radiculopathy",
+              "left lumbar L5 radiculopathy",
+              "left L5 nerve root irritation",
+              "left L5 nerve root syndrome",
+              "left lumbar radiculopathy",
+              "left lumbosacral radiculopathy",
+              "left lumbar radicular pain",
+              "left lumbosacral radicular pain",
+              "left radicular pain",
+              "left radiculopathy",
+              "left sciatica",
+              "left sided L5 radiculopathy",
+              "left sided L5 lumbar radiculopathy",
+              "left sided lumbar L5 radiculopathy",
+              "left sided L5 nerve root irritation",
+              "left sided L5 nerve root syndrome",
+              "left sided lumbar radiculopathy",
+              "left sided lumbosacral radiculopathy",
+              "left sided lumbar radicular pain",
+              "left sided lumbosacral radicular pain",
+              "left sided radicular pain",
+              "left sided radiculopathy",
+              "left sided sciatica",
+              "radiculopathy of the left L5 nerve root",
+              "L5 radiculopathy on the left",
+              "left L5 nerve root radiculopathy",
+              "L5 nerve root radiculopathy",
+              "left L5 radiculopathy (sciatica)",
+              "left lumbar radiculopathy (L5)",
+              "lumbar radiculopathy (left L5)",
+              "lumbar radiculopathy (sciatica)",
+              "sciatica (lumbar radiculopathy)",
+              "left L5 radicular syndrome"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "common fibular neuropathy",
+              "common peroneal neuropathy",
+              "fibular neuropathy",
+              "peroneal neuropathy",
+              "common fibular nerve palsy",
+              "common peroneal nerve palsy",
+              "left common fibular neuropathy",
+              "left common peroneal neuropathy",
+              "left fibular neuropathy",
+              "left peroneal neuropathy",
+              "left common fibular nerve palsy",
+              "left common peroneal nerve palsy",
+              "left sided common fibular neuropathy",
+              "left sided common peroneal neuropathy",
+              "left sided fibular neuropathy",
+              "left sided peroneal neuropathy",
+              "left sided common fibular nerve palsy",
+              "left sided common peroneal nerve palsy",
+              "nonspecific mechanical low back pain",
+              "non specific mechanical low back pain",
+              "mechanical low back pain",
+              "nonspecific low back pain",
+              "non specific low back pain",
+              "mechanical back pain"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Sciatica",
+            "publisher": "American Academy of Orthopaedic Surgeons",
+            "url": "https://www.orthoinfo.org/diseases--conditions/sciatica/",
+            "description": "A practical overview of lumbar nerve root symptoms, examination, and initial management."
+          }
+        ],
+        "key_groups": [
+          [
+            "h01"
+          ],
+          [
+            "e01",
+            "e02"
+          ]
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "Well done. You identified the leading diagnosis with high confidence. The pain distribution and focused neurological findings you explored support a left L5 nerve root process.",
+            "moderate": "Well done. You identified the leading diagnosis with moderate confidence. A consistent pain distribution, reproduction with straight leg raise, and great toe extension weakness help strengthen localization to L5.",
+            "low": "Well done. You reached the leading diagnosis despite uncertainty. Review how the pain distribution, straight leg raise, and mild motor findings fit together to build confidence in a similar presentation."
+          },
+          "incorrect": {
+            "high": "Your final diagnosis differs from the leading explanation here, despite your high confidence. Revisit whether your choice explains pain beginning in the back, its dorsal foot distribution, and the great toe extension weakness. Comparing these with a fibular nerve lesion can help refine localization.",
+            "moderate": "Your final diagnosis differs from the leading explanation here. Compare a lumbar nerve root process with a fibular nerve lesion using the origin of the pain, straight leg raise, and the focused neurological examination.",
+            "low": "It is reasonable to be uncertain when leg pain and tingling overlap across diagnoses. Start by mapping the pain, then use straight leg raise and motor testing to distinguish a nerve root process from a peripheral nerve problem."
+          }
+        },
+        "correct_high_limited": "Well done. You identified the leading diagnosis with high confidence. The findings below explain how pain distribution and neurological testing support L5 localization.",
+        "missing_feedback": {
+          "default": "For a similar presentation, clarify the full pain distribution and combine it with straight leg raise or focused great toe and ankle strength testing."
+        }
+      },
+      "aliases": [
+        "L5 radiculopathy",
+        "L5 lumbar radiculopathy",
+        "lumbar L5 radiculopathy",
+        "L5 nerve root irritation",
+        "L5 nerve root syndrome",
+        "lumbar radiculopathy",
+        "lumbosacral radiculopathy",
+        "lumbar radicular pain",
+        "lumbosacral radicular pain",
+        "radicular pain",
+        "radiculopathy",
+        "sciatica",
+        "left L5 radiculopathy",
+        "Left L5 lumbar radiculopathy",
+        "left lumbar L5 radiculopathy",
+        "left L5 nerve root irritation",
+        "left L5 nerve root syndrome",
+        "left lumbar radiculopathy",
+        "left lumbosacral radiculopathy",
+        "left lumbar radicular pain",
+        "left lumbosacral radicular pain",
+        "left radicular pain",
+        "left radiculopathy",
+        "left sciatica",
+        "left sided L5 radiculopathy",
+        "left sided L5 lumbar radiculopathy",
+        "left sided lumbar L5 radiculopathy",
+        "left sided L5 nerve root irritation",
+        "left sided L5 nerve root syndrome",
+        "left sided lumbar radiculopathy",
+        "left sided lumbosacral radiculopathy",
+        "left sided lumbar radicular pain",
+        "left sided lumbosacral radicular pain",
+        "left sided radicular pain",
+        "left sided radiculopathy",
+        "left sided sciatica",
+        "radiculopathy of the left L5 nerve root",
+        "L5 radiculopathy on the left",
+        "left L5 nerve root radiculopathy",
+        "L5 nerve root radiculopathy",
+        "left L5 radiculopathy (sciatica)",
+        "left lumbar radiculopathy (L5)",
+        "lumbar radiculopathy (left L5)",
+        "lumbar radiculopathy (sciatica)",
+        "sciatica (lumbar radiculopathy)",
+        "left L5 radicular syndrome"
+      ],
+      "not_accepted": [
+        "lumbar disc herniation",
+        "disc herniation",
+        "herniated disc",
+        "herniated disk",
+        "common fibular neuropathy",
+        "S1 radiculopathy",
+        "right L5 radiculopathy"
+      ]
+    },
+    {
+      "id": "shoulder-pain-overhead-activity",
+      "number": 3,
+      "title": "Persistent Shoulder Pain",
+      "difficulty": "Easy",
+      "initial": "A 51-year-old teacher reports three months of right shoulder pain. Reaching and lifting have become uncomfortable, although she cannot recall a specific injury.",
+      "intended": "Rotator cuff related shoulder pain",
+      "debrief": "The combination of lateral shoulder pain, symptoms with overhead activity, painful resisted rotator cuff testing, and relatively preserved passive movement supports a rotator cuff related pain disorder. The largely preserved strength and absence of a significant traumatic event make a major acute cuff tear less likely.",
+      "questions": [
+        [
+          "h01",
+          "History",
+          "Which movements hurt?",
+          "Reaching overhead and lifting objects away from her body are particularly uncomfortable."
+        ],
+        [
+          "h02",
+          "History",
+          "Does it disturb sleep?",
+          "She sometimes wakes when lying on her right shoulder."
+        ],
+        [
+          "h03",
+          "History",
+          "Does the shoulder feel stiff?",
+          "She describes discomfort at the end of some movements but does not feel that the joint is globally stiff."
+        ],
+        [
+          "h04",
+          "History",
+          "Any injury or sudden weakness?",
+          "There was no fall, sudden injury, or abrupt loss of shoulder strength."
+        ],
+        [
+          "h05",
+          "History",
+          "Any neck or arm symptoms?",
+          "She has no significant neck pain, radiating arm symptoms, or hand tingling."
+        ],
+        [
+          "h06",
+          "History",
+          "Where is the pain located?",
+          "The pain is mainly over the lateral shoulder and sometimes extends partway down the upper arm."
+        ],
+        [
+          "h07",
+          "History",
+          "Any systemic symptoms?",
+          "She reports no fever, unexplained weight loss, or other constitutional symptoms."
+        ],
+        [
+          "h08",
+          "History",
+          "How is function affected?",
+          "Dressing remains possible, but overhead household tasks and gardening have become more difficult."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Active versus passive movement?",
+          "Active abduction is painful through the middle of its range. Passive shoulder movement is nearly full and considerably less painful."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Resisted rotator cuff testing?",
+          "Resisted abduction and external rotation reproduce lateral shoulder pain, but strength is largely preserved."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Signs of a major cuff tear?",
+          "Drop arm and external rotation lag tests are negative. There is no pronounced objective weakness."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Neck and neurological examination?",
+          "Cervical movement is comfortable, Spurling testing is negative, and the upper limb neurological examination is normal."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Previous shoulder radiographs?",
+          "Radiographs show preserved glenohumeral joint space with mild acromioclavicular degenerative changes. There is no acute bony abnormality. No ultrasound or MRI has been performed."
+        ]
+      ],
+      "display_labels": {
+        "h01": "Which movements hurt?",
+        "h02": "Does it disturb sleep?",
+        "h03": "Does the shoulder feel stiff?",
+        "h04": "Any injury or sudden weakness?",
+        "h05": "Any neck or arm symptoms?",
+        "h06": "Where is the pain located?",
+        "h07": "Any systemic symptoms?",
+        "h08": "How is function affected?",
+        "e01": "Active versus passive movement?",
+        "e02": "Resisted rotator cuff testing?",
+        "e03": "Signs of a major cuff tear?",
+        "e04": "Neck and neurological examination?",
+        "i01": "Previous shoulder radiographs?"
+      },
+      "reasoning": {
+        "alternatives": [
+          {
+            "name": "Adhesive capsulitis",
+            "distinction": "Adhesive capsulitis produces progressive restriction of both active and passive movement, particularly external rotation. This patient's passive movement is largely preserved."
+          },
+          {
+            "name": "Glenohumeral osteoarthritis",
+            "distinction": "Osteoarthritis may cause shoulder pain and stiffness, but generally produces greater passive movement restriction and degenerative changes on radiographs."
+          },
+          {
+            "name": "Full thickness rotator cuff tear",
+            "distinction": "A substantial tear can produce weakness and difficulty elevating the arm. Her preserved strength and negative lag testing make a large tear less likely, although examination alone cannot exclude every tear."
+          }
+        ],
+        "findings": [
+          {
+            "id": "e01",
+            "title": "Active and passive movement",
+            "reviewed": "Painful active movement with preserved passive range helps distinguish rotator cuff related pain from conditions that restrict the glenohumeral joint itself.",
+            "unreviewed": "Comparing active and passive movement could help determine whether pain or joint restriction is the principal limitation."
+          },
+          {
+            "id": "e02",
+            "title": "Resisted rotator cuff testing",
+            "reviewed": "Pain reproduced by resisted abduction and external rotation supports a rotator cuff related source. No single provocative test is independently diagnostic.",
+            "unreviewed": "Resisted shoulder testing could help identify pain associated with rotator cuff loading."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "e03",
+            "title": "Preserved strength and negative lag testing",
+            "reviewed": "Largely preserved strength and negative drop arm and external rotation lag tests make a major cuff tear less likely, although examination cannot exclude every tear."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Initial management",
+            "text": "Discuss activity modification that preserves function, patient education, and progressive exercise based rehabilitation focusing on shoulder mobility and rotator cuff loading."
+          },
+          {
+            "title": "Follow-up",
+            "text": "Reassess pain, strength, and function after an appropriate period of treatment. Ultrasound or further specialist assessment may be useful if symptoms persist, significant weakness emerges, or a structural tear becomes more likely."
+          }
+        ],
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "Rotator cuff related shoulder pain",
+              "rotator cuff related pain",
+              "rotator cuff tendinopathy",
+              "rotator cuff tendonitis",
+              "rotator cuff tendinitis",
+              "rotator cuff tendinosis",
+              "supraspinatus tendinopathy",
+              "supraspinatus tendonitis",
+              "supraspinatus tendinitis",
+              "supraspinatus tendinosis",
+              "subacromial pain syndrome",
+              "subacromial impingement syndrome",
+              "subacromial impingement",
+              "shoulder impingement syndrome",
+              "shoulder impingement",
+              "impingement syndrome",
+              "RCRSP",
+              "right rotator cuff related shoulder pain",
+              "right rotator cuff related pain",
+              "right rotator cuff tendinopathy",
+              "right rotator cuff tendonitis",
+              "right rotator cuff tendinitis",
+              "right rotator cuff tendinosis",
+              "right supraspinatus tendinopathy",
+              "right supraspinatus tendonitis",
+              "right supraspinatus tendinitis",
+              "right supraspinatus tendinosis",
+              "right subacromial pain syndrome",
+              "right subacromial impingement syndrome",
+              "right subacromial impingement",
+              "right shoulder impingement syndrome",
+              "right shoulder impingement",
+              "right impingement syndrome",
+              "right RCRSP",
+              "right sided rotator cuff related shoulder pain",
+              "right sided rotator cuff related pain",
+              "right sided rotator cuff tendinopathy",
+              "right sided rotator cuff tendonitis",
+              "right sided rotator cuff tendinitis",
+              "right sided rotator cuff tendinosis",
+              "right sided supraspinatus tendinopathy",
+              "right sided supraspinatus tendonitis",
+              "right sided supraspinatus tendinitis",
+              "right sided supraspinatus tendinosis",
+              "right sided subacromial pain syndrome",
+              "right sided subacromial impingement syndrome",
+              "right sided subacromial impingement",
+              "right sided shoulder impingement syndrome",
+              "right sided shoulder impingement",
+              "right sided impingement syndrome",
+              "right sided RCRSP",
+              "rotator cuff related shoulder pain (RCRSP)",
+              "RCRSP (rotator cuff related shoulder pain)",
+              "right rotator cuff related shoulder pain (RCRSP)",
+              "subacromial pain syndrome (SAPS)",
+              "SAPS",
+              "rotator cuff tendinopathy (subacromial pain syndrome)"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "adhesive capsulitis",
+              "frozen shoulder",
+              "glenohumeral osteoarthritis",
+              "glenohumeral OA",
+              "shoulder osteoarthritis",
+              "shoulder OA",
+              "full thickness rotator cuff tear",
+              "rotator cuff tear",
+              "full thickness cuff tear",
+              "complete rotator cuff tear",
+              "right adhesive capsulitis",
+              "right frozen shoulder",
+              "right glenohumeral osteoarthritis",
+              "right glenohumeral OA",
+              "right shoulder osteoarthritis",
+              "right shoulder OA",
+              "right full thickness rotator cuff tear",
+              "right rotator cuff tear",
+              "right full thickness cuff tear",
+              "right complete rotator cuff tear",
+              "right sided adhesive capsulitis",
+              "right sided frozen shoulder",
+              "right sided glenohumeral osteoarthritis",
+              "right sided glenohumeral OA",
+              "right sided shoulder osteoarthritis",
+              "right sided shoulder OA",
+              "right sided full thickness rotator cuff tear",
+              "right sided rotator cuff tear",
+              "right sided full thickness cuff tear",
+              "right sided complete rotator cuff tear"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Rotator Cuff Tendinopathy Clinical Practice Guideline",
+            "publisher": "Journal of Orthopaedic & Sports Physical Therapy, 2025",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40165544/",
+            "description": "Evidence based recommendations for clinical assessment, rehabilitation, and appropriate imaging in rotator cuff tendinopathy."
+          }
+        ],
+        "key_groups": [
+          [
+            "e01"
+          ],
+          [
+            "e02"
+          ]
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "Well done. You identified the leading diagnosis with high confidence. Preserved passive movement with pain on resisted cuff loading supports the clinical pattern you explored.",
+            "moderate": "Well done. You identified the leading diagnosis with moderate confidence. Comparing active and passive movement, then testing resisted abduction and external rotation, helps distinguish rotator cuff related pain from joint stiffness.",
+            "low": "Well done. You reached the leading diagnosis despite uncertainty. Review the preserved passive range and painful resisted cuff testing below to see why this pattern is more convincing than adhesive capsulitis or a major tear."
+          },
+          "incorrect": {
+            "high": "Your final diagnosis differs from the leading explanation here, despite your high confidence. Check whether it fits the preserved passive movement and largely preserved strength. Pain with cuff loading does not by itself establish a full thickness tear.",
+            "moderate": "Your final diagnosis differs from the leading explanation here. Compare active and passive range and the pattern of resisted pain to distinguish cuff related pain from adhesive capsulitis or glenohumeral arthritis.",
+            "low": "Uncertainty is understandable because several shoulder conditions overlap. Begin with active versus passive movement, then assess pain and strength during resisted cuff loading to narrow the possibilities."
+          }
+        },
+        "correct_high_limited": "Well done. You identified the leading diagnosis with high confidence. The findings below explain why active versus passive movement and resisted loading are particularly useful.",
+        "missing_feedback": {
+          "default": "For a similar presentation, compare active and passive movement and ask about pain during resisted rotator cuff testing."
+        }
+      },
+      "aliases": [
+        "Rotator cuff related shoulder pain",
+        "rotator cuff related pain",
+        "rotator cuff tendinopathy",
+        "rotator cuff tendonitis",
+        "rotator cuff tendinitis",
+        "rotator cuff tendinosis",
+        "supraspinatus tendinopathy",
+        "supraspinatus tendonitis",
+        "supraspinatus tendinitis",
+        "supraspinatus tendinosis",
+        "subacromial pain syndrome",
+        "subacromial impingement syndrome",
+        "subacromial impingement",
+        "shoulder impingement syndrome",
+        "shoulder impingement",
+        "impingement syndrome",
+        "RCRSP",
+        "right rotator cuff related shoulder pain",
+        "right rotator cuff related pain",
+        "right rotator cuff tendinopathy",
+        "right rotator cuff tendonitis",
+        "right rotator cuff tendinitis",
+        "right rotator cuff tendinosis",
+        "right supraspinatus tendinopathy",
+        "right supraspinatus tendonitis",
+        "right supraspinatus tendinitis",
+        "right supraspinatus tendinosis",
+        "right subacromial pain syndrome",
+        "right subacromial impingement syndrome",
+        "right subacromial impingement",
+        "right shoulder impingement syndrome",
+        "right shoulder impingement",
+        "right impingement syndrome",
+        "right RCRSP",
+        "right sided rotator cuff related shoulder pain",
+        "right sided rotator cuff related pain",
+        "right sided rotator cuff tendinopathy",
+        "right sided rotator cuff tendonitis",
+        "right sided rotator cuff tendinitis",
+        "right sided rotator cuff tendinosis",
+        "right sided supraspinatus tendinopathy",
+        "right sided supraspinatus tendonitis",
+        "right sided supraspinatus tendinitis",
+        "right sided supraspinatus tendinosis",
+        "right sided subacromial pain syndrome",
+        "right sided subacromial impingement syndrome",
+        "right sided subacromial impingement",
+        "right sided shoulder impingement syndrome",
+        "right sided shoulder impingement",
+        "right sided impingement syndrome",
+        "right sided RCRSP",
+        "rotator cuff related shoulder pain (RCRSP)",
+        "RCRSP (rotator cuff related shoulder pain)",
+        "right rotator cuff related shoulder pain (RCRSP)",
+        "subacromial pain syndrome (SAPS)",
+        "SAPS",
+        "rotator cuff tendinopathy (subacromial pain syndrome)"
+      ],
+      "not_accepted": [
+        "full thickness rotator cuff tear",
+        "rotator cuff tear",
+        "adhesive capsulitis",
+        "glenohumeral osteoarthritis",
+        "shoulder pain",
+        "acromioclavicular osteoarthritis",
+        "left rotator cuff tendinopathy"
+      ]
+    },
+    {
+      "id": "numb-fingers-at-night",
+      "number": 4,
+      "title": "Hand Tingling",
+      "difficulty": "Easy",
+      "initial": "A 44-year-old graphic designer reports several months of intermittent tingling in her right hand. Her work involves long periods of drawing with a stylus.",
+      "intended": "Carpal tunnel syndrome",
+      "aliases": [
+        "carpal tunnel syndrome",
+        "right carpal tunnel syndrome",
+        "cts",
+        "right cts",
+        "median neuropathy at the wrist",
+        "right median neuropathy at the wrist",
+        "median nerve compression at the carpal tunnel",
+        "median nerve entrapment at the wrist",
+        "carpal tunnel",
+        "compression of the median nerve at the wrist",
+        "carpal tunnel syndrome (CTS)",
+        "CTS (carpal tunnel syndrome)",
+        "right carpal tunnel syndrome (CTS)",
+        "right sided carpal tunnel syndrome",
+        "right sided CTS",
+        "median nerve compression at the wrist",
+        "right median nerve compression at the wrist",
+        "median nerve entrapment in the carpal tunnel",
+        "right median nerve entrapment at the wrist",
+        "median neuropathy at the wrist (carpal tunnel syndrome)"
+      ],
+      "not_accepted": [
+        "median neuropathy",
+        "hand neuropathy",
+        "radiculopathy",
+        "paresthesia"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "Which fingers are affected?",
+          "Tingling is most noticeable in the thumb, index, and middle fingers, sometimes reaching the thumb side of the ring finger."
+        ],
+        [
+          "h02",
+          "History",
+          "When is it worst?",
+          "It frequently wakes her at night and sometimes appears while holding her phone or driving."
+        ],
+        [
+          "h03",
+          "History",
+          "What makes it better?",
+          "Shaking out the hand or changing wrist position usually eases the tingling within a few minutes."
+        ],
+        [
+          "h04",
+          "History",
+          "Any symptoms in the little finger?",
+          "The little finger is generally spared."
+        ],
+        [
+          "h05",
+          "History",
+          "Any neck or radiating arm pain?",
+          "She has no neck pain or shooting discomfort travelling from the neck down the arm."
+        ],
+        [
+          "h06",
+          "History",
+          "Any weakness or dropped objects?",
+          "She occasionally struggles to grip a pen when the hand feels numb, but has not noticed sustained weakness."
+        ],
+        [
+          "h07",
+          "History",
+          "Any symptoms in the other hand?",
+          "She has mild occasional tingling in the left fingertips, but the right hand is much more troublesome."
+        ],
+        [
+          "h08",
+          "History",
+          "Any relevant health or work history?",
+          "She spends hours drawing with a stylus. She has no known diabetes or thyroid disorder."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Map hand sensation",
+          "Light touch feels mildly reduced over the right index and middle fingertips. Sensation over the little finger is preserved."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Wrist compression test?",
+          "Sustained compression over the volar carpal tunnel reproduces her familiar tingling in the thumb and first two fingers."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Thenar strength and bulk?",
+          "Thenar muscle bulk is preserved. Thumb palmar abduction is full, with no clear objective weakness."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Neck and ulnar nerve findings?",
+          "Cervical movement does not reproduce symptoms. There is no consistent ulnar sensory loss or intrinsic hand weakness."
+        ]
+      ],
+      "imaging": [],
+      "display_labels": {
+        "h01": "Which fingers are affected?",
+        "h02": "When is it worst?",
+        "h03": "What makes it better?",
+        "h04": "Any symptoms in the little finger?",
+        "h05": "Any neck or radiating arm pain?",
+        "h06": "Any weakness or dropped objects?",
+        "h07": "Any symptoms in the other hand?",
+        "h08": "Any relevant health or work history?",
+        "e01": "Map hand sensation",
+        "e02": "Wrist compression test?",
+        "e03": "Thenar strength and bulk?",
+        "e04": "Neck and ulnar nerve findings?"
+      },
+      "debrief": "The nocturnal tingling, median nerve sensory distribution, little finger sparing, and reproduction of symptoms with carpal tunnel compression favour median nerve entrapment at the wrist. Preserved thenar bulk and thumb strength suggest that marked motor involvement is not apparent on this examination.",
+      "reasoning": {
+        "key_groups": [
+          [
+            "h01"
+          ],
+          [
+            "h02",
+            "e02"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Cervical radiculopathy",
+            "distinction": "Cervical nerve root irritation can produce hand paresthesia, but it more often involves associated neck or radiating arm symptoms and does not necessarily follow an isolated median nerve territory."
+          },
+          {
+            "name": "Ulnar neuropathy",
+            "distinction": "This commonly affects the little finger and ulnar side of the ring finger, making it less consistent with her symptom distribution."
+          },
+          {
+            "name": "Peripheral neuropathy",
+            "distinction": "A generalized neuropathy more commonly causes persistent, often bilateral distal sensory symptoms and may involve the feet. Her clearly positional, nocturnal hand symptoms are more focal."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Median distribution",
+            "reviewed": "Tingling in the thumb, index, and middle fingers suggests median sensory involvement, though symptom distributions can overlap.",
+            "unreviewed": "Asking exactly which fingers are affected would help distinguish median nerve entrapment from an ulnar or cervical source."
+          },
+          {
+            "id": "h02",
+            "title": "Nocturnal symptoms",
+            "reviewed": "Hand paresthesia that wakes the patient at night is a characteristic feature of carpal tunnel syndrome.",
+            "unreviewed": "Clarifying the timing of symptoms could reveal a typical nocturnal pattern."
+          },
+          {
+            "id": "e02",
+            "title": "Carpal tunnel compression",
+            "reviewed": "Reproduction of the familiar tingling by local wrist compression supports carpal tunnel syndrome. The maneuver is supportive, not diagnostic on its own.",
+            "unreviewed": "Focused wrist compression could add supporting evidence, although no single provocative maneuver confirms the diagnosis."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "h04",
+            "title": "Little finger sparing",
+            "reviewed": "Preserved sensation in the little finger further supports a median rather than ulnar distribution."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Initial treatment",
+            "text": "Discuss neutral position night wrist splinting, symptom provoking activities, and a plan to reassess sensory symptoms, sleep, strength, and hand function."
+          },
+          {
+            "title": "Escalation",
+            "text": "Consider electrodiagnostic testing if the diagnosis is uncertain, symptoms are atypical, or surgery is being considered. Persistent disabling symptoms, thenar weakness, or muscle wasting merit timely hand surgery or specialist assessment."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "You identified carpal tunnel syndrome with high confidence. The characteristic finger distribution and nocturnal symptoms fit a focal median nerve problem at the wrist.",
+            "moderate": "You identified the most likely diagnosis. The sensory distribution and symptom timing can help you distinguish it from a cervical or ulnar nerve problem.",
+            "low": "You reached the most likely diagnosis despite uncertainty. Focus on the fingers involved and the nocturnal pattern to strengthen confidence in similar presentations."
+          },
+          "incorrect": {
+            "high": "Your final diagnosis differs from the leading explanation. Compare the finger distribution and local wrist findings with the pattern expected from your preferred diagnosis.",
+            "moderate": "Another diagnosis is more likely here. Reconsider the distribution of tingling and the relationship with sleep and wrist position.",
+            "low": "Several disorders can cause hand tingling. Mapping which fingers are involved and checking for a local median nerve pattern can help narrow the possibilities."
+          }
+        },
+        "correct_high_limited": "You identified carpal tunnel syndrome with high confidence. The characteristic finger distribution and nocturnal symptoms fit a focal median nerve problem at the wrist.",
+        "missing_feedback": {
+          "default": "In a similar encounter, establishing the sensory distribution and either nocturnal symptoms or a focused wrist examination would make the impression more secure."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "carpal tunnel syndrome",
+              "right carpal tunnel syndrome",
+              "cts",
+              "right cts",
+              "median neuropathy at the wrist",
+              "right median neuropathy at the wrist",
+              "median nerve compression at the carpal tunnel",
+              "median nerve entrapment at the wrist",
+              "carpal tunnel",
+              "compression of the median nerve at the wrist",
+              "carpal tunnel syndrome (CTS)",
+              "CTS (carpal tunnel syndrome)",
+              "right carpal tunnel syndrome (CTS)",
+              "right sided carpal tunnel syndrome",
+              "right sided CTS",
+              "median nerve compression at the wrist",
+              "right median nerve compression at the wrist",
+              "median nerve entrapment in the carpal tunnel",
+              "right median nerve entrapment at the wrist",
+              "median neuropathy at the wrist (carpal tunnel syndrome)"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "cervical radiculopathy",
+              "c6 radiculopathy",
+              "c7 radiculopathy",
+              "cervical nerve root compression",
+              "cervical nerve root irritation",
+              "ulnar neuropathy",
+              "ulnar nerve entrapment",
+              "cubital tunnel syndrome",
+              "ulnar neuropathy at the elbow",
+              "ulnar nerve compression",
+              "peripheral neuropathy",
+              "polyneuropathy",
+              "distal symmetric polyneuropathy",
+              "diabetic peripheral neuropathy",
+              "generalized peripheral neuropathy",
+              "Cervical radiculopathy",
+              "Ulnar neuropathy",
+              "Peripheral polyneuropathy",
+              "generalised peripheral neuropathy"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "AAOS Clinical Practice Guideline on Carpal Tunnel Syndrome",
+            "publisher": "American Academy of Orthopaedic Surgeons",
+            "url": "https://www.aaos.org/quality/quality-programs/upper-extremity-programs/carpal-tunnel-syndrome/",
+            "description": "Guideline material covering diagnosis, treatment choices, and evidence limits in carpal tunnel syndrome."
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-onset-foot-weakness",
+      "number": 5,
+      "title": "New Foot Weakness",
+      "difficulty": "Moderate",
+      "initial": "A 46-year-old man has noticed his right foot slapping against the ground over the past three weeks. He also reports intermittent lower back discomfort and is concerned that the symptoms may be related.",
+      "intended": "Right common fibular neuropathy at the fibular head",
+      "debrief": "Weakness of dorsiflexion, toe extension, and eversion with preserved inversion supports a lesion of the common fibular nerve. The sensory changes over the dorsal foot and lateral shin, together with local nerve provocation, further support this localization. The left sided lumbar MRI finding does not explain the right sided deficits.",
+      "questions": [
+        [
+          "h01",
+          "History",
+          "How did the weakness begin?",
+          "He gradually noticed difficulty lifting the front of his right foot over several days."
+        ],
+        [
+          "h02",
+          "History",
+          "Any current radiating back pain?",
+          "He occasionally experiences mild lower back discomfort, but has no current shooting pain from the back into the leg."
+        ],
+        [
+          "h03",
+          "History",
+          "Any sensory symptoms?",
+          "He describes tingling over the outer right shin and top of the foot."
+        ],
+        [
+          "h04",
+          "History",
+          "Any pressure around the knee?",
+          "He has recently spent long periods sitting with his legs crossed while working at a desk."
+        ],
+        [
+          "h05",
+          "History",
+          "Any recent weight change?",
+          "He has intentionally lost approximately seven kilograms over the past three months."
+        ],
+        [
+          "h06",
+          "History",
+          "Any injury or surgery?",
+          "There has been no recent knee injury, surgery, cast, or major trauma."
+        ],
+        [
+          "h07",
+          "History",
+          "How is walking affected?",
+          "His toes sometimes catch the floor, particularly when walking quickly. He has not noticed weakness elsewhere."
+        ],
+        [
+          "h08",
+          "History",
+          "Any other neurological symptoms?",
+          "He reports no facial or arm weakness, speech changes, bowel or bladder changes, or progressive bilateral symptoms."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Test dorsiflexion and eversion",
+          "Right ankle dorsiflexion and toe extension are weak at approximately 3/5. Ankle eversion is also weak."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Test inversion and proximal strength",
+          "Right ankle inversion, plantarflexion, and hip abduction are preserved at 5/5."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Map the sensory changes",
+          "Sensation is reduced over the lateral shin and dorsal foot, including the first web space. Plantar foot sensation is preserved."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Reflexes and nerve provocation",
+          "Lower limb reflexes are symmetric. Straight leg raise is negative, and tapping near the fibular neck reproduces tingling over the dorsal foot."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review the lumbar MRI",
+          "A recently obtained lumbar MRI shows mild degenerative changes, including a small left L4–L5 disc protrusion. There is no convincing right sided nerve root compression. No electrodiagnostic studies or dedicated fibular nerve imaging have yet been performed."
+        ]
+      ],
+      "display_labels": {
+        "h01": "How did the weakness begin?",
+        "h02": "Any current radiating back pain?",
+        "h03": "Any sensory symptoms?",
+        "h04": "Any pressure around the knee?",
+        "h05": "Any recent weight change?",
+        "h06": "Any injury or surgery?",
+        "h07": "How is walking affected?",
+        "h08": "Any other neurological symptoms?",
+        "e01": "Test dorsiflexion and eversion",
+        "e02": "Test inversion and proximal strength",
+        "e03": "Map the sensory changes",
+        "e04": "Reflexes and nerve provocation",
+        "i01": "Review the lumbar MRI"
+      },
+      "reasoning": {
+        "alternatives": [
+          {
+            "name": "L5 radiculopathy",
+            "distinction": "L5 involvement can cause weakness of dorsiflexion and toe extension. However, weakness may also involve inversion or hip abduction because these movements depend on L5 muscles supplied by nerves other than the common fibular nerve. Preserved inversion and hip abduction favour a more distal lesion in this case."
+          },
+          {
+            "name": "Sciatic neuropathy",
+            "distinction": "Sciatic nerve injury can affect the fibular division and cause foot drop. Broader weakness or sensory changes involving the tibial division would make a more proximal lesion more likely."
+          }
+        ],
+        "findings": [
+          {
+            "id": "e01",
+            "title": "Dorsiflexion and eversion weakness",
+            "reviewed": "Weakness affecting both dorsiflexion and eversion supports involvement of muscles supplied by the fibular nerve.",
+            "unreviewed": "Testing dorsiflexion and eversion together could help identify the affected motor distribution."
+          },
+          {
+            "id": "e02",
+            "title": "Preserved inversion and hip abduction",
+            "reviewed": "Preserved inversion and hip abduction are particularly useful because these movements involve L5 muscles supplied outside the common fibular nerve.",
+            "unreviewed": "Testing inversion and hip abduction could help distinguish a common fibular lesion from a more proximal L5 nerve root lesion."
+          },
+          {
+            "id": "e03",
+            "title": "Sensory distribution",
+            "reviewed": "Sensory changes involving the lateral shin and dorsal foot, with preserved plantar sensation, support a fibular nerve distribution.",
+            "unreviewed": "Mapping sensory loss across the dorsal and plantar foot could help localize the deficit more precisely."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "h04",
+            "title": "Pressure around the fibular head",
+            "reviewed": "Prolonged leg crossing provides a plausible mechanism for compression near the fibular head. The motor and sensory examination remains central to localization."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Confirm localization",
+            "text": "Perform a complete neurological assessment and consider nerve conduction studies and needle EMG to distinguish common fibular neuropathy from L5 radiculopathy or a more proximal peripheral nerve lesion."
+          },
+          {
+            "title": "Address contributing factors",
+            "text": "Avoid prolonged compression near the fibular head and assess for potentially reversible causes. Consider targeted imaging around the knee if a structural compressive lesion is suspected."
+          },
+          {
+            "title": "Maintain function",
+            "text": "Address gait safety, consider an ankle foot orthosis when appropriate, and initiate rehabilitation directed at maintaining mobility and function."
+          }
+        ],
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "common fibular neuropathy",
+              "common peroneal neuropathy",
+              "fibular neuropathy",
+              "peroneal neuropathy",
+              "common fibular nerve injury",
+              "common peroneal nerve injury",
+              "common fibular nerve palsy",
+              "common peroneal nerve palsy",
+              "peroneal nerve palsy",
+              "fibular nerve palsy",
+              "common fibular nerve compression",
+              "common peroneal nerve compression",
+              "peroneal nerve compression",
+              "fibular nerve compression",
+              "common fibular nerve entrapment",
+              "common peroneal nerve entrapment",
+              "peroneal nerve entrapment",
+              "right common fibular neuropathy",
+              "right common peroneal neuropathy",
+              "right fibular neuropathy",
+              "right peroneal neuropathy",
+              "right common fibular nerve injury",
+              "right common peroneal nerve injury",
+              "right common fibular nerve palsy",
+              "right common peroneal nerve palsy",
+              "right peroneal nerve palsy",
+              "right fibular nerve palsy",
+              "right common fibular nerve compression",
+              "right common peroneal nerve compression",
+              "right peroneal nerve compression",
+              "right fibular nerve compression",
+              "right common fibular nerve entrapment",
+              "right common peroneal nerve entrapment",
+              "right peroneal nerve entrapment",
+              "right sided common fibular neuropathy",
+              "right sided common peroneal neuropathy",
+              "right sided fibular neuropathy",
+              "right sided peroneal neuropathy",
+              "right sided common fibular nerve injury",
+              "right sided common peroneal nerve injury",
+              "right sided common fibular nerve palsy",
+              "right sided common peroneal nerve palsy",
+              "right sided peroneal nerve palsy",
+              "right sided fibular nerve palsy",
+              "right sided common fibular nerve compression",
+              "right sided common peroneal nerve compression",
+              "right sided peroneal nerve compression",
+              "right sided fibular nerve compression",
+              "right sided common fibular nerve entrapment",
+              "right sided common peroneal nerve entrapment",
+              "right sided peroneal nerve entrapment",
+              "fibular neuropathy at the fibular head",
+              "right fibular neuropathy at the fibular head",
+              "fibular nerve compression at the fibular head",
+              "right fibular nerve compression at the fibular head",
+              "fibular neuropathy at the fibular neck",
+              "right fibular neuropathy at the fibular neck",
+              "fibular nerve compression at the fibular neck",
+              "right fibular nerve compression at the fibular neck",
+              "peroneal neuropathy at the fibular head",
+              "right peroneal neuropathy at the fibular head",
+              "peroneal nerve compression at the fibular head",
+              "right peroneal nerve compression at the fibular head",
+              "peroneal neuropathy at the fibular neck",
+              "right peroneal neuropathy at the fibular neck",
+              "peroneal nerve compression at the fibular neck",
+              "right peroneal nerve compression at the fibular neck",
+              "common fibular neuropathy at the fibular head",
+              "Right common fibular neuropathy at the fibular head",
+              "common fibular nerve compression at the fibular head",
+              "right common fibular nerve compression at the fibular head",
+              "common fibular neuropathy at the fibular neck",
+              "right common fibular neuropathy at the fibular neck",
+              "common fibular nerve compression at the fibular neck",
+              "right common fibular nerve compression at the fibular neck",
+              "common peroneal neuropathy at the fibular head",
+              "right common peroneal neuropathy at the fibular head",
+              "common peroneal nerve compression at the fibular head",
+              "right common peroneal nerve compression at the fibular head",
+              "common peroneal neuropathy at the fibular neck",
+              "right common peroneal neuropathy at the fibular neck",
+              "common peroneal nerve compression at the fibular neck",
+              "right common peroneal nerve compression at the fibular neck",
+              "common fibular neuropathy at fibular head",
+              "common peroneal neuropathy at fibular head",
+              "right common fibular neuropathy at fibular head",
+              "right common peroneal neuropathy at fibular head",
+              "common fibular (peroneal) neuropathy",
+              "common peroneal (fibular) neuropathy",
+              "right common fibular (peroneal) neuropathy",
+              "right common peroneal (fibular) neuropathy",
+              "right common peroneal nerve palsy at the fibular head"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "L5 radiculopathy",
+              "L5 lumbar radiculopathy",
+              "lumbar radiculopathy",
+              "lumbosacral radiculopathy",
+              "radiculopathy",
+              "L5 nerve root lesion",
+              "sciatic neuropathy",
+              "sciatic nerve injury",
+              "sciatic nerve palsy",
+              "right L5 radiculopathy",
+              "right L5 lumbar radiculopathy",
+              "right lumbar radiculopathy",
+              "right lumbosacral radiculopathy",
+              "right radiculopathy",
+              "right L5 nerve root lesion",
+              "right sciatic neuropathy",
+              "right sciatic nerve injury",
+              "right sciatic nerve palsy",
+              "right sided L5 radiculopathy",
+              "right sided L5 lumbar radiculopathy",
+              "right sided lumbar radiculopathy",
+              "right sided lumbosacral radiculopathy",
+              "right sided radiculopathy",
+              "right sided L5 nerve root lesion",
+              "right sided sciatic neuropathy",
+              "right sided sciatic nerve injury",
+              "right sided sciatic nerve palsy"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Electrodiagnostic Evaluation of Peroneal Neuropathy",
+            "publisher": "NCBI Bookshelf",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK563251/",
+            "description": "An overview of common fibular nerve anatomy, clinical localization, and electrodiagnostic assessment."
+          }
+        ],
+        "key_groups": [
+          [
+            "e01"
+          ],
+          [
+            "e02"
+          ]
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "Well done. You localized the weakness to the common fibular nerve with high confidence. Weak dorsiflexion and eversion with preserved inversion provide strong support for this localization.",
+            "moderate": "Well done. You identified the leading diagnosis with moderate confidence. Comparing eversion with inversion and hip abduction helps distinguish a common fibular neuropathy from an L5 nerve root lesion.",
+            "low": "Well done. You reached the leading diagnosis despite uncertainty. Review why preserved inversion and hip abduction matter when dorsiflexion and eversion are weak. This comparison can make anatomical localization more confident."
+          },
+          "incorrect": {
+            "high": "Your final diagnosis differs from the leading localization here, despite your high confidence. Recheck which muscles are weak and which are preserved. An L5 root lesion may affect inversion or hip abduction, and the left sided MRI abnormality does not explain these right sided deficits.",
+            "moderate": "Your final diagnosis differs from the leading localization here. Compare dorsiflexion and eversion with inversion and hip abduction before attributing the deficit to lumbar imaging.",
+            "low": "It is reasonable to feel uncertain when both root and peripheral nerve lesions can cause foot weakness. Comparing eversion with inversion and mapping dorsal versus plantar sensation provides a practical way to localize the lesion."
+          }
+        },
+        "correct_high_limited": "Well done. You identified the leading localization with high confidence. The findings below explain why the contrast between eversion and inversion matters.",
+        "missing_feedback": {
+          "default": "For a similar presentation, test both dorsiflexion and eversion, then compare inversion and hip abduction to refine localization."
+        }
+      },
+      "aliases": [
+        "common fibular neuropathy",
+        "common peroneal neuropathy",
+        "fibular neuropathy",
+        "peroneal neuropathy",
+        "common fibular nerve injury",
+        "common peroneal nerve injury",
+        "common fibular nerve palsy",
+        "common peroneal nerve palsy",
+        "peroneal nerve palsy",
+        "fibular nerve palsy",
+        "common fibular nerve compression",
+        "common peroneal nerve compression",
+        "peroneal nerve compression",
+        "fibular nerve compression",
+        "common fibular nerve entrapment",
+        "common peroneal nerve entrapment",
+        "peroneal nerve entrapment",
+        "right common fibular neuropathy",
+        "right common peroneal neuropathy",
+        "right fibular neuropathy",
+        "right peroneal neuropathy",
+        "right common fibular nerve injury",
+        "right common peroneal nerve injury",
+        "right common fibular nerve palsy",
+        "right common peroneal nerve palsy",
+        "right peroneal nerve palsy",
+        "right fibular nerve palsy",
+        "right common fibular nerve compression",
+        "right common peroneal nerve compression",
+        "right peroneal nerve compression",
+        "right fibular nerve compression",
+        "right common fibular nerve entrapment",
+        "right common peroneal nerve entrapment",
+        "right peroneal nerve entrapment",
+        "right sided common fibular neuropathy",
+        "right sided common peroneal neuropathy",
+        "right sided fibular neuropathy",
+        "right sided peroneal neuropathy",
+        "right sided common fibular nerve injury",
+        "right sided common peroneal nerve injury",
+        "right sided common fibular nerve palsy",
+        "right sided common peroneal nerve palsy",
+        "right sided peroneal nerve palsy",
+        "right sided fibular nerve palsy",
+        "right sided common fibular nerve compression",
+        "right sided common peroneal nerve compression",
+        "right sided peroneal nerve compression",
+        "right sided fibular nerve compression",
+        "right sided common fibular nerve entrapment",
+        "right sided common peroneal nerve entrapment",
+        "right sided peroneal nerve entrapment",
+        "fibular neuropathy at the fibular head",
+        "right fibular neuropathy at the fibular head",
+        "fibular nerve compression at the fibular head",
+        "right fibular nerve compression at the fibular head",
+        "fibular neuropathy at the fibular neck",
+        "right fibular neuropathy at the fibular neck",
+        "fibular nerve compression at the fibular neck",
+        "right fibular nerve compression at the fibular neck",
+        "peroneal neuropathy at the fibular head",
+        "right peroneal neuropathy at the fibular head",
+        "peroneal nerve compression at the fibular head",
+        "right peroneal nerve compression at the fibular head",
+        "peroneal neuropathy at the fibular neck",
+        "right peroneal neuropathy at the fibular neck",
+        "peroneal nerve compression at the fibular neck",
+        "right peroneal nerve compression at the fibular neck",
+        "common fibular neuropathy at the fibular head",
+        "Right common fibular neuropathy at the fibular head",
+        "common fibular nerve compression at the fibular head",
+        "right common fibular nerve compression at the fibular head",
+        "common fibular neuropathy at the fibular neck",
+        "right common fibular neuropathy at the fibular neck",
+        "common fibular nerve compression at the fibular neck",
+        "right common fibular nerve compression at the fibular neck",
+        "common peroneal neuropathy at the fibular head",
+        "right common peroneal neuropathy at the fibular head",
+        "common peroneal nerve compression at the fibular head",
+        "right common peroneal nerve compression at the fibular head",
+        "common peroneal neuropathy at the fibular neck",
+        "right common peroneal neuropathy at the fibular neck",
+        "common peroneal nerve compression at the fibular neck",
+        "right common peroneal nerve compression at the fibular neck",
+        "common fibular neuropathy at fibular head",
+        "common peroneal neuropathy at fibular head",
+        "right common fibular neuropathy at fibular head",
+        "right common peroneal neuropathy at fibular head",
+        "common fibular (peroneal) neuropathy",
+        "common peroneal (fibular) neuropathy",
+        "right common fibular (peroneal) neuropathy",
+        "right common peroneal (fibular) neuropathy",
+        "right common peroneal nerve palsy at the fibular head"
+      ],
+      "not_accepted": [
+        "foot drop",
+        "right foot drop",
+        "L5 radiculopathy",
+        "lumbar radiculopathy",
+        "deep peroneal neuropathy",
+        "sciatic neuropathy",
+        "left common fibular neuropathy"
+      ]
+    },
+    {
+      "id": "neck-pain-clumsy-hands",
+      "number": 6,
+      "title": "Clumsy Hands",
+      "difficulty": "Moderate",
+      "initial": "A 63-year-old accountant reports six months of increasing difficulty with buttons and handwriting. He also mentions some neck discomfort and wonders whether arthritis could be affecting his hands.",
+      "intended": "Degenerative cervical myelopathy",
+      "aliases": [
+        "degenerative cervical myelopathy",
+        "dcm",
+        "cervical spondylotic myelopathy",
+        "csm",
+        "cervical myelopathy",
+        "compressive cervical myelopathy",
+        "cervical cord compression with myelopathy",
+        "degenerative cervical cord compression causing myelopathy",
+        "spondylotic cervical cord myelopathy",
+        "degenerative cervical myelopathy (DCM)",
+        "DCM (degenerative cervical myelopathy)",
+        "cervical spondylotic myelopathy (CSM)",
+        "CSM (cervical spondylotic myelopathy)",
+        "cervical myelopathy (degenerative)",
+        "cervical myelopathy due to degenerative cord compression"
+      ],
+      "not_accepted": [
+        "cervical radiculopathy",
+        "carpal tunnel syndrome",
+        "cervical spondylosis",
+        "cervical stenosis"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "What hand tasks are difficult?",
+          "Buttons, keys, and handwriting have become noticeably more awkward in both hands."
+        ],
+        [
+          "h02",
+          "History",
+          "Any changes in walking?",
+          "He has begun using the handrail on stairs and feels less steady when walking on uneven ground."
+        ],
+        [
+          "h03",
+          "History",
+          "How have symptoms progressed?",
+          "The hand difficulty and imbalance have gradually worsened rather than appearing in isolated episodes."
+        ],
+        [
+          "h04",
+          "History",
+          "Any radiating arm pain?",
+          "He has mild neck stiffness but no prominent shooting pain into a specific arm or finger."
+        ],
+        [
+          "h05",
+          "History",
+          "Any numbness or tingling?",
+          "Both hands sometimes feel vaguely numb. He cannot identify a single finger or nerve territory."
+        ],
+        [
+          "h06",
+          "History",
+          "Any bladder or bowel changes?",
+          "There is no urinary retention, incontinence, or new bowel dysfunction."
+        ],
+        [
+          "h07",
+          "History",
+          "Any preceding injury?",
+          "There has been no fall, accident, or sudden neck injury."
+        ],
+        [
+          "h08",
+          "History",
+          "Any systemic or brain symptoms?",
+          "He reports no fever, unexplained weight loss, new visual loss, speech difficulty, or facial weakness."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Assess gait and tandem walking",
+          "Gait is mildly broad based, and he struggles to maintain tandem walking without stepping sideways."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Check reflexes and plantar responses",
+          "Knee reflexes are brisk bilaterally, Hoffmann signs are present, and the right plantar response is extensor."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Examine hand dexterity",
+          "Rapid finger opening and closing is slow, with mild finger escape on sustained hand extension. Grip strength is only mildly reduced."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Map sensation and arm strength",
+          "There is no clear single dermatome or peripheral nerve pattern. Arm strength is largely preserved except for subtle hand weakness."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review the cervical MRI",
+          "Cervical MRI shows degenerative disc and ligament changes causing marked canal narrowing and cord flattening at C4–C5 and C5–C6. There is a small area of increased T2 signal within the cord at C5."
+        ]
+      ],
+      "display_labels": {
+        "h01": "What hand tasks are difficult?",
+        "h02": "Any changes in walking?",
+        "h03": "How have symptoms progressed?",
+        "h04": "Any radiating arm pain?",
+        "h05": "Any numbness or tingling?",
+        "h06": "Any bladder or bowel changes?",
+        "h07": "Any preceding injury?",
+        "h08": "Any systemic or brain symptoms?",
+        "e01": "Assess gait and tandem walking",
+        "e02": "Check reflexes and plantar responses",
+        "e03": "Examine hand dexterity",
+        "e04": "Map sensation and arm strength",
+        "i01": "Review the cervical MRI"
+      },
+      "debrief": "Progressive bilateral hand dysfunction together with gait imbalance, brisk reflexes, a pathologic plantar response, and impaired dexterity points to cervical spinal cord dysfunction rather than an isolated hand disorder. Cervical MRI demonstrates concordant cord compression and signal change, supporting degenerative cervical myelopathy.",
+      "reasoning": {
+        "key_groups": [
+          [
+            "e02"
+          ],
+          [
+            "e01",
+            "e03"
+          ],
+          [
+            "i01"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Cervical radiculopathy",
+            "distinction": "A nerve root disorder may cause neck pain and focal arm weakness or sensory symptoms. It does not usually account for bilateral long tract findings, an extensor plantar response, and gait impairment."
+          },
+          {
+            "name": "Peripheral nerve entrapment",
+            "distinction": "Bilateral carpal tunnel syndrome can impair hand sensation and dexterity but does not explain the lower limb reflexes and gait findings."
+          },
+          {
+            "name": "Peripheral neuropathy",
+            "distinction": "A generalized neuropathy may affect gait and hand sensation, but the upper motor neuron signs and cord compression favour myelopathy."
+          }
+        ],
+        "findings": [
+          {
+            "id": "e02",
+            "title": "Upper motor neuron signs",
+            "reviewed": "Brisk reflexes and a pathologic plantar response point toward central motor pathway involvement and are inconsistent with an isolated distal nerve entrapment.",
+            "unreviewed": "Checking reflexes and plantar responses could distinguish spinal cord dysfunction from a peripheral hand disorder."
+          },
+          {
+            "id": "e01",
+            "title": "Tandem gait",
+            "reviewed": "Impaired tandem walking adds evidence of a broader neurological syndrome beyond fine motor hand dysfunction.",
+            "unreviewed": "A focused gait examination could reveal functional consequences of spinal cord involvement."
+          },
+          {
+            "id": "i01",
+            "title": "Cervical cord imaging",
+            "reviewed": "Concordant cervical cord compression with intramedullary signal change supports the clinical localization, though MRI abnormalities still require examination correlation.",
+            "unreviewed": "Review of available cervical MRI could establish whether there is structural compression explaining the clinical cord signs."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "e03",
+            "title": "Hand dexterity",
+            "reviewed": "Slowed rapid finger movements and finger escape support a cervical cord syndrome in the context of gait and upper motor neuron findings."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Timely specialist evaluation",
+            "text": "Arrange prompt spine surgery or appropriate specialist assessment because progressive myelopathic symptoms and cord signal change risk further functional decline. Assess severity and trajectory."
+          },
+          {
+            "title": "Safety and monitoring",
+            "text": "Review falls risk and new gait, hand, or bladder deterioration. Avoid high force cervical manipulation. New rapidly progressing neurological deficits require urgent reassessment."
+          },
+          {
+            "title": "Management planning",
+            "text": "Discuss treatment according to severity and progression. Surgical decompression is frequently indicated in moderate, severe, or progressive disease. Rehabilitation and function support may complement specialist care rather than delaying evaluation."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "You confidently recognized a cervical cord syndrome. The combination of hand dysfunction, long tract signs, gait change, and matching MRI supports that conclusion.",
+            "moderate": "You identified the leading diagnosis. Correlating the neurological examination with cord compression on MRI helps distinguish myelopathy from a peripheral hand disorder.",
+            "low": "You reached the leading diagnosis despite uncertainty. The strongest clues are long tract examination findings together with gait and hand dysfunction."
+          },
+          "incorrect": {
+            "high": "Your preferred diagnosis does not fully explain this presentation. Consider whether it accounts for the pathological plantar response, gait imbalance, and cord imaging findings.",
+            "moderate": "Reconsider whether a distal nerve or isolated nerve root lesion can explain both hand symptoms and upper motor neuron signs.",
+            "low": "This presentation spans the hands and legs. Looking for a single neurological localization, then checking the MRI for concordance, can help narrow the differential."
+          }
+        },
+        "correct_high_limited": "You confidently recognized a cervical cord syndrome. The combination of hand dysfunction, long tract signs, gait change, and matching MRI supports that conclusion.",
+        "missing_feedback": {
+          "default": "In a similar case, combining upper motor neuron examination, gait or hand testing, and cervical MRI would strengthen the clinical localization."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "degenerative cervical myelopathy",
+              "dcm",
+              "cervical spondylotic myelopathy",
+              "csm",
+              "cervical myelopathy",
+              "compressive cervical myelopathy",
+              "cervical cord compression with myelopathy",
+              "degenerative cervical cord compression causing myelopathy",
+              "spondylotic cervical cord myelopathy",
+              "degenerative cervical myelopathy (DCM)",
+              "DCM (degenerative cervical myelopathy)",
+              "cervical spondylotic myelopathy (CSM)",
+              "CSM (cervical spondylotic myelopathy)",
+              "cervical myelopathy (degenerative)",
+              "cervical myelopathy due to degenerative cord compression"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "cervical radiculopathy",
+              "cervical nerve root compression",
+              "c6 radiculopathy",
+              "carpal tunnel syndrome",
+              "cts",
+              "bilateral cts",
+              "median neuropathy at the wrist",
+              "peripheral neuropathy",
+              "polyneuropathy",
+              "distal symmetric polyneuropathy",
+              "amyotrophic lateral sclerosis",
+              "als",
+              "motor neuron disease",
+              "bilateral carpal tunnel syndrome",
+              "motor neurone disease"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Degenerative Cervical Myelopathy: Recognition and Management",
+            "publisher": "American Family Physician",
+            "url": "https://www.aafp.org/afp/2020/1215/p740",
+            "description": "Practical teaching on early recognition, examination, imaging correlation, and referral decisions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "back-pain-young-adult",
+      "number": 7,
+      "title": "Persistent Back Pain",
+      "difficulty": "Moderate",
+      "initial": "A 27-year-old woman has had lower back and buttock discomfort for approximately 14 months. The symptoms sometimes disrupt her sleep.",
+      "intended": "Axial spondyloarthritis, likely nonradiographic",
+      "aliases": [
+        "axial spondyloarthritis",
+        "axspa",
+        "ax sp a",
+        "nonradiographic axial spondyloarthritis",
+        "non radiographic axial spondyloarthritis",
+        "nr axspa",
+        "inflammatory axial spondyloarthritis",
+        "axial spondyloarthropathy",
+        "seronegative spondyloarthritis with axial involvement",
+        "inflammatory spondyloarthritis of the spine and sacroiliac joints",
+        "Axial spondyloarthritis, likely nonradiographic",
+        "axial spondyloarthritis (axSpA)",
+        "axSpA (axial spondyloarthritis)",
+        "nonradiographic axial spondyloarthritis (nr axSpA)",
+        "non radiographic axial spondyloarthritis (nr axSpA)",
+        "nr axSpA (nonradiographic axial spondyloarthritis)",
+        "axial spondyloarthritis likely non radiographic",
+        "nonradiographic axSpA",
+        "non radiographic axSpA",
+        "nr ax SpA"
+      ],
+      "not_accepted": [
+        "inflammatory back pain",
+        "ankylosing spondylitis"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "How long is morning stiffness?",
+          "Her back feels stiff for approximately an hour after waking, then gradually loosens up."
+        ],
+        [
+          "h02",
+          "History",
+          "Does exercise or rest help?",
+          "Movement and exercise usually improve the discomfort. Prolonged rest tends to make it worse."
+        ],
+        [
+          "h03",
+          "History",
+          "Does pain wake her at night?",
+          "She sometimes wakes during the second half of the night and feels better after getting up and walking."
+        ],
+        [
+          "h04",
+          "History",
+          "Was there an injury?",
+          "Symptoms began gradually. There was no fall, lifting injury, or clear mechanical trigger."
+        ],
+        [
+          "h05",
+          "History",
+          "What is the buttock pain like?",
+          "The deeper buttock ache sometimes shifts from one side to the other."
+        ],
+        [
+          "h06",
+          "History",
+          "Any family or skin history?",
+          "Her father has psoriasis. She has never been diagnosed with psoriasis herself."
+        ],
+        [
+          "h07",
+          "History",
+          "Any other joint or tendon symptoms?",
+          "She has intermittent heel pain near the Achilles insertion, especially on first getting out of bed."
+        ],
+        [
+          "h08",
+          "History",
+          "Any red flags or systemic symptoms?",
+          "No fever, unexplained weight loss, new bowel or bladder dysfunction, or focal neurological weakness."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Assess lumbar flexion",
+          "Lumbar flexion is mildly restricted. The modified Schober measurement shows reduced excursion for her age."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Test sacroiliac provocation",
+          "Several sacroiliac stress maneuvers reproduce her familiar deep buttock discomfort, without a single isolated diagnostic finding."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Check neurological and hip findings",
+          "Leg strength, sensation, reflexes, and straight leg raise are normal. Hip range of motion is preserved."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Examine Achilles insertions",
+          "Mild tenderness is present at the right Achilles insertion without redness or marked swelling."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review pelvic radiographs",
+          "Pelvic radiographs show no definite erosions, ankylosis, or established radiographic sacroiliitis."
+        ],
+        [
+          "i02",
+          "Imaging",
+          "Review sacroiliac MRI",
+          "Sacroiliac MRI demonstrates bilateral subchondral bone marrow edema in a pattern concerning for active sacroiliac inflammation. No clear structural ankylosis is seen."
+        ]
+      ],
+      "display_labels": {
+        "h01": "How long is morning stiffness?",
+        "h02": "Does exercise or rest help?",
+        "h03": "Does pain wake her at night?",
+        "h04": "Was there an injury?",
+        "h05": "What is the buttock pain like?",
+        "h06": "Any family or skin history?",
+        "h07": "Any other joint or tendon symptoms?",
+        "h08": "Any red flags or systemic symptoms?",
+        "e01": "Assess lumbar flexion",
+        "e02": "Test sacroiliac provocation",
+        "e03": "Check neurological and hip findings",
+        "e04": "Examine Achilles insertions",
+        "i01": "Review pelvic radiographs",
+        "i02": "Review sacroiliac MRI"
+      },
+      "debrief": "An insidious onset before age 45, prolonged morning stiffness, improvement with movement rather than rest, night pain, and alternating buttock discomfort form a characteristic inflammatory back pain pattern. The sacroiliac MRI provides additional supportive evidence of inflammation despite plain radiographs without established structural sacroiliitis. The final diagnosis requires clinical correlation and consideration of MRI mimics.",
+      "reasoning": {
+        "key_groups": [
+          [
+            "h01"
+          ],
+          [
+            "h02"
+          ],
+          [
+            "h03",
+            "i02"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Mechanical low back pain",
+            "distinction": "Mechanical pain is common in young adults but is less likely to cause prolonged morning stiffness, relief with movement after rest, and second half of the night pain as a consistent pattern."
+          },
+          {
+            "name": "Mechanical sacroiliac pain",
+            "distinction": "The buttock symptoms and positive provocation maneuvers can arise from mechanical SI joint disorders. These tests are not specific for inflammatory disease; the broader symptom pattern and MRI matter."
+          },
+          {
+            "name": "Infectious sacroiliitis",
+            "distinction": "Infection warrants consideration when there is acute severe pain, fever, systemic illness, or risk factors. Those features are absent here, and the long fluctuating bilateral course is less suggestive of infection."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Prolonged morning stiffness",
+            "reviewed": "Morning stiffness lasting close to an hour supports an inflammatory rather than purely mechanical pain pattern.",
+            "unreviewed": "Clarifying morning stiffness duration could help separate inflammatory from mechanical back pain."
+          },
+          {
+            "id": "h02",
+            "title": "Improvement with movement",
+            "reviewed": "Relief with activity and worsening during prolonged rest is a particularly useful feature of inflammatory back pain.",
+            "unreviewed": "Asking whether exercise or rest changes the symptoms could reveal a characteristic inflammatory pattern."
+          },
+          {
+            "id": "i02",
+            "title": "Sacroiliac MRI",
+            "reviewed": "Sacroiliac marrow edema compatible with active inflammation supports axial spondyloarthritis in this clinical context but is not specific in isolation.",
+            "unreviewed": "Reviewing available sacroiliac MRI could provide evidence of inflammation not evident on plain radiographs."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "h03",
+            "title": "Night pain",
+            "reviewed": "Waking in the second half of the night with improvement on walking strengthens the inflammatory pattern."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Confirm the clinical picture",
+            "text": "Assess other spondyloarthritis features, functional impact, inflammatory markers where appropriate, and alternatives for MRI changes. HLA-B27 may contribute to assessment but is neither required nor diagnostic alone."
+          },
+          {
+            "title": "Refer and initiate appropriate care",
+            "text": "Arrange rheumatology review. Discuss exercise and physiotherapy, with an NSAID trial when safe and clinically appropriate, alongside assessment of contraindications."
+          },
+          {
+            "title": "Plan follow-up",
+            "text": "Review symptoms and function over time. More advanced treatments depend on a confirmed diagnosis and response to first line care and should be directed by rheumatology."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "You recognized axial spondyloarthritis with high confidence. The inflammatory back pain pattern, supported by the sacroiliac findings, makes this a strong working diagnosis.",
+            "moderate": "You identified the leading diagnosis. The key is the response to exercise and rest, which is more informative than age or location alone.",
+            "low": "You reached the leading diagnosis despite uncertainty. Prolonged morning stiffness, night symptoms, and improvement with movement are useful clues to consolidate."
+          },
+          "incorrect": {
+            "high": "Your diagnosis differs from the leading explanation. Consider whether it accounts for the inflammatory symptom pattern and the sacroiliac MRI findings together.",
+            "moderate": "A mechanical explanation is tempting in a young adult. Compare its expected relationship with activity and rest against the pattern described here.",
+            "low": "Uncertainty is reasonable because SI joint pain has multiple causes. Clarifying inflammatory back pain features and interpreting imaging in context can narrow the possibilities."
+          }
+        },
+        "correct_high_limited": "You recognized axial spondyloarthritis with high confidence. The inflammatory back pain pattern, supported by the sacroiliac findings, makes this a strong working diagnosis.",
+        "missing_feedback": {
+          "default": "For similar patients, first establish morning stiffness and the effect of movement, then seek another supporting feature or imaging correlation."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "axial spondyloarthritis",
+              "axspa",
+              "ax sp a",
+              "nonradiographic axial spondyloarthritis",
+              "non radiographic axial spondyloarthritis",
+              "nr axspa",
+              "inflammatory axial spondyloarthritis",
+              "axial spondyloarthropathy",
+              "seronegative spondyloarthritis with axial involvement",
+              "inflammatory spondyloarthritis of the spine and sacroiliac joints",
+              "Axial spondyloarthritis, likely nonradiographic",
+              "axial spondyloarthritis (axSpA)",
+              "axSpA (axial spondyloarthritis)",
+              "nonradiographic axial spondyloarthritis (nr axSpA)",
+              "non radiographic axial spondyloarthritis (nr axSpA)",
+              "nr axSpA (nonradiographic axial spondyloarthritis)",
+              "axial spondyloarthritis likely non radiographic",
+              "nonradiographic axSpA",
+              "non radiographic axSpA",
+              "nr ax SpA"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "mechanical low back pain",
+              "nonspecific low back pain",
+              "lumbar strain",
+              "muscular back pain",
+              "discogenic low back pain",
+              "lumbar discogenic pain",
+              "degenerative disc disease",
+              "sacroiliac joint pain",
+              "si joint dysfunction",
+              "mechanical sacroiliitis",
+              "septic sacroiliitis",
+              "infectious sacroiliitis",
+              "sacroiliac joint infection",
+              "discogenic pain",
+              "mechanical SI joint pain"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "ASAS–EULAR Recommendations for the Management of Axial Spondyloarthritis, 2022 update",
+            "publisher": "ASAS and EULAR",
+            "url": "https://ard.bmj.com/content/82/1/19",
+            "description": "Professional recommendations emphasizing clinical diagnosis, individualized assessment, exercise, and treatment escalation."
+          },
+          {
+            "title": "EULAR Recommendations for Imaging in Spondyloarthritis",
+            "publisher": "EULAR",
+            "url": "https://ard.bmj.com/content/74/7/1327",
+            "description": "A focused source for the role and limitations of sacroiliac radiographs and MRI in diagnosis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "persistent-pain-after-fracture",
+      "number": 8,
+      "title": "Wrist Pain After Injury",
+      "difficulty": "Hard",
+      "initial": "A 42-year-old woman returns with persistent right wrist and hand pain ten weeks after a nondisplaced distal radius fracture. Her cast was removed four weeks ago, but using the hand remains painful.",
+      "intended": "Complex regional pain syndrome following distal radius fracture",
+      "debrief": "The patient's pain is disproportionate to the expected course of recovery and is accompanied by sensory hypersensitivity, colour and temperature changes, swelling, altered sweating, and restricted movement. The combination of reported symptoms and observed signs is characteristic of complex regional pain syndrome. No single examination finding or imaging result establishes the diagnosis.",
+      "questions": [
+        [
+          "h01",
+          "History",
+          "How severe is the pain?",
+          "She describes persistent burning and aching across the hand and wrist, far more intense than she expected at this stage of recovery."
+        ],
+        [
+          "h02",
+          "History",
+          "Does light touch bother her?",
+          "Even light contact from clothing or bedsheets can cause significant discomfort."
+        ],
+        [
+          "h03",
+          "History",
+          "Any colour or temperature changes?",
+          "She sometimes notices that her right hand becomes noticeably cooler or more reddish purple than the left."
+        ],
+        [
+          "h04",
+          "History",
+          "Any swelling or sweating changes?",
+          "The right hand frequently appears swollen, and she has noticed differences in sweating between her hands."
+        ],
+        [
+          "h05",
+          "History",
+          "How is movement affected?",
+          "She struggles to make a full fist or move her wrist because of pain and stiffness."
+        ],
+        [
+          "h06",
+          "History",
+          "How has recovery progressed?",
+          "Her symptoms became more prominent after cast removal rather than steadily improving with time."
+        ],
+        [
+          "h07",
+          "History",
+          "Any fever or wound concerns?",
+          "She reports no fever, open wound, drainage, or new injury."
+        ],
+        [
+          "h08",
+          "History",
+          "Is the discomfort in one nerve territory?",
+          "Symptoms involve much of the hand and wrist rather than following a clear median, ulnar, or radial nerve distribution."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Assess sensory responses",
+          "Light touch and gentle movement provoke pronounced pain across the affected hand. The response extends beyond a single peripheral nerve territory."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Compare colour and temperature",
+          "The right hand is visibly mottled and cooler than the left during examination."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Assess swelling and sweating",
+          "Diffuse swelling is present around the right hand and fingers. Sweating is greater on the affected side."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Assess movement and limb integrity",
+          "Wrist and finger movement are restricted by pain and stiffness. The skin is intact, with no drainage or focal spreading erythema. The radial pulse is palpable."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review follow-up radiographs",
+          "Repeat wrist radiographs demonstrate interval fracture healing with maintained alignment. No new fracture or displacement is identified. Mild regional osteopenia is noted."
+        ]
+      ],
+      "display_labels": {
+        "h01": "How severe is the pain?",
+        "h02": "Does light touch bother her?",
+        "h03": "Any colour or temperature changes?",
+        "h04": "Any swelling or sweating changes?",
+        "h05": "How is movement affected?",
+        "h06": "How has recovery progressed?",
+        "h07": "Any fever or wound concerns?",
+        "h08": "Is the discomfort in one nerve territory?",
+        "e01": "Assess sensory responses",
+        "e02": "Compare colour and temperature",
+        "e03": "Assess swelling and sweating",
+        "e04": "Assess movement and limb integrity",
+        "i01": "Review follow-up radiographs"
+      },
+      "reasoning": {
+        "alternatives": [
+          {
+            "name": "Postimmobilization pain and stiffness",
+            "distinction": "Pain, weakness, and restricted movement are common after immobilization. However, pronounced allodynia, temperature asymmetry, and altered sweating suggest a broader process than ordinary recovery related stiffness."
+          },
+          {
+            "name": "Focal peripheral nerve injury",
+            "distinction": "A median, ulnar, or radial nerve injury may cause neuropathic pain and sensory abnormalities. This patient's findings are regional rather than confined to one nerve territory, and the autonomic features warrant consideration of CRPS."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Disproportionate regional pain",
+            "reviewed": "Persistent regional pain that is substantially greater than expected raises concern for a process beyond uncomplicated fracture recovery.",
+            "unreviewed": "Clarifying the severity, distribution, and trajectory of pain would help determine whether ordinary postfracture recovery adequately explains the presentation."
+          },
+          {
+            "id": "e01",
+            "title": "Allodynia",
+            "reviewed": "Pain with normally nonpainful touch provides an objective sensory sign supporting CRPS.",
+            "unreviewed": "Assessing responses to light touch could identify allodynia, an important sensory feature of CRPS."
+          },
+          {
+            "id": "e02",
+            "title": "Vasomotor asymmetry",
+            "reviewed": "Observed differences in colour and temperature provide a vasomotor sign rather than relying on the patient's report alone.",
+            "unreviewed": "Comparing colour and temperature between limbs could identify objective vasomotor asymmetry."
+          },
+          {
+            "id": "e03",
+            "title": "Swelling and sweating",
+            "reviewed": "Observed swelling and sweating asymmetry contribute another clinical domain supporting the diagnosis.",
+            "unreviewed": "Assessing swelling and sweating could provide additional objective findings relevant to the CRPS diagnostic criteria."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "i01",
+            "title": "Fracture healing on radiographs",
+            "reviewed": "The radiographs demonstrate ongoing fracture healing without a new structural complication. Mild osteopenia is nonspecific and does not confirm CRPS."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Reassess and exclude alternatives",
+            "text": "Perform a thorough neurovascular and musculoskeletal assessment, review fracture healing, and investigate concerning findings that could indicate infection, vascular compromise, or another structural complication."
+          },
+          {
+            "title": "Begin coordinated rehabilitation",
+            "text": "Where CRPS is the leading diagnosis, early, individualized rehabilitation should focus on restoring movement and function, using appropriately graded activity and desensitization strategies. Avoid unnecessarily prolonged immobilization."
+          },
+          {
+            "title": "Manage pain and monitor progress",
+            "text": "Address pain sufficiently to enable functional rehabilitation, consider multidisciplinary pain or rehabilitation support, and follow symptoms, mobility, and daily function over time."
+          }
+        ],
+        "must_not_miss": [
+          {
+            "name": "Infection or another acute limb complication",
+            "distinction": "Worsening pain and swelling must not automatically be attributed to CRPS. Fever, spreading erythema, drainage, a new focal complication, or signs of vascular compromise would require prompt investigation. The diagnosis of CRPS depends on considering and excluding better explanations."
+          }
+        ],
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "complex regional pain syndrome",
+              "CRPS",
+              "CRPS type I",
+              "CRPS type 1",
+              "CRPS I",
+              "CRPS 1",
+              "complex regional pain syndrome type I",
+              "complex regional pain syndrome type 1",
+              "complex regional pain syndrome I",
+              "complex regional pain syndrome 1",
+              "posttraumatic complex regional pain syndrome",
+              "post traumatic complex regional pain syndrome",
+              "posttraumatic CRPS",
+              "post traumatic CRPS",
+              "postfracture complex regional pain syndrome",
+              "post fracture complex regional pain syndrome",
+              "postfracture CRPS",
+              "post fracture CRPS",
+              "reflex sympathetic dystrophy",
+              "RSD",
+              "Complex regional pain syndrome following distal radius fracture",
+              "CRPS of the right hand",
+              "CRPS of the right wrist",
+              "right hand CRPS",
+              "right wrist CRPS",
+              "complex regional pain syndrome of the right hand",
+              "complex regional pain syndrome of the right wrist",
+              "right upper limb complex regional pain syndrome",
+              "complex regional pain syndrome (CRPS)",
+              "complex regional pain syndrome type 1 (CRPS)",
+              "complex regional pain syndrome type I (CRPS)",
+              "CRPS (complex regional pain syndrome)",
+              "CRPS following distal radius fracture",
+              "CRPS after distal radius fracture",
+              "complex regional pain syndrome after distal radius fracture",
+              "right wrist complex regional pain syndrome",
+              "right hand complex regional pain syndrome",
+              "right wrist CRPS type 1"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "postimmobilization pain and stiffness",
+              "post immobilization pain and stiffness",
+              "postimmobilisation pain and stiffness",
+              "post immobilisation pain and stiffness",
+              "postimmobilization stiffness",
+              "post immobilization stiffness",
+              "postimmobilisation stiffness",
+              "post immobilisation stiffness",
+              "post fracture stiffness",
+              "focal peripheral nerve injury",
+              "peripheral nerve injury",
+              "median nerve injury",
+              "ulnar nerve injury",
+              "radial nerve injury",
+              "median neuropathy",
+              "ulnar neuropathy",
+              "radial neuropathy",
+              "infection",
+              "local infection",
+              "soft tissue infection",
+              "cellulitis",
+              "osteomyelitis",
+              "vascular compromise",
+              "acute limb ischemia",
+              "acute limb ischaemia"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Complex Regional Pain Syndrome: Practical Diagnostic and Treatment Guidelines, 5th Edition",
+            "publisher": "Pain Medicine",
+            "url": "https://academic.oup.com/painmedicine/article/23/Supplement_1/S1/6605306",
+            "description": "A comprehensive evidence informed review of CRPS diagnostic criteria, clinical assessment, and multidisciplinary management."
+          },
+          {
+            "title": "Budapest Criteria",
+            "publisher": "European Pain Federation",
+            "url": "https://crps.europeanpainfederation.eu/budapest-criteria/",
+            "description": "A focused reference for the clinical criteria, including the distinction between reported symptoms and observed signs."
+          }
+        ],
+        "diagnosis_notes": [
+          "The Budapest clinical criteria require disproportionate continuing pain, reported symptoms in at least three of four domains, observed signs in at least two domains, and no other diagnosis that better explains the presentation. The domains are sensory, vasomotor, swelling or sweating, and motor or trophic changes.",
+          "Reported symptoms come from the history, such as sensitivity to clothing or episodes of colour change. Observed signs are found on examination, such as pain with light touch, a cooler mottled hand, or visible swelling. These are assessed separately. Fracture healing and the absence of obvious infection do not by themselves exclude every alternative explanation."
+        ],
+        "evidence_rule": {
+          "type": "clinical_domains",
+          "pain_inquiry": "h01",
+          "symptom_domains": [
+            [
+              "h02"
+            ],
+            [
+              "h03"
+            ],
+            [
+              "h04"
+            ],
+            [
+              "h05"
+            ]
+          ],
+          "sign_domains": [
+            [
+              "e01"
+            ],
+            [
+              "e02"
+            ],
+            [
+              "e03"
+            ],
+            [
+              "e04"
+            ]
+          ],
+          "min_symptoms": 3,
+          "min_signs": 2
+        },
+        "confidence_feedback": {
+          "correct": {
+            "high": "Well done. You identified the leading diagnosis with high confidence. The regional pain pattern and the combination of reported symptoms and observed signs you explored provide support across several clinical domains.",
+            "moderate": "Well done. You identified the leading diagnosis with moderate confidence. Separating reported symptoms from observed signs and comparing them across the Budapest domains helps make this impression more convincing.",
+            "low": "Well done. You reached the leading diagnosis despite uncertainty. Read how sensory, vasomotor, swelling or sweating, and motor findings fit together. No single unusual symptom is sufficient on its own."
+          },
+          "incorrect": {
+            "high": "Your final diagnosis differs from the leading explanation here, despite your high confidence. Consider whether it explains the regional hypersensitivity, temperature asymmetry, swelling, and altered sweating together. Healing radiographs alone do not account for that clinical pattern, and competing limb complications still need assessment.",
+            "moderate": "Your final diagnosis differs from the leading explanation here. Compare ordinary recovery related stiffness and focal nerve injury with the regional pattern across the Budapest domains, while considering infection and other limb complications.",
+            "low": "Uncertainty is understandable after a fracture because pain and stiffness can have several causes. Organize the history into reported symptom domains, then look for objective signs in separate examination domains before deciding which explanation fits best."
+          }
+        },
+        "correct_high_limited": "Well done. You identified the leading diagnosis with high confidence. The findings below explain why the combination of symptoms and objective signs matters more than an isolated clue.",
+        "missing_feedback": {
+          "default": "Before settling on CRPS, establish disproportionate continuing pain and check for symptoms in at least three domains and signs in at least two, while considering better explanations."
+        }
+      },
+      "aliases": [
+        "complex regional pain syndrome",
+        "CRPS",
+        "CRPS type I",
+        "CRPS type 1",
+        "CRPS I",
+        "CRPS 1",
+        "complex regional pain syndrome type I",
+        "complex regional pain syndrome type 1",
+        "complex regional pain syndrome I",
+        "complex regional pain syndrome 1",
+        "posttraumatic complex regional pain syndrome",
+        "post traumatic complex regional pain syndrome",
+        "posttraumatic CRPS",
+        "post traumatic CRPS",
+        "postfracture complex regional pain syndrome",
+        "post fracture complex regional pain syndrome",
+        "postfracture CRPS",
+        "post fracture CRPS",
+        "reflex sympathetic dystrophy",
+        "RSD",
+        "Complex regional pain syndrome following distal radius fracture",
+        "CRPS of the right hand",
+        "CRPS of the right wrist",
+        "right hand CRPS",
+        "right wrist CRPS",
+        "complex regional pain syndrome of the right hand",
+        "complex regional pain syndrome of the right wrist",
+        "right upper limb complex regional pain syndrome",
+        "complex regional pain syndrome (CRPS)",
+        "complex regional pain syndrome type 1 (CRPS)",
+        "complex regional pain syndrome type I (CRPS)",
+        "CRPS (complex regional pain syndrome)",
+        "CRPS following distal radius fracture",
+        "CRPS after distal radius fracture",
+        "complex regional pain syndrome after distal radius fracture",
+        "right wrist complex regional pain syndrome",
+        "right hand complex regional pain syndrome",
+        "right wrist CRPS type 1"
+      ],
+      "not_accepted": [
+        "chronic pain",
+        "neuropathic pain",
+        "postfracture pain",
+        "post fracture pain",
+        "CRPS type II",
+        "CRPS type 2",
+        "causalgia",
+        "infection"
+      ]
+    },
+    {
+      "id": "weakness-twitching",
+      "number": 9,
+      "title": "Hand Weakness",
+      "difficulty": "Hard",
+      "initial": "A 59-year-old school administrator reports seven months of right hand weakness and occasional muscle twitching. A previous neck radiograph showed degenerative changes, and she wonders whether the findings could explain her symptoms.",
+      "intended": "Amyotrophic lateral sclerosis, suspected",
+      "aliases": [
+        "amyotrophic lateral sclerosis",
+        "als",
+        "motor neuron disease",
+        "motor neurone disease",
+        "mnd",
+        "probable amyotrophic lateral sclerosis",
+        "suspected amyotrophic lateral sclerosis",
+        "suspected als",
+        "als type motor neuron disease",
+        "progressive motor neuron disease",
+        "Amyotrophic lateral sclerosis, suspected",
+        "motor neuronee disease",
+        "als type motor neurone disease",
+        "progressive motor neurone disease",
+        "amyotrophic lateral sclerosis (ALS)",
+        "ALS (amyotrophic lateral sclerosis)",
+        "suspected amyotrophic lateral sclerosis (ALS)",
+        "suspected motor neuron disease",
+        "suspected motor neurone disease",
+        "motor neuron disease (MND)",
+        "motor neurone disease (MND)",
+        "motor neuron disease (ALS)",
+        "motor neurone disease (ALS)",
+        "ALS motor neuron disease"
+      ],
+      "not_accepted": [
+        "fasciculations",
+        "benign fasciculation syndrome",
+        "cervical myelopathy",
+        "primary lateral sclerosis",
+        "multifocal motor neuropathy",
+        "neuropathy"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "How has weakness progressed?",
+          "Difficulty opening jars began in the right hand and has gradually spread to the left hand. She now occasionally catches her right foot when walking."
+        ],
+        [
+          "h02",
+          "History",
+          "What are the twitches like?",
+          "Small involuntary movements occur in the arms and calves, including at rest. She also reports intermittent cramps."
+        ],
+        [
+          "h03",
+          "History",
+          "Any numbness or tingling?",
+          "She denies persistent sensory loss, numbness, or tingling."
+        ],
+        [
+          "h04",
+          "History",
+          "Does strength fluctuate?",
+          "The weakness is present throughout the day and has gradually worsened. Rest does not restore normal strength."
+        ],
+        [
+          "h05",
+          "History",
+          "Any speech or swallowing changes?",
+          "She has not noticed choking, nasal speech, or a persistent change in voice."
+        ],
+        [
+          "h06",
+          "History",
+          "Any bladder or bowel changes?",
+          "There is no new urinary retention, incontinence, or bowel dysfunction."
+        ],
+        [
+          "h07",
+          "History",
+          "Any family neurological history?",
+          "No known family history of motor neuron disease or inherited muscle disease."
+        ],
+        [
+          "h08",
+          "History",
+          "Any falls or breathing symptoms?",
+          "She has tripped twice but has had no major fall, resting shortness of breath, or difficulty lying flat."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Inspect bulk and fasciculations",
+          "There is atrophy of the right first dorsal interosseous muscle with visible fasciculations in the hands and calves."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Test strength and reflexes",
+          "Hand intrinsic strength is reduced, particularly on the right. Arm and knee reflexes are brisk, and the right plantar response is extensor despite distal muscle wasting."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Check sensation and coordination",
+          "Light touch, pinprick, joint position, and vibration are intact. There is no cerebellar dysmetria."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Examine cranial and bulbar function",
+          "Speech, palate movement, and tongue strength are clinically normal at this visit. There is no visible tongue wasting."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review cervical MRI",
+          "Cervical MRI shows mild to moderate degenerative changes but no major cord compression or abnormal cervical cord signal to explain the widespread motor findings."
+        ],
+        [
+          "i02",
+          "Imaging",
+          "Review available EMG and NCS",
+          "An outside EMG report describes ongoing denervation and chronic neurogenic changes in sampled muscles from cervical and lumbosacral regions, including muscles supplied by different peripheral nerves. Sensory nerve conduction responses are preserved, and no motor conduction block is reported."
+        ]
+      ],
+      "display_labels": {
+        "h01": "How has weakness progressed?",
+        "h02": "What are the twitches like?",
+        "h03": "Any numbness or tingling?",
+        "h04": "Does strength fluctuate?",
+        "h05": "Any speech or swallowing changes?",
+        "h06": "Any bladder or bowel changes?",
+        "h07": "Any family neurological history?",
+        "h08": "Any falls or breathing symptoms?",
+        "e01": "Inspect bulk and fasciculations",
+        "e02": "Test strength and reflexes",
+        "e03": "Check sensation and coordination",
+        "e04": "Examine cranial and bulbar function",
+        "i01": "Review cervical MRI",
+        "i02": "Review available EMG and NCS"
+      },
+      "debrief": "Progressive weakness with muscle wasting and fasciculations suggests lower motor neuron dysfunction, while brisk reflexes and an extensor plantar response indicate upper motor neuron involvement. Preserved sensation, widespread neurogenic EMG abnormalities, and lack of explanatory cervical cord compression make a motor neuron disorder a strong concern. ALS remains a specialist diagnosis requiring appropriate exclusion of other processes, particularly treatable mimics.",
+      "reasoning": {
+        "key_groups": [
+          [
+            "e01"
+          ],
+          [
+            "e02"
+          ],
+          [
+            "i02",
+            "h01"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Cervical myelopathy",
+            "distinction": "Cervical cord compression may explain hand dysfunction, brisk reflexes, and gait changes, but the MRI lacks sufficient cord pathology to explain widespread denervation and muscle wasting."
+          },
+          {
+            "name": "Multifocal motor neuropathy",
+            "distinction": "This potentially treatable motor neuropathy can produce asymmetric distal weakness and atrophy, often with minimal sensory symptoms. Upper motor neuron signs are not typical, and conduction block would strengthen the alternative diagnosis."
+          },
+          {
+            "name": "Myasthenia gravis",
+            "distinction": "A neuromuscular junction disorder may cause weakness but usually produces fatigable symptoms without prominent wasting, fasciculations, or upper motor neuron signs."
+          }
+        ],
+        "findings": [
+          {
+            "id": "e01",
+            "title": "Muscle wasting and fasciculations",
+            "reviewed": "Focal wasting with fasciculations supports a lower motor neuron process when paired with objective weakness.",
+            "unreviewed": "Inspecting muscle bulk and fasciculations could identify lower motor neuron involvement rather than relying on reported twitching alone."
+          },
+          {
+            "id": "e02",
+            "title": "Upper motor neuron findings",
+            "reviewed": "Brisk reflexes and an extensor plantar response despite distal weakness indicate upper motor neuron involvement alongside lower motor neuron signs.",
+            "unreviewed": "Formal reflex and plantar testing could reveal a second neurological level of involvement and substantially change the differential."
+          },
+          {
+            "id": "i02",
+            "title": "Multiregion EMG and NCS",
+            "reviewed": "Neurogenic abnormalities in multiple body regions with preserved sensory responses and no reported conduction block strengthen concern for motor neuron disease, although they do not independently confirm ALS.",
+            "unreviewed": "Available EMG and nerve conduction information could help assess the distribution of denervation and evaluate peripheral nerve mimics."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "h03",
+            "title": "Preserved sensation",
+            "reviewed": "The lack of persistent sensory symptoms is compatible with a predominantly motor process but is not diagnostic on its own."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Prompt specialist review",
+            "text": "Refer urgently to a neuromuscular specialist for confirmation, targeted evaluation for mimics, and discussion of findings in an appropriate clinical setting."
+          },
+          {
+            "title": "Complete the assessment",
+            "text": "Review the EMG and nerve conduction study in detail, determine whether further sampling or targeted bloodwork is required, and assess bulbar, respiratory, nutritional, and functional status."
+          },
+          {
+            "title": "Coordinate supportive care",
+            "text": "If ALS is confirmed, offer timely multidisciplinary motor neuron disease care, disease modifying therapy discussions according to current eligibility, rehabilitation and assistive equipment, and patient centred planning."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "You identified the leading concern with high confidence. The combination of progressive motor impairment, upper and lower motor neuron signs, and widespread neurogenic findings strongly supports specialist evaluation for ALS.",
+            "moderate": "You recognized the leading concern. Correlating the neurological examination with multiregion EMG findings makes motor neuron disease more likely than an isolated cervical lesion.",
+            "low": "You identified the leading concern despite uncertainty. Seeing upper and lower motor neuron abnormalities together is the key diagnostic turning point in this case."
+          },
+          "incorrect": {
+            "high": "Your diagnosis differs from the leading concern. Reconsider whether it can explain both the brisk reflexes and muscle wasting, as well as neurogenic abnormalities outside one root or nerve territory.",
+            "moderate": "This case can resemble a cervical or peripheral nerve problem early on. The broader distribution of motor findings helps distinguish those possibilities.",
+            "low": "Progressive weakness has several possible causes. Use the combination of motor examination, sensory sparing, and electrodiagnostic distribution to guide localization."
+          }
+        },
+        "correct_high_limited": "You identified the leading concern with high confidence. The combination of progressive motor impairment, upper and lower motor neuron signs, and widespread neurogenic findings strongly supports specialist evaluation for ALS.",
+        "missing_feedback": {
+          "default": "For similar presentations, establishing both upper and lower motor neuron findings and considering the distribution of denervation are central to the assessment."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "amyotrophic lateral sclerosis",
+              "als",
+              "motor neuron disease",
+              "motor neurone disease",
+              "mnd",
+              "probable amyotrophic lateral sclerosis",
+              "suspected amyotrophic lateral sclerosis",
+              "suspected als",
+              "als type motor neuron disease",
+              "progressive motor neuron disease",
+              "Amyotrophic lateral sclerosis, suspected",
+              "motor neuronee disease",
+              "als type motor neurone disease",
+              "progressive motor neurone disease",
+              "amyotrophic lateral sclerosis (ALS)",
+              "ALS (amyotrophic lateral sclerosis)",
+              "suspected amyotrophic lateral sclerosis (ALS)",
+              "suspected motor neuron disease",
+              "suspected motor neurone disease",
+              "motor neuron disease (MND)",
+              "motor neurone disease (MND)",
+              "motor neuron disease (ALS)",
+              "motor neurone disease (ALS)",
+              "ALS motor neuron disease"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "degenerative cervical myelopathy",
+              "cervical myelopathy",
+              "cervical spondylotic myelopathy",
+              "dcm",
+              "multifocal motor neuropathy",
+              "mmn",
+              "multifocal motor neuropathy with conduction block",
+              "motor neuropathy",
+              "motor predominant peripheral neuropathy",
+              "immune mediated motor neuropathy",
+              "myasthenia gravis",
+              "mg",
+              "generalized myasthenia gravis",
+              "generalised myasthenia gravis"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Diagnosing ALS: The Gold Coast Criteria and the Role of EMG",
+            "publisher": "Practical Neurology",
+            "url": "https://pn.bmj.com/content/22/3/176",
+            "description": "A concise discussion of clinical diagnostic criteria and the role and limitations of electrodiagnostic testing."
+          }
+        ],
+        "must_not_miss": [
+          {
+            "name": "Treatable motor neuron disease mimics",
+            "distinction": "Before assigning an ALS diagnosis, investigate alternative structural, immune mediated, metabolic, or neuropathic causes of progressive motor weakness as clinically indicated. A teaching vignette cannot substitute for a complete neuromuscular assessment."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unexplained-buttock-pain",
+      "number": 10,
+      "title": "Unexplained Buttock Pain",
+      "difficulty": "Hard",
+      "initial": "A 41-year-old recreational runner reports six months of right buttock pain with occasional tingling down the back of her thigh. A prior lumbar MRI was described to her as showing a disc bulge, and she wonders whether it explains the pain.",
+      "intended": "Deep gluteal syndrome",
+      "aliases": [
+        "deep gluteal syndrome",
+        "dgs",
+        "deep gluteal sciatic nerve entrapment",
+        "sciatic nerve entrapment in the deep gluteal space",
+        "extra spinal sciatic nerve entrapment",
+        "extraspinal sciatic nerve entrapment",
+        "piriformis syndrome",
+        "piriformis related sciatic nerve entrapment",
+        "piriformis nerve entrapment",
+        "sciatic nerve compression in the buttock",
+        "deep gluteal syndrome (DGS)",
+        "DGS (deep gluteal syndrome)",
+        "deep gluteal syndrome (piriformis syndrome)",
+        "piriformis syndrome (deep gluteal syndrome)",
+        "sciatic nerve entrapment in the deep gluteal region",
+        "deep gluteal sciatic entrapment",
+        "piriformis related sciatic neuropathy"
+      ],
+      "not_accepted": [
+        "sciatica",
+        "buttock pain",
+        "lumbar radiculopathy"
+      ],
+      "questions": [
+        [
+          "h01",
+          "History",
+          "What positions provoke pain?",
+          "Sitting, especially during longer drives, brings on a deep buttock ache after about 20 minutes. Standing and walking usually ease it."
+        ],
+        [
+          "h02",
+          "History",
+          "Where does the pain spread?",
+          "Pain is centered deep in the right buttock and sometimes travels down the posterior thigh, rarely beyond the knee."
+        ],
+        [
+          "h03",
+          "History",
+          "Any back pain or spinal triggers?",
+          "Lower back discomfort is minimal. Coughing, sneezing, and forward bending do not reproduce the characteristic buttock pain."
+        ],
+        [
+          "h04",
+          "History",
+          "Did symptoms follow an injury?",
+          "The pain began gradually after she increased her running distance on hilly routes. There was no fall or acute tear."
+        ],
+        [
+          "h05",
+          "History",
+          "Which activities are easier?",
+          "Comfortable standing and short walks usually help. Prolonged sitting in a car is much worse than walking."
+        ],
+        [
+          "h06",
+          "History",
+          "Any numbness or weakness?",
+          "Tingling is occasional. She has no consistent foot numbness, weakness, or foot drop."
+        ],
+        [
+          "h07",
+          "History",
+          "Any bowel or bladder red flags?",
+          "No new bowel or bladder problems, saddle sensory change, fever, or unexplained weight loss."
+        ],
+        [
+          "h08",
+          "History",
+          "Where does pressure hurt?",
+          "Sitting on a firm chair or applying pressure deep into the affected buttock reproduces her familiar ache."
+        ],
+        [
+          "e01",
+          "Examination",
+          "Seated piriformis stretch test?",
+          "Flexion, adduction, and internal rotation of the right hip in sitting reproduce the deep buttock pain and familiar posterior thigh symptoms."
+        ],
+        [
+          "e02",
+          "Examination",
+          "Active piriformis test?",
+          "Resisted abduction and external rotation reproduce her deep buttock discomfort on the right."
+        ],
+        [
+          "e03",
+          "Examination",
+          "Palpate the deep gluteal region",
+          "There is focal tenderness deep to the gluteal muscles near the course of the sciatic nerve. The ischial tuberosity is not the principal point of tenderness."
+        ],
+        [
+          "e04",
+          "Examination",
+          "Check lumbar, hip, and nerve findings",
+          "Hip joint motion is preserved, straight leg raise does not reproduce her characteristic symptoms, and lower limb strength, sensation, and reflexes are normal at rest."
+        ]
+      ],
+      "imaging": [
+        [
+          "i01",
+          "Imaging",
+          "Review the lumbar MRI",
+          "Lumbar MRI shows a small central L5–S1 disc bulge without convincing nerve root compression or foraminal narrowing that matches her symptoms."
+        ],
+        [
+          "i02",
+          "Imaging",
+          "Prior pelvic imaging?",
+          "No dedicated pelvic MRI or imaging of the deep gluteal space has been performed."
+        ]
+      ],
+      "display_labels": {
+        "h01": "What positions provoke pain?",
+        "h02": "Where does the pain spread?",
+        "h03": "Any back pain or spinal triggers?",
+        "h04": "Did symptoms follow an injury?",
+        "h05": "Which activities are easier?",
+        "h06": "Any numbness or weakness?",
+        "h07": "Any bowel or bladder red flags?",
+        "h08": "Where does pressure hurt?",
+        "e01": "Seated piriformis stretch test?",
+        "e02": "Active piriformis test?",
+        "e03": "Palpate the deep gluteal region",
+        "e04": "Check lumbar, hip, and nerve findings",
+        "i01": "Review the lumbar MRI",
+        "i02": "Prior pelvic imaging?"
+      },
+      "debrief": "Pain concentrated deep in the buttock, marked intolerance of prolonged sitting, and reproduction of familiar symptoms during two targeted deep gluteal provocative tests support irritation or entrapment of the sciatic nerve outside the spine. A small lumbar disc bulge without concordant nerve root compression does not adequately explain the presentation. This is a clinical working diagnosis, and the tests do not definitively establish the precise structure responsible.",
+      "reasoning": {
+        "key_groups": [
+          [
+            "h01"
+          ],
+          [
+            "e01"
+          ],
+          [
+            "e02"
+          ]
+        ],
+        "alternatives": [
+          {
+            "name": "Lumbar radiculopathy",
+            "distinction": "Radiating posterior leg symptoms can arise from an irritated lumbosacral nerve root. The absence of a convincing spinal trigger, lack of a focal root deficit, and nonconcordant MRI make a spinal source less likely here."
+          },
+          {
+            "name": "Proximal hamstring tendinopathy",
+            "distinction": "Pain near the ischial tuberosity may worsen with sitting or running, but hamstring loading and focal tendon origin tenderness would be more characteristic than reproduction of sciatic symptoms during deep gluteal provocation."
+          },
+          {
+            "name": "Hip or sacroiliac pathology",
+            "distinction": "Hip joint and SI joint conditions can refer pain to the buttock. A targeted regional examination helps determine whether those structures are more likely to be involved."
+          }
+        ],
+        "findings": [
+          {
+            "id": "h01",
+            "title": "Sitting intolerance",
+            "reviewed": "Deep buttock pain provoked by prolonged sitting is a common clinical feature of deep gluteal syndrome, although it can occur in other conditions.",
+            "unreviewed": "Clarifying which positions provoke symptoms could help distinguish a deep gluteal source from activity related spinal pain."
+          },
+          {
+            "id": "e01",
+            "title": "Seated piriformis stretch",
+            "reviewed": "Reproduction of her familiar deep buttock and thigh symptoms with seated piriformis stretch supports a deep gluteal pain generator in context.",
+            "unreviewed": "Seated stretch testing could help determine whether tension in the deep gluteal region reproduces the familiar complaint."
+          },
+          {
+            "id": "e02",
+            "title": "Active piriformis test",
+            "reviewed": "Reproduction of symptoms with resisted hip abduction and external rotation adds convergent support for a deep gluteal mechanism.",
+            "unreviewed": "Active deep gluteal testing could provide additional evidence when interpreted alongside the history and other examination findings."
+          }
+        ],
+        "supporting_findings": [
+          {
+            "id": "i01",
+            "title": "Nonconcordant lumbar MRI",
+            "reviewed": "A minor disc bulge should not automatically be blamed for buttock and leg symptoms when clinical features and anatomical compression do not match."
+          }
+        ],
+        "next_steps": [
+          {
+            "title": "Revisit localization",
+            "text": "Complete the lumbar spine, neurological, hip, sacroiliac, and proximal hamstring examinations. Reconsider lumbar or pelvic pathology if new deficits or discordant findings develop."
+          },
+          {
+            "title": "Conservative management",
+            "text": "Discuss graded activity, reducing prolonged compressive sitting, and individualized rehabilitation directed at hip and deep gluteal function while monitoring symptom response."
+          },
+          {
+            "title": "Further evaluation if persistent",
+            "text": "If pain remains disabling or the diagnosis is uncertain, consider specialist assessment. Targeted pelvic MRI, electrodiagnostic testing, or a carefully selected diagnostic injection may help in particular cases, but none is a universal confirmatory test."
+          }
+        ],
+        "confidence_feedback": {
+          "correct": {
+            "high": "You identified the leading working diagnosis confidently. The sitting pattern and concordant deep gluteal provocative findings provide meaningful support for this localization.",
+            "moderate": "You identified a plausible deep gluteal sciatic nerve disorder. Comparing its physical examination pattern with lumbar and hamstring sources helps strengthen the impression.",
+            "low": "You arrived at the leading working diagnosis despite uncertainty. The combination of sitting intolerance and reproduction with targeted deep gluteal testing is especially informative."
+          },
+          "incorrect": {
+            "high": "Your preferred diagnosis differs from the leading explanation. Ask whether it accounts for both the sitting intolerance and the targeted deep gluteal examination findings.",
+            "moderate": "The old lumbar imaging result is tempting, but structural findings should be weighed against the actual symptom and examination pattern.",
+            "low": "Buttock pain has several plausible causes. Localizing the provoked pain and comparing lumbar, hamstring, and deep gluteal findings can make the next step clearer."
+          }
+        },
+        "correct_high_limited": "You identified the leading working diagnosis confidently. The sitting pattern and concordant deep gluteal provocative findings provide meaningful support for this localization.",
+        "missing_feedback": {
+          "default": "For similar presentations, combine positional history with both passive and active deep gluteal examination rather than relying on a minor lumbar MRI finding."
+        },
+        "differential_feedback": [
+          {
+            "label": "Leading diagnosis",
+            "synonyms": [
+              "deep gluteal syndrome",
+              "dgs",
+              "deep gluteal sciatic nerve entrapment",
+              "sciatic nerve entrapment in the deep gluteal space",
+              "extra spinal sciatic nerve entrapment",
+              "extraspinal sciatic nerve entrapment",
+              "piriformis syndrome",
+              "piriformis related sciatic nerve entrapment",
+              "piriformis nerve entrapment",
+              "sciatic nerve compression in the buttock",
+              "deep gluteal syndrome (DGS)",
+              "DGS (deep gluteal syndrome)",
+              "deep gluteal syndrome (piriformis syndrome)",
+              "piriformis syndrome (deep gluteal syndrome)",
+              "sciatic nerve entrapment in the deep gluteal region",
+              "deep gluteal sciatic entrapment",
+              "piriformis related sciatic neuropathy"
+            ]
+          },
+          {
+            "label": "Relevant alternative",
+            "synonyms": [
+              "lumbar radiculopathy",
+              "s1 radiculopathy",
+              "sciatica",
+              "lumbosacral radicular pain",
+              "disc herniation with radiculopathy",
+              "proximal hamstring tendinopathy",
+              "hamstring origin tendinopathy",
+              "proximal hamstring syndrome",
+              "sacroiliac joint pain",
+              "si joint dysfunction",
+              "sacroiliac joint dysfunction",
+              "hip labral tear",
+              "femoroacetabular impingement",
+              "hip joint pathology",
+              "intraarticular hip pathology"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Deep Gluteal Syndrome Definition and Diagnostic Pathway: A Systematic Review, 2020",
+            "publisher": "Kizaki et al.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32246173/",
+            "description": "A focused review of clinical presentation, examination, imaging, and the limitations of available diagnostic pathways."
+          },
+          {
+            "title": "Review Article",
+            "publisher": "Deep Gluteal Syndrome",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4718497/",
+            "description": "A practical discussion of hip and sciatic nerve examination, including deep gluteal provocative maneuvers."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+---
+title: "Clinical Challenges"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/clinical-challenges.css
+---
+
+Gather information, weigh the findings, and suggest the most likely diagnosis. Each fictional challenge gives you six information requests and two diagnostic guesses.
+
+{{< include assets/clinical-challenges-listing.html >}}

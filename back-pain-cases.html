@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Free educational modules in pain medicine, covering foundational concepts, clinical assessment, and management for medical learners.">
 
 <title>back-pain-cases – Pain Medicine Learning Modules</title>
 <style>
@@ -131,6 +132,21 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cases" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Cases</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cases">    
+        <li>
+    <a class="dropdown-item" href="./cases.html">
+ <span class="dropdown-text">All Cases</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cases/chronic-back-pain-1.html">
+ <span class="dropdown-text">Chronic Back Pain 1</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Help</span></a>
@@ -171,9 +187,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="interactive-cases" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-cases">Interactive Cases</h2>
-<p>Apply what you have learned in this module to the following cases.</p>
-<p><a href="cases/chronic-back-pain-1.html" class="btn btn-primary">Chronic Back Pain 1</a></p>
-<p><br> <br></p>
+<p>Cases are now listed in the dedicated <a href="./cases.html">Cases section</a>.</p>
 <div class="bp-pagination">
 <p><a href="./back-pain-management.html" class="btn btn-outline-primary">← Previous: Management</a></p>
 <p><a href="./modules.html" class="btn btn-outline-secondary">All Modules</a></p>
@@ -1739,7 +1753,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/KianZB\.github\.io\/Pain-Medicine-Modules\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
