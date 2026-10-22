@@ -139,7 +139,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "References", href: "back-pain-references.html" }
   ];
 
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const pageName = window.location.pathname.replace(/\/+$/, "").split("/").pop() || "index";
+  const currentPage = pageName.endsWith(".html") ? pageName : `${pageName}.html`;
   const isBackPainPage = pages.some(page => page.href === currentPage);
 
   if (!isBackPainPage) return;

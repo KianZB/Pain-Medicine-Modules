@@ -138,7 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "References", href: "radicular-pain-references.html" },
   ];
 
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const pageName = window.location.pathname.replace(/\/+$/, "").split("/").pop() || "index";
+  const currentPage = pageName.endsWith(".html") ? pageName : `${pageName}.html`;
   const isRadicularPainPage = pages.some(page => page.href === currentPage);
 
   if (!isRadicularPainPage) return;
