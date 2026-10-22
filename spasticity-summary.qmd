@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Summary</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Summary</span>'
+pagetitle: "Spasticity – Summary"
 ---
 
 ## Big Picture
@@ -42,7 +43,9 @@ Spasticity is primarily a clinical diagnosis. Further investigations are guided 
 - Functional electrical stimulation in selected patients
 
 ::: {.sp-pagination}
-[← Management](spasticity-management.qmd){.btn .btn-outline-primary}
+[← Previous: Management](spasticity-management.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Case Example →](spasticity-case-example.qmd){.btn .btn-primary}
 :::

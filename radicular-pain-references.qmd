@@ -1,5 +1,6 @@
 ---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">References</span>'
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">References</span>'
+pagetitle: "Lumbar Radicular Pain – References"
 ---
 
 ::: {.references}

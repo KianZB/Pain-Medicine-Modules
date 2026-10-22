@@ -1,0 +1,56 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  document.querySelectorAll(".home-page-actions > details.home-panel").forEach(panel => {
+    const summary = panel.querySelector("summary.home-panel-summary");
+    if (!summary || typeof panel.animate !== "function") return;
+
+    let animation = null;
+    let targetOpen = panel.open;
+    panel.dataset.panelOpen = String(panel.open);
+
+    panel.addEventListener("toggle", () => {
+      if (!animation) panel.dataset.panelOpen = String(panel.open);
+    });
+
+    summary.addEventListener("click", event => {
+      // Preserve native details behaviour when motion is reduced.
+      if (reducedMotion.matches) {
+        if (animation) {
+          animation.cancel();
+          animation = null;
+          panel.open = targetOpen;
+        }
+        panel.dataset.panelOpen = String(!panel.open);
+        return;
+      }
+
+      event.preventDefault();
+      const startHeight = panel.getBoundingClientRect().height;
+      targetOpen = animation ? !targetOpen : !panel.open;
+      // Reflect the requested state immediately, including while closing.
+      panel.dataset.panelOpen = String(targetOpen);
+      if (animation) animation.cancel();
+
+      // Keep the contents visible until the closing animation has finished.
+      panel.open = true;
+      const style = window.getComputedStyle(panel);
+      const closedHeight = summary.getBoundingClientRect().height
+        + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+      const endHeight = targetOpen ? panel.getBoundingClientRect().height : closedHeight;
+
+      const currentAnimation = panel.animate(
+        [{ height: `${startHeight}px` }, { height: `${endHeight}px` }],
+        { duration: 400, easing: "ease-out" }
+      );
+      animation = currentAnimation;
+      currentAnimation.onfinish = () => {
+        if (animation !== currentAnimation) return;
+        panel.open = targetOpen;
+        animation = null;
+      };
+    });
+  });
+});
+</script>

@@ -1,5 +1,6 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Clinical Presentation</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Clinical Presentation</span>'
+pagetitle: "Spondylolisthesis – Clinical Presentation"
 ---
 
 ## Asymptomatic presentation
@@ -22,11 +23,22 @@ Degenerative slips with central or lateral-recess stenosis can cause neurogenic 
 
 Dermatomal sensory loss, myotomal weakness, and diminished reflexes can localize the affected level, although these findings are less common than pain alone.
 
-::: {.callout-important}
-## Red flag
+:::: {.learning-callout .learning-callout--red-flag .module-learning-callout role="note" aria-labelledby="spondylolisthesis-clinical-presentation-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0" /></svg>
+  <h3 id="spondylolisthesis-clinical-presentation-callout-1">Red flag</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Cauda equina syndrome is rare but must be excluded. New urinary retention or incontinence, saddle anesthesia, reduced anal tone, or progressive or bilateral weakness require emergent MRI and urgent surgical referral.
+
 :::
+
+::::
 
 ## Hamstring tightness
 
@@ -37,8 +49,8 @@ Hamstring tightness is a hallmark finding, especially in adolescents with higher
 Lumbosacral kyphosis and pelvic retroversion can produce a flattened lumbar contour, palpable step-off, shortened trunk, and, in severe L5–S1 slips, a crouched Phalen-Dickson gait. Degenerative stenosis instead tends to produce a forward-flexed posture and wide-based gait.
 
 <figure class="figure text-center">
-<img src="images/spondylolisthesis/08-phalen-dickson-crouched-gait.png" alt="Crouched gait example showing excessive hip flexion, knee flexion, and ankle dorsiflexion in Phalen-Dickson gait." style="width: 50%;">
-<figcaption>“Images of a ‘crouched’ gait (Phalen-Dickson sign), featuring excessive hip flexion, knee flexion, and ankle dorsiflexion.” Source: <a href="https://pinnacleorthocentre.com/crouch-gait-in-cerebral-palsy/">Pinnacle Orthocentre</a>.</figcaption>
+<img src="images/spondylolisthesis/08-phalen-dickson-crouched-gait.png" alt="Crouch gait in cerebral palsy, illustrating a flexed hip and knee posture similar to that seen in Phalen-Dickson gait in severe spondylolisthesis." style="width: 50%;">
+<figcaption>Crouch gait in cerebral palsy, illustrating a flexed hip and knee posture similar to that seen in Phalen-Dickson gait in severe spondylolisthesis. Source: <a href="https://pinnacleorthocentre.com/crouch-gait-in-cerebral-palsy/">Pinnacle Orthocentre</a>.</figcaption>
 </figure>
 
 ## Physical examination
@@ -60,11 +72,22 @@ The clinical picture overlaps with other mechanical and radicular causes of back
 - **Sacroiliac joint dysfunction:** Buttock pain worse with sit-to-stand transitions, tenderness over the sacroiliac joint, and pain that does not localize above L5.
 - **Hip pathology:** Osteoarthritis or femoroacetabular impingement can cause groin or anterior-thigh pain with painful or limited hip rotation.
 
-::: {.callout-warning}
-## Cannot-miss diagnoses
+:::: {.learning-callout .learning-callout--red-flag .module-learning-callout role="note" aria-labelledby="spondylolisthesis-clinical-presentation-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0" /></svg>
+  <h3 id="spondylolisthesis-clinical-presentation-callout-2">Red flag</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Cauda equina syndrome, spinal epidural abscess, and spinal malignancy can mimic mechanical back pain. Fever, intravenous drug use, immunosuppression, markedly elevated ESR or CRP, age over 50, a history of cancer, unexplained weight loss, or night pain should prompt MRI and directed workup.
+
 :::
+
+::::
 
 A structured diagnostic algorithm helps separate the majority of patients with nonspecific pain from the minority with serious or specific pathology.
 

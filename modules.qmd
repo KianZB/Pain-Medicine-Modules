@@ -11,7 +11,7 @@ title: "Modules"
 
 [Back Pain Basics](back-pain-introduction.qmd){.btn .btn-primary}
 
-[Physical Examination](coming-soon.qmd){.btn .btn-primary} (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Physical Examination</span><span class="coming-soon-label">Coming soon</span></p>
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -21,13 +21,13 @@ title: "Modules"
 
 [Discogenic Pain](discogenic-pain-introduction.qmd){.btn .btn-primary}
 
-[Facetogenic Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
-
 [Spondylolisthesis](spondylolisthesis-introduction.qmd){.btn .btn-primary}
 
-[Neurogenic Claudication](coming-soon.qmd){.btn .btn-primary} (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Facetogenic Pain</span><span class="coming-soon-label">Coming soon</span></p>
 
-[Sacroiliac Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Neurogenic Claudication</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Sacroiliac Pain</span><span class="coming-soon-label">Coming soon</span></p>
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -35,9 +35,9 @@ title: "Modules"
 
 [Spasticity](spasticity-introduction.qmd){.btn .btn-primary}
 
-[Cervical Radicular Pain](coming-soon.qmd){.btn .btn-primary} (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Cervical Radicular Pain</span><span class="coming-soon-label">Coming soon</span></p>
 
-[EMG/NCS](coming-soon.qmd){.btn .btn-primary} (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">EMG/NCS</span><span class="coming-soon-label">Coming soon</span></p>
 
 :::
 

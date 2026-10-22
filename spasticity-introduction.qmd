@@ -1,20 +1,37 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Introduction</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Introduction</span>'
+pagetitle: "Spasticity – Introduction"
 ---
 
 Spasticity is a velocity-dependent increase in muscle tone due to an exaggerated stretch reflex and is a component of the upper motor neuron syndrome.
 
 This is a valuable topic to cover and is commonly seen in patients with neuromuscular conditions, particularly upper motor neuron lesions. Common etiologies include multiple sclerosis, stroke, spinal cord injury, and cerebral palsy. It is encountered by a wide range of specialties, including neurology, general internal medicine, family medicine, physical medicine, emergency medicine, and more.
 
-::: {.callout-note}
-## By the end of this module, you should be comfortable with:
+**Estimated time:** 45–60 minutes
+
+:::: {.learning-callout .learning-callout--objectives .module-learning-callout role="note" aria-labelledby="spasticity-introduction-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></svg>
+  <h3 id="spasticity-introduction-callout-1">Learning objectives</h3>
+</header>
+```
+
+::: {.learning-callout-body}
+
+By the end of this module, you should be able to:
 
 - [ ] Knowing the most common causes of spasticity
 - [ ] Explaining the normal mechanisms of reflexes and motor pathways, then the pathophysiology behind spasticity
 - [ ] Identifying the key clinical tests and signs of spasticity, recognizing red flags, and understanding what they mean
 - [ ] Knowing the diagnostic algorithm and steps for further investigation, while building an appropriate differential
 - [ ] Proposing initial treatments and long-term management strategies for spasticity
+
 :::
+
+::::
+
 
 **Module writer:** Emily Jiang
 

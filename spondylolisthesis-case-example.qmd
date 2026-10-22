@@ -1,13 +1,22 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Case Example</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Case Example</span>'
+pagetitle: "Spondylolisthesis – Case Example"
 ---
 
 ## Clinical scenario
 
 Becky P. is a 52-year-old woman presenting to clinic with a six-month history of gradually worsening lower back pain. She describes a deep ache across the lower back that is aggravated by prolonged standing, walking, and leaning backward, but improved by sitting or bending forward. She works as a nurse and spends most of her days on her feet, but has recently had difficulty keeping up because of aching and heaviness in her legs after walking for more than a few minutes. Stopping and leaning on a heavy object eases these episodes.
 
-::: {.callout-tip}
-## Question 1
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spondylolisthesis-case-example-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spondylolisthesis-case-example-callout-1">Question 1</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What could these episodes of bilateral aching and heaviness indicate?
 
@@ -17,10 +26,21 @@ What could these episodes of bilateral aching and heaviness indicate?
 Bilateral leg heaviness that occurs with walking or standing and eases with forward flexion is a sign of neurogenic claudication. This suggests central or lateral-recess narrowing, a common consequence of a degenerative slip.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 2
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spondylolisthesis-case-example-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spondylolisthesis-case-example-callout-2">Question 2</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What specific history questions could you ask Becky to help characterize the pain and narrow the differential diagnosis?
 
@@ -33,10 +53,21 @@ What specific history questions could you ask Becky to help characterize the pai
 - **Red flags:** Is there saddle anesthesia, urinary retention or incontinence, fecal incontinence, fever, intravenous drug use, a history of cancer, constitutional symptoms, chronic steroid use, or osteoporosis?
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 3
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spondylolisthesis-case-example-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spondylolisthesis-case-example-callout-3">Question 3</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 You have ruled out red-flag symptoms such as saddle anesthesia and incontinence. Becky is otherwise healthy and denies fever, trauma, weight loss, or bladder or bowel changes. Which imaging study should you order first, and how should she be positioned?
 
@@ -46,10 +77,21 @@ You have ruled out red-flag symptoms such as saddle anesthesia and incontinence.
 A standing, upright lateral radiograph of the lumbar spine is the initial test to detect and grade a slip. Upright positioning is important because a slip may reduce and appear normal when the patient is supine. Weight-bearing views reveal the true degree of translation. Anteroposterior and lateral views can also demonstrate the slip and the presence of a pars defect.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 4
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spondylolisthesis-case-example-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spondylolisthesis-case-example-callout-4">Question 4</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 A year later, Becky brings in her daughter, Maya, a 14-year-old competitive gymnast. Maya has had low back pain for several months, located in the lower back and noticeably worse with backbends and landings but improved by rest. She denies leg pain, numbness, weakness, or bladder or bowel symptoms. What is the most likely source of Maya's pain, and how does it differ from her mother's?
 
@@ -61,10 +103,21 @@ Maya is a skeletally immature adolescent participating in a sport that demands r
 By contrast, Becky's pain reflects age-related disc and facet deterioration producing a degenerative slip and canal narrowing.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 5
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spondylolisthesis-case-example-callout-5"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spondylolisthesis-case-example-callout-5">Question 5</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Becky's radiograph shows anterior slippage of L4 on L5, with the L4 body translated approximately one-third of the way forward over L5. How would you grade the severity of this slip?
 
@@ -74,7 +127,10 @@ Becky's radiograph shows anterior slippage of L4 on L5, with the L4 body transla
 Severity is graded using the Meyerding scale from I to V. Translation of approximately one-third, or 25–50%, is a Meyerding grade II slip.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

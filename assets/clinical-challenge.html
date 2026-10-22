@@ -1,0 +1,96 @@
+```{=html}
+<section class="clinical-challenge" aria-busy="true" aria-labelledby="cc-title" data-clinical-challenge>
+  <svg class="cw-symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="cw-referral" viewBox="0 0 24 24"><path d="M9 5H6a2 2 0 0 0-2 2v14h16V7a2 2 0 0 0-2-2h-3M9 3h6v4H9zM8 12h8M8 16h6" /></symbol>
+    <symbol id="cw-history" viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3zM7 8h9M7 12h6" /></symbol>
+    <symbol id="cw-examination" viewBox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4" /></symbol>
+    <symbol id="cw-imaging" viewBox="0 0 24 24"><path d="M3 4h18v16H3zM7 16l4-5 3 3 3-4 4 6" /><circle cx="8" cy="8" r="1" /></symbol>
+    <symbol id="cw-differential" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M3 6h1M3 12h1M3 18h1" /></symbol>
+    <symbol id="cw-diagnosis" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="m8 12 3 3 5-6" /></symbol>
+    <symbol id="cw-information" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7v.5" /></symbol>
+    <symbol id="cw-restart" viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 2 8M3 4v6h6" /></symbol>
+  </svg>
+  <p class="cw-loading" data-cc="loading" role="status">Loading challenge…</p>
+  <noscript><p>Enable JavaScript to play this challenge.</p></noscript>
+  <div data-cc="game" hidden>
+    <header class="cw-header">
+      <div class="cw-heading">
+        <p class="cw-eyebrow" data-cc="number"></p>
+        <h1 id="cc-title" data-cc="title" tabindex="-1"></h1>
+        <p class="cw-subtitle"><span data-cc="state">In progress</span></p>
+      </div>
+      <button type="button" class="cw-secondary cw-restart" data-cc="restart"><svg class="cw-icon" aria-hidden="true"><use href="#cw-restart" /></svg>Restart</button>
+      <nav class="cw-challenge-nav" data-cc="challenge-nav" aria-label="Clinical challenges"></nav>
+    </header>
+    <div class="cw-body">
+      <section class="cw-presentation" aria-labelledby="cw-presentation-title">
+        <p id="cw-presentation-title" class="cw-eyebrow">Patient presentation</p>
+        <p data-cc="initial"></p>
+      </section>
+      <p class="visually-hidden" data-cc="announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="cw-workspace">
+        <div class="cw-column">
+          <section class="cw-card cw-inquiry-card" aria-labelledby="cw-inquiry-title">
+            <h2 id="cw-inquiry-title"><svg class="cw-icon" aria-hidden="true"><use href="#cw-history" /></svg>Clinical Inquiry</h2>
+            <p class="cw-secondary-text">Choose findings that help distinguish your leading possibilities.</p>
+            <div class="cw-tabs" role="tablist" aria-label="Clinical inquiry categories">
+              <button type="button" id="cw-tab-history" role="tab" aria-selected="true" aria-controls="cw-panel-history" data-category="History">History</button>
+              <button type="button" id="cw-tab-examination" role="tab" tabindex="-1" aria-selected="false" aria-controls="cw-panel-examination" data-category="Examination">Examination</button>
+              <button type="button" id="cw-tab-imaging" role="tab" tabindex="-1" aria-selected="false" aria-controls="cw-panel-imaging" data-category="Imaging">Imaging</button>
+            </div>
+            <div id="cw-panel-history" role="tabpanel" aria-labelledby="cw-tab-history" class="cw-tab-panel" data-cc="history"></div>
+            <div id="cw-panel-examination" role="tabpanel" aria-labelledby="cw-tab-examination" class="cw-tab-panel" hidden>
+              <p class="cw-secondary-text" data-cc="exam-help">Ask at least one history question to unlock the examination.</p>
+              <div data-cc="examination"></div>
+            </div>
+            <div id="cw-panel-imaging" role="tabpanel" aria-labelledby="cw-tab-imaging" class="cw-tab-panel" data-cc="imaging" hidden></div>
+          </section>
+          <section class="cw-card" aria-labelledby="cw-differential-title">
+            <h2 id="cw-differential-title"><svg class="cw-icon" aria-hidden="true"><use href="#cw-differential" /></svg>Working Differential</h2>
+            <p id="cw-differential-help" class="cw-secondary-text">Optional: add up to three diagnoses. Rank them using the arrows or drag to reorder.</p>
+            <form data-cc="differential-form" class="cw-add-row" novalidate>
+              <label for="cw-differential-input" class="visually-hidden">Add a working diagnosis</label>
+              <input id="cw-differential-input" type="text" maxlength="250" placeholder="Add a possible diagnosis" autocomplete="off" aria-describedby="cw-differential-help cw-differential-feedback">
+              <button type="submit" class="cw-secondary" data-cc="add-differential">Add</button>
+            </form>
+            <p id="cw-differential-feedback" class="cw-inline-feedback" data-cc="differential-feedback" role="status"></p>
+            <ol class="cw-differential-list" data-cc="differential-list" aria-label="Ranked working differential"></ol>
+          </section>
+        </div>
+        <div class="cw-column">
+          <section class="cw-card cw-record-card" aria-labelledby="cw-record-title">
+            <h2 id="cw-record-title"><svg class="cw-icon" aria-hidden="true"><use href="#cw-referral" /></svg>Patient Record</h2>
+            <p id="cw-record-help" class="cw-secondary-text">Newest findings appear first.</p>
+            <div class="cw-record-scroll" tabindex="0" role="region" aria-label="Patient record entries" aria-describedby="cw-record-help" data-cc="record-scroll">
+              <ol class="cw-record" data-cc="record"></ol>
+            </div>
+          </section>
+          <section class="cw-card" aria-labelledby="cw-final-title">
+            <h2 id="cw-final-title"><svg class="cw-icon" aria-hidden="true"><use href="#cw-diagnosis" /></svg>Final Diagnosis</h2>
+            <p class="cw-secondary-text" data-cc="attempts"></p>
+            <form data-cc="form" novalidate>
+              <label for="cc-diagnosis" class="visually-hidden">Final diagnosis</label>
+              <input id="cc-diagnosis" type="text" maxlength="250" placeholder="Your most likely diagnosis" autocomplete="off" spellcheck="false" aria-describedby="cw-final-feedback" disabled>
+              <fieldset class="cw-confidence" aria-describedby="cw-final-feedback">
+                <legend>How confident are you?</legend>
+                <div class="cw-confidence-buttons" role="group" aria-label="Confidence, from 1 very uncertain to 5 very confident" data-cc="confidence">
+                  <button type="button" data-confidence="1" aria-label="Confidence 1, very uncertain" aria-pressed="false">1</button>
+                  <button type="button" data-confidence="2" aria-label="Confidence 2" aria-pressed="false">2</button>
+                  <button type="button" data-confidence="3" aria-label="Confidence 3" aria-pressed="false">3</button>
+                  <button type="button" data-confidence="4" aria-label="Confidence 4" aria-pressed="false">4</button>
+                  <button type="button" data-confidence="5" aria-label="Confidence 5, very confident" aria-pressed="false">5</button>
+                </div>
+                <div class="cw-confidence-ends"><span>Very uncertain</span><span>Very confident</span></div>
+              </fieldset>
+              <button type="submit" class="cw-primary" data-cc="submit" disabled>Submit Diagnosis <span aria-hidden="true">→</span></button>
+            </form>
+            <p id="cw-final-feedback" class="cw-inline-feedback" data-cc="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
+          </section>
+        </div>
+      </div>
+      <section class="cw-card cw-results" data-cc="results" aria-label="Clinical reasoning debrief" hidden></section>
+    </div>
+  </div>
+</section>
+<script type="module" src="assets/clinical-challenges.js"></script>
+```

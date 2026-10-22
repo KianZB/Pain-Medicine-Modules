@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Investigations</span>'
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">Investigations</span>'
+pagetitle: "Back Pain Basics – Investigations"
 ---
 
 Most low back pain does not need immediate imaging.

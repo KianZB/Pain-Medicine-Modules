@@ -1,5 +1,6 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Advanced Topics</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Advanced Topics</span>'
+pagetitle: "Spondylolisthesis – Advanced Topics"
 ---
 
 ## Pediatric spondylolisthesis
@@ -18,11 +19,22 @@ Nonoperative care is first-line and includes activity restriction, flexion-based
 
 Reserve surgery, including instrumented fusion and occasionally direct pars repair, for symptoms refractory to at least six months of care, high-grade or progressive slips, or neurologic deficit.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="spondylolisthesis-advanced-topics-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="spondylolisthesis-advanced-topics-callout-1">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Pediatric disease is usually isthmic and growth-driven. The classic pattern is extension-provoked back pain, hamstring tightness, and painful mobility without radiculopathy. Dysplastic slips are the exception and require close surveillance for high-grade progression.
+
 :::
+
+::::
 
 ## High-grade spondylolisthesis
 

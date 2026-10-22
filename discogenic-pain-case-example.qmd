@@ -1,13 +1,22 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Case Example</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Case Example</span>'
+pagetitle: "Discogenic Pain – Case Example"
 ---
 
 ## Case: Adrian Y.
 
 Adrian Y. is a 38-year-old recreational weightlifter who presents with a 5-month history of deep, aching low back pain centered in the midline. His pain began gradually, flaring up after his lifting sessions, but he denies any inciting incident or recent trauma. His pain worsens with prolonged sitting and forward bending, but is relieved by standing up or walking around. He describes a dull band across the low back. He denies any leg pain, shooting sensations down his leg, numbness, weakness, or bladder or bowel dysfunction.
 
-::: {.callout-tip}
-## Question 1
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="discogenic-pain-case-example-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="discogenic-pain-case-example-callout-1">Question 1</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What features of Adrian's history point toward a discogenic source rather than a radicular or facet-mediated source?
 
@@ -17,10 +26,21 @@ What features of Adrian's history point toward a discogenic source rather than a
 Midline axial pain without leg-dominant radiation, worsening with flexion-based loading (such as sitting and bending), relief with standing or walking, and gradual onset without a precipitating incident point toward a discogenic pattern. The absence of dermatomal leg pain and neurological symptoms argues against a radicular source, while worsening with sustained flexion is more typical of discogenic than facet-mediated pain, which usually worsens with extension.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 2
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="discogenic-pain-case-example-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="discogenic-pain-case-example-callout-2">Question 2</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What physical examination findings would help support a discogenic source?
 
@@ -30,10 +50,21 @@ What physical examination findings would help support a discogenic source?
 Discogenic pain usually presents as reproducible midline low back pain brought on by sustained forward bending or spinal loading, such as prolonged sitting, with a normal neurologic exam (intact strength, sensation, and reflexes and a negative straight-leg raise). The most supportive positive finding is centralization, or directional preference, in which repeated end-range movements, typically extension, move the pain toward the midline or reduce it.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 3
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="discogenic-pain-case-example-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="discogenic-pain-case-example-callout-3">Question 3</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 You order MRI imaging for Adrian, which shows a Pfirrmann grade IV disc at L5-S1 with a high-intensity zone in the posterior annulus and Type 1 Modic changes at the adjacent endplates. How do you interpret this?
 
@@ -43,10 +74,21 @@ You order MRI imaging for Adrian, which shows a Pfirrmann grade IV disc at L5-S1
 Although these findings are supportive, they are not diagnostic and need to be interpreted alongside symptoms, as degenerative changes are common in asymptomatic individuals. A Pfirrmann grade IV disc at L5-S1 with a high-intensity zone in the posterior annulus suggests a painful disc, whereas Type 1 Modic changes suggest a vertebrogenic phenotype (endplate-driven pain).
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 4
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="discogenic-pain-case-example-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="discogenic-pain-case-example-callout-4">Question 4</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Contrast Adrian's presentation with a patient whose low back pain radiates down the leg with a sharp, electric quality and a positive straight-leg raise. What is the key distinction, and how does it change management?
 
@@ -56,10 +98,15 @@ Contrast Adrian's presentation with a patient whose low back pain radiates down 
 Adrian has axial, midline, flexion-provoked pain without neurologic signs, consistent with a discogenic (or vertebrogenic) source. A patient with dermatomal, leg-dominant pain, an electric quality, and a positive straight-leg raise has radicular pain from nerve root irritation. The distinction matters: epidural steroid injections target radicular pain and offer little for axial discogenic pain, whereas discogenic or vertebrogenic pain is managed with conservative care and, when refractory, procedures such as basivertebral nerve ablation.
 
 </details>
+
 :::
 
+::::
+
 ::: {.dp-pagination}
-[← Management](discogenic-pain-management.qmd){.btn .btn-outline-primary}
+[← Previous: Management](discogenic-pain-management.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: References →](discogenic-pain-references.qmd){.btn .btn-primary}
 :::

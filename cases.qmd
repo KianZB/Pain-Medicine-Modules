@@ -1,0 +1,27 @@
+---
+title: "Cases"
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+## Back Pain
+
+[Chronic Back Pain 1](cases/chronic-back-pain-1.html){.btn .btn-primary target="_blank" rel="noopener noreferrer"}
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Chronic Back Pain 2</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Chronic Back Pain 3</span><span class="coming-soon-label">Coming soon</span></p>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+## Other Clinical Presentations
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Neck Pain</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Shoulder Pain</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Spasticity</span><span class="coming-soon-label">Coming soon</span></p>
+:::
+
+:::

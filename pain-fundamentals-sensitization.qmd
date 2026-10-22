@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Sensitization</span>'
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">Sensitization</span>'
+pagetitle: "Pain Fundamentals – Sensitization"
 ---
 
 **Sensitization** refers to increased responsiveness of the pain system. In simple terms, the nervous system becomes easier to activate and may produce a stronger, more widespread, or more persistent pain response than expected.
@@ -52,6 +53,8 @@ This example illustrates how pain can progress from a more localized nociceptive
 
 ## Comparison table
 
+::: {.module-table tabindex="0" role="region" aria-label="Feature comparison"}
+
 | Feature | Peripheral sensitization | Central sensitization |
 |---|---|---|
 | **Main site** | Peripheral nociceptors | Spinal cord and brain |
@@ -61,6 +64,8 @@ This example illustrates how pain can progress from a more localized nociceptive
 | **Example** | Sunburned skin feels very painful to light pressure | Pain sensitivity spreads beyond the injured area or persists after tissue healing |
 : {tbl-colwidths="[20,40,40]"}
 
+:::
+
 ![Peripheral sensitization occurs at the level of nociceptors, while central sensitization reflects amplification within the spinal cord and brain.](images/pain-fundamentals/central-and-peripheral-pain-sensitization.png){fig-align="center" width="45%"}
 
 ## Clinical takeaway
@@ -69,8 +74,16 @@ One goal of early pain management is to reduce the chance that acute pain become
 
 This does not mean all pain can be prevented from becoming chronic. However, timely education, appropriate activity, symptom control, sleep support, functional rehabilitation, and attention to psychosocial contributors can help reduce persistent nociceptive input and maintain function.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="pain-fundamentals-sensitization-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="pain-fundamentals-sensitization-callout-1">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Why might early active management be preferable to prolonged rest after many painful musculoskeletal injuries?
 
@@ -82,7 +95,10 @@ Prolonged rest can contribute to deconditioning, fear of movement, sleep disrupt
 This can reduce persistent nociceptive input and may lower the risk of pain becoming more sensitized over time.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

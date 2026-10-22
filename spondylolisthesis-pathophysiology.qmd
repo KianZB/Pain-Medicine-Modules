@@ -1,5 +1,6 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Pathophysiology and Natural History</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Pathophysiology and Natural History</span>'
+pagetitle: "Spondylolisthesis – Pathophysiology and Natural History"
 ---
 
 ## Mechanism of slip development
@@ -16,8 +17,16 @@ Age-related degeneration of the disc and facet joints produces segmental instabi
 
 Predisposing anatomic features include horizontalization, or sagittal orientation, of the lamina and facets and high pelvic incidence, both of which increase shear across the segment.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="spondylolisthesis-pathophysiology-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="spondylolisthesis-pathophysiology-callout-1">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Why does isthmic spondylolisthesis usually occur at L5–S1, whereas degenerative spondylolisthesis usually occurs at L4–L5?
 
@@ -27,7 +36,10 @@ Why does isthmic spondylolisthesis usually occur at L5–S1, whereas degenerativ
 The transition from the mobile lumbar spine to the fixed sacrum generates high shear at L5, predisposing it to pars fracture. Degenerative slip depends on disc and facet failure; L4–L5 is the most mobile segment, and its sagittal facets resist translation poorly once they degenerate.
 
 </details>
+
 :::
+
+::::
 
 ## Risk factors
 
@@ -54,8 +66,16 @@ Risk factors differ between the isthmic and degenerative forms.
 - Disc degeneration, the most consistent predictor
 - High pelvic incidence
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="spondylolisthesis-pathophysiology-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="spondylolisthesis-pathophysiology-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 An adolescent gymnast has activity-related low back pain that worsens with arching backward, and you notice tight hamstrings. What factors might raise suspicion for spondylolysis or a slip?
 
@@ -65,7 +85,10 @@ An adolescent gymnast has activity-related low back pain that worsens with archi
 Hyperextension and rotation load the pars, making fatigue fracture the leading concern. Extension-worsened pain points to a posterior-element source. Hamstring tightness may reflect a protective response to instability, with limited forward bending and a stiff, short-stride gait.
 
 </details>
+
 :::
+
+::::
 
 ## Slip progression and skeletal maturity
 

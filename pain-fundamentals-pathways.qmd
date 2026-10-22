@@ -1,5 +1,6 @@
-﻿---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Pain Pathways</span>'
+---
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">Pain Pathways</span>'
+pagetitle: "Pain Fundamentals – Pain Pathways"
 ---
 
 Pain perception begins with detection of a noxious stimulus, but the final experience of pain is produced by the brain. A useful framework is to follow the signal from the periphery, into the spinal cord, up through ascending pathways, and finally into cortical networks involved in sensation, emotion, attention, and meaning.
@@ -19,11 +20,22 @@ Examples of noxious stimuli include:
 
 Tissue injury can also trigger an inflammatory response. Local inflammatory mediators can activate or sensitize nociceptors, making them easier to fire. This is one reason why an injured or inflamed area can become tender and painful even with relatively minor stimulation.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="pain-fundamentals-pathways-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="pain-fundamentals-pathways-callout-1">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Nociceptors detect potentially harmful stimuli. They do not create the full experience of pain by themselves.
+
 :::
+
+::::
 
 ## Step 2: Primary afferent neuron
 
@@ -31,10 +43,14 @@ Once the signal has been transduced, it travels from the peripheral tissue to th
 
 Notably, the cell bodies of these neurons are located in a structure called the **dorsal root ganglion**, which sits just outside the spinal cord. This structure is clinically important because it is a key sensory relay point and is therefore often a target of treatments aimed at modulating neuropathic or radicular pain.
 
-![Peripheral nociceptive signals travel through first-order neurons whose cell bodies are located in the dorsal root ganglion.](images/pain-fundamentals/first-order-neuron.png){fig-align="center" width="35%"}
-<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/pain-fundamentals/first-order-neuron.png" alt="Peripheral nociceptive signals travel through first-order neurons whose cell bodies are located in the dorsal root ganglion." style="width: 35%;">
+<figcaption>Peripheral nociceptive signals travel through first-order neurons whose cell bodies are located in the dorsal root ganglion. Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+</figure>
 
 First-order sensory neurons can have different types of nerve fibers that each differ in what they carry, how large they are, whether they are myelinated, and how quickly they conduct signals. In general, fibers that are myelinated and larger in diameter conduct signals significantly faster than fibers that are unmyelinated and smaller in diameter.
+
+::: {.module-table tabindex="0" role="region" aria-label="Fiber type comparison"}
 
 | Fiber type | Main information | Myelin | Diameter | Conduction speed |
 |---|---|---|---|---|
@@ -44,19 +60,32 @@ First-order sensory neurons can have different types of nerve fibers that each d
 | **C fibers** | Slow pain, mechanical, thermal, and chemical | Unmyelinated | 0.2-1.5 µm | 0.5-2 m/s |
 : {tbl-colwidths="[15,37,15,15,18]"}
 
+:::
+
 These fibers are important because they help explain the difference between **fast pain** and **slow pain**.
 
 **Fast pain** is carried mainly by **A-delta fibers**. It is typically sharp, immediate, and more localized. This is often the first pain felt after a sudden noxious stimulus, such as touching something hot or being pricked by a sharp object.
 
 **Slow pain** is carried mainly by **C fibers**. It is typically dull, aching, burning, throbbing, or poorly localized. This pain often follows the initial sharp pain and can persist after the stimulus.
 
-::: {.callout-note}
-## Simple comparison
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="pain-fundamentals-pathways-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="pain-fundamentals-pathways-callout-2">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 **A-delta fibers:** fast, sharp, localized warning pain
 
 **C fibers:** slow, dull, aching, burning, or ongoing pain
+
 :::
+
+::::
 
 **A-beta fibers** normally carry touch and pressure, not pain. However, after sensitization, A-beta input can contribute to pain from light touch. This is one mechanism of **allodynia**, where a normally non-painful stimulus becomes painful.
 
@@ -81,8 +110,10 @@ After crossing, these signals ascend toward the brain through the **anterolatera
 
 More specifically, pain and temperature signals mainly ascend through the **lateral spinothalamic tract**. This tract is the major pathway that carries pain and temperature information from the body to the brain. There is also an **anterior spinothalamic tract**, but this is classically associated with crude touch and pressure rather than pain and temperature.
 
-![Pain and temperature signals cross in the spinal cord and then ascend on the opposite side through the lateral spinothalamic tract, which is part of the broader anterolateral system.](images/pain-fundamentals/spinothalamic-tract.png){fig-align="center" width="35%"}
-<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/pain-fundamentals/spinothalamic-tract.png" alt="Pain and temperature signals cross in the spinal cord and then ascend on the opposite side through the lateral spinothalamic tract, which is part of the broader anterolateral system." style="width: 35%;">
+<figcaption>Pain and temperature signals cross in the spinal cord and then ascend on the opposite side through the lateral spinothalamic tract, which is part of the broader anterolateral system. Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+</figure>
 
 ## Step 5: Thalamus and cortical processing
 
@@ -99,27 +130,53 @@ Important cortical regions include:
 - **Anterior cingulate cortex:** unpleasantness and emotional response
 - **Prefrontal cortex:** attention, meaning, expectation, and context
 
-![Pain perception involves thalamic relay to multiple cortical regions responsible for sensation, salience, emotion, and context.](images/pain-fundamentals/cortical-pain-processing.png){fig-align="center" width="35%"}
-<figcaption>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12533558/">PMC</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/pain-fundamentals/cortical-pain-processing.png" alt="Pain perception involves thalamic relay to multiple cortical regions responsible for sensation, salience, emotion, and context." style="width: 35%;">
+<figcaption>Pain perception involves thalamic relay to multiple cortical regions responsible for sensation, salience, emotion, and context. Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12533558/">PMC</a>.</figcaption>
+</figure>
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="pain-fundamentals-pathways-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="pain-fundamentals-pathways-callout-3">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Pain is not processed in one single “pain center.” It is produced by a network involving sensory, emotional, attentional, and cognitive regions.
 
 This is why two patients with similar injuries may experience pain very differently. Pain is not only a sensory signal about tissue damage; it is also shaped by emotional, attentional, and contextual processing in the brain.
+
 :::
+
+::::
 
 ## Putting the pathway together
 
-::: {.callout-tip}
-## Pathway summary
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="pain-fundamentals-pathways-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="pain-fundamentals-pathways-callout-4">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Noxious stimulus → nociceptor activation → transduction → first-order neuron → dorsal root ganglion → dorsal horn synapse → second-order neuron crosses the midline → anterolateral system / spinothalamic tract → thalamus, including VPL relay → cortical pain network → conscious pain experience
+
 :::
 
-![Simplified pain and temperature pathway.](images/pain-fundamentals/pain-temperature-pathway-labeled.png){fig-align="center" width="40%"}
-<figcaption>Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+::::
+
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/pain-fundamentals/pain-temperature-pathway-labeled.png" alt="Simplified pain and temperature pathway." style="width: 40%;">
+<figcaption>Simplified pain and temperature pathway. Source: <a href="https://www.humanbiomedia.org/pain-temperature-pathways-lesson/">Human BioMedia</a>.</figcaption>
+</figure>
 
 <br>
 

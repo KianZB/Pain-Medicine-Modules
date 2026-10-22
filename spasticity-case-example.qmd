@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Case Example</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Case Example</span>'
+pagetitle: "Spasticity – Case Example"
 ---
 
 ## Clinical Scenario
@@ -16,8 +17,16 @@ Past medical history includes high blood pressure, type 2 diabetes, and atrial f
 - Reflexes are brisk on the right, with a few beats of ankle clonus and an upgoing right toe.
 - The joints can still be moved through a full range at rest, with no fixed stiffness yet.
 
-::: {.callout-tip}
-## Question 1
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spasticity-case-example-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spasticity-case-example-callout-1">Question 1</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What is the best term for this increased tone, and which examination findings support it?
 
@@ -27,10 +36,21 @@ What is the best term for this increased tone, and which examination findings su
 The patient has spasticity. This is demonstrated by the velocity-dependent catch when the arm is passively moved quickly during the physical examination.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 2
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spasticity-case-example-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spasticity-case-example-callout-2">Question 2</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What findings show this is part of the upper motor neuron syndrome?
 
@@ -40,10 +60,21 @@ What findings show this is part of the upper motor neuron syndrome?
 Weakness, brisk reflexes, clonus, a flexed arm posture, and an upgoing right toe are all signs of upper motor neuron syndrome.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 3
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spasticity-case-example-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spasticity-case-example-callout-3">Question 3</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 How do you distinguish spasticity from rigidity, dystonia, and a fixed contracture at the bedside? Which features does this patient have?
 
@@ -58,10 +89,21 @@ How do you distinguish spasticity from rigidity, dystonia, and a fixed contractu
 The patient clearly has spasticity, as demonstrated by the velocity-dependent catch. His persistent flexed arm posture may also represent spastic dystonia, but the catch itself is a feature of spasticity.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 4
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="spasticity-case-example-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="spasticity-case-example-callout-4">Question 4</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What would be the treatment plan for this patient?
 
@@ -71,10 +113,13 @@ What would be the treatment plan for this patient?
 Physical rehabilitation would be the main treatment approach. Depending on the distribution and severity of symptoms, pharmacological agents and focal botulinum toxin treatment may also be considered. Intrathecal baclofen is an option for severe generalized spasticity that is inadequately controlled with, or limited by adverse effects from, oral therapy. Surgery, such as tendon lengthening, is reserved for severe cases that do not improve with more conservative treatments.
 
 </details>
+
 :::
 
+::::
+
 ::: {.sp-pagination}
-[← Summary](spasticity-summary.qmd){.btn .btn-outline-primary}
+[← Previous: Summary](spasticity-summary.qmd){.btn .btn-outline-primary}
 
 [All Modules](modules.qmd){.btn .btn-primary}
 :::

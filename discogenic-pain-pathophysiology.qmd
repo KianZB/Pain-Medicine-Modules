@@ -1,5 +1,6 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Pathophysiology</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Pathophysiology</span>'
+pagetitle: "Discogenic Pain – Pathophysiology"
 ---
 
 Discogenic pain reflects a paradox: the disc is normally the largest avascular, nearly aneural structure in the body, yet it can become a potent pain generator. This happens in sequential stages, each building on the last: degeneration disrupts the matrix, annular fissures open pathways for nerves and vessels to grow inward, inflammation takes hold, and the ingrown nerve endings become sensitized.
@@ -30,7 +31,9 @@ Once the disc's internal environment is disrupted, resident disc cells and infil
 Persistent chemical and mechanical irritation lowers the firing threshold of these new nerve endings, so that even normal movement provokes pain (peripheral sensitization). Over time, the spinal cord and brain amplify the incoming signals (central sensitization), which explains why discogenic pain can become chronic and diffuse even when the structural disc damage is modest.
 
 ::: {.dp-pagination}
-[← Relevant Anatomy](discogenic-pain-relevant-anatomy.qmd){.btn .btn-outline-primary}
+[← Previous: Relevant Anatomy](discogenic-pain-relevant-anatomy.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Clinical Presentation →](discogenic-pain-clinical-presentation.qmd){.btn .btn-primary}
 :::

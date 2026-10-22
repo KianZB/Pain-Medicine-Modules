@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Nerve Injury</span>'
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">Nerve Injury</span>'
+pagetitle: "Pain Fundamentals – Nerve Injury"
 ---
 
 Nerve injury is important in pain medicine because damage to the somatosensory nervous system can produce **neuropathic pain**.
@@ -19,6 +20,8 @@ A peripheral nerve is more than just a bundle of axons. It also has supporting c
 
 This matters because nerve recovery depends not only on whether the axon is injured, but also on whether the surrounding scaffold remains intact.
 
+::: {.module-table tabindex="0" role="region" aria-label="Structure comparison"}
+
 | Structure | Simple role |
 |---|---|
 | **Myelin** | Insulates axons and helps signals travel quickly |
@@ -28,12 +31,18 @@ This matters because nerve recovery depends not only on whether the axon is inju
 | **Epineurium** | Outer connective tissue layer around the whole nerve |
 : {tbl-colwidths="[22,78]"}
 
-![Peripheral nerve structure showing the axon and surrounding endoneurium, perineurium, and epineurium.](images/pain-fundamentals/nerve-structure.png){fig-align="center" width="55%"}
-<figcaption>Source: <a href="https://www.yumpu.com/en/document/view/65854999/gerard-j-tortora-bryan-h-derrickson-principles-of-anatomy-amp-physiology-2014-wiley-libgenlc/483">Tortora &amp; Derrickson, <em>Principles of Anatomy &amp; Physiology</em></a>.</figcaption>
+:::
+
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/pain-fundamentals/nerve-structure.png" alt="Peripheral nerve structure showing the axon and surrounding endoneurium, perineurium, and epineurium." style="width: 55%;">
+<figcaption>Peripheral nerve structure showing the axon and surrounding endoneurium, perineurium, and epineurium. Source: <a href="https://www.yumpu.com/en/document/view/65854999/gerard-j-tortora-bryan-h-derrickson-principles-of-anatomy-amp-physiology-2014-wiley-libgenlc/483">Tortora &amp; Derrickson, <em>Principles of Anatomy &amp; Physiology</em></a>.</figcaption>
+</figure>
 
 ## Seddon classification
 
 The Seddon classification is a simple way to categorize peripheral nerve injury.
+
+::: {.module-table tabindex="0" role="region" aria-label="Injury type comparison"}
 
 | Injury type | Meaning | Recovery potential |
 |---|---|---|
@@ -41,6 +50,8 @@ The Seddon classification is a simple way to categorize peripheral nerve injury.
 | **Axonotmesis** | Axon is disrupted, but connective tissue framework is at least partly preserved | Possible through regeneration |
 | **Neurotmesis** | Complete nerve disruption | Worst |
 : {tbl-colwidths="[25,50,25]"}
+
+:::
 
 In practical terms:
 
@@ -54,6 +65,8 @@ The Sunderland classification gives a more detailed breakdown.
 
 The more connective tissue support is disrupted, the harder it is for regenerating axons to find the correct path back to their target.
 
+::: {.module-table tabindex="0" role="region" aria-label="Degree comparison"}
+
 | Degree | Main structure injured | Approximate Seddon equivalent |
 |---|---|---|
 | **1st degree** | Myelin injury only | Neurapraxia |
@@ -62,6 +75,8 @@ The more connective tissue support is disrupted, the harder it is for regenerati
 | **4th degree** | Fascicle/perineurium involved | Axonotmesis / severe injury |
 | **5th degree** | Complete nerve transection | Neurotmesis |
 : {tbl-colwidths="[20,45,35]"}
+
+:::
 
 ![Simplified comparison of Seddon and Sunderland peripheral nerve injury classifications.](images/pain-fundamentals/nerve-classification.png){fig-align="center" width="65%"}
 

@@ -1,20 +1,37 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Introduction</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Introduction</span>'
+pagetitle: "Discogenic Pain – Introduction"
 ---
 
 Discogenic pain is chronic axial low back pain arising from the intervertebral disc itself, in the absence of disc herniation, nerve root compression, or deformity. It develops when degeneration and inflammation of the disc trigger ingrowth of nerves and blood vessels into the normally avascular, poorly innervated inner disc, sensitizing pain fibers within the annulus.
 
 Among the identifiable causes of chronic low back pain, the disc is one of the most frequently implicated. Yet degenerative disc findings appear on imaging in a large share of pain-free individuals, so the presence of a degenerated disc does not confirm it is the pain source. A firm grasp of discogenic pain, its underlying causes, and how it is distinguished from incidental degeneration is therefore essential to diagnosing it confidently and treating it effectively.
 
-::: {.callout-note}
-## By the end of this module, you should be able to:
+**Estimated time:** 30–45 minutes
+
+:::: {.learning-callout .learning-callout--objectives .module-learning-callout role="note" aria-labelledby="discogenic-pain-introduction-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></svg>
+  <h3 id="discogenic-pain-introduction-callout-1">Learning objectives</h3>
+</header>
+```
+
+::: {.learning-callout-body}
+
+By the end of this module, you should be able to:
 
 - [ ] Define discogenic pain and use key terminology correctly, including internal disc disruption, annular fissure, nucleus pulposus, annulus fibrosus, high-intensity zone, and Modic changes
 - [ ] Describe the normal structure, innervation, and biomechanics of the intervertebral disc
 - [ ] Explain the pathophysiology linking disc degeneration to pain, including inflammation, neoinnervation, and sensitization, and why degeneration alone does not equal pain
 - [ ] Recognize the typical clinical presentation and distinguish discogenic pain from radicular and facet-mediated pain
 - [ ] Outline the tiered management of discogenic pain, from conservative care through interventional and surgical options
+
 :::
+
+::::
+
 
 **Module writer:** Celine Chak
 

@@ -1,15 +1,31 @@
-﻿---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Introduction</span>'
+---
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">Introduction</span>'
+pagetitle: "Back Pain Basics – Introduction"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 Back pain is one of the most common complaints encountered in clinical medicine. It is broad, multifactorial, and relevant across many specialties, including primary care, hospitalist medicine, emergency medicine, orthopedics, rheumatology, anesthesiology, and physiatry.
 
 This module is designed to introduce a practical framework for approaching back pain before moving into more specific clinical pain patterns. The goal is to build the foundational anatomy, clinical reasoning, and management approach needed for the modules that follow.
 
-**Estimated time:** 45–60 minutes
+**Estimated time:** 30–45 minutes
 
-::: {.callout-note}
-## By the end of this module, you should be comfortable with:
+:::: {.learning-callout .learning-callout--objectives .module-learning-callout role="note" aria-labelledby="back-pain-introduction-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></svg>
+        <h3 id="back-pain-introduction-callout-1">Learning objectives</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
+
+By the end of this module, you should be able to:
 
 - [ ] Describing key spine anatomy and common pain generators
 - [ ] Organizing back pain into common clinical patterns
@@ -20,11 +36,14 @@ This module is designed to introduce a practical framework for approaching back 
 - [ ] Choosing an initial management approach
 :::
 
+::::
+
+
 **Module writer:** Kian Zargham Bakhtiari
 
 <br>
 
-::: {.bp-pagination}
+::: {.bp-pagination .pill-button-trial}
 [← All Modules](modules.qmd){.btn .btn-outline-primary}
 
 [Next: Anatomy →](back-pain-anatomy.qmd){.btn .btn-primary}

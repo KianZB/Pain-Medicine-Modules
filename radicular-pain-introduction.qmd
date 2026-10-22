@@ -1,15 +1,31 @@
-﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Introduction</span>'
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Introduction</span>'
+pagetitle: "Lumbar Radicular Pain – Introduction"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 **Radicular pain** is a type of neuropathic pain caused by irritation or inflammation of a spinal nerve root. In the lumbar spine, it often presents as low back or buttock pain that radiates down the leg. Patients often describe this pain as sudden, shooting, burning, electric, sharp, or stabbing.
 
 Radicular pain is a high-yield clinical topic because it connects spinal anatomy, pain physiology, neurological examination, and imaging to determine an appropriate management plan for each patient. It is also commonly encountered across a variety of specialties including primary care, emergency medicine, neurology, orthopedics, neurosurgery, and, of course, pain medicine.
 
-The estimated time to complete this module is **45–60 minutes**.
+**Estimated time:** 60–75 minutes
 
-::: {.callout-note}
-## By the end of this module, you will be able to:
+:::: {.learning-callout .learning-callout--objectives .module-learning-callout role="note" aria-labelledby="radicular-pain-introduction-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></svg>
+  <h3 id="radicular-pain-introduction-callout-1">Learning objectives</h3>
+</header>
+```
+
+::: {.learning-callout-body}
+
+By the end of this module, you should be able to:
 
 - [ ] Define radicular pain and distinguish it from radiculopathy
 - [ ] Explain how disc herniation and degenerative narrowing can cause radicular pain
@@ -17,7 +33,11 @@ The estimated time to complete this module is **45–60 minutes**.
 - [ ] Localize common clinical patterns to specific nerve root levels
 - [ ] Identify red flags and know when investigations are useful
 - [ ] Compare conservative, interventional, and surgical management options
+
 :::
+
+::::
+
 
 **Module writer:** Kian Zargham Bakhtiari
 
@@ -27,8 +47,16 @@ The following case will be used as a point of reference throughout this module:
 
 A previously healthy 24-year-old man develops sudden right leg pain while deadlifting. He has difficulty identifying exactly where the pain began, but describes an "electric shock" traveling down the leg.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="radicular-pain-introduction-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="radicular-pain-introduction-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Based on the information you have so far, what features from this case suggest **radicular pain**?
 
@@ -40,7 +68,10 @@ There are two key features that make us think about radicular pain: the pain rad
 Before continuing to the next section, try to think about what could cause this type of pain in an otherwise healthy young patient.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

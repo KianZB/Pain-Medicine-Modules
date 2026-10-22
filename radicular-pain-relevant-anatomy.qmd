@@ -1,5 +1,11 @@
-﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Relevant Anatomy</span>'
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Relevant Anatomy</span>'
+pagetitle: "Lumbar Radicular Pain – Relevant Anatomy"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 Radicular pain is easier to understand when you connect three pieces of anatomy:
@@ -13,11 +19,22 @@ The key idea is that radicular pain occurs when a spinal nerve root is irritated
 1. Where in the spine is the nerve root irritation occurring?
 2. What structures are causing the irritation?
 
-::: {.callout-caution}
-## Cervical radicular pain
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-1">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 This module focuses on **lumbar radicular pain**. **Cervical radicular pain** arises from the cervical spine and typically causes neck and upper-limb symptoms; it is covered separately in the Cervical Radicular Pain module.
+
 :::
+
+::::
 
 ## The intervertebral disc
 
@@ -37,8 +54,10 @@ Each intervertebral disc has two major components:
 
 The interface between the disc and the adjacent vertebral body is called the **cartilaginous endplate**. The endplate is important because adult discs have very limited direct blood supply; instead, nutrients and waste products mainly move by diffusion across the endplate. This limited vascularity helps explain why discs have limited healing potential after injury.
 
-![Intervertebral disc between adjacent vertebrae, showing the nucleus pulposus and annulus fibrosus.](images/radicular-pain/disc-anatomy.png){fig-align="center" width="50%"}
-<figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:716_Intervertebral_Disk.jpg">Wikimedia Commons</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/disc-anatomy.png" alt="Intervertebral disc between adjacent vertebrae, showing the nucleus pulposus and annulus fibrosus." style="width: 50%;">
+<figcaption>Intervertebral disc between adjacent vertebrae, showing the nucleus pulposus and annulus fibrosus. Source: <a href="https://commons.wikimedia.org/wiki/File:716_Intervertebral_Disk.jpg">Wikimedia Commons</a>.</figcaption>
+</figure>
 
 ## Disc loading and degeneration
 
@@ -65,8 +84,16 @@ A **disc herniation** is more focal. It involves a smaller portion of the disc c
 - **Extrusion**, where the displaced disc material extends farther outward and has a narrower connection to the parent disc.
 - **Sequestration**, where the displaced disc material completely separates from the parent disc.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Which disc finding would you expect to have the worst prognosis: a bulge, protrusion, extrusion, or sequestration?
 
@@ -80,7 +107,10 @@ By contrast, broad-based degenerative bulges may be less dramatic, but they can 
 The main teaching point is that the most dramatic imaging term is not always the same as the most persistent or most treatable pain problem.
 
 </details>
+
 :::
+
+::::
 
 ![Visual representation of the different types of disc displacement.](images/radicular-pain/disc-displacement.png){fig-align="center" width="75%"}
 
@@ -97,11 +127,22 @@ Chemical inflammation occurs because disc material and local inflammatory mediat
 
 This explains why the degree of pain does not always perfectly match the size of the herniation seen on imaging. A large herniation may be minimally symptomatic if it is not irritating a clinically relevant nerve root, while a smaller herniation may cause severe radicular pain if it contacts and inflames the right nerve root.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-3">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Radicular pain is not always just a “pinched nerve.” It can involve both **nerve root compression** and **nerve root inflammation**.
+
 :::
+
+::::
 
 ## Spinal nerve roots and nerve root spaces
 
@@ -109,23 +150,36 @@ The concept of **traversing** versus **exiting** nerve roots is high-yield becau
 
 At a given lumbar disc level, there are usually two nerve roots to think about, and each travels through a different space:
 
-::: {.nerve-root-table}
+::: {.nerve-root-table .module-table tabindex="0" role="region" aria-label="Nerve root spaces"}
 | Nerve root | Space | Definition |
 |---|---|---|
 | **Exiting nerve root** | **Neural foramen** | The nerve root that exits the spinal canal through the neural foramen at that disc level |
 | **Traversing nerve root** | **Lateral recess** | The nerve root that continues downward through the lateral recess before exiting at the next level |
 :::
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-4">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 A useful rule of thumb in the lumbar spine is that, at any given disc level, the **exiting nerve root** corresponds to the upper vertebra, while the **traversing nerve root** corresponds to the lower vertebra.
 
 For example, at **L4-L5**, the **L4 nerve root** is the exiting nerve root because it exits below the L4 pedicle. The **L5 nerve root** is the traversing nerve root because it has not exited yet; instead, it continues downward through the lateral recess before exiting at the next level.
+
 :::
 
-![Example of exiting and traversing nerve roots including L3, L4, and L5 levels.](images/radicular-pain/nerve-roots.png){fig-align="center" width="35%"}
-<figcaption>Source: <a href="https://elibrary.tsri.or.th/fullP/RDG5610009/RDG5610009_full.pdf">TSRI eLibrary</a>.</figcaption>
+::::
+
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/nerve-roots.png" alt="Example of exiting and traversing nerve roots including L3, L4, and L5 levels." style="width: 35%;">
+<figcaption>Example of exiting and traversing nerve roots including L3, L4, and L5 levels. Source: <a href="https://elibrary.tsri.or.th/fullP/RDG5610009/RDG5610009_full.pdf">TSRI eLibrary</a>.</figcaption>
+</figure>
 
 ## Herniation zones
 
@@ -133,7 +187,7 @@ The distinction between exiting and traversing nerve roots matters because the d
 
 The table below summarizes the main herniation zones and the nerve roots they are most likely to affect:
 
-::: {.herniation-zones-table}
+::: {.herniation-zones-table .module-table tabindex="0" role="region" aria-label="Herniation zones"}
 | Herniation zone | Description |
 |---|---|
 | **Central** | Disc material herniates toward the middle of the spinal canal and may affect multiple nerve roots if the herniation is large. |
@@ -142,14 +196,33 @@ The table below summarizes the main herniation zones and the nerve roots they ar
 | **Extraforaminal** | Disc material extends beyond the neural foramen and usually affects the exiting nerve root; at L4-L5, this is the L4 nerve root. |
 :::
 
-::: {.callout-warning}
-## Red flags
+:::: {.learning-callout .learning-callout--red-flag .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-5"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-5">Red flag</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Central herniations are clinically important because a large central herniation can compress multiple nerve roots within the spinal canal. Severe compression of the cauda equina can cause bladder dysfunction, bowel dysfunction, saddle anesthesia, bilateral symptoms, or progressive neurologic deficits. These features require urgent assessment.
+
 :::
 
-::: {.callout-tip}
-## Pause and think
+::::
+
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="radicular-pain-relevant-anatomy-callout-6"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="radicular-pain-relevant-anatomy-callout-6">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 At the **L4-L5 disc level**, which nerve root is more likely affected by a paracentral disc herniation?
 
@@ -161,7 +234,10 @@ A paracentral disc herniation at **L4-L5** usually affects the **traversing L5 n
 At this disc level, the L4 nerve root is the exiting root, while the L5 nerve root is still traveling downward through the lateral recess.
 
 </details>
+
 :::
+
+::::
 
 ![Visual representation of the different herniation zones](images/radicular-pain/herniation-zones.png){fig-align="center" width="40%"}
 

@@ -1,5 +1,11 @@
-﻿---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Anatomy</span>'
+---
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">Anatomy</span>'
+pagetitle: "Back Pain Basics – Anatomy"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 This section gives a broad overview of the anatomical structures most relevant to back pain. The goal is not to memorize every structure in detail, but to understand the main pain generators and how they relate to common clinical patterns.
@@ -23,6 +29,8 @@ The spine is divided into five major regions:
 - **Sacrum:** 5 fused vertebrae; connects the spine to the pelvis and transfers load.
 - **Coccyx:** usually 3 to 5 fused vertebrae; the terminal part of the spine.
 
+::: {.spinal-regions-table-trial tabindex="0" role="region" aria-label="Spinal regions comparison"}
+
 | Region | Key anatomical features | Main movement | Clinical relevance |
 |---|---|---|---|
 | **Cervical spine** | Smaller vertebrae, high mobility, supports the head | Flexion, extension, rotation, side-bending | Neck pain, cervical radicular pain, myelopathy |
@@ -31,6 +39,8 @@ The spine is divided into five major regions:
 | **Sacrum** | Fused vertebrae connecting spine to pelvis | Minimal movement | Forms the sacroiliac joint and transfers load to the pelvis |
 | **Coccyx** | Small terminal fused vertebrae | Minimal movement | Can be involved in coccydynia after direct trauma or prolonged pressure |
 : {tbl-colwidths="[18,32,22,28]"}
+
+:::
 
 <figure class="figure text-center">
 <img src="images/back-pain/01-spinal-regions.png" alt="The spinal column divided into its cervical, thoracic, lumbar, sacral, and coccygeal regions." style="width: 25%;">
@@ -43,8 +53,16 @@ The **spinal cord** is part of the central nervous system and runs through the *
 
 The spinal cord carries motor, sensory, and autonomic information between the brain and the body. It usually ends around the **L1-L2** vertebral level as the **conus medullaris**. Below this level, nerve roots continue downward within the spinal canal as the **cauda equina** before exiting through their respective foramina. Compression of the spinal cord, conus medullaris, or cauda equina can cause neurologic symptoms.
 
-::: {.callout-important}
-## Red flag
+:::: {.learning-callout .learning-callout--red-flag .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0" /></svg>
+        <h3 id="back-pain-anatomy-callout-1">Red flag</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 Cauda equina syndrome is a surgical emergency caused by compression of the cauda equina nerve roots. Key features include:
 
@@ -53,6 +71,8 @@ Cauda equina syndrome is a surgical emergency caused by compression of the cauda
 - Saddle anesthesia
 - Motor weakness
 :::
+
+::::
 
 ## Nerve roots and foramina
 
@@ -70,11 +90,21 @@ The **spinal canal** and **neural foramina** are important spaces because they c
 
 ![This image shows a transverse section of the spine. The neural foramen is outlined in green on the right. On the left, the dorsal root and ventral root are shown passing through the neural foramina and joining to form the spinal nerve. Narrowing of the neural foramen can irritate or compress the exiting nerve root and contribute to radicular symptoms.](images/back-pain/cervical-model-roots.png){fig-align="center" width="60%"}
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+        <h3 id="back-pain-anatomy-callout-2">Key idea</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 Lumbar spinal stenosis often causes leg heaviness, pain, or fatigue with walking or standing, relieved by sitting or bending forward.
 :::
+
+::::
 
 ## Intervertebral discs
 
@@ -92,8 +122,16 @@ There are two major types of disc-related pain:
 
 Discogenic pain is usually back-dominant, whereas disc-related radicular pain is typically leg-dominant and follows a nerve root distribution.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+        <h3 id="back-pain-anatomy-callout-3">Key idea</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 Disc-related pain may be discogenic, arising from the disc itself, or radicular, caused by disc material irritating a nearby nerve root.
 
@@ -101,6 +139,8 @@ Discogenic pain is often back-dominant and worse with flexion, bending forward, 
 
 Radicular pain is typically leg-dominant and has neuropathic features.
 :::
+
+::::
 
 ## Facet joints
 
@@ -110,11 +150,21 @@ Facet joints are especially involved in extension and rotation. They can become 
 
 Facet-mediated pain is usually more **back-dominant** than leg-dominant. It can sometimes refer into the buttock or thigh, but it usually does not follow a clear dermatomal pattern.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+        <h3 id="back-pain-anatomy-callout-4">Key idea</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 Facet-mediated pain is often worse with extension and rotation, and may feel better with flexion.
 :::
+
+::::
 
 ## Sacroiliac joint
 
@@ -124,11 +174,21 @@ SI joint pain is often felt around the **posterior pelvis**, buttock, or PSIS re
 
 The diagnosis usually depends on the overall clinical pattern rather than a single test.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-5"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+        <h3 id="back-pain-anatomy-callout-5">Key idea</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 SI joint pain is often felt near the posterior pelvis or buttock and may worsen with transitional movements, single-leg loading, or prolonged positions.
 :::
+
+::::
 
 ## Supporting soft tissues
 
@@ -146,15 +206,25 @@ The thoracolumbar fascia connects the trunk and pelvic muscles and contributes t
 
 Spinal, iliolumbar, and sacroiliac ligaments provide passive stability. They may contribute to focal pain after strain, overload, or trauma, but are difficult to identify as the sole pain generator clinically.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="back-pain-anatomy-callout-6"}
+
+```{=html}
+<header class="learning-callout-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+        <h3 id="back-pain-anatomy-callout-6">Key idea</h3>
+      </header>
+```
+
+::: {.learning-callout-body}
 
 Muscle and fascia-related (myofascial) pain is often regional, movement-sensitive, and influenced by load, posture, conditioning, and activity tolerance. It is more often associated with tenderness, tightness, and trigger points.
 :::
 
+::::
+
 <br>
 
-::: {.bp-pagination}
+::: {.bp-pagination .pill-button-trial}
 [← Previous: Introduction](back-pain-introduction.qmd){.btn .btn-outline-primary}
 
 [All Modules](modules.qmd){.btn .btn-outline-secondary}

@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Summary</span>'
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Summary</span>'
+pagetitle: "Lumbar Radicular Pain – Summary"
 ---
 
 ## High-yield summary
@@ -32,7 +33,7 @@ The distinction between exiting and traversing nerve roots matters because the d
 
 The table below summarizes the main herniation zones and the nerve roots they are most likely to affect:
 
-::: {.herniation-zones-table}
+::: {.herniation-zones-table .module-table tabindex="0" role="region" aria-label="Herniation zones"}
 | Herniation zone | Description |
 |---|---|
 | **Central** | Disc material herniates toward the middle of the spinal canal and may affect multiple nerve roots if the herniation is large. |
@@ -53,6 +54,8 @@ The most useful clinical clues are:
 
 The tables below review the most useful sensory, motor, reflex, and neural-tension patterns for localizing a suspected nerve root.
 
+::: {.module-table tabindex="0" role="region" aria-label="Nerve root comparison"}
+
 | Nerve root | Broad sensory distribution |
 |---|---|
 | **L2** | Anterior upper thigh |
@@ -63,6 +66,10 @@ The tables below review the most useful sensory, motor, reflex, and neural-tensi
 | **S2** | Posterior thigh and upper posterior calf |
 : {tbl-colwidths="[20,80]"}
 
+:::
+
+::: {.module-table tabindex="0" role="region" aria-label="Root comparison"}
+
 | Root | Motor findings | Reflex |
 |---|---|---|
 | **L3** | Hip flexion, knee extension | Patellar may be reduced |
@@ -71,6 +78,10 @@ The tables below review the most useful sensory, motor, reflex, and neural-tensi
 | **S1** | Plantarflexion, toe walking | Achilles |
 : {tbl-colwidths="[20,55,25]"}
 
+:::
+
+::: {.module-table tabindex="0" role="region" aria-label="Test comparison"}
+
 | Test | How it is performed | Suggests |
 |---|---|---|
 | **Straight leg raise** (**Lasègue test**) | With the patient lying supine, passively raise the straightened leg to about 30–70° and assess whether this reproduces radiating leg pain | Lower lumbar radicular irritation, especially L5/S1 |
@@ -78,6 +89,8 @@ The tables below review the most useful sensory, motor, reflex, and neural-tensi
 | **Crossed straight leg raise** | Raise the unaffected leg and assess whether this reproduces radicular pain in the symptomatic leg | Less sensitive but more specific for disc herniation |
 | **Slump test** | With the patient seated, flex the spine and neck, extend the knee, and dorsiflex the ankle to tension the neural system | Neural tension or radicular irritation |
 | **Femoral stretch test** | With the patient prone or side-lying, extend the hip and flex the knee to stretch the femoral nerve | Upper lumbar radicular irritation, especially L2-L4 |
+
+:::
 
 ## Investigations
 

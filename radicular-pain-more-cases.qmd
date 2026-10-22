@@ -1,5 +1,11 @@
-﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Cases</span>'
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Cases</span>'
+pagetitle: "Lumbar Radicular Pain – Cases"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 This section provides short practice cases to apply the radicular pain framework.
@@ -10,8 +16,16 @@ A 42-year-old patient presents with acute low back pain radiating down the poste
 
 On exam, straight leg raise reproduces the typical leg pain. Ankle reflex is reduced on the affected side, and toe walking is mildly weak.
 
-::: {.callout-tip}
-## Question 1
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-1">Question 1</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Is this more consistent with axial low back pain or radicular pain?
 
@@ -21,10 +35,21 @@ Is this more consistent with axial low back pain or radicular pain?
 This is **radicular pain**, likely involving the S1 nerve root. The decisive clues are leg-dominant electric pain reaching the lateral foot, plus a reduced Achilles reflex and weak toe walking.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 2
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-2">Question 2</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Which nerve root is most likely involved?
 
@@ -34,10 +59,21 @@ Which nerve root is most likely involved?
 The **S1 nerve root** is most likely involved. The lateral-foot sensory distribution, reduced Achilles reflex, and weak toe walking all localize to S1.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 3
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-3">Question 3</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Are there any red flags that require urgent imaging?
 
@@ -47,10 +83,21 @@ Are there any red flags that require urgent imaging?
 **No urgent imaging is required from the information given.** The weakness is mild and not described as progressive, and there are no cauda equina or systemic red flags. Reassess urgently if weakness progresses or bowel, bladder, saddle, or bilateral symptoms develop.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 4
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-4">Question 4</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What would be a reasonable initial management plan?
 
@@ -60,14 +107,25 @@ What would be a reasonable initial management plan?
 Start with **conservative, function-focused care**: stay active as tolerated, use appropriate analgesia, and begin physiotherapy guided by symptom response. The goal is to maintain function while monitoring for neurologic worsening.
 
 </details>
+
 :::
+
+::::
 
 ## Case 2: Persistent radicular pain
 
 A 58-year-old patient has six months of right leg-dominant pain radiating from the buttock into the lateral leg and dorsum of the foot. The pain is burning and electric. It has not improved despite medications and physiotherapy. MRI shows right L4-L5 lateral recess stenosis affecting the traversing L5 nerve root.
 
-::: {.callout-tip}
-## Question 1
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-5"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-5">Question 1</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Does the imaging finding match the clinical pattern?
 
@@ -77,10 +135,21 @@ Does the imaging finding match the clinical pattern?
 **Yes.** Right L4-L5 lateral recess stenosis affects the traversing **L5 nerve root**, which matches the patient's pain in the lateral leg and dorsum of the foot.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 2
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-6"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-6">Question 2</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Which nerve root is most likely affected?
 
@@ -90,10 +159,21 @@ Which nerve root is most likely affected?
 The **L5 nerve root** is most likely affected. At the L4-L5 level, L5 is the traversing root, so lateral recess pathology at this level commonly affects L5.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 3
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-7"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-7">Question 3</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 What interventional pain option could be considered?
 
@@ -103,10 +183,21 @@ What interventional pain option could be considered?
 A **right L5 transforaminal epidural steroid injection** is a reasonable option. The symptoms, suspected root, and MRI target all line up: right L5-pattern pain with right L4-L5 lateral recess stenosis affecting the traversing L5 root.
 
 </details>
+
 :::
 
-::: {.callout-tip}
-## Question 4
+::::
+
+:::: {.learning-callout .learning-callout--questions .module-learning-callout role="note" aria-labelledby="radicular-pain-more-cases-callout-8"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18H5zM9 7h6m-6 4h6m-6 5 2 2 4-4" /></svg>
+  <h3 id="radicular-pain-more-cases-callout-8">Question 4</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 When would surgical referral be reasonable?
 
@@ -116,7 +207,10 @@ When would surgical referral be reasonable?
 Surgical referral is reasonable if symptoms remain severe and function-limiting despite appropriate nonoperative management, because there is a concordant, surgically treatable lesion. It becomes urgent if progressive significant weakness or cauda equina symptoms develop.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

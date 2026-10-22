@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Clinical Presentation</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Clinical Presentation</span>'
+pagetitle: "Spasticity – Clinical Presentation"
 ---
 
 The severity of symptoms of spasticity ranges from mild stiffness or tightening of the muscles to uncontrollable and painful spasms.
@@ -59,7 +60,7 @@ Spastic dystonia is persistent muscle contraction at rest, resulting in a fixed 
 
 The Modified Ashworth Scale is commonly used to grade the severity of spasticity.
 
-::: {.mas-table}
+::: {.mas-table .module-table tabindex="0" role="region" aria-label="Mas table"}
 
 | Grade | Description |
 |-|---------|
@@ -73,7 +74,9 @@ The Modified Ashworth Scale is commonly used to grade the severity of spasticity
 :::
 
 ::: {.sp-pagination}
-[← Relevant Anatomy](spasticity-relevant-anatomy.qmd){.btn .btn-outline-primary}
+[← Previous: Relevant Anatomy](spasticity-relevant-anatomy.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Investigations →](spasticity-investigations.qmd){.btn .btn-primary}
 :::

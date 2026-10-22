@@ -1,5 +1,6 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Management</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Management</span>'
+pagetitle: "Spondylolisthesis – Management"
 ---
 
 ## Nonoperative management
@@ -14,11 +15,22 @@ Core components include:
 - **Epidural or transforaminal steroid injections:** Consider when radicular symptoms are prominent.
 - **Bracing:** A TLSO may be used chiefly in pediatric or adolescent cases. Its value is debated because healing and return-to-play outcomes may be similar with or without bracing.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--clinical .module-learning-callout role="note" aria-labelledby="spondylolisthesis-management-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v4H9zM9 5H6a2 2 0 0 0-2 2v14h16V7a2 2 0 0 0-2-2h-3M12 11v6m-3-3h6" /></svg>
+  <h3 id="spondylolisthesis-management-callout-1">Clinical relevance</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 In pediatric patients, dysplastic spondylolisthesis carries a higher risk of progression and warrants surveillance radiographs every 6–9 months.
+
 :::
+
+::::
 
 ## Indications for surgery
 

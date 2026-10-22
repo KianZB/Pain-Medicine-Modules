@@ -1,12 +1,13 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Relevant Anatomy</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Relevant Anatomy</span>'
+pagetitle: "Discogenic Pain – Relevant Anatomy"
 ---
 
 ## The Intervertebral Disc
 
 The intervertebral disc is a fibrocartilaginous joint between adjacent vertebral bodies that works as a pressurized cushion: it absorbs compression, distributes load, permits controlled motion, and maintains disc height. The three main components of the intervertebral disc are as follows:
 
-::: {.disc-anatomy-table}
+::: {.disc-anatomy-table .module-table tabindex="0" role="region" aria-label="Disc anatomy table"}
 | Structure | Composition | Function |
 |-|-|-|
 | **Nucleus pulposus** | Gel-like core, 70-90% water, rich in aggrecan | Negative charge draws in water, generating the hydrostatic pressure that resists axial load |
@@ -57,7 +58,9 @@ A branch of the SVN, the BVN is the sensory nerve of the vertebral endplate and 
 </figure>
 
 ::: {.dp-pagination}
-[← Introduction](discogenic-pain-introduction.qmd){.btn .btn-outline-primary}
+[← Previous: Introduction](discogenic-pain-introduction.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Pathophysiology →](discogenic-pain-pathophysiology.qmd){.btn .btn-primary}
 :::

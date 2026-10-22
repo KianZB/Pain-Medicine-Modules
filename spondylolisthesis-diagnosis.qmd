@@ -1,5 +1,6 @@
 ---
-title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span><span class="spondylolisthesis-subsection-title">Diagnosis</span>'
+title: '<span class="spondylolisthesis-module-title">Spondylolisthesis</span> <span class="spondylolisthesis-subsection-title">Diagnosis</span>'
+pagetitle: "Spondylolisthesis – Diagnosis"
 ---
 
 ## History and physical examination
@@ -35,6 +36,8 @@ A facet effusion greater than 1.5 mm on supine MRI suggests a reducible degenera
 
 Slip severity is graded using the Meyerding classification on a standing lateral radiograph, based on the percentage of anterior translation:
 
+::: {.module-table tabindex="0" role="region" aria-label="Grade comparison"}
+
 | Grade | Percentage of translation | Classification |
 |---|---:|---|
 | **I** | 0–25% | Low-grade |
@@ -42,7 +45,9 @@ Slip severity is graded using the Meyerding classification on a standing lateral
 | **III** | 50–75% | High-grade |
 | **IV** | 75–100% | High-grade |
 | **V** | >100% | Spondyloptosis |
-+: {tbl-colwidths="[18,37,45]"}
+: {tbl-colwidths="[18,37,45]"}
+
+:::
 
 <figure class="figure text-center">
 <img src="images/spondylolisthesis/11-meyerding-grading-diagram.png" alt="Diagram of the Meyerding grading system for spondylolisthesis." style="width: 50%;">

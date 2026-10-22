@@ -1,5 +1,6 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Management</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Management</span>'
+pagetitle: "Discogenic Pain – Management"
 ---
 
 Discogenic pain is managed along a stepwise ladder, beginning with conservative and pharmacologic care, escalating to interventional procedures for refractory cases, and reserving surgery for a carefully selected minority. Because most axial back pain improves over time and no imaging finding reliably confirms a painful disc, treatment prioritizes function over cure, and invasive options are used only after conservative care fails.
@@ -16,15 +17,26 @@ Discogenic pain is managed along a stepwise ladder, beginning with conservative 
 - Duloxetine for chronic pain, particularly when NSAIDs are inadequate or contraindicated.
 - **Avoid:** Acetaminophen (ineffective for low back pain), benzodiazepines, systemic corticosteroids, and long-term opioids, which carry substantial risk with little sustained benefit.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--caution .module-learning-callout role="note" aria-labelledby="discogenic-pain-management-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 10 18H2L12 3Zm0 6v5m0 3h.01" /></svg>
+  <h3 id="discogenic-pain-management-callout-1">Word of caution</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 There is no drug that reverses disc degeneration. Pharmacotherapy aims only to reduce pain enough to enable exercise and function.
+
 :::
+
+::::
 
 ## Procedural and Surgical Interventions
 
-::: {.disc-management-table}
+::: {.disc-management-table .module-table tabindex="0" role="region" aria-label="Disc management table"}
 | Intervention | Description | Role |
 |-|-|-|
 | **Basivertebral nerve ablation (BVNA)** | Probe advanced transpedicularly into the vertebral body; radiofrequency ablates the basivertebral nerve | Interrupts endplate pain signals in the vertebrogenic subtype |
@@ -35,7 +47,9 @@ There is no drug that reverses disc degeneration. Pharmacotherapy aims only to r
 :::
 
 ::: {.dp-pagination}
-[← Investigations](discogenic-pain-investigations.qmd){.btn .btn-outline-primary}
+[← Previous: Investigations](discogenic-pain-investigations.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Case Example →](discogenic-pain-case-example.qmd){.btn .btn-primary}
 :::

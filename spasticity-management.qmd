@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Management</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Management</span>'
+pagetitle: "Spasticity – Management"
 ---
 
 Initial management of spasticity involves identifying the etiology. Management planning should include in-depth discussion of patient goals, support systems, and medical comorbidities.
@@ -72,7 +73,9 @@ Functional electrical stimulation may help increase plasticity in spinal cord ci
 </figure>
 
 ::: {.sp-pagination}
-[← Investigations](spasticity-investigations.qmd){.btn .btn-outline-primary}
+[← Previous: Investigations](spasticity-investigations.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Summary →](spasticity-summary.qmd){.btn .btn-primary}
 :::

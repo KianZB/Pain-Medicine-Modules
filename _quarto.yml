@@ -3,6 +3,8 @@
   output-dir: _site
   resources:
     - cases/*.html
+    - assets/clinical-challenges.js
+    - assets/clinical-challenges-data.json
 
 website:
   title: "Pain Medicine Learning Modules"
@@ -28,13 +30,50 @@ website:
           - text: Spasticity
             href: spasticity-introduction.qmd
 
+      - text: Cases
+        menu:
+          - text: All Cases
+            href: cases.qmd
+          - text: Chronic Back Pain 1
+            href: cases/chronic-back-pain-1.html
+            target: _blank
+            rel: "noopener noreferrer"
+
+      - text: Clinical Challenges
+        menu:
+          - text: All Challenges
+            href: clinical-challenges.qmd
+          - text: Leg Pain on Walking
+            href: clinical-challenge.qmd
+          - text: Back and Leg Pain
+            href: clinical-challenge.html?id=shooting-pain-down-leg
+          - text: Persistent Shoulder Pain
+            href: clinical-challenge.html?id=shoulder-pain-overhead-activity
+          - text: Hand Tingling
+            href: clinical-challenge.html?id=numb-fingers-at-night
+          - text: New Foot Weakness
+            href: clinical-challenge.html?id=new-onset-foot-weakness
+          - text: Clumsy Hands
+            href: clinical-challenge.html?id=neck-pain-clumsy-hands
+          - text: Persistent Back Pain
+            href: clinical-challenge.html?id=back-pain-young-adult
+          - text: Wrist Pain After Injury
+            href: clinical-challenge.html?id=persistent-pain-after-fracture
+          - text: Hand Weakness
+            href: clinical-challenge.html?id=weakness-twitching
+          - text: Unexplained Buttock Pain
+            href: clinical-challenge.html?id=unexplained-buttock-pain
+
       - href: about.qmd
         text: Help
 
 format:
   html:
     theme: cosmo
-    css: assets/styles.css
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
+    description-meta: "Free educational modules in pain medicine, covering foundational concepts, clinical assessment, and management for medical learners."
     toc: false
     page-layout: full
     include-after-body:

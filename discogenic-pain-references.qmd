@@ -1,5 +1,6 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">References</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">References</span>'
+pagetitle: "Discogenic Pain – References"
 ---
 
 ::: {.references}
@@ -45,7 +46,7 @@ title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span c
 :::
 
 ::: {.dp-pagination}
-[← Case Example](discogenic-pain-case-example.qmd){.btn .btn-outline-primary}
+[← Previous: Case Example](discogenic-pain-case-example.qmd){.btn .btn-outline-primary}
 
 [All Modules](modules.qmd){.btn .btn-primary}
 :::

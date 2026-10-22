@@ -1,15 +1,19 @@
 ---
-title: "Pain Medicine Learning Modules"
+title: "Welcome to the Pain Medicine Learning Modules!"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/clinical-challenges.css
 ---
 
-Welcome to the Pain Medicine Learning Modules website!
+<p>This is an educational website for medical students, residents, and other learners interested in exploring pain medicine. Developed by McMaster medical students, the project aims to make learning about pain medicine more accessible and clinically relevant.</p>
+<p>Much of the current material focuses on back pain, with an emphasis on building a foundation that learners can carry into clinical practice. Through learning modules and interactive cases, we hope to offer a resource that students can return to throughout their training.</p>
+<p>Since the website is still in its early stages, we would greatly appreciate any feedback as we continue developing it. If you have any thoughts, ideas, or suggestions, please share them through the feedback form on our Help page!</p>
 
-<p>Pain Medicine Learning Modules is an educational website for medical students, residents, and other interested learners who want to explore topics in pain medicine. This project is developed by McMaster medical students with an interest in making pain medicine learning practical and accessible.</p>
-<p>The site has a particular focus on back pain, combining foundational concepts with practical approaches to assessment, investigation, and management. The modules are designed to support clear, clinically relevant learning that can be revisited at a learner's own pace.</p>
-
-<div class="home-page-actions">
+<div class="home-page-actions pill-button-trial">
 <details class="home-panel">
-<summary class="home-panel-summary">Meet the Team</summary>
+<summary class="home-panel-summary home-panel-summary--chevron">Meet the Team<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
 <div class="home-panel-content">
 <div class="home-team-grid">
 <div class="home-team-card">
@@ -40,9 +44,9 @@ Welcome to the Pain Medicine Learning Modules website!
 </details>
 
 <details class="home-panel">
-<summary class="home-panel-summary">Modules</summary>
+<summary class="home-panel-summary home-panel-summary--chevron">Modules<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
 <div class="home-panel-content">
-<p class="home-module-intro">Please select any of the completed modules below to explore further.</p>
+<p class="home-module-intro">Explore pain medicine through teaching modules that connect foundational concepts with clinical practice. Work through each topic at your own pace, with diagrams, clinical examples, and questions to help you apply what you learn.</p>
 <div class="home-module-grid">
 <div class="home-module-column">
 <h3>Foundations</h3>
@@ -50,8 +54,9 @@ Welcome to the Pain Medicine Learning Modules website!
 
 <a class="btn btn-primary" href="back-pain-introduction.qmd">Back Pain Basics</a>
 
-<a class="btn btn-primary" href="coming-soon.qmd">Physical Examination</a>
-<span class="coming-soon-label">(coming soon)</span>
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Physical Examination</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 </div>
 
 <div class="home-module-column">
@@ -62,22 +67,71 @@ Welcome to the Pain Medicine Learning Modules website!
 
 <a class="btn btn-primary" href="spondylolisthesis-introduction.qmd">Spondylolisthesis</a>
 
-<a class="btn btn-primary" href="coming-soon.qmd">Facetogenic Pain</a> (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Facetogenic Pain</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 
-<a class="btn btn-primary" href="coming-soon.qmd">Neurogenic Claudication</a> (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Neurogenic Claudication</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 
-<a class="btn btn-primary" href="coming-soon.qmd">Sacroiliac Pain</a> (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Sacroiliac Pain</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 </div>
 
 <div class="home-module-column">
 <h3>Special Topics</h3>
 <a class="btn btn-primary" href="spasticity-introduction.qmd">Spasticity</a>
 
-<a class="btn btn-primary" href="coming-soon.qmd">Cervical Radicular Pain</a> (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Cervical Radicular Pain</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 
-<a class="btn btn-primary" href="coming-soon.qmd">EMG/NCS</a> (coming soon)
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">EMG/NCS</span>
+<span class="coming-soon-label">Coming soon</span>
+</p>
 </div>
 </div>
 </div>
 </details>
+
+<details class="home-panel">
+<summary class="home-panel-summary home-panel-summary--chevron">Cases<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
+<div class="home-panel-content">
+<p class="home-module-intro">Bring your learning together through guided patient scenarios. Each case walks you through clinical decisions, with questions and feedback to help you reflect on your approach along the way.</p>
+<div class="home-module-grid">
+<div class="home-module-column">
+<h3>Back Pain</h3>
+<a class="btn btn-primary" href="cases/chronic-back-pain-1.html" target="_blank" rel="noopener noreferrer">Chronic Back Pain 1</a>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Chronic Back Pain 2</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Chronic Back Pain 3</span><span class="coming-soon-label">Coming soon</span></p>
 </div>
+
+<div class="home-module-column">
+<h3>Other Clinical Presentations</h3>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Neck Pain</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Shoulder Pain</span><span class="coming-soon-label">Coming soon</span></p>
+
+<p class="coming-soon-item"><span class="btn btn-primary coming-soon-module" aria-disabled="true">Spasticity</span><span class="coming-soon-label">Coming soon</span></p>
+</div>
+</div>
+</div>
+</details>
+
+<details class="home-panel">
+<summary class="home-panel-summary home-panel-summary--chevron">Clinical Challenges<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
+<div class="home-panel-content">
+<p class="home-module-intro">Take a more independent approach to a patient presentation by choosing which information to gather and considering the possible diagnoses. Build your differential as you go, then review a clinical debrief to explore the reasoning behind the case.</p>
+
+{{< include assets/clinical-challenges-listing.html >}}
+
+</div>
+</details>
+</div>
+
+{{< include assets/home-panels.html >}}

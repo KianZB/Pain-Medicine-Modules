@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">History</span>'
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">History</span>'
+pagetitle: "Back Pain Basics – History"
 ---
 
 A focused back pain history should describe the current pain, screen for serious causes, and identify psychosocial or functional factors that may affect recovery.

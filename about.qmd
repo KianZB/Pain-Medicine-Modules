@@ -1,52 +1,38 @@
 ---
 title: "Help"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
-## How the modules work
+<div class="home-page-actions">
+<details class="home-panel">
+<summary class="home-panel-summary home-panel-summary--chevron">Module Guide<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
+<div class="home-panel-content">
 
-Each module combines concise teaching sections, diagrams, clinical reasoning, and knowledge checks. Many modules use case-based learning, guiding learners through realistic patient scenarios and asking them to apply the concepts as they go.
+Each module combines text-based teaching, diagrams, and knowledge checks to support active learning. Many modules also use case-based learning, guiding you through realistic patient scenarios and asking you to apply concepts as you go.
 
-The goal is to connect foundational knowledge with clinical decision-making: recognizing important patterns, identifying red flags, interpreting investigations in context, and considering appropriate management options.
+The goal is to connect foundational knowledge with clinical decision-making: recognizing important pain patterns, identifying red flags, interpreting investigations in context, and considering appropriate management options.
 
-### Learning callouts
+Throughout the modules, you will also encounter **Callouts**, each highlighting a different type of learning point. Examples and descriptions of their roles are shown below.
 
-Throughout the modules, callouts highlight different types of learning points.
+{{< include assets/_callout-preview.html >}}
 
-::: {.callout-tip title="Pause and think"}
+</div>
+</details>
 
-A short question to help you check your understanding before reading the answer.
-:::
+<details class="home-panel">
+<summary class="home-panel-summary home-panel-summary--chevron">Feedback<svg class="home-panel-chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3l5 5-5 5" /></svg></summary>
+<div class="home-panel-content">
 
-::: {.callout-note title="Key idea"}
+We would love to hear your thoughts, ideas, or suggestions through our feedback form as we continue developing this resource!
 
-The main takeaway from a section.
-:::
+[Share your feedback](https://forms.gle/NkTc1SLC5DmauPNU6){.btn .btn-primary target="_blank" rel="noopener noreferrer"}
 
-::: {.callout-caution title="Clinical relevance"}
+</div>
+</details>
+</div>
 
-Why the concept matters for patient assessment, imaging, procedures, or management.
-:::
-
-::: {.callout-warning title="Word of caution"}
-
-A common mistake, limitation, or point that should not be overinterpreted.
-:::
-
-::: {.callout-important title="Red flag"}
-
-An urgent clinical feature that should prompt timely assessment or escalation.
-:::
-
-## Feedback
-
-Feedback form coming soon. We welcome suggestions that can help improve the modules, cases, and learning experience.
-
-## Future directions
-
-Possible future additions include:
-
-- Downloadable summary sheets
-- AI-style FAQ section
-- Progress bar for modules
-- Glossary
-- End-of-section knowledge checks
+{{< include assets/home-panels.html >}}

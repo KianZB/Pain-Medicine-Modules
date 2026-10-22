@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Radiofrequency Ablation</span>'
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">Radiofrequency Ablation</span>'
+pagetitle: "Pain Fundamentals – Radiofrequency Ablation"
 ---
 
 Radiofrequency ablation is an interventional pain procedure that uses controlled thermal injury to reduce pain transmission from a specific target nerve.
@@ -67,16 +68,21 @@ This is why patient selection and diagnostic blocks are important.
 
 ## Types of radiofrequency treatment
 
+::: {.module-table tabindex="0" role="region" aria-label="Type comparison"}
+
 | Type | Key idea |
 |---|---|
 | **Continuous / thermal RF** | Sustained heat creates a thermal lesion |
 | **Bipolar RF** | Current passes between two active electrodes |
 | **Pulsed RF** | Intermittent current is used, generally less destructive |
 | **Cooled RF** | Cooling near the electrode allows heat to spread farther |
-| **Cryoablation** | Extreme cold is used instead of heat |
 : {tbl-colwidths="[25,75]"}
 
+:::
+
 The details differ by technique, but the shared idea is that energy is applied near a target nerve to alter pain transmission.
+
+Another nerve-ablation technique is **cryoablation**, which uses extreme cold rather than radiofrequency energy.
 
 ## Procedure safety and anatomy
 
@@ -94,11 +100,22 @@ Potential issues include:
 
 Depending on the target and anatomic region, inappropriate lesioning could also affect nearby motor or sensory structures. This is why image guidance, correct target selection, and an understanding of local anatomy are essential.
 
-::: {.callout-warning}
-## Word of caution
+:::: {.learning-callout .learning-callout--caution .module-learning-callout role="note" aria-labelledby="pain-fundamentals-rfa-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 10 18H2L12 3Zm0 6v5m0 3h.01" /></svg>
+  <h3 id="pain-fundamentals-rfa-callout-1">Word of caution</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 RFA can be helpful, but it works by producing controlled nerve injury. Patients should understand both the expected benefit and the possible sensory side effects.
+
 :::
+
+::::
 
 ## Example: facet-mediated pain
 
@@ -108,8 +125,16 @@ A diagnostic medial branch block is performed. If the patient has meaningful tem
 
 If the pain later returns, radiofrequency ablation of the relevant medial branch nerves may be considered for longer-lasting relief.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="pain-fundamentals-rfa-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="pain-fundamentals-rfa-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Why is a diagnostic block often performed before radiofrequency ablation?
 
@@ -121,7 +146,10 @@ A diagnostic block helps test whether the suspected target nerve is actually car
 If temporarily numbing that nerve meaningfully reduces the patient’s typical pain, then a longer-lasting treatment directed at that nerve, such as RFA, is more likely to help.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

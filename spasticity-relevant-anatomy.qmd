@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Relevant Anatomy</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Relevant Anatomy</span>'
+pagetitle: "Spasticity – Relevant Anatomy"
 ---
 
 The mechanisms and pathways that underlie the development of spasticity have not been fully elucidated. Presently, the main identifying factors are abnormal intraspinal processing of afferent signals, loss of descending supraspinal inhibition of reflex arcs, decreased inhibitory control of corticospinal tracts, and increased motor neuron excitability. The following sections offer an overview of the relevant anatomy.
@@ -95,7 +96,9 @@ In spasticity, many changes occur at the extracellular matrix and muscle fiber l
 Passive fiber mechanics are typically unaltered, and increased stiffness is usually due to alterations in the extracellular matrix. Collagen accumulates in contracted muscle, which directly increases stiffness.
 
 ::: {.sp-pagination}
-[← Introduction](spasticity-introduction.qmd){.btn .btn-outline-primary}
+[← Previous: Introduction](spasticity-introduction.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Clinical Presentation →](spasticity-clinical-presentation.qmd){.btn .btn-primary}
 :::

@@ -1,0 +1,13 @@
+---
+pagetitle: "Clinical Challenge"
+search: false
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/clinical-challenges.css
+---
+
+[← All Challenges](clinical-challenges.qmd){.btn .btn-outline-primary .cc-back-link}
+
+{{< include assets/clinical-challenge.html >}}

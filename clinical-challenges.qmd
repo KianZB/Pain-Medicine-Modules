@@ -1,0 +1,16 @@
+---
+title: "Clinical Challenges"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/clinical-challenges.css
+---
+
+These challenges offer an opportunity to put your learning into practice and work through a patient presentation at your own pace. Choose a case below to begin exploring the history, examination findings, and available imaging.
+
+As you gather information, consider which findings help you narrow down the possibilities. You can build and revise a working differential along the way, then enter your most likely diagnosis and rate how confident you feel when you’re ready.
+
+You have up to two attempts to reach the diagnosis, with an opportunity to explore further after your first attempt if needed. Once you reach the diagnosis or use both attempts, a clinical debrief will help you reflect on your reasoning and the key learning points.
+
+{{< include assets/clinical-challenges-listing.html >}}

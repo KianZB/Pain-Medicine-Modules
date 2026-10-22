@@ -1,5 +1,11 @@
-﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Management</span>'
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Management</span>'
+pagetitle: "Lumbar Radicular Pain – Management"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 Management depends on symptom severity, duration, neurologic findings, functional impact, and the suspected cause of nerve root irritation.
@@ -18,19 +24,34 @@ Medications can help reduce pain enough for the patient to move, sleep, and part
 
 Common options include:
 
+::: {.module-table tabindex="0" role="region" aria-label="Medication type comparison"}
+
 | Medication type | Role |
 |-|---|
 | **Acetaminophen** | May provide modest analgesic benefit |
 | **NSAIDs** | Useful when inflammation is contributing, if no contraindications |
-| **Neuropathic agents** | May be considered for persistent neuropathic features, though benefit is variable |
+| **Neuropathic agents** | May be considered in select patients with persistent neuropathic features, though benefit is variable |
 | **Short oral steroid course** | Sometimes used in acute radicular pain, though benefit is variable |
 | **Opioids** | Generally avoided; if used, should be reserved for select severe acute cases and for the shortest reasonable duration |
 
-::: {.callout-caution}
-## Word of caution
+:::
+
+:::: {.learning-callout .learning-callout--caution .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 10 18H2L12 3Zm0 6v5m0 3h.01" /></svg>
+  <h3 id="radicular-pain-management-callout-1">Word of caution</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Medications do not fix the underlying anatomy. Their role is to reduce symptoms enough to support function and recovery.
+
 :::
+
+::::
 
 ## Physiotherapy and rehabilitation
 
@@ -49,24 +70,48 @@ Some patients may also benefit from identifying a **directional preference**, a 
 
 Two important pieces of terminology here are **centralization**, where a specific movement causes pain that is usually predominantly felt in the leg to move closer to the spine. This suggests a directional preference and that the movement may be helpful. By contrast, **peripheralization** refers to the opposite, where a specific movement actually causes pain to travel more distally, suggesting that the movement may be aggravating the nerve root.
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--clinical .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v4H9zM9 5H6a2 2 0 0 0-2 2v14h16V7a2 2 0 0 0-2-2h-3M12 11v6m-3-3h6" /></svg>
+  <h3 id="radicular-pain-management-callout-2">Clinical relevance</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Physiotherapy should be guided by symptom response. A movement that helps one patient with radicular pain may worsen symptoms in another.
+
 :::
 
-![Example of a McKenzie lumbar exercise, showing the progression from lying prone to full back extension.](images/radicular-pain/mckenzie-exercises.png){fig-align="center" width="35%"}
-<figcaption>Source: <a href="https://www.scribd.com/document/662971405/Treat-Yout-Own-Back-by-Robin-McKenzie">Robin McKenzie, <em>Treat Your Own Back</em></a>.</figcaption>
+::::
+
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/mckenzie-exercises.png" alt="Example of a McKenzie lumbar exercise, showing the progression from lying prone to full back extension." style="width: 35%;">
+<figcaption>Example of a McKenzie lumbar exercise, showing the progression from lying prone to full back extension. Source: <a href="https://www.scribd.com/document/662971405/Treat-Yout-Own-Back-by-Robin-McKenzie">Robin McKenzie, <em>Treat Your Own Back</em></a>.</figcaption>
+</figure>
 
 ## Epidural steroid injections
 
 Epidural steroid injections can be considered when lumbar radicular pain is severe, function-limiting, persistent, or not improving with conservative care. These injections work by delivering anti-inflammatory medication into the epidural space near an irritated nerve root, whcih can reduce nerve root inflammation and therefore improve pain enough for the patient to move, sleep, and participate in rehabilitation.
 
-::: {.callout-important}
-## Clinical relevance
+:::: {.learning-callout .learning-callout--clinical .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v4H9zM9 5H6a2 2 0 0 0-2 2v14h16V7a2 2 0 0 0-2-2h-3M12 11v6m-3-3h6" /></svg>
+  <h3 id="radicular-pain-management-callout-3">Clinical relevance</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Remember that in interventional pain, the procedure target should match the clinical syndrome and the imaging finding. Injections are not simply indicated for abnormal MRI findings in the absence of clinical symptoms.
+
 :::
+
+::::
 
 ### Transforaminal epidural steroid injection
 
@@ -78,8 +123,10 @@ This is often the most targeted epidural approach when the patient has clear uni
 
 Under fluoroscopy, the target is commonly identified using an oblique view of the neural foramen. The classic target region is near the inferior aspect of the pedicle ("6 o'clock position") within the so-called **safe triangle**.
 
-![Triangle of safety used to conceptualize the target region for lumbar transforaminal epidural access.](images/radicular-pain/triangle-of-safety.png){fig-align="center" width="75%"}
-<figcaption>Source: <a href="https://onlinelibrary.wiley.com/doi/10.1111/papr.13317">Wiley</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/triangle-of-safety.png" alt="Triangle of safety used to conceptualize the target region for lumbar transforaminal epidural access." style="width: 75%;">
+<figcaption>Triangle of safety used to conceptualize the target region for lumbar transforaminal epidural access. Source: <a href="https://onlinelibrary.wiley.com/doi/10.1111/papr.13317">Wiley</a>.</figcaption>
+</figure>
 
 ### Interlaminar epidural steroid injection
 
@@ -93,18 +140,31 @@ Compared with a transforaminal injection, the medication is usually delivered mo
 
 A **caudal epidural steroid injection** accesses the epidural space through the sacral hiatus. This approach can provide broader spread through the lower lumbar and sacral epidural space. It may be useful when multilevel symptoms are present, when post-surgical anatomy makes other approaches more difficult, or when a less targeted but broader epidural approach is preferred.
 
-![Caudal epidural steroid injection, shown here under ultrasound guidance](images/radicular-pain/caudal-epidural.png){fig-align="center" width="60%"}
-<figcaption>Source: <a href="https://link.springer.com/book/10.1007/978-1-4419-1681-5">Springer</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/caudal-epidural.png" alt="Caudal epidural steroid injection, shown here under ultrasound guidance" style="width: 60%;">
+<figcaption>Caudal epidural steroid injection, shown here under ultrasound guidance. Source: <a href="https://link.springer.com/book/10.1007/978-1-4419-1681-5">Springer</a>.</figcaption>
+</figure>
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-4"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="radicular-pain-management-callout-4">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Transforaminal injections are usually the most target-specific.
 
 Interlaminar injections provide broader posterior epidural spread.
 
 Caudal injections provide even broader lower lumbar or sacral epidural spread.
+
 :::
+
+::::
 
 ## Surgery
 
@@ -118,11 +178,22 @@ Common reasons to consider surgical referral include:
 - Function-limiting symptoms with concordant imaging
 - Severe structural compression that matches the patient's symptoms and exam
 
-::: {.callout-important}
-## Red flag
+:::: {.learning-callout .learning-callout--red-flag .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-5"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0" /></svg>
+  <h3 id="radicular-pain-management-callout-5">Red flag</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Suspected cauda equina syndrome requires emergent assessment and emergent MRI.
+
 :::
+
+::::
 
 ## Acute versus chronic management
 
@@ -138,6 +209,8 @@ In **chronic lumbar radicular pain**, the focus shifts toward confirming the cau
 
 A simplified practical approach is:
 
+::: {.module-table tabindex="0" role="region" aria-label="Scenario comparison"}
+
 | Scenario | Management approach |
 |---|---|
 | Mild or moderate symptoms | Education, activity modification, medications, physiotherapy |
@@ -147,9 +220,13 @@ A simplified practical approach is:
 | Suspected cauda equina syndrome | Emergency assessment and emergent MRI |
 | Persistent disabling symptoms with clear compression | Consider surgical referral |
 
+:::
+
 ### Chronic lumbar radicular pain
 
 A simplified practical approach is:
+
+::: {.module-table tabindex="0" role="region" aria-label="Scenario comparison"}
 
 | Scenario | Management approach |
 |---|---|
@@ -159,8 +236,18 @@ A simplified practical approach is:
 | Persistent severe symptoms despite nonoperative care | Consider surgical referral if there is a treatable structural cause |
 | Progressive neurologic deficit | Urgent imaging and specialist assessment |
 
-::: {.callout-tip}
-## Pause and think
+:::
+
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="radicular-pain-management-callout-6"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="radicular-pain-management-callout-6">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Return to the 24-year-old patient who developed right L5-pattern radicular pain while deadlifting. His MRI showed a small right paracentral L4-L5 disc herniation that matches his symptoms; the larger left-sided disc bulge at another level did not.
 
@@ -175,7 +262,10 @@ Return to the 24-year-old patient who developed right L5-pattern radicular pain 
 2. Ten years later, the absence of a clear concordant imaging target means the diagnosis should be reassessed rather than treating an old MRI finding. Management should emphasize education, activity and function, individualized rehabilitation, and symptom management. Further imaging or EMG/NCS may be considered if the history or examination raises a new diagnostic question and the result would change management. Epidural injection or surgery would generally not be appropriate unless a clinical syndrome, examination findings, and imaging again identify a concordant treatable target.
 
 </details>
+
 :::
+
+::::
 
 <br>
 

@@ -1,5 +1,11 @@
-﻿---
-title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span><span class="radicular-pain-subsection-title">Investigations</span>'
+---
+title: '<span class="radicular-pain-module-title">Lumbar Radicular Pain</span> <span class="radicular-pain-subsection-title">Investigations</span>'
+pagetitle: "Lumbar Radicular Pain – Investigations"
+format:
+  html:
+    css:
+      - assets/styles.css
+      - assets/callout-preview.css
 ---
 
 Most acute radicular pain does not require immediate imaging. In fact, many cases improve with just conservative management alone. However, there are specific instances where further investigation can or should be considered, depending on the severity of symptoms. 
@@ -18,11 +24,22 @@ Initial management is instead usually guided by:
 - Presence or absence of red flags
 - Response to conservative care over time
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--clinical .module-learning-callout role="note" aria-labelledby="radicular-pain-investigations-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v4H9zM9 5H6a2 2 0 0 0-2 2v14h16V7a2 2 0 0 0-2-2h-3M12 11v6m-3-3h6" /></svg>
+  <h3 id="radicular-pain-investigations-callout-1">Clinical relevance</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Imaging should be ordered when the result is likely to change management, not simply because radicular pain is present.
+
 :::
+
+::::
 
 ## When imaging is indicated
 
@@ -41,19 +58,27 @@ Imaging is more useful when symptoms are:
 
 For routine lumbar radicular pain, **MRI without contrast** is usually sufficient. Contrast is generally reserved for situations where there is concern for infection, malignancy, inflammatory disease, or post-operative scar versus recurrent disc herniation.
 
+::: {.module-table tabindex="0" role="region" aria-label="Investigation comparison"}
+
 | Investigation | Role |
 |---|---|
 | **MRI lumbar spine** | Best test for disc herniation, stenosis, and nerve root compression |
 | **CT lumbar spine** | Useful if MRI is contraindicated or unavailable; better for bony anatomy |
 | **X-ray** | Useful for quick assessment for alignment, spondylolisthesis, fracture, or degenerative change, but does not show nerve compression well |
 
+:::
+
 ![MRI of the lumbar spine, showing a herniated and bulging disc.](images/radicular-pain/mri-herniated-disc.png){fig-align="center" width="45%"}
 
-![CT of the lumbar spine, useful for more detailed assessment of bony anatomy.](images/radicular-pain/ct-lumbar-spine.png){fig-align="center" width="45%"}
-<figcaption>Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_case_46533_Normal_lumbar_spine_CT">NCCommons / Radiopaedia</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/ct-lumbar-spine.png" alt="CT of the lumbar spine, useful for more detailed assessment of bony anatomy." style="width: 45%;">
+<figcaption>CT of the lumbar spine, useful for more detailed assessment of bony anatomy. Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_case_46533_Normal_lumbar_spine_CT">NCCommons / Radiopaedia</a>.</figcaption>
+</figure>
 
-![X-ray of the lumbar spine, useful for a quick screen of degenerative changes.](images/radicular-pain/xray-lumbar-spine.png){fig-align="center" width="45%"}
-<figcaption>Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_images_for_Spine">NCCommons / Radiopaedia</a>.</figcaption>
+<figure class="figure" style="display: block; text-align: center;">
+<img src="images/radicular-pain/xray-lumbar-spine.png" alt="X-ray of the lumbar spine, useful for a quick screen of degenerative changes." style="width: 45%;">
+<figcaption>X-ray of the lumbar spine, useful for a quick screen of degenerative changes. Source: <a href="https://nccommons.org/wiki/Category:Radiopaedia_images_for_Spine">NCCommons / Radiopaedia</a>.</figcaption>
+</figure>
 
 ## Matching imaging to the clinical picture
 
@@ -63,8 +88,16 @@ Disc bulges, degenerative changes, and stenosis are common in asymptomatic peopl
 
 For example, an L4-L5 paracentral disc herniation may be clinically meaningful if the patient has L5-pattern leg pain, weakness of great toe extension, or other findings that fit L5 involvement. The same imaging finding may be less meaningful if the patient's symptoms point to a different level or a different diagnosis.
 
-::: {.callout-tip}
-## Pause and think
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="radicular-pain-investigations-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="radicular-pain-investigations-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Our patient has right-sided L5-pattern radicular pain. MRI shows a small right paracentral L4-L5 disc herniation and a larger left-sided disc bulge at another level. Which finding is more clinically relevant?
 
@@ -76,13 +109,27 @@ The **right paracentral L4-L5 disc herniation** is more clinically relevant beca
 The larger left-sided disc bulge may be incidental if it does not match the clinical pattern.
 
 </details>
+
 :::
 
-::: {.callout-note}
-## Key idea
+::::
+
+:::: {.learning-callout .learning-callout--caution .module-learning-callout role="note" aria-labelledby="radicular-pain-investigations-callout-3"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 10 18H2L12 3Zm0 6v5m0 3h.01" /></svg>
+  <h3 id="radicular-pain-investigations-callout-3">Word of caution</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 Do not treat the MRI in isolation. Treat the patient and use imaging to support the clinical diagnosis.
+
 :::
+
+::::
 
 ## Role of EMG/NCS
 
@@ -103,6 +150,8 @@ EMG/NCS is mainly a test of nerve function. It is more useful for confirming **r
 
 A simplified practical approach is:
 
+::: {.module-table tabindex="0" role="region" aria-label="Scenario comparison"}
+
 | Scenario | Investigation approach |
 |---|---|
 | Acute uncomplicated radicular pain | No immediate imaging |
@@ -111,6 +160,8 @@ A simplified practical approach is:
 | Progressive or significant motor deficit | Urgent MRI and specialist assessment |
 | Cauda equina symptoms | Emergent MRI and specialist assessment |
 | Unclear diagnosis or clinical mismatch | Consider EMG/NCS or specialist assessment |
+
+:::
 
 <br>
 

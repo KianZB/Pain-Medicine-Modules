@@ -1,5 +1,6 @@
 ---
-title: '<span class="spasticity-module-title">Spasticity</span><span class="spasticity-subsection-title">Investigations</span>'
+title: '<span class="spasticity-module-title">Spasticity</span> <span class="spasticity-subsection-title">Investigations</span>'
+pagetitle: "Spasticity – Investigations"
 ---
 
 How should spasticity be investigated once a patient presents with it? Generally speaking, the physical examination is sufficient to identify spasticity, and it can already guide treatment planning. Further investigations are usually directed at identifying lesions and other pathologies underlying spasticity and are important for treating the root cause. Imaging is usually ordered when the diagnosis is unclear or the spasticity is new onset.
@@ -54,7 +55,9 @@ Myotonometry is an adjunctive tool rather than a routine diagnostic test and sho
 </figure>
 
 ::: {.sp-pagination}
-[← Clinical Presentation](spasticity-clinical-presentation.qmd){.btn .btn-outline-primary}
+[← Previous: Clinical Presentation](spasticity-clinical-presentation.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Management →](spasticity-management.qmd){.btn .btn-primary}
 :::

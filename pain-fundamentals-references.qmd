@@ -1,5 +1,6 @@
 ---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">References</span>'
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">References</span>'
+pagetitle: "Pain Fundamentals – References"
 ---
 
 ::: {.references}

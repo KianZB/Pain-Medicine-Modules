@@ -1,5 +1,6 @@
 ---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">References</span>'
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">References</span>'
+pagetitle: "Back Pain Basics – References"
 ---
 
 ::: {.references}
@@ -29,7 +30,7 @@ title: '<span class="back-pain-module-title">Back Pain Basics</span><span class=
 <br>
 
 ::: {.bp-pagination}
-[← Previous: Cases](back-pain-cases.qmd){.btn .btn-outline-primary}
+[← Previous: Management](back-pain-management.qmd){.btn .btn-outline-primary}
 
 [All Modules](modules.qmd){.btn .btn-outline-secondary}
 :::

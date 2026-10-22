@@ -1,5 +1,6 @@
 ---
-title: '<span class="discogenic-pain-module-title">Discogenic Pain</span><span class="discogenic-pain-subsection-title">Clinical Presentation</span>'
+title: '<span class="discogenic-pain-module-title">Discogenic Pain</span> <span class="discogenic-pain-subsection-title">Clinical Presentation</span>'
+pagetitle: "Discogenic Pain – Clinical Presentation"
 ---
 
 A practical way to approach a patient is to ask three questions in sequence:
@@ -20,14 +21,33 @@ The hallmark is intolerance of positions and activities that raise intradiscal p
 - Forward bending and sustained flexion (leaning over a sink, tying shoes)
 - Coughing, sneezing, or straining (Valsalva)
 
-::: {.callout-note}
-## Key idea
+:::: {.learning-callout .learning-callout--idea .module-learning-callout role="note" aria-labelledby="discogenic-pain-clinical-presentation-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6m0-10h.01" /></svg>
+  <h3 id="discogenic-pain-clinical-presentation-callout-1">Key idea</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 The "worse with sitting and flexion, better lying flat" pattern is the most recognizable signature and helps separate discogenic pain from facet-mediated pain, which typically worsens with extension, standing, and walking.
+
 :::
 
-::: {.callout-tip}
-## Pause and think
+::::
+
+:::: {.learning-callout .learning-callout--think .module-learning-callout role="note" aria-labelledby="discogenic-pain-clinical-presentation-callout-2"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-1 .7-1.5 1.5-1.5 2.5h-4c0-1-.5-1.8-1.5-2.5Z" /></svg>
+  <h3 id="discogenic-pain-clinical-presentation-callout-2">Pause and think</h3>
+</header>
+```
+
+::: {.learning-callout-body}
 
 A 40-year-old office worker reports midline low back pain that is worse with prolonged sitting and forward bending, and eased by standing and walking. There is no leg pain and the neurologic exam is normal. Why does this pattern point toward a discogenic source rather than facet-mediated pain?
 
@@ -37,13 +57,16 @@ A 40-year-old office worker reports midline low back pain that is worse with pro
 Discogenic pain is classically axial and midline, worsened by flexion-based, disc-loading activities such as sitting and bending forward, since these positions raise intradiscal pressure. Facet-mediated pain, by contrast, tends to produce paraspinal rather than midline tenderness and is typically worse with extension and rotation. The absence of leg pain and a normal neurologic exam also argue against a radicular source.
 
 </details>
+
 :::
+
+::::
 
 ## Physical Exam
 
 Unlike radicular pain, where provocative maneuvers stretch an irritated nerve root, discogenic pain has no equivalent set of nerve-tension tests. The disc is a deep axial structure, so bedside "provocation" instead relies on loading the disc mechanically and observing pain behavior.
 
-::: {.disc-clinical-table}
+::: {.disc-clinical-table .module-table tabindex="0" role="region" aria-label="Disc clinical table"}
 | Test | How it is performed | Suggests |
 |-|-|-|
 | **Centralization** | With the patient standing or prone, have them perform repeated end-range lumbar movements (usually extension, e.g. prone press-ups) while tracking where the pain is felt | A discogenic source if referred buttock/thigh pain migrates toward the midline |
@@ -82,7 +105,9 @@ Unlike radicular pain, where provocative maneuvers stretch an irritated nerve ro
 	- Older age
 
 ::: {.dp-pagination}
-[← Pathophysiology](discogenic-pain-pathophysiology.qmd){.btn .btn-outline-primary}
+[← Previous: Pathophysiology](discogenic-pain-pathophysiology.qmd){.btn .btn-outline-primary}
+
+[All Modules](modules.qmd){.btn .btn-outline-secondary}
 
 [Next: Investigations →](discogenic-pain-investigations.qmd){.btn .btn-primary}
 :::

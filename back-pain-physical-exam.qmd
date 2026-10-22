@@ -1,5 +1,6 @@
 ﻿---
-title: '<span class="back-pain-module-title">Back Pain Basics</span><span class="back-pain-subsection-title">Physical Exam</span>'
+title: '<span class="back-pain-module-title">Back Pain Basics</span> <span class="back-pain-subsection-title">Physical Exam</span>'
+pagetitle: "Back Pain Basics – Physical Exam"
 ---
 
 The physical exam should screen function, look for structural clues, assess neurologic status, and use special tests when they fit the clinical picture.
@@ -113,7 +114,7 @@ The following are a few useful special tests for common back pain generators; th
 **Radicular pain:**
 
 - **Straight leg raise:** Reproduces radiating leg pain when the symptomatic leg is raised while the patient is supine; hamstring tightness alone is not a positive test.
-- **Lasègue sign:** Re-tensions the sciatic nerve with ankle dorsiflexion after a positive straight leg raise.
+- **Bragard test:** After a positive straight leg raise, slightly lower the leg until pain improves, then dorsiflex the ankle to see if the typical radiating leg pain returns.
 - **Crossed straight leg raise:** Reproduction of symptoms in the affected leg is more specific for disc herniation.
 
 <figure class="figure text-center">

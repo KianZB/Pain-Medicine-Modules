@@ -1,0 +1,107 @@
+/* Standard custom callouts for teaching modules and Help.
+   Selectors are scoped to the learning-callout components. */
+.module-learning-callout {
+  margin: 1rem 0;
+}
+
+.learning-callout-preview {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 1rem 0 0;
+}
+
+.learning-callout-preview-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.learning-callout {
+  --lc-accent: #386c9b;
+  --lc-header: #eaf1f8;
+  --lc-body: #fafcfe;
+  --lc-border: #dce6f0;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--lc-border);
+  border-left: 6px solid var(--lc-accent);
+  border-radius: 16px;
+  background: var(--lc-body);
+}
+
+.learning-callout--objectives {
+  --lc-accent: #526578;
+  --lc-header: #eaf0f4;
+  --lc-body: #fafcfd;
+  --lc-border: #dce4eb;
+}
+
+.learning-callout--questions {
+  --lc-accent: #7a003c;
+  --lc-header: #f2e7ed;
+  --lc-body: #fdf9fb;
+  --lc-border: #e7d5df;
+}
+
+.learning-callout--think {
+  --lc-accent: #30745d;
+  --lc-header: #e9f3ee;
+  --lc-body: #fafdfb;
+  --lc-border: #dbe9e1;
+}
+
+.learning-callout--clinical {
+  --lc-accent: #765292;
+  --lc-header: #f0ebf6;
+  --lc-body: #fcfafe;
+  --lc-border: #e6ddef;
+}
+
+.learning-callout--caution {
+  --lc-accent: #8c601e;
+  --lc-header: #f8efde;
+  --lc-body: #fefcf8;
+  --lc-border: #eee2c9;
+}
+
+.learning-callout--red-flag {
+  --lc-accent: #994b40;
+  --lc-header: #f7ebe7;
+  --lc-body: #fefbf9;
+  --lc-border: #eedbd5;
+}
+
+.learning-callout-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 1.15rem;
+  background: var(--lc-header);
+  color: var(--lc-accent);
+}
+
+.learning-callout-header svg {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+.learning-callout .learning-callout-header h3 {
+  margin: 0;
+  color: inherit;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.learning-callout-body {
+  padding: 0.5rem 1.15rem 0.55rem;
+  color: #514850;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.learning-callout-body > :last-child {
+  margin-bottom: 0;
+}

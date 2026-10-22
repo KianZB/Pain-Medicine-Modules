@@ -1,15 +1,26 @@
-﻿---
-title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span><span class="pain-fundamentals-subsection-title">Introduction</span>'
+---
+title: '<span class="pain-fundamentals-module-title">Pain Fundamentals</span> <span class="pain-fundamentals-subsection-title">Introduction</span>'
+pagetitle: "Pain Fundamentals – Introduction"
 ---
 
 Pain is one of the most important concepts in clinical medicine. It is common, personal, and often multifactorial. Understanding pain requires more than simply identifying tissue damage because pain is shaped by the peripheral nervous system, the central nervous system, as well as the broader biological, psychological, and social context of the patient.
 
 This module is designed to be the first that students will complete in this series of pain-related modules. The goal is to introduce the core language and physiology needed to understand pain presentations in a structured way, before delving into clinical cases.
 
-**Estimated time:** 50–65 minutes
+**Estimated time:** 45–60 minutes
 
-::: {.callout-note}
-## By the end of this module, you should be comfortable with:
+:::: {.learning-callout .learning-callout--objectives .module-learning-callout role="note" aria-labelledby="pain-fundamentals-introduction-callout-1"}
+
+```{=html}
+<header class="learning-callout-header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></svg>
+  <h3 id="pain-fundamentals-introduction-callout-1">Learning objectives</h3>
+</header>
+```
+
+::: {.learning-callout-body}
+
+By the end of this module, you should be able to:
 
 - [ ] Defining pain and distinguishing it from nociception
 - [ ] Using common pain terminology correctly
@@ -19,7 +30,11 @@ This module is designed to be the first that students will complete in this seri
 - [ ] Explaining how pain can be modulated by the nervous system
 - [ ] Recognizing basic patterns of nerve injury
 - [ ] Understanding the basic rationale behind radiofrequency ablation
+
 :::
+
+::::
+
 
 **Module writer:** Kian Zargham Bakhtiari
 

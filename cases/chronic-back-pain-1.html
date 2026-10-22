@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<a href="../back-pain-cases.html" style="
+<a href="../cases.html" style="
   position: fixed;
   top: 16px;
   left: 16px;
@@ -144,217 +144,277 @@ html {
 .tooltip-term:hover .tooltip-box {
   visibility: visible;
   opacity: 1;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="A. Ask whether she has a family history of arthritis or chronic back pain." tags="" position="900,2325" size="100,100">Incorrect.
+}
+/* Shared question progress: display only; scoring remains in the case passages. */
+.case-progress {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: clamp(1px, 0.5vw, 4px);
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto 20px;
+  font-size: clamp(8px, 1.6vw, 12px);
+  line-height: 1.2;
+}
+.case-progress-box {
+  min-width: 0;
+  padding: 5px 0;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+  background: #eeeeee;
+  color: #777777;
+}
+.case-progress-box.completed {
+  background: #7A003C;
+  color: #ffffff;
+}
+.case-progress-box.current {
+  background: #ffffff;
+  border-color: #7A003C;
+  color: #7A003C;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="A. Ask whether she has a family history of arthritis or chronic back pain." tags="progress-q7" position="900,2325" size="100,100">(set: $q7Attempted to true)Incorrect.
 
-Family history may be relevant background information, but it is unlikely to meaningfully change or personalize the immediate rehabilitation plan. Asking about her home and work life is more helpful because it identifies her actual daily demands, barriers, supports, and functional goals.
+Family history may be relevant background information, but it is unlikely to meaningfully change or personalize the immediate rehabilitation plan.
 
-[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="2" name="A. HLA-B27" tags="" position="1125,2150" size="100,100">(set: $bonusscore to $bonusscore + 1)Correct!
+[[Try again->Proceed to Question 7]]
+
+[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="2" name="A. HLA-B27" tags="progress-q6 progress-active" position="1125,2150" size="100,100">(if: $bonus2Attempted is false)[(set: $bonusscore to $bonusscore + 1)](set: $bonus2Attempted to true)Correct!
 
 HLA-B27 can support suspicion for inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints), when the history suggests inflammatory SI-region pain. CRP and ESR may also be checked to assess for systemic inflammation, though normal results do not rule it out.
 
-[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="3" name="A. Order an MRI of the lumbar spine to confirm the suspected SI joint pain before starting treatment." tags="" position="775,1875" size="100,100">Incorrect.
+[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="3" name="A. Order an MRI of the lumbar spine to confirm the suspected SI joint pain before starting treatment." tags="progress-q5" position="775,1875" size="100,100">(set: $q5Attempted to true)Incorrect.
 
-Imaging may be reasonable later if there are red flags, progressive neurologic findings, diagnostic uncertainty, or poor response to initial treatment. However, in this case there are no red flags, the neurologic exam is normal, and the findings already support a reasonable working diagnosis. MRI is not the best next step before starting conservative management.
+Imaging may be reasonable later if there are red flags, progressive neurologic findings, diagnostic uncertainty, or poor response to initial treatment. However, in this case there are no red flags, the neurologic exam is normal, and the findings already support a reasonable working diagnosis. The current findings do not establish a need for MRI at this stage.
 
-[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="4" name="A. Refer for an image-guided SI joint injection." tags="" position="1300,2650" size="100,100">(set: $score to $score + 1)Correct!
+[[Try again->Proceed to Question 5]]
 
-At this point, an image-guided SI joint injection is reasonable because she has persistent function-limiting pain despite a trial of conservative management. The injection can be both diagnostic and therapeutic: symptom relief after local anesthetic supports the SI joint as a pain generator, while corticosteroid may provide longer-lasting relief. Interventional options are generally considered for refractory SI joint dysfunction after conservative care.
+[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="4" name="A. Refer for an image-guided SI joint injection." tags="progress-q9" position="1300,2650" size="100,100">(if: $q9Attempted is false)[(set: $score to $score + 1)](set: $q9Attempted to true)Correct!
 
-[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="5" name="A. Referral for lumbar epidural steroid injection." tags="" position="1175,2925" size="100,100">Incorrect.
+At this point, an image-guided SI joint injection is reasonable because she has persistent function-limiting pain despite several months of structured conservative management. The injection can be both diagnostic and therapeutic: symptom relief after local anesthetic supports the SI joint as a pain generator, while corticosteroid may provide longer-lasting relief. Interventional options are generally considered for refractory SI joint dysfunction after conservative care.
+
+[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="5" name="A. Referral for lumbar epidural steroid injection." tags="progress-q10" position="1175,2925" size="100,100">(set: $q10Attempted to true)Incorrect.
 
 A lumbar epidural steroid injection delivers medication into the epidural space, just outside the spinal cord and nerve roots. It is mainly used for radicular pain, such as sciatica from nerve root irritation, disc herniation, or spinal stenosis. This patient’s pain pattern is SI joint-mediated rather than radicular, so an epidural injection would not target the suspected pain generator.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="6" name="A. Sacroiliac joint pain" tags="" position="1062.5,1450" size="100,100">(set: $score to $score + 1)Correct!
+[[Try again->Proceed to Question 10]]
+
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="6" name="A. Sacroiliac joint pain" tags="progress-q3" position="1062.5,1450" size="100,100">(if: $q3Attempted is false)[(set: $score to $score + 1)](set: $q3Attempted to true)Correct!
 
 The history and exam are most suggestive of SI joint-mediated pain: unilateral posterior pelvic/PSIS-region tenderness, pain with transitional movements and weight-bearing, no radicular symptoms, normal neurologic exam, and negative straight leg raise.
 
-[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="7" name="A. Somatization" tags="" position="575,900" size="100,100">Incorrect.
+[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="7" name="A. Somatization" tags="progress-q2 progress-active" position="575,900" size="100,100">(set: $bonus1Attempted to true)Incorrect.
 
 Somatization refers to psychological distress presenting as physical symptoms. This is not clearly shown here, as the patient’s pain is not being framed as primarily arising from psychological distress. 
 
-The best answer is instead fear avoidance, because the patient is avoiding a specific activity out of fear that movement may cause harm due to the pain.
+[[Try again->Bonus Question 1]]
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="8" name="A. To permanently repair damaged SI joint cartilage." tags="" position="1425,3075" size="100,100">Incorrect.
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="8" name="A. To permanently repair damaged SI joint cartilage." tags="progress-q10 progress-active" position="1425,3075" size="100,100">(set: $bonus3Attempted to true)Incorrect.
 
 Radiofrequency ablation does not repair cartilage or reverse structural joint changes. It is a pain-modulating procedure, not a restorative procedure.
 
-Radiofrequency ablation uses heat generated by radiofrequency energy to disrupt targeted sensory nerves. For SI joint-mediated pain, this can reduce pain signals coming from the SI region and may provide longer-lasting relief in selected patients.
+[[Try again->Bonus Question 3]]
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="9" name="A. “My pain is worse after sitting at my desk for long periods of time.”" tags="" position="625,650" size="100,100">Incorrect. 
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="9" name="A. “My pain is worse after sitting at my desk for long periods of time.”" tags="progress-q2" position="625,650" size="100,100">(set: $q2Attempted to true)Incorrect. 
 
 Pain that worsens with prolonged sitting helps characterize the pattern of symptoms, but it does not specifically suggest a psychosocial risk factor. 
 
 Remember that psychosocial risk factors refer to the “yellow flag” features of back pain. These are beliefs, emotions, behaviours, or social factors that may increase the risk of persistent pain and disability. Examples include, fear avoidance, catastrophizing, low mood, and poor coping. 
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="10" name="B. Begin conservative management with education, graded activity, and physiotherapy." tags="" position="912.5,1875" size="100,100">(set: $score to $score + 1)Correct!
+[[Try again->Proceed to Question 2]]
+
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="10" name="B. Begin conservative management with education, graded activity, and physiotherapy." tags="progress-q5" position="912.5,1875" size="100,100">(if: $q5Attempted is false)[(set: $score to $score + 1)](set: $q5Attempted to true)Correct!
 
 This is the most appropriate next step. Her presentation raises suspicion for SI joint-mediated pain, but she does not have red flags or neurologic deficits requiring urgent imaging. Initial management should focus on education, reassurance, graded activity, and physiotherapy to improve lumbopelvic control, strength, mobility, and function.
 
-[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="11" name="B. Encourage adherence to physiotherapy." tags="" position="1025,2325" size="100,100">Incorrect.
+[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="11" name="B. Encourage adherence to physiotherapy." tags="progress-q7" position="1025,2325" size="100,100">(set: $q7Attempted to true)Incorrect.
 
-Encouraging adherence to physiotherapy is undoubtedly good advice, but it does not explain how to tailor the plan to this specific patient. To personalize the plan, you first need to understand what her daily life looks like and what activities she is trying to return to.
+Encouraging adherence to physiotherapy is undoubtedly good advice, but it does not explain how to tailor the plan to this specific patient.
 
-[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="12" name="B. Fear avoidance" tags="" position="775,800" size="100,100">(set: $bonusscore to $bonusscore + 1)Correct! 
+[[Try again->Proceed to Question 7]]
+
+[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="12" name="B. Fear avoidance" tags="progress-q2 progress-active" position="775,800" size="100,100">(if: $bonus1Attempted is false)[(set: $bonusscore to $bonusscore + 1)](set: $bonus1Attempted to true)Correct! 
 
 Fear avoidance refers to refraining from particular movements or activities out of fear of causing harm or worsening any pre-existing damage. This contributes to musculoskeletal deconditioning, persistent pain, and worsening disability. 
 
 In cases like this, it is important to reinforce the concept of “hurt versus harm” by explaining that pain or discomfort with movement does not always mean ongoing tissue damage. Some discomfort is expected when gradually reintroducing activity, but with appropriate pacing and reassurance, movement can become more tolerable and function can improve.
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="13" name="B. Long-term scheduled corticosteroid injections every few weeks." tags="" position="1287.5,2925" size="100,100">Incorrect.
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="13" name="B. Long-term scheduled corticosteroid injections every few weeks." tags="progress-q10" position="1287.5,2925" size="100,100">(set: $q10Attempted to true)Incorrect.
 
 SI joint corticosteroid injections can be useful, but they are not usually used as fixed, frequent, long-term scheduled treatment. Repeated steroid injections carry risks and should be reassessed based on symptom response, function, and overall treatment goals.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="14" name="B. Lumbar radiculopathy" tags="" position="875,1325" size="100,100">Incorrect.
+[[Try again->Proceed to Question 10]]
+
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="14" name="B. Lumbar radiculopathy" tags="progress-q3" position="875,1325" size="100,100">(set: $q3Attempted to true)Incorrect.
 
 Lumbar radiculopathy would usually involve radiating leg pain in a dermatomal pattern, often with numbness, weakness, reflex changes, or a positive straight leg raise. These features are not present here.
 
-[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="15" name="B. Prescribe baclofen for muscle relaxation before considering procedural options." tags="" position="1300,2525" size="100,100">Incorrect.
+[[Try again->Proceed to Question 3]]
+
+[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="15" name="B. Prescribe baclofen for muscle relaxation before considering procedural options." tags="progress-q9" position="1300,2525" size="100,100">(set: $q9Attempted to true)Incorrect.
 
 Baclofen is mainly useful when muscle spasticity is a major contributor. This patient’s presentation is more consistent with suspected SI joint-mediated pain, not spasticity. A muscle relaxant may provide short-term symptom relief in some back pain presentations, but it would not clarify the diagnosis or directly target the suspected SI joint pain generator.
 
-[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="16" name="B. Rheumatoid factor" tags="" position="1250,2150" size="100,100">Incorrect.
+[[Try again->Proceed to Question 9]]
 
-Rheumatoid factor is more associated with rheumatoid arthritis. HLA-B27 is the most helpful option here when considering inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints).
+[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="16" name="B. Rheumatoid factor" tags="progress-q6 progress-active" position="1250,2150" size="100,100">(set: $bonus2Attempted to true)Incorrect.
 
-[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="17" name="B. To reduce pain signaling by disrupting targeted sensory nerves." tags="" position="1550,3075" size="100,100">(set: $bonusscore to $bonusscore + 1)Correct!
+Rheumatoid factor is more associated with rheumatoid arthritis.
+
+[[Try again->Q6 Correct Feedback]]
+
+[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="17" name="B. To reduce pain signaling by disrupting targeted sensory nerves." tags="progress-q10 progress-active" position="1550,3075" size="100,100">(if: $bonus3Attempted is false)[(set: $bonusscore to $bonusscore + 1)](set: $bonus3Attempted to true)Correct!
 
 Radiofrequency ablation uses heat generated by radiofrequency energy to disrupt targeted sensory nerves. For SI joint-mediated pain, this can reduce pain signals coming from the SI region and may provide longer-lasting relief in selected patients.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="18" name="B. “I get frustrated when the pain flares, but I still try to do my usual activities.”" tags="" position="750,650" size="100,100">Incorrect. 
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="18" name="B. “I get frustrated when the pain flares, but I still try to do my usual activities.”" tags="progress-q2" position="750,650" size="100,100">(set: $q2Attempted to true)Incorrect. 
 
-Frustration is common in chronic pain and can indeed lead to behaviors or beliefs downstream that contribute to chronic back pain. However, based on this response, she is still trying to maintain her usual activities, which is less concerning than avoiding activity altogether.
+Frustration is common in chronic pain and can indeed lead to behaviors or beliefs downstream that contribute to chronic back pain. However, frustration alone does not establish a psychosocial risk factor, particularly when she remains engaged in her usual activities.
 
 Remember that psychosocial risk factors refer to the “yellow flag” features of back pain. These are beliefs, emotions, behaviours, or social factors that may increase the risk of persistent pain and disability. Examples include, fear avoidance, catastrophizing, low mood, and poor coping. 
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="19" name="C. ANA" tags="" position="1375,2150" size="100,100">Incorrect.
+[[Try again->Proceed to Question 2]]
 
-ANA is more associated with connective tissue disease. HLA-B27 is the most helpful option here when considering inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints).
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="19" name="C. ANA" tags="progress-q6 progress-active" position="1375,2150" size="100,100">(set: $bonus2Attempted to true)Incorrect.
 
-[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="20" name="C. Ask the patient to rate her current pain out of 10 before finalizing the plan." tags="" position="750,2325" size="100,100">Incorrect.
+ANA is more associated with connective tissue disease.
 
-A pain score can be useful for tracking symptoms, but it does not tell you how the pain affects her function or what matters most to her. Asking about her home and work life better supports a personalized plan because it helps connect treatment to real-life limitations and goals.
+[[Try again->Q6 Correct Feedback]]
 
-[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="21" name="C. Chronic opioid therapy as the next step for mechanical SI joint pain." tags="" position="1412.5,2925" size="100,100">Incorrect.
+[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="20" name="C. Ask the patient to rate her current pain out of 10 before finalizing the plan." tags="progress-q7" position="750,2325" size="100,100">(set: $q7Attempted to true)Incorrect.
+
+A pain score can be useful for tracking symptoms, but it does not tell you how the pain affects her function or what matters most to her.
+
+[[Try again->Proceed to Question 7]]
+
+[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="21" name="C. Chronic opioid therapy as the next step for mechanical SI joint pain." tags="progress-q10" position="1412.5,2925" size="100,100">(set: $q10Attempted to true)Incorrect.
 
 Chronic opioids are not a preferred next step for mechanical SI joint-mediated pain. They do not address the suspected pain generator or support function in a rehabilitation-focused way. Long-term use also carries significant risks, such as sedation, constipation, tolerance, dependence, opioid use disorder, overdose, and opioid-induced hyperalgesia.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="22" name="C. Lumbar spinal stenosis" tags="" position="900,1475" size="100,100">Incorrect.
+[[Try again->Proceed to Question 10]]
+
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="22" name="C. Lumbar spinal stenosis" tags="progress-q3" position="900,1475" size="100,100">(set: $q3Attempted to true)Incorrect.
 
 Lumbar spinal stenosis typically causes neurogenic claudication, which presents with leg symptoms that occur with walking or standing and improve with sitting or lumbar flexion. This patient’s pain is mainly posterior pelvic/low back pain without typical leg symptoms.
 
-[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="23" name="C. Pain Hypervigilence" tags="" position="900,800" size="100,100">Incorrect. 
+[[Try again->Proceed to Question 3]]
+
+[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="23" name="C. Pain Hypervigilance" tags="progress-q2 progress-active" position="900,800" size="100,100">(set: $bonus1Attempted to true)Incorrect. 
 
 Pain hypervigilance refers to excessive attention to pain or bodily sensations, often with frequent monitoring for changes or signs of worsening. This is not clearly shown here, as the patient is not described as constantly scanning for pain or focusing on bodily sensations. 
 
-The best answer is instead fear avoidance, because the patient is avoiding a specific activity out of fear that movement may cause harm due to the pain.
+[[Try again->Bonus Question 1]]
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="24" name="C. Refer for an SI joint corticosteroid injection given the positive provocative tests." tags="" position="1037.5,1875" size="100,100">Incorrect.
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="24" name="C. Refer for an SI joint corticosteroid injection given the positive provocative tests." tags="progress-q5" position="1037.5,1875" size="100,100">(set: $q5Attempted to true)Incorrect.
 
-This is a reasonable option in selected patients, especially if symptoms persist despite conservative management or if further diagnostic/therapeutic clarification is needed. However, positive provocative tests increase suspicion but do not automatically mean injection is the best immediate next step. Conservative treatment should usually be tried first.
+Positive provocative tests increase suspicion, but they do not by themselves establish that an injection is warranted immediately. The timing of a procedure depends on the broader clinical course.
 
-[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="25" name="C. Refer for radiofrequency ablation due to failure of conservative management." tags="" position="1425,2650" size="100,100">Incorrect.
+[[Try again->Proceed to Question 5]]
 
-Radiofrequency ablation can be considered for refractory SI joint pain, but it is usually a later step after the pain generator has been better confirmed, often through diagnostic blocks or injection response. Jumping directly to RFA is premature here because she has not yet had an image-guided diagnostic/therapeutic SI joint injection.
+[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="25" name="C. Refer for radiofrequency ablation due to failure of conservative management." tags="progress-q9" position="1425,2650" size="100,100">(set: $q9Attempted to true)Incorrect.
 
-[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="26" name="C. To inject corticosteroid directly into the SI joint." tags="" position="1675,3075" size="100,100">Incorrect.
+Radiofrequency ablation can be considered for refractory SI joint pain, but it is premature before the suspected pain generator has been sufficiently confirmed.
 
-This describes an SI joint corticosteroid injection, not radiofrequency ablation. Steroid injections aim to reduce inflammation and pain within or around the joint, while RFA targets sensory nerve signaling.
+[[Try again->Proceed to Question 9]]
 
-Radiofrequency ablation uses heat generated by radiofrequency energy to disrupt targeted sensory nerves. For SI joint-mediated pain, this can reduce pain signals coming from the SI region and may provide longer-lasting relief in selected patients.
+[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="26" name="C. To inject corticosteroid directly into the SI joint." tags="progress-q10 progress-active" position="1675,3075" size="100,100">(set: $bonus3Attempted to true)Incorrect.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="27" name="C. “I have not been walking as much as I’m worried I might be damaging my spine.”" tags="" position="875,650" size="100,100">(set: $score to $score + 1)Correct! 
+This describes an SI joint corticosteroid injection, not radiofrequency ablation. Steroid injections aim to reduce inflammation and pain within or around the joint. That describes a different procedure.
+
+[[Try again->Bonus Question 3]]
+
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="27" name="C. “I have not been walking as much as I’m worried I might be damaging my spine.”" tags="progress-q2" position="875,650" size="100,100">(if: $q2Attempted is false)[(set: $score to $score + 1)](set: $q2Attempted to true)Correct! 
 
 Reducing or modifying activities to minimize back pain is common, but this response is concerning because she is avoiding walking specifically due to fear that movement may be damaging her spine. This belief can make patients less active over time, which may contribute to deconditioning, reduced confidence with movement, and worsening disability.
 
-Bonus Question. What psychosocial phenomenon does this response best represent?
+(display: &quot;Bonus Question 1&quot;)</tw-passagedata><tw-passagedata pid="28" name="CaseStem" tags="" position="425,225" size="100,100">You are a medical student on a PM&amp;R elective rotation at the Regional Rehabilitation Centre. Your preceptor asks you to see a new patient referred for chronic low back pain.
 
-[[A. Somatization]]
-[[B. Fear avoidance]]
-[[C. Pain Hypervigilence]]
-[[D. Catastrophizing]]</tw-passagedata><tw-passagedata pid="28" name="CaseStem" tags="" position="425,225" size="100,100">You are a medical student on a PM&amp;R elective rotation at the Regional Rehabilitation Centre. Your preceptor asks you to see a new patient referred for chronic low back pain.
-
-You review the family doctor’s referral note. The patient is a 49-year-old female with obesity, hypertension, anxiety, and poor sleep. She works in an office-based administrative role and has become less physically active over the past year. She is a former smoker and lives alone. She has had low back pain for approximately 18 months, with no red flags identified in the referral note.
+You review the family doctor’s referral note. The patient is a 49-year-old woman with obesity, hypertension, anxiety, and poor sleep. She works in an office-based administrative role and has become less physically active over the past year. She is a former smoker. Her husband helps with heavier household chores. She has had low back pain for approximately 18 months, with no red flags identified in the referral note.
 
 The referral note also mentions that she has become increasingly worried that activity may be “damaging her spine,” and she has significantly reduced her usual walking and exercise.
 
-You walk into the room, introduce yourself, and begin your history. You verify the referral information with the patient and confirm that there have been no major changes since she last saw her family doctor.</tw-passagedata><tw-passagedata pid="29" name="D. Ask the patient for more details on her home and work life." tags="" position="1150,2325" size="100,100">(set: $score to $score + 1)Correct!
+You walk into the room, introduce yourself, and begin your history. You verify the referral information with the patient and confirm that there have been no major changes since she last saw her family doctor.
+
+She describes pain that developed gradually across her lower back. It is a dull ache that is worse with prolonged sitting, standing, and some daily activities. It improves somewhat with lying down but never fully goes away. She has tried over-the-counter analgesics, rest, and reducing certain activities, with only temporary relief. Her pain continues to interfere with her usual routine.</tw-passagedata><tw-passagedata pid="29" name="D. Ask the patient for more details on her home and work life." tags="progress-q7" position="1150,2325" size="100,100">(if: $q7Attempted is false)[(set: $score to $score + 1)](set: $q7Attempted to true)Correct!
 
 This is the best answer. Exploring her home and work life helps identify her daily demands, barriers, supports, and functional goals. The other options are reasonable clinical details or advice, but this is the only option that directly helps personalize the rehabilitation plan to the patient’s actual life.
 
-[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="30" name="D. Catastrophizing" tags="" position="1050,825" size="100,100">Incorrect.
+[[Proceed to Question 8]]</tw-passagedata><tw-passagedata pid="30" name="D. Catastrophizing" tags="progress-q2 progress-active" position="1050,825" size="100,100">(set: $bonus1Attempted to true)Incorrect.
 
-Catastrophizing refers to exaggerated negative beliefs about pain, such as feeling that the pain is unbearable, dangerous, or unlikely to improve. This is not the best answer here, as the passage focuses less on global negative beliefs and more on avoiding walking specifically because of fear of harm. 
+Catastrophizing refers to exaggerated negative beliefs about pain, such as feeling that the pain is unbearable, dangerous, or unlikely to improve. The response does not establish these broader negative beliefs about pain. 
 
-The best answer is instead fear avoidance, because the patient is avoiding a specific activity out of fear that movement may cause harm due to the pain.
+[[Try again->Bonus Question 1]]
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="31" name="D. Greater trochanteric pain syndrome" tags="" position="1125,1325" size="100,100">Incorrect.
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="31" name="D. Greater trochanteric pain syndrome" tags="progress-q3" position="1125,1325" size="100,100">(set: $q3Attempted to true)Incorrect.
 
-Greater trochanteric pain syndrome refers to pain arising from structures around the greater trochanter, the bony prominence on the outside of the hip. It typically causes lateral hip pain and tenderness over the outside of the hip, often worse with side-lying, walking, stairs, or hip abduction. This patient’s pain is more posterior pelvic/SI-region pain with SI-focused exam findings, making SI joint pathology more likely.
+Greater trochanteric pain syndrome refers to pain arising from structures around the greater trochanter, the bony prominence on the outside of the hip. It typically causes lateral hip pain and tenderness over the outside of the hip, often worse with side-lying, walking, stairs, or hip abduction. The location of this patient's pain and tenderness does not match that typical lateral hip pattern.
 
-[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="32" name="D. Order MRI to confirm SI joint pathology before considering any intervention." tags="" position="1425,2525" size="100,100">Incorrect.
+[[Try again->Proceed to Question 3]]
 
-MRI is important when red flags are present. However, in suspected mechanical SI joint-mediated pain, MRI does not reliably confirm that the SI joint is the source of symptoms. Imaging findings may not correlate with pain, and a normal MRI would not rule out SI joint-mediated pain. MRI can also take time to arrange, which may delay a more targeted diagnostic and therapeutic step. Given her persistent functional limitation despite conservative management and SI-focused exam findings, an image-guided SI joint injection is the more appropriate next step.
+[[Proceed to Question 4]]</tw-passagedata><tw-passagedata pid="32" name="D. Order MRI to confirm SI joint pathology before considering any intervention." tags="progress-q9" position="1425,2525" size="100,100">(set: $q9Attempted to true)Incorrect.
 
-[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="33" name="D. Radiofrequency ablation of the SI joint lateral branch nerves." tags="" position="1537.5,2925" size="100,100">(set: $score to $score + 1)Correct!
+MRI is important when red flags are present. However, in suspected mechanical SI joint-mediated pain, MRI does not reliably confirm that the SI joint is the source of symptoms. Imaging findings may not correlate with pain, and a normal MRI would not rule out SI joint-mediated pain.
+
+[[Try again->Proceed to Question 9]]
+
+[[Proceed to Question 10]]</tw-passagedata><tw-passagedata pid="33" name="D. Radiofrequency ablation of the SI joint lateral branch nerves." tags="progress-q10" position="1537.5,2925" size="100,100">(if: $q10Attempted is false)[(set: $score to $score + 1)](set: $q10Attempted to true)Correct!
 
 Radiofrequency ablation may be considered for refractory SI joint pain when conservative management and injection-based treatment do not provide sustained relief. It is usually considered as a longer-term interventional option after the pain generator has been supported by the clinical picture and injection response.
 
-Bonus Question. What is the purpose of radiofrequency ablation in SI joint-mediated pain?
+(display: &quot;Bonus Question 3&quot;)</tw-passagedata><tw-passagedata pid="34" name="D. Serum uric acid" tags="progress-q6 progress-active" position="1500,2150" size="100,100">(set: $bonus2Attempted to true)Incorrect.
 
-[[A. To permanently repair damaged SI joint cartilage.]]
-[[B. To reduce pain signaling by disrupting targeted sensory nerves.]]
-[[C. To inject corticosteroid directly into the SI joint.]]
-[[D. To decompress irritated lumbar nerve roots.]]</tw-passagedata><tw-passagedata pid="34" name="D. Serum uric acid" tags="" position="1500,2150" size="100,100">Incorrect.
+Serum uric acid is more associated with gout.
 
-Serum uric acid is more associated with gout. HLA-B27 is the most helpful option here when considering inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints).
+[[Try again->Q6 Correct Feedback]]
 
-[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="35" name="D. Start scheduled analgesics and reassess before introducing exercise-based therapy." tags="" position="1162.5,1875" size="100,100">Incorrect.
+[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="35" name="D. Start scheduled analgesics and reassess before introducing exercise-based therapy." tags="progress-q5" position="1162.5,1875" size="100,100">(set: $q5Attempted to true)Incorrect.
 
-Analgesics can be used as an adjunct to help symptoms and support activity, but they should not replace early education and function-focused rehabilitation. Waiting to introduce exercise-based therapy may reinforce a passive approach and delay recovery.
+Analgesics may help symptoms, but symptom relief alone does not address the broader functional limitations described in this case. Waiting for a medication response before addressing those limitations may delay recovery.
 
-[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="36" name="D. To decompress irritated lumbar nerve roots." tags="" position="1800,3075" size="100,100">Incorrect.
+[[Try again->Proceed to Question 5]]
 
-This is not the goal of SI joint radiofrequency ablation. Nerve root decompression is relevant to conditions like disc herniation or spinal stenosis causing radicular symptoms, whereas SI joint RFA targets sensory nerves related to SI-region pain.
+[[Proceed to Question 6]]</tw-passagedata><tw-passagedata pid="36" name="D. To decompress irritated lumbar nerve roots." tags="progress-q10 progress-active" position="1800,3075" size="100,100">(set: $bonus3Attempted to true)Incorrect.
 
-Radiofrequency ablation uses heat generated by radiofrequency energy to disrupt targeted sensory nerves. For SI joint-mediated pain, this can reduce pain signals coming from the SI region and may provide longer-lasting relief in selected patients.
+This is not the goal of SI joint radiofrequency ablation. Nerve root decompression is relevant to conditions like disc herniation or spinal stenosis causing radicular symptoms. Those conditions do not match the pain pattern described in this case.
 
-[[Finish Case]]</tw-passagedata><tw-passagedata pid="37" name="D. “I only get some relief when I lie down at the end of the day.”" tags="" position="1000,650" size="100,100">Incorrect. 
+[[Try again->Bonus Question 3]]
+
+[[Finish Case]]</tw-passagedata><tw-passagedata pid="37" name="D. “I only get some relief when I lie down at the end of the day.”" tags="progress-q2" position="1000,650" size="100,100">(set: $q2Attempted to true)Incorrect. 
 
 Minimal relief of pain with lying down helps characterize the pattern of symptoms, but it does not specifically suggest a psychosocial risk factor. 
 
 Remember that psychosocial risk factors refer to the “yellow flag” features of back pain. These are beliefs, emotions, behaviours, or social factors that may increase the risk of persistent pain and disability. Examples include, fear avoidance, catastrophizing, low mood, and poor coping. 
 
-[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="38" name="Finish Case" tags="" position="1300,3225" size="100,100">Over the following months, the patient continues with her rehabilitation program and uses SI joint injections selectively to support symptom control and functional progress. Her pain does not disappear completely, but she becomes more confident with movement, tolerates her workday better with workplace adjustments, and gradually returns to more of her usual home and walking activities.
+[[Try again->Proceed to Question 2]]
+
+[[Proceed to Next Passage]]</tw-passagedata><tw-passagedata pid="38" name="Finish Case" tags="" position="1300,3225" size="100,100">Over the following months, the patient continues with her rehabilitation program. Given the limited sustained benefit of the SI joint injection, she discusses further options, including radiofrequency ablation, with her care team to support symptom control and functional progress. Her pain does not disappear completely, but she becomes more confident with movement, tolerates her workday better with workplace adjustments, and gradually returns to more of her usual home and walking activities.
 
 This case highlighted a rehabilitation-focused approach to chronic low back pain, emphasizing clinical reasoning, function, patient-centred care, and appropriate escalation when needed.
 
 This marks the end of the case. Great job!
 
 Final score: $score out of 10. 
-Bonus score: $bonusscore out of 3.</tw-passagedata><tw-passagedata pid="39" name="Inspection" tags="" position="812.5,1075" size="100,100">She walks independently without an assistive device. She appears mildly guarded when rising from the chair, but there is no obvious deformity, scoliosis, rash, or visible swelling.
+Bonus score: $bonusscore out of 3.</tw-passagedata><tw-passagedata pid="39" name="Inspection" tags="progress-q3 progress-active" position="812.5,1075" size="100,100">She walks independently without an assistive device. She appears mildly guarded when rising from the chair, but there is no obvious deformity, scoliosis, rash, or visible swelling.
 
 [[Return to physical exam menu-&gt;Proceed to Next Passage]]
-[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="40" name="Introduction" tags="" position="625,225" size="100,100">(set: $score to 0)(set: $bonusscore to 0)Welcome to this interactive case on chronic low back pain!
+[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="40" name="Introduction" tags="" position="625,225" size="100,100">(set: $score to 0)(set: $bonusscore to 0)(set: $q1Attempted to false)(set: $q2Attempted to false)(set: $q3Attempted to false)(set: $q4Attempted to false)(set: $q5Attempted to false)(set: $q6Attempted to false)(set: $q7Attempted to false)(set: $q8Attempted to false)(set: $q9Attempted to false)(set: $q10Attempted to false)(set: $bonus1Attempted to false)(set: $bonus2Attempted to false)(set: $bonus3Attempted to false)(set: $q1a to false)(set: $q1b to false)(set: $q1c to false)(set: $q1d to false)(set: $q4a to false)(set: $q4b to false)(set: $q4c to false)(set: $q4d to false)(set: $q4e to false)(set: $q4f to false)(set: $q4g to false)(set: $q4h to false)(set: $q6a to false)(set: $q6b to false)(set: $q6c to false)(set: $q6d to false)(set: $q6e to false)(set: $q6f to false)(set: $q8a to false)(set: $q8b to false)(set: $q8c to false)(set: $q8d to false)(set: $q8e to false)(set: $q8f to false)Welcome to this interactive case on chronic low back pain!
 
 You will work through a rehabilitation-focused patient encounter, with questions covering key aspects of the history, physical exam, investigations, and management.
 
-The case includes 10 main questions. Question formats may include single best answer, select-all-that-apply, and ranked-list questions. There are also 3 optional bonus questions that may appear after correct answers and are designed to explore selected topics in greater depth.
+The case includes 10 main questions and 3 bonus questions that may appear after correct answers and explore selected topics in greater depth. Your final score is based on your first attempt at each question, but you can retry questions to review your understanding.
 
-[[Proceed to Case Stem]]</tw-passagedata><tw-passagedata pid="41" name="Neurologic screen" tags="" position="1187.5,1075" size="100,100">Lower extremity power is 5/5 bilaterally. Sensation and reflexes are symmetric. Straight leg raise does not reproduce radicular symptoms.
-
-[[Return to physical exam menu-&gt;Proceed to Next Passage]]
-[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="42" name="Palpation" tags="" position="937.5,1075" size="100,100">There is tenderness over the right posterior pelvis near the PSIS region, with milder tenderness over the adjacent lumbar paraspinal muscles. There is no focal midline vertebral tenderness.
+[[Proceed to Case Stem]]</tw-passagedata><tw-passagedata pid="41" name="Neurologic screen" tags="progress-q3 progress-active" position="1187.5,1075" size="100,100">Lower extremity power is 5/5 bilaterally. Sensation and reflexes are symmetric. Straight leg raise does not reproduce radicular symptoms.
 
 [[Return to physical exam menu-&gt;Proceed to Next Passage]]
-[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="43" name="Proceed to Case Stem" tags="" position="800,225" size="100,100">You are a medical student on a PM&amp;R elective rotation at the Regional Rehabilitation Centre. Your preceptor asks you to see a new patient referred for chronic low back pain.
+[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="42" name="Palpation" tags="progress-q3 progress-active" position="937.5,1075" size="100,100">There is tenderness over the right posterior pelvis near the PSIS region, with milder tenderness over the adjacent lumbar paraspinal muscles. There is no focal midline vertebral tenderness.
 
-You review the family doctor’s referral note and find that the patient is a 49-year-old female with obesity, hypertension, and anxiety, referred for an 18-month history of low back pain. The referral does not document any red flag symptoms.
+[[Return to physical exam menu-&gt;Proceed to Next Passage]]
+[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="43" name="Proceed to Case Stem" tags="" position="800,225" size="100,100">(display: &quot;CaseStem&quot;)
 
-You walk into the room, introduce yourself, and begin your history. The patient tells you that her pain developed gradually and is located across her lower back. She describes it as a dull ache that is worse with prolonged sitting, standing, and some daily activities. It improves somewhat with lying down, but never fully goes away.
-
-She has tried over-the-counter analgesics, rest, and reducing certain activities. These have provided only temporary relief, and her pain has continued to interfere with her usual routine.
-
-[[Proceed to Question 1]]</tw-passagedata><tw-passagedata pid="44" name="Proceed to Next Passage" tags="" position="1000,950" size="100,100">You acknowledge the patient’s concerns and briefly explain that, in chronic low back pain, pain with movement does not always mean ongoing tissue damage. You discuss the concept of “hurt versus harm” and explain that the physical exam can help identify patterns in her pain while also checking her strength, movement, and function.
+[[Proceed to Question 1]]</tw-passagedata><tw-passagedata pid="44" name="Proceed to Next Passage" tags="progress-q3 progress-active" position="1000,950" size="100,100">You acknowledge the patient’s concerns and briefly explain that, in chronic low back pain, pain with movement does not always mean ongoing tissue damage. You discuss the concept of “hurt versus harm” and explain that the physical exam can help identify patterns in her pain while also checking her strength, movement, and function.
 
 The patient is agreeable to proceeding with the physical exam.
 
@@ -363,35 +423,37 @@ The patient is agreeable to proceeding with the physical exam.
 [[Range of motion]]
 [[Neurologic screen]]
 
-Once you make a selection, you may return to this screen to explore other components of the physical exam. Otherwise, if you are confident, you may proceed to the next question.</tw-passagedata><tw-passagedata pid="45" name="Proceed to Q1 Answer" tags="" position="550,350" size="100,100">The best answers are age, obesity, and anxiety. 
+Once you make a selection, you may return to this screen to explore other components of the physical exam. Otherwise, if you are confident, you may proceed to the next question.
 
-Remember the &#39;&#39;biopsychosocial model&#39;&#39;, which describes chronic back pain as a complex condition influenced by a combination of biological, psychogocial, and social factors.
+[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="45" name="Proceed to Q1 Answer" tags="progress-q1" position="550,350" size="100,100">The best answers are age, obesity, and anxiety. 
+
+Remember the &#39;&#39;biopsychosocial model&#39;&#39;, which describes chronic back pain as a complex condition influenced by a combination of biological, psychosocial, and social factors.
 
 Age can contribute through cumulative spine loading and age-related degenerative change. Obesity can increase mechanical load and may contribute to inflammation and reduced activity tolerance. Anxiety can worsen pain-related worry, avoidance, and disability. 
 
 Hypertension is an important part of the medical history, but it is not a major direct risk factor for chronic back pain.
 
-[[Proceed to Question 2]]</tw-passagedata><tw-passagedata pid="46" name="Proceed to Q4 Answer" tags="" position="725,1600" size="100,100">The SI joint provocative maneuvers are &lt;span class=&quot;tooltip-term&quot;&gt;FABER&lt;span class=&quot;tooltip-box&quot;&gt;Flexion, ABduction, and External Rotation. The patient lies supine with the tested leg in a figure-four position while the examiner gently presses the knee downward and stabilizes the opposite pelvis.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;thigh thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine with the hip flexed to about 90 degrees. The examiner applies a posterior force through the femur to stress the SI joint.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;SI compression&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies on their side while the examiner applies downward pressure over the iliac crest, compressing the pelvis and stressing the SI joints.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;Gaenslen&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine near the edge of the table. One hip is flexed toward the chest while the opposite leg is extended off the table to stress the SI joints.&lt;/span&gt;&lt;/span&gt;, and &lt;span class=&quot;tooltip-term&quot;&gt;sacral thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies prone while the examiner applies an anterior force over the sacrum to stress the SI joints.&lt;/span&gt;&lt;/span&gt;. These tests are commonly used together because no single SI joint test is definitive.
+[[Proceed to Question 2]]</tw-passagedata><tw-passagedata pid="46" name="Proceed to Q4 Answer" tags="progress-q4" position="725,1600" size="100,100">The SI joint provocative maneuvers are &lt;span class=&quot;tooltip-term&quot;&gt;FABER&lt;span class=&quot;tooltip-box&quot;&gt;Flexion, ABduction, and External Rotation. The patient lies supine with the tested leg in a figure-four position while the examiner gently presses the knee downward and stabilizes the opposite pelvis.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;thigh thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine with the hip flexed to about 90 degrees. The examiner applies a posterior force through the femur to stress the SI joint.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;SI compression&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies on their side while the examiner applies downward pressure over the iliac crest, compressing the pelvis and stressing the SI joints.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;Gaenslen&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine near the edge of the table. One hip is flexed toward the chest while the opposite leg is extended off the table to stress the SI joints.&lt;/span&gt;&lt;/span&gt;, and &lt;span class=&quot;tooltip-term&quot;&gt;sacral thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies prone while the examiner applies an anterior force over the sacrum to stress the SI joints.&lt;/span&gt;&lt;/span&gt;. These tests are commonly used together because no single SI joint test is definitive.
 
 &lt;span class=&quot;tooltip-term&quot;&gt;Straight leg raise&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine while the examiner passively raises the straightened leg. Reproduction of radiating leg pain can suggest lumbosacral nerve root irritation.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;slump testing&lt;span class=&quot;tooltip-box&quot;&gt;The patient sits slumped with the spine flexed while the examiner adds neck flexion and knee extension. Reproduction of radiating symptoms can suggest neural tension or nerve root irritation.&lt;/span&gt;&lt;/span&gt;, and &lt;span class=&quot;tooltip-term&quot;&gt;Kemp testing&lt;span class=&quot;tooltip-box&quot;&gt;The lumbar spine is extended, side-bent, and rotated to one side. Reproduction of localized back pain may suggest facet-mediated pain, though the test is not very specific.&lt;/span&gt;&lt;/span&gt; can still be useful in a broader low back pain exam, especially if the pain pattern is less typical or you are exploring other causes. However, straight leg raise and slump testing are more useful for radicular pain, while Kemp testing is more commonly used to provoke facet-mediated pain.
 
-[[Proceed to Question 5]]</tw-passagedata><tw-passagedata pid="47" name="Proceed to Q6 Answer" tags="" position="700,2000" size="100,100">Incorrect.
+[[Proceed to Question 5]]</tw-passagedata><tw-passagedata pid="47" name="Proceed to Q6 Answer" tags="progress-q6" position="700,2000" size="100,100">Incorrect.
 
 The best answers are morning stiffness lasting more than 30 minutes, onset of back or SI-region pain before age 45, night pain that improves with movement, and a history of uveitis, psoriasis, or inflammatory bowel disease. These features raise suspicion for an inflammatory cause such as inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints).
 
 Pain that is worse with stairs, rolling in bed, or sit-to-stand movements is more suggestive of mechanical SI joint pain. Pain that improves primarily with rest or lying down is also less typical of inflammatory SI-region pain.
 
-[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="48" name="Proceed to Q8 Answer" tags="" position="750,2475" size="100,100">The best answers are a sit-stand desk setup, workstation modifications, brief scheduled movement breaks, and lumbar support or seating adjustments. These strategies help tailor the plan to her actual work demands while keeping her engaged in meaningful activity.
+[[Proceed to Question 7]]</tw-passagedata><tw-passagedata pid="48" name="Proceed to Q8 Answer" tags="progress-q8" position="750,2475" size="100,100">The best answers are a sit-stand desk setup, workstation modifications, brief scheduled movement breaks, and lumbar support or seating adjustments. These strategies help tailor the plan to her actual work demands while keeping her engaged in meaningful activity.
 
 Taking time off work until the pain resolves is not the best option because it is restrictive, may not be financially or practically feasible, and could reinforce avoidance. Avoiding all lifting, carrying, or bending is also unrealistic in many workplaces. A better approach is to reduce, modify, or pace aggravating tasks rather than remove them entirely.
 
-[[Proceed to Question 9]]</tw-passagedata><tw-passagedata pid="49" name="Proceed to Question 1" tags="" position="800,350" size="100,100">(set: $showStem to false)&lt;div class=&quot;stem-toggle-wrapper&quot;&gt;(link-repeat: &quot;Click reveal or hide the case stem&quot;)[(if: $showStem is true)[(set: $showStem to false)(replace: ?stemBox)[]](else:)[(set: $showStem to true)(replace: ?stemBox)[&lt;div class=&quot;case-stem-box&quot;&gt;(display: &quot;CaseStem&quot;)&lt;/div&gt;]]]&lt;/div&gt;|stemBox&gt;[]Q1. Based on the information you have gathered so far, select all of the following that are a patient-specific risk factor for chronic back pain. 
+[[Proceed to Question 9]]</tw-passagedata><tw-passagedata pid="49" name="Proceed to Question 1" tags="progress-q1 progress-active" position="800,350" size="100,100">(set: $showStem to false)&lt;div class=&quot;stem-toggle-wrapper&quot;&gt;(link-repeat: &quot;Click to reveal or hide the case stem&quot;)[(if: $showStem is true)[(set: $showStem to false)(replace: ?stemBox)[]](else:)[(set: $showStem to true)(replace: ?stemBox)[&lt;div class=&quot;case-stem-box&quot;&gt;(display: &quot;CaseStem&quot;)&lt;/div&gt;]]]&lt;/div&gt;|stemBox&gt;[]Q1. Based on the information you have gathered so far, select all of the following that are patient-specific risk factors for chronic back pain. 
 
-(checkbox: bind $q1a, &quot;Hypertension&quot;)
-(checkbox: bind $q1b, &quot;Anxiety&quot;)
-(checkbox: bind $q1c, &quot;Obesity&quot;)
-(checkbox: bind $q1d, &quot;Age&quot;)
-(set: $q2a to false)(set: $q2b to false)(set: $q2c to false)(set: $q2d to false)
+(checkbox: 2bind $q1a, &quot;Hypertension&quot;)
+(checkbox: 2bind $q1b, &quot;Anxiety&quot;)
+(checkbox: 2bind $q1c, &quot;Obesity&quot;)
+(checkbox: 2bind $q1d, &quot;Age&quot;)
+
 (link: &quot;Submit answer&quot;)[
   (if: $q1b and $q1c and $q1d and not $q1a)[
     (goto: &quot;Q1 Correct Feedback&quot;)
@@ -399,18 +461,18 @@ Taking time off work until the pain resolves is not the best option because it i
   (else:)[
     (goto: &quot;Q1 Incorrect Feedback&quot;)
   ]
-]</tw-passagedata><tw-passagedata pid="50" name="Proceed to Question 10" tags="" position="1350,2800" size="100,100">A few weeks later, she returns after receiving the injection. She reports that her pain improved substantially for the first several hours after the procedure, and she was able to walk and climb stairs with much less discomfort. Over the next few weeks, some of the pain gradually returned, though it still remains better than before.
+]</tw-passagedata><tw-passagedata pid="50" name="Proceed to Question 10" tags="progress-q10 progress-active" position="1350,2800" size="100,100">Several weeks later, she returns after an image-guided SI joint injection. Local anesthetic provided substantial relief for several hours, allowing her to walk and climb stairs more comfortably, but the benefit was not sustained. She continues rehabilitation but still has meaningful functional limitations.
 
-You explain that the injection response supports the SI joint as a likely pain generator. You also explain that the plan is to use the SI joint injections supplementarily moving forward to allow for her to progress on her rehabilitation program, rather than relying on the injections solely. 
+You explain that the injection response supports the SI joint as a likely pain generator. Further injections, if needed, would be used selectively to reduce pain enough to support her rehabilitation, not as a stand-alone treatment. 
 
 The patient is reassured by this, but she asks what other options are available to her for long-term management in the event that the injections no longer help her pain.
 
-Q10. Which of these options would be appropriate in a scenario where both conservative and inject-based treatment have not provided sustained relief of SI joint pain?
+Q10. Which of these options would be appropriate in a scenario where both conservative and injection-based treatment have not provided sustained relief of SI joint pain?
 
 [[A. Referral for lumbar epidural steroid injection.]]
 [[B. Long-term scheduled corticosteroid injections every few weeks.]]
 [[C. Chronic opioid therapy as the next step for mechanical SI joint pain.]]
-[[D. Radiofrequency ablation of the SI joint lateral branch nerves.]]</tw-passagedata><tw-passagedata pid="51" name="Proceed to Question 2" tags="" position="850,500" size="100,100">You ask the patient a few more questions and do not identify any red flag symptoms. You then decide to screen for psychosocial contributors that may be affecting her recovery.
+[[D. Radiofrequency ablation of the SI joint lateral branch nerves.]]</tw-passagedata><tw-passagedata pid="51" name="Proceed to Question 2" tags="progress-q2 progress-active" position="850,500" size="100,100">You ask the patient a few more questions and do not identify any red flag symptoms. You then decide to screen for psychosocial contributors that may be affecting her recovery.
 
 Q2. Which of the following responses from the patient would most strongly suggest a psychosocial risk factor contributing to her chronic pain?
 
@@ -420,7 +482,7 @@ Q2. Which of the following responses from the patient would most strongly sugges
 
 [[C. “I have not been walking as much as I’m worried I might be damaging my spine.”]]
 
-[[D. “I only get some relief when I lie down at the end of the day.”]]</tw-passagedata><tw-passagedata pid="52" name="PhysicalExamFindings" tags="" position="1125,1200" size="100,100">Inspection:
+[[D. “I only get some relief when I lie down at the end of the day.”]]</tw-passagedata><tw-passagedata pid="52" name="PhysicalExamFindings" tags="progress-q3 progress-active" position="1125,1200" size="100,100">Inspection:
 She walks independently without an assistive device. She appears mildly guarded when rising from the chair, but there is no obvious deformity, scoliosis, rash, or visible swelling.
 
 Palpation:
@@ -430,23 +492,23 @@ Range of motion:
 Lumbar flexion and extension are mildly limited by discomfort, but neither clearly reproduces her main pain. Her pain is most noticeable with transitional movements, such as standing from a seated position and shifting weight onto the right side.
 
 Neurologic screen:
-Lower extremity power is 5/5 bilaterally. Sensation and reflexes are symmetric. Straight leg raise does not reproduce radicular symptoms.</tw-passagedata><tw-passagedata pid="53" name="Proceed to Question 3" tags="" position="937.5,1200" size="100,100">(set: $showExamFindings to false)&lt;div class=&quot;stem-toggle-wrapper&quot;&gt;(link-repeat: &quot;Click reveal or hide the physical exam findings&quot;)[(if: $showExamFindings is true)[(set: $showExamFindings to false)(replace: ?examFindings)[]](else:)[(set: $showExamFindings to true)(replace: ?examFindings)[&lt;div class=&quot;case-stem-box&quot;&gt;(display: &quot;PhysicalExamFindings&quot;)&lt;/div&gt;]]]&lt;/div&gt;|examFindings&gt;[]Q3. Based on the history and physical exam so far, which diagnosis is highest on your differential?
+Lower extremity power is 5/5 bilaterally. Sensation and reflexes are symmetric. Straight leg raise does not reproduce radicular symptoms.</tw-passagedata><tw-passagedata pid="53" name="Proceed to Question 3" tags="progress-q3 progress-active" position="937.5,1200" size="100,100">(set: $showExamFindings to false)&lt;div class=&quot;stem-toggle-wrapper&quot;&gt;(link-repeat: &quot;Click to reveal or hide the physical exam findings&quot;)[(if: $showExamFindings is true)[(set: $showExamFindings to false)(replace: ?examFindings)[]](else:)[(set: $showExamFindings to true)(replace: ?examFindings)[&lt;div class=&quot;case-stem-box&quot;&gt;(display: &quot;PhysicalExamFindings&quot;)&lt;/div&gt;]]]&lt;/div&gt;|examFindings&gt;[]Q3. Based on the history and physical exam so far, which diagnosis is highest on your differential?
 
 [[A. Sacroiliac joint pain]]
 [[B. Lumbar radiculopathy]]
 [[C. Lumbar spinal stenosis]]
-[[D. Greater trochanteric pain syndrome]]</tw-passagedata><tw-passagedata pid="54" name="Proceed to Question 4" tags="" position="1050,1600" size="100,100">(set: $q4a to false)(set: $q4b to false)(set: $q4c to false)(set: $q4d to false)(set: $q4e to false)(set: $q4f to false)(set: $q4g to false)(set: $q4h to false)You explain that SI joint-mediated pain cannot be confirmed by one exam finding alone. Since it is highest on your differential, you decide to perform a cluster of provocative maneuvers to see whether stressing the SI joint reproduces her typical pain.
+[[D. Greater trochanteric pain syndrome]]</tw-passagedata><tw-passagedata pid="54" name="Proceed to Question 4" tags="progress-q4 progress-active" position="1050,1600" size="100,100">You explain that SI joint-mediated pain cannot be confirmed by one exam finding alone. Since it is highest on your differential, you decide to perform a cluster of provocative maneuvers to see whether stressing the SI joint reproduces her typical pain.
 
 Q4. Which of the following physical exam maneuvers are commonly used to assess for SI joint-mediated pain? Select all that apply.
 
-(checkbox: bind $q4a, &quot;Straight leg raise&quot;)
-(checkbox: bind $q4b, &quot;FABER test&quot;)
-(checkbox: bind $q4c, &quot;Kemp test&quot;)
-(checkbox: bind $q4d, &quot;Thigh thrust test&quot;)
-(checkbox: bind $q4e, &quot;Slump test&quot;)
-(checkbox: bind $q4f, &quot;SI joint compression test&quot;)
-(checkbox: bind $q4g, &quot;Gaenslen test&quot;)
-(checkbox: bind $q4h, &quot;Sacral thrust test&quot;)
+(checkbox: 2bind $q4a, &quot;Straight leg raise&quot;)
+(checkbox: 2bind $q4b, &quot;FABER test&quot;)
+(checkbox: 2bind $q4c, &quot;Kemp test&quot;)
+(checkbox: 2bind $q4d, &quot;Thigh thrust test&quot;)
+(checkbox: 2bind $q4e, &quot;Slump test&quot;)
+(checkbox: 2bind $q4f, &quot;SI joint compression test&quot;)
+(checkbox: 2bind $q4g, &quot;Gaenslen test&quot;)
+(checkbox: 2bind $q4h, &quot;Sacral thrust test&quot;)
 
 (link: &quot;Submit answer&quot;)[
   (if: $q4b and $q4d and $q4f and $q4g and $q4h and not $q4a and not $q4c and not $q4e)[
@@ -455,7 +517,7 @@ Q4. Which of the following physical exam maneuvers are commonly used to assess f
   (else:)[
     (goto: &quot;Q4 Incorrect Feedback&quot;)
   ]
-]</tw-passagedata><tw-passagedata pid="55" name="Proceed to Question 5" tags="" position="975,1750" size="100,100">Several SI joint provocative maneuvers reproduce her typical right posterior pelvic pain, including FABER, thigh thrust, and SI compression. Taken together, these findings raise reasonable suspicion for SI joint-mediated pain, although no single physical exam maneuver is definitive.
+]</tw-passagedata><tw-passagedata pid="55" name="Proceed to Question 5" tags="progress-q5 progress-active" position="975,1750" size="100,100">Several SI joint provocative maneuvers reproduce her typical right posterior pelvic pain, including FABER, thigh thrust, and SI compression. Taken together, these findings raise reasonable suspicion for SI joint-mediated pain, although no single physical exam maneuver is definitive.
 
 You take a moment to explain your findings to the patient. She then asks what next steps are.
 
@@ -464,7 +526,7 @@ Q5. Select the single best answer for the appropriate next step in management.
 [[A. Order an MRI of the lumbar spine to confirm the suspected SI joint pain before starting treatment.]]
 [[B. Begin conservative management with education, graded activity, and physiotherapy.]]
 [[C. Refer for an SI joint corticosteroid injection given the positive provocative tests.]]
-[[D. Start scheduled analgesics and reassess before introducing exercise-based therapy.]]</tw-passagedata><tw-passagedata pid="56" name="Proceed to Question 6" tags="" position="1000,2000" size="100,100">(set: $q6a to false)(set: $q6b to false)(set: $q6c to false)(set: $q6d to false)(set: $q6e to false)(set: $q6f to false)You thank the patient for her time and let her know that you are going to step out briefly to discuss the plan with your preceptor.
+[[D. Start scheduled analgesics and reassess before introducing exercise-based therapy.]]</tw-passagedata><tw-passagedata pid="56" name="Proceed to Question 6" tags="progress-q6 progress-active" position="1000,2000" size="100,100">You thank the patient for her time and let her know that you are going to step out briefly to discuss the plan with your preceptor.
 
 You then meet with your preceptor and review the patient’s clinical presentation, which has features suspicious for SI joint pathology based on the history and physical exam.
 
@@ -472,17 +534,17 @@ Your preceptor agrees with starting conservative management. Before discussing h
 
 Q6. Which of the following features would raise suspicion for an inflammatory cause of SI-region pain? Select all that apply.
 
-(checkbox: bind $q6a, &quot;Morning stiffness that lasts more than 30 minutes.&quot;)
+(checkbox: 2bind $q6a, &quot;Morning stiffness that lasts more than 30 minutes.&quot;)
 
-(checkbox: bind $q6b, &quot;Pain that is worse with stairs, rolling in bed, or sit-to-stand movements.&quot;)
+(checkbox: 2bind $q6b, &quot;Pain that is worse with stairs, rolling in bed, or sit-to-stand movements.&quot;)
 
-(checkbox: bind $q6c, &quot;Onset of back or SI-region pain before age 45.&quot;)
+(checkbox: 2bind $q6c, &quot;Onset of back or SI-region pain before age 45.&quot;)
 
-(checkbox: bind $q6d, &quot;Pain that improves primarily with rest or lying down.&quot;)
+(checkbox: 2bind $q6d, &quot;Pain that improves primarily with rest or lying down.&quot;)
 
-(checkbox: bind $q6e, &quot;Night pain that improves after getting up and moving around.&quot;)
+(checkbox: 2bind $q6e, &quot;Night pain that improves after getting up and moving around.&quot;)
 
-(checkbox: bind $q6f, &quot;Personal history of uveitis, psoriasis, or inflammatory bowel disease.&quot;)
+(checkbox: 2bind $q6f, &quot;Personal history of uveitis, psoriasis, or inflammatory bowel disease.&quot;)
 
 (link: &quot;Submit answer&quot;)[
   (if: $q6a and $q6c and $q6e and $q6f and not $q6b and not $q6d)[
@@ -491,14 +553,14 @@ Q6. Which of the following features would raise suspicion for an inflammatory ca
   (else:)[
     (goto: &quot;Q6 Incorrect Feedback&quot;)
   ]
-]</tw-passagedata><tw-passagedata pid="57" name="Proceed to Question 7" tags="" position="875,2150" size="100,100">Your preceptor then asks how we can make the plan more personalized to the patient.
+]</tw-passagedata><tw-passagedata pid="57" name="Proceed to Question 7" tags="progress-q7 progress-active" position="875,2150" size="100,100">Your preceptor then asks how we can make the plan more personalized to the patient.
 
 Q7. Which of the following would be most helpful to explore next to address your preceptor&#39;s question?
 
 [[A. Ask whether she has a family history of arthritis or chronic back pain.]]
 [[B. Encourage adherence to physiotherapy.]]
 [[C. Ask the patient to rate her current pain out of 10 before finalizing the plan.]]
-[[D. Ask the patient for more details on her home and work life.]]</tw-passagedata><tw-passagedata pid="58" name="Proceed to Question 8" tags="" position="1025,2475" size="100,100">(set: $q8a to false)(set: $q8b to false)(set: $q8c to false)(set: $q8d to false)(set: $q8e to false)(set: $q8f to false)You and your preceptor return to the patient’s room. You ask more about her home and work life to better personalize the plan.
+[[D. Ask the patient for more details on her home and work life.]]</tw-passagedata><tw-passagedata pid="58" name="Proceed to Question 8" tags="progress-q8 progress-active" position="1025,2475" size="100,100">You and your preceptor return to the patient’s room. You ask more about her home and work life to better personalize the plan.
 
 She explains that her pain is usually worst at work. She works at a busy front desk, where she sits for long periods, frequently gets up from her chair, twists to reach files and the printer, and sometimes carries supplies between rooms. She finds the repeated sit-to-stand movements and twisting especially aggravating.
 
@@ -506,17 +568,17 @@ At home, her pain is still present but less bothersome because she tends to “t
 
 Q8. Which workplace adjustments would be reasonable to consider? Select all that apply.
 
-(checkbox: bind $q8a, &quot;Trial a sit-stand desk setup so she can alternate positions during the workday.&quot;)
+(checkbox: 2bind $q8a, &quot;Trial a sit-stand desk setup so she can alternate positions during the workday.&quot;)
 
-(checkbox: bind $q8b, &quot;Recommend taking time off work until her pain has resolved.&quot;)
+(checkbox: 2bind $q8b, &quot;Recommend taking time off work until her pain has resolved.&quot;)
 
-(checkbox: bind $q8c, &quot;Modify the workstation to reduce repeated twisting, reaching, and awkward positioning.&quot;)
+(checkbox: 2bind $q8c, &quot;Modify the workstation to reduce repeated twisting, reaching, and awkward positioning.&quot;)
 
-(checkbox: bind $q8d, &quot;Use brief movement breaks scheduled throughout the day.&quot;)
+(checkbox: 2bind $q8d, &quot;Use brief movement breaks scheduled throughout the day.&quot;)
 
-(checkbox: bind $q8e, &quot;Avoid all lifting, carrying, or bending tasks at work to prevent further injury.&quot;)
+(checkbox: 2bind $q8e, &quot;Avoid all lifting, carrying, or bending tasks at work to prevent further injury.&quot;)
 
-(checkbox: bind $q8f, &quot;Trial lumbar support or seating adjustments for her work chair.&quot;)
+(checkbox: 2bind $q8f, &quot;Trial lumbar support or seating adjustments for her work chair.&quot;)
 
 (link: &quot;Submit answer&quot;)[
   (if: $q8a and $q8c and $q8d and $q8f and not $q8b and not $q8e)[
@@ -525,46 +587,52 @@ Q8. Which workplace adjustments would be reasonable to consider? Select all that
   (else:)[
     (goto: &quot;Q8 Incorrect Feedback&quot;)
   ]
-]</tw-passagedata><tw-passagedata pid="59" name="Proceed to Question 9" tags="" position="1300,2400" size="100,100">You and your preceptor review the plan with the patient, including education, physiotherapy, graded activity, and workplace adjustments. You also recommend NSAIDs, heat therapy, and gentle massage as needed, provided they help with her pain. You answer her questions and arrange follow-up in 4 weeks to assess her progress.
+]</tw-passagedata><tw-passagedata pid="59" name="Proceed to Question 9" tags="progress-q9 progress-active" position="1300,2400" size="100,100">You and your preceptor review the plan with the patient, including education, physiotherapy, graded activity, and workplace adjustments. You also recommend NSAIDs, heat therapy, and gentle massage as needed, provided they help with her pain. You answer her questions and arrange follow-up in 6 weeks to assess her progress.
 
-At her 4-week follow-up, she has started physiotherapy and made several workplace changes. She reports mild improvement in her activity tolerance, is taking more movement breaks, and feels slightly more confident with movement. Since she is showing early signs of improvement, you and your preceptor continue conservative management and arrange another follow-up in 2 more weeks.
+At her 6-week follow-up, she has started physiotherapy and made several workplace changes. She reports mild improvement in her activity tolerance, is taking more movement breaks, and feels slightly more confident with movement. Since she is showing early signs of improvement, you and your preceptor continue conservative management and arrange follow-up in another 10 weeks.
 
-She then returns for this second follow-up appointment. At this time, she has tried conservative management for a total of 6 weeks. She notes slight improvement from before, especially in her confidence with activities, but she still reports functional limitations because of her pain, both at home and at work.
+At her four-month follow-up, after several months of structured conservative management, she reports some improvement in activity tolerance and confidence but continues to have meaningful functional limitations from pain at home and work.
 
 Q9. Given this information, what is the most appropriate next step in management?
 
 [[A. Refer for an image-guided SI joint injection.]]
 [[B. Prescribe baclofen for muscle relaxation before considering procedural options.]]
 [[C. Refer for radiofrequency ablation due to failure of conservative management.]]
-[[D. Order MRI to confirm SI joint pathology before considering any intervention.]]</tw-passagedata><tw-passagedata pid="60" name="Q1 Correct Feedback" tags="" position="925,350" size="100,100">(set: $score to $score + 1)Correct! 
+[[D. Order MRI to confirm SI joint pathology before considering any intervention.]]</tw-passagedata><tw-passagedata pid="60" name="Q1 Correct Feedback" tags="progress-q1" position="925,350" size="100,100">(if: $q1Attempted is false)[(set: $score to $score + 1)](set: $q1Attempted to true)Correct! 
 
 Age, obesity, and anxiety are all patient-specific risk factors for chronic low back pain. 
 
-Remember the &#39;&#39;biopsychosocial model&#39;&#39;, which describes chronic back pain as a complex condition influenced by a combination of biological, psychogocial, and social factors.
+Remember the &#39;&#39;biopsychosocial model&#39;&#39;, which describes chronic back pain as a complex condition influenced by a combination of biological, psychosocial, and social factors.
 
 Age can contribute through cumulative spine loading and age-related degenerative change. Obesity can increase mechanical load and may contribute to inflammation and reduced activity tolerance. Anxiety can worsen pain-related worry, avoidance, and disability. 
 
 Hypertension is an important part of the medical history, but it is not a major direct risk factor for chronic back pain.
 
-[[Proceed to Question 2]]</tw-passagedata><tw-passagedata pid="61" name="Q1 Incorrect Feedback" tags="" position="675,350" size="100,100">Incorrect.
+[[Proceed to Question 2]]</tw-passagedata><tw-passagedata pid="61" name="Q1 Incorrect Feedback" tags="progress-q1" position="675,350" size="100,100">(if: $q1a or $q1b or $q1c or $q1d)[(set: $q1Attempted to true)](set: $q1Selected to 0)(set: $q1CorrectSelected to 0)(set: $q1IncorrectSelected to 0)(if: $q1b is true)[(set: $q1Selected to $q1Selected + 1)(set: $q1CorrectSelected to $q1CorrectSelected + 1)](if: $q1c is true)[(set: $q1Selected to $q1Selected + 1)(set: $q1CorrectSelected to $q1CorrectSelected + 1)](if: $q1d is true)[(set: $q1Selected to $q1Selected + 1)(set: $q1CorrectSelected to $q1CorrectSelected + 1)](if: $q1a is true)[(set: $q1Selected to $q1Selected + 1)(set: $q1IncorrectSelected to $q1IncorrectSelected + 1)](if: $q1Selected is 0)[Not quite. You haven't selected any options. Select at least one option and try again.]
+(else-if: $q1CorrectSelected is 0)[Not quite. None of your selected options are correct. Try again.]
+(else-if: $q1IncorrectSelected is 0)[Almost! All $q1CorrectSelected (if: $q1CorrectSelected is 1)[option you selected is](else:)[options you selected are] correct, but you've missed at least one. Try again.]
+(else:)[Not quite. Of the options you selected, $q1CorrectSelected (if: $q1CorrectSelected is 1)[was](else:)[were] correct and $q1IncorrectSelected (if: $q1IncorrectSelected is 1)[was](else:)[were] incorrect. Review your choices and try again.]
 
 [[Try again-&gt;Proceed to Question 1]]
 
 OR 
 
-[[Proceed to Q1 Answer]]</tw-passagedata><tw-passagedata pid="62" name="Q4 Correct Feedback" tags="" position="1200,1600" size="100,100">(set: $score to $score + 1)Correct!
+[[Proceed to Q1 Answer]]</tw-passagedata><tw-passagedata pid="62" name="Q4 Correct Feedback" tags="progress-q4" position="1200,1600" size="100,100">(if: $q4Attempted is false)[(set: $score to $score + 1)](set: $q4Attempted to true)Correct!
 
 &lt;span class=&quot;tooltip-term&quot;&gt;FABER&lt;span class=&quot;tooltip-box&quot;&gt;Flexion, ABduction, and External Rotation. The patient lies supine with the tested leg in a figure-four position while the examiner gently presses the knee downward and stabilizes the opposite pelvis.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;thigh thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine with the hip flexed to about 90 degrees. The examiner applies a posterior force through the femur to stress the SI joint.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;SI compression&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies on their side while the examiner applies downward pressure over the iliac crest, compressing the pelvis and stressing the SI joints.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;Gaenslen&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine near the edge of the table. One hip is flexed toward the chest while the opposite leg is extended off the table to stress the SI joints.&lt;/span&gt;&lt;/span&gt;, and &lt;span class=&quot;tooltip-term&quot;&gt;sacral thrust&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies prone while the examiner applies an anterior force over the sacrum to stress the SI joints.&lt;/span&gt;&lt;/span&gt; are commonly used provocative maneuvers for SI joint-mediated pain. No single test is definitive, but multiple positive SI joint provocative tests increase suspicion that the SI joint is contributing to the patient’s pain.
 
 &lt;span class=&quot;tooltip-term&quot;&gt;Straight leg raise&lt;span class=&quot;tooltip-box&quot;&gt;The patient lies supine while the examiner passively raises the straightened leg. Reproduction of radiating leg pain can suggest lumbosacral nerve root irritation.&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;tooltip-term&quot;&gt;slump testing&lt;span class=&quot;tooltip-box&quot;&gt;The patient sits slumped with the spine flexed while the examiner adds neck flexion and knee extension. Reproduction of radiating symptoms can suggest neural tension or nerve root irritation.&lt;/span&gt;&lt;/span&gt;, and &lt;span class=&quot;tooltip-term&quot;&gt;Kemp testing&lt;span class=&quot;tooltip-box&quot;&gt;The lumbar spine is extended, side-bent, and rotated to one side. Reproduction of localized back pain may suggest facet-mediated pain, though the test is not very specific.&lt;/span&gt;&lt;/span&gt; can still be useful in a broader low back pain exam, especially if the pain pattern is less typical or you are exploring other causes. However, they are not specific tests for SI joint-mediated pain.
 
-[[Proceed to Question 5]]</tw-passagedata><tw-passagedata pid="63" name="Q4 Incorrect Feedback" tags="" position="875,1600" size="100,100">Incorrect.
+[[Proceed to Question 5]]</tw-passagedata><tw-passagedata pid="63" name="Q4 Incorrect Feedback" tags="progress-q4" position="875,1600" size="100,100">(if: $q4a or $q4b or $q4c or $q4d or $q4e or $q4f or $q4g or $q4h)[(set: $q4Attempted to true)](set: $q4Selected to 0)(set: $q4CorrectSelected to 0)(set: $q4IncorrectSelected to 0)(if: $q4b is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4CorrectSelected to $q4CorrectSelected + 1)](if: $q4d is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4CorrectSelected to $q4CorrectSelected + 1)](if: $q4f is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4CorrectSelected to $q4CorrectSelected + 1)](if: $q4g is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4CorrectSelected to $q4CorrectSelected + 1)](if: $q4h is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4CorrectSelected to $q4CorrectSelected + 1)](if: $q4a is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4IncorrectSelected to $q4IncorrectSelected + 1)](if: $q4c is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4IncorrectSelected to $q4IncorrectSelected + 1)](if: $q4e is true)[(set: $q4Selected to $q4Selected + 1)(set: $q4IncorrectSelected to $q4IncorrectSelected + 1)](if: $q4Selected is 0)[Not quite. You haven't selected any options. Select at least one option and try again.]
+(else-if: $q4CorrectSelected is 0)[Not quite. None of your selected options are correct. Try again.]
+(else-if: $q4IncorrectSelected is 0)[Almost! All $q4CorrectSelected (if: $q4CorrectSelected is 1)[option you selected is](else:)[options you selected are] correct, but you've missed at least one. Try again.]
+(else:)[Not quite. Of the options you selected, $q4CorrectSelected (if: $q4CorrectSelected is 1)[was](else:)[were] correct and $q4IncorrectSelected (if: $q4IncorrectSelected is 1)[was](else:)[were] incorrect. Review your choices and try again.]
 
 [[Try again-&gt;Proceed to Question 4]]
 
 OR 
 
-[[Proceed to Q4 Answer]]</tw-passagedata><tw-passagedata pid="64" name="Q6 Correct Feedback" tags="" position="1150,2000" size="100,100">(set: $score to $score + 1)Correct!
+[[Proceed to Q4 Answer]]</tw-passagedata><tw-passagedata pid="64" name="Q6 Correct Feedback" tags="progress-q6 progress-active" position="1150,2000" size="100,100">(if: $q6Attempted is false)[(set: $score to $score + 1)](set: $q6Attempted to true)Correct!
 
 Morning stiffness lasting more than 30 minutes, onset of back or SI-region pain before age 45, night pain that improves with activity, and a history of uveitis, psoriasis, or inflammatory bowel disease all raise suspicion for an inflammatory cause such as inflammatory sacroiliitis, which can occur as part of axial spondyloarthritis (an inflammatory condition affecting the spine and SI joints).
 
@@ -575,28 +643,55 @@ Bonus Question. If you suspected an inflammatory cause of SI-region pain, which 
 [[A. HLA-B27]]
 [[B. Rheumatoid factor]]
 [[C. ANA]]
-[[D. Serum uric acid]]</tw-passagedata><tw-passagedata pid="65" name="Q6 Incorrect Feedback" tags="" position="850,2000" size="100,100">Incorrect.
+[[D. Serum uric acid]]</tw-passagedata><tw-passagedata pid="65" name="Q6 Incorrect Feedback" tags="progress-q6" position="850,2000" size="100,100">(if: $q6a or $q6b or $q6c or $q6d or $q6e or $q6f)[(set: $q6Attempted to true)](set: $q6Selected to 0)(set: $q6CorrectSelected to 0)(set: $q6IncorrectSelected to 0)(if: $q6a is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6CorrectSelected to $q6CorrectSelected + 1)](if: $q6c is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6CorrectSelected to $q6CorrectSelected + 1)](if: $q6e is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6CorrectSelected to $q6CorrectSelected + 1)](if: $q6f is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6CorrectSelected to $q6CorrectSelected + 1)](if: $q6b is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6IncorrectSelected to $q6IncorrectSelected + 1)](if: $q6d is true)[(set: $q6Selected to $q6Selected + 1)(set: $q6IncorrectSelected to $q6IncorrectSelected + 1)](if: $q6Selected is 0)[Not quite. You haven't selected any options. Select at least one option and try again.]
+(else-if: $q6CorrectSelected is 0)[Not quite. None of your selected options are correct. Try again.]
+(else-if: $q6IncorrectSelected is 0)[Almost! All $q6CorrectSelected (if: $q6CorrectSelected is 1)[option you selected is](else:)[options you selected are] correct, but you've missed at least one. Try again.]
+(else:)[Not quite. Of the options you selected, $q6CorrectSelected (if: $q6CorrectSelected is 1)[was](else:)[were] correct and $q6IncorrectSelected (if: $q6IncorrectSelected is 1)[was](else:)[were] incorrect. Review your choices and try again.]
 
 [[Try again-&gt;Proceed to Question 6]]
 
 OR 
 
-[[Proceed to Q6 Answer]]</tw-passagedata><tw-passagedata pid="66" name="Q8 Correct Feedback" tags="" position="1150,2475" size="100,100">(set: $score to $score + 1)Correct!
+[[Proceed to Q6 Answer]]</tw-passagedata><tw-passagedata pid="66" name="Q8 Correct Feedback" tags="progress-q8" position="1150,2475" size="100,100">(if: $q8Attempted is false)[(set: $score to $score + 1)](set: $q8Attempted to true)Correct!
 
 A sit-stand desk setup, workstation modifications, brief scheduled movement breaks, and lumbar support or seating adjustments are all reasonable workplace strategies. These options are practical, individualized, and help reduce prolonged static positioning, repeated twisting/reaching, and symptom flares while still supporting participation at work.
 
 Taking time off work until the pain resolves is not the best option because it is restrictive, may not be financially or practically feasible, and could reinforce avoidance. Avoiding all lifting, carrying, or bending is also unrealistic in many workplaces. A better approach is to modify or pace these tasks rather than eliminate them completely.
 
-[[Proceed to Question 9]]</tw-passagedata><tw-passagedata pid="67" name="Q8 Incorrect Feedback" tags="" position="900,2475" size="100,100">Incorrect.
+[[Proceed to Question 9]]</tw-passagedata><tw-passagedata pid="67" name="Q8 Incorrect Feedback" tags="progress-q8" position="900,2475" size="100,100">(if: $q8a or $q8b or $q8c or $q8d or $q8e or $q8f)[(set: $q8Attempted to true)](set: $q8Selected to 0)(set: $q8CorrectSelected to 0)(set: $q8IncorrectSelected to 0)(if: $q8a is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8CorrectSelected to $q8CorrectSelected + 1)](if: $q8c is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8CorrectSelected to $q8CorrectSelected + 1)](if: $q8d is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8CorrectSelected to $q8CorrectSelected + 1)](if: $q8f is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8CorrectSelected to $q8CorrectSelected + 1)](if: $q8b is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8IncorrectSelected to $q8IncorrectSelected + 1)](if: $q8e is true)[(set: $q8Selected to $q8Selected + 1)(set: $q8IncorrectSelected to $q8IncorrectSelected + 1)](if: $q8Selected is 0)[Not quite. You haven't selected any options. Select at least one option and try again.]
+(else-if: $q8CorrectSelected is 0)[Not quite. None of your selected options are correct. Try again.]
+(else-if: $q8IncorrectSelected is 0)[Almost! All $q8CorrectSelected (if: $q8CorrectSelected is 1)[option you selected is](else:)[options you selected are] correct, but you've missed at least one. Try again.]
+(else:)[Not quite. Of the options you selected, $q8CorrectSelected (if: $q8CorrectSelected is 1)[was](else:)[were] correct and $q8IncorrectSelected (if: $q8IncorrectSelected is 1)[was](else:)[were] incorrect. Review your choices and try again.]
 
 [[Try again-&gt;Proceed to Question 8]]
 
 OR 
 
-[[Proceed to Q8 Answer]]</tw-passagedata><tw-passagedata pid="68" name="Range of motion" tags="" position="1062.5,1075" size="100,100">Lumbar flexion and extension are mildly limited by discomfort, but neither clearly reproduces her main pain. Her pain is most noticeable with transitional movements, such as standing from a seated position and shifting weight onto the right side.
+[[Proceed to Q8 Answer]]</tw-passagedata><tw-passagedata pid="68" name="Range of motion" tags="progress-q3 progress-active" position="1062.5,1075" size="100,100">Lumbar flexion and extension are mildly limited by discomfort, but neither clearly reproduces her main pain. Her pain is most noticeable with transitional movements, such as standing from a seated position and shifting weight onto the right side.
 
 [[Return to physical exam menu-&gt;Proceed to Next Passage]]
-[[Proceed to Question 3]]</tw-passagedata></tw-storydata>
+[[Proceed to Question 3]]</tw-passagedata><tw-passagedata pid="72" name="Bonus Question 1" tags="progress-q2 progress-active" position="875,725" size="100,100">Bonus Question. What psychosocial phenomenon does this response best represent?
+
+[[A. Somatization]]
+[[B. Fear avoidance]]
+[[C. Pain Hypervigilance]]
+[[D. Catastrophizing]]</tw-passagedata><tw-passagedata pid="69" name="Bonus Question 3" tags="progress-q10 progress-active" position="1600,3000" size="100,100">Bonus Question. What is the purpose of radiofrequency ablation in SI joint-mediated pain?
+
+[[A. To permanently repair damaged SI joint cartilage.]]
+[[B. To reduce pain signaling by disrupting targeted sensory nerves.]]
+[[C. To inject corticosteroid directly into the SI joint.]]
+[[D. To decompress irritated lumbar nerve roots.]]</tw-passagedata><tw-passagedata pid="70" name="Question Progress Header" tags="header" position="1800,225" size="100,100">|caseProgress&gt;[]</tw-passagedata><tw-passagedata pid="71" name="Question Progress Footer" tags="footer" position="1800,350" size="100,100">{
+(set: _progressTags to (passage:)&apos;s tags)
+(set: _progressAttempted to (a: $q1Attempted, $q2Attempted, $q3Attempted, $q4Attempted, $q5Attempted, $q6Attempted, $q7Attempted, $q8Attempted, $q9Attempted, $q10Attempted))
+(set: _progressHtml to &quot;&lt;div class=&apos;case-progress&apos; role=&apos;group&apos; aria-label=&apos;Question progress&apos;&gt;&quot;)
+(for: each _progressQ, ...(range: 1, 10))[
+(set: _progressState to &quot;upcoming&quot;)
+(if: _progressAttempted&apos;s (_progressQ) is true)[(set: _progressState to &quot;completed&quot;)]
+(if: (_progressAttempted&apos;s (_progressQ) is false) and (_progressTags contains &quot;progress-active&quot;) and (_progressTags contains (&quot;progress-q&quot; + (str: _progressQ))))[(set: _progressState to &quot;current&quot;)]
+(set: _progressHtml to _progressHtml + &quot;&lt;span class=&apos;case-progress-box &quot; + _progressState + &quot;&apos; aria-label=&apos;Q&quot; + (str: _progressQ) + &quot;: &quot; + _progressState + &quot;&apos;&gt;Q&quot; + (str: _progressQ) + &quot;&lt;/span&gt;&quot;)
+]
+(replace: ?caseProgress)[(print: _progressHtml + &quot;&lt;/div&gt;&quot;)]
+}</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
